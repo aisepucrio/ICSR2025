@@ -1,0 +1,3572 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"parallel_force                     5.306824e+14
+parallel                           5.306824e+14
+none                               4.279845e+14
+polly                              4.279845e+14
+min                                2.524353e+14
+max                                2.524353e+14
+polly_opt_simplify_deps            2.375720e+14
+#yes                               2.375720e+14
+polly_no_tiling                    2.375720e+14
+memory_based                       2.277264e+14
+value_based                        2.277264e+14
+pollydefaulttilesize_64            2.158409e+14
+pollydefaulttilesize_4             2.158409e+14
+pollydefaulttilesize_16            2.158409e+14
+pollydefaulttilesize_1024          2.158409e+14
+pollydefaulttilesize_256           2.158409e+14
+polly_vectorizer                   1.851396e+14
+pollyoptmaxcoefficient_10000       1.203229e+14
+pollyoptmaxcoefficient_1           1.203229e+14
+pollyoptmaxcoefficient_100         1.203229e+14
+pollyoptmaxcoefficient_10          1.203229e+14
+pollyoptmaxcoefficient_1000        1.203229e+14
+pollyoptmaxconstantterm_1          1.139906e+14
+pollyoptmaxconstantterm_100        1.139906e+14
+pollyoptmaxconstantterm_1000       1.139906e+14
+pollyoptmaxconstantterm_10000      1.139906e+14
+pollyoptmaxconstantterm_10         1.139906e+14
+polly_opt_fusion                   6.949856e+13
+polly_parallel                     5.553843e+13
+pollyrtcmaxparameters_8            3.747048e+13
+pollyrtcmaxparameters_2            3.747048e+13
+pollyrtcmaxparameters_4            3.747048e+13
+pollyrtcmaxparameters_1            3.747048e+13
+pollyrtcmaxparameters_16           3.747048e+13
+pollyoptmaxconstantterm            2.875466e+13
+polly_dependences_analysis_type    1.906654e+13
+pollyrtcmaxparameters              7.304811e+12
+polly_delinearize                  2.551175e+12
+root                               4.949565e+09
+dtype: float64","count    1955.000000
+mean       24.179552
+std        41.041487
+min         0.021501
+25%         6.042443
+50%        13.712139
+75%        21.947665
+max       294.736842
+Name: % error, dtype: float64",42
+1,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=1)",Performance,0.1,"value_based                   4.936073
+polly_no_tiling               4.353439
+min                           4.238661
+pollyoptmaxconstantterm_10    0.911091
+parallel                      0.800172
+none                          0.378984
+pollydefaulttilesize_256      0.237856
+pollyrtcmaxparameters_16      0.047387
+polly_parallel                0.017342
+#yes                          0.012649
+dtype: float64","count    1955.000000
+mean       24.158768
+std        47.173904
+min         0.003462
+25%         4.530057
+50%        12.686815
+75%        19.103758
+max       344.061103
+Name: % error, dtype: float64",42
+2,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.1,"polly_no_tiling                  2.484665
+value_based                      2.262641
+memory_based                     2.262641
+max                              2.069154
+min                              2.069154
+pollyoptmaxconstantterm_10       1.022730
+#yes                             0.989633
+polly_opt_simplify_deps          0.888840
+pollydefaulttilesize_256         0.778486
+parallel_force                   0.653730
+pollyrtcmaxparameters_8          0.587779
+pollyrtcmaxparameters_16         0.584011
+pollydefaulttilesize_64          0.542740
+pollyoptmaxconstantterm_100      0.492271
+pollyrtcmaxparameters_1          0.471767
+pollyoptmaxcoefficient_1000      0.408612
+pollyoptmaxconstantterm_1        0.394255
+parallel                         0.350634
+pollyrtcmaxparameters_2          0.341991
+polly                            0.338802
+none                             0.338802
+pollydefaulttilesize_4           0.335498
+pollyoptmaxcoefficient_10000     0.319685
+polly_parallel                   0.303096
+pollydefaulttilesize_1024        0.287952
+pollyoptmaxconstantterm_1000     0.251157
+pollydefaulttilesize_16          0.188200
+pollyrtcmaxparameters_4          0.126007
+pollyoptmaxconstantterm_10000    0.114952
+pollyoptmaxcoefficient_1         0.106742
+pollyoptmaxcoefficient_100       0.034215
+pollyoptmaxcoefficient_10        0.016400
+dtype: float64","count    1955.000000
+mean       24.964019
+std        49.266505
+min         0.031092
+25%         5.535713
+50%        11.077847
+75%        18.468587
+max       363.683848
+Name: % error, dtype: float64",42
+3,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=1)",Performance,0.1,"value_based                   4.936073
+polly_no_tiling               4.353439
+min                           4.238661
+pollyoptmaxconstantterm_10    0.911091
+parallel                      0.800172
+none                          0.378984
+pollydefaulttilesize_256      0.237856
+pollyrtcmaxparameters_16      0.047387
+polly_parallel                0.017342
+#yes                          0.012649
+dtype: float64","count    1955.000000
+mean       24.158768
+std        47.173904
+min         0.003462
+25%         4.530057
+50%        12.686815
+75%        19.103758
+max       344.061103
+Name: % error, dtype: float64",42
+4,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"max                                82.584615
+min                                 0.000108
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        2.673061
+std         6.539972
+min         0.000108
+25%         0.441166
+50%         1.017469
+75%         2.268882
+max        82.584615
+Name: % error, dtype: float64",42
+5,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"max                                97.544914
+min                                 0.003596
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        5.396558
+std        10.472496
+min         0.003596
+25%         0.951791
+50%         2.256955
+75%         4.588916
+max        97.544914
+Name: % error, dtype: float64",42
+6,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"max                                51.370722
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        2.228645
+std         4.762536
+min         0.000000
+25%         0.356391
+50%         0.980279
+75%         2.179742
+max        51.370722
+Name: % error, dtype: float64",42
+7,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"polly_parallel                     6.796142e+13
+none                               5.750332e+13
+polly                              5.750332e+13
+pollyrtcmaxparameters_1            4.194934e+13
+pollyrtcmaxparameters_16           4.194934e+13
+pollyrtcmaxparameters_2            4.194934e+13
+pollyrtcmaxparameters_4            4.194934e+13
+pollyrtcmaxparameters_8            4.194934e+13
+pollyoptmaxconstantterm_100        3.778284e+13
+pollyoptmaxconstantterm_10000      3.778284e+13
+pollyoptmaxconstantterm_1          3.778284e+13
+pollyoptmaxconstantterm_1000       3.778284e+13
+pollyoptmaxconstantterm_10         3.778284e+13
+pollyoptmaxcoefficient_1           3.651181e+13
+pollyoptmaxcoefficient_10000       3.651181e+13
+pollyoptmaxcoefficient_1000        3.651181e+13
+pollyoptmaxcoefficient_10          3.651181e+13
+pollyoptmaxcoefficient_100         3.651181e+13
+polly_no_tiling                    3.524692e+13
+polly_opt_simplify_deps            3.524692e+13
+#yes                               3.524692e+13
+memory_based                       3.214082e+13
+value_based                        3.214082e+13
+polly_vectorizer                   2.943049e+13
+polly_dependences_analysis_type    1.536197e+13
+min                                1.504542e+13
+max                                1.504542e+13
+polly_delinearize                  5.891375e+12
+pollyrtcmaxparameters              4.719561e+12
+polly_opt_fusion                   4.441307e+12
+parallel                           2.532418e+12
+parallel_force                     2.532418e+12
+pollydefaulttilesize_64            1.677182e+12
+pollydefaulttilesize_16            1.677182e+12
+pollydefaulttilesize_4             1.677182e+12
+pollydefaulttilesize_256           1.677182e+12
+pollydefaulttilesize_1024          1.677182e+12
+pollyoptmaxconstantterm            9.499396e+11
+root                               5.813465e+09
+dtype: float64","count    1738.000000
+mean       23.882163
+std        44.472210
+min         0.008714
+25%         4.302817
+50%        12.697507
+75%        19.364015
+max       318.853073
+Name: % error, dtype: float64",42
+8,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.2,"value_based                   4.751777e+00
+min                           4.426014e+00
+polly_no_tiling               3.864395e+00
+pollyoptmaxconstantterm_10    1.074479e+00
+none                          1.020441e+00
+parallel                      8.117362e-01
+pollydefaulttilesize_16       2.599689e-01
+pollydefaulttilesize_1024     2.538511e-01
+#yes                          1.988565e-01
+pollydefaulttilesize_64       1.933126e-01
+pollyrtcmaxparameters_8       7.798971e-02
+pollyoptmaxcoefficient_1      6.919759e-02
+max                           9.169072e-16
+polly                         5.240026e-16
+memory_based                  3.275503e-16
+dtype: float64","count    1738.000000
+mean       24.260293
+std        48.665820
+min         0.017572
+25%         4.021704
+50%        12.316572
+75%        17.687604
+max       355.456577
+Name: % error, dtype: float64",42
+9,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.2,"polly_no_tiling                  3.170124
+value_based                      2.502549
+memory_based                     2.502549
+min                              2.315692
+max                              2.315692
+pollyoptmaxconstantterm_10       1.186310
+#yes                             1.032274
+parallel_force                   0.905161
+polly_opt_simplify_deps          0.816198
+pollydefaulttilesize_1024        0.755844
+polly_parallel                   0.660826
+pollydefaulttilesize_64          0.646760
+none                             0.644092
+polly                            0.644092
+pollydefaulttilesize_16          0.601119
+pollyrtcmaxparameters_8          0.531341
+pollyrtcmaxparameters_1          0.466850
+pollyoptmaxcoefficient_1         0.412389
+pollyoptmaxconstantterm_100      0.396001
+pollyrtcmaxparameters_16         0.366134
+pollyoptmaxconstantterm_10000    0.353257
+pollyoptmaxconstantterm_1        0.309234
+pollyoptmaxcoefficient_100       0.283183
+pollydefaulttilesize_256         0.253593
+parallel                         0.244335
+pollydefaulttilesize_4           0.238442
+pollyoptmaxcoefficient_10        0.234659
+pollyrtcmaxparameters_4          0.191774
+pollyoptmaxconstantterm_1000     0.127818
+pollyoptmaxcoefficient_10000     0.116650
+pollyrtcmaxparameters_2          0.109869
+pollyoptmaxcoefficient_1000      0.011196
+dtype: float64","count    1738.000000
+mean       24.113100
+std        46.017148
+min         0.002558
+25%         4.420111
+50%        12.283050
+75%        18.859618
+max       328.626833
+Name: % error, dtype: float64",42
+10,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, max_iter=1)",Performance,0.2,"value_based                   4.186474
+polly_no_tiling               3.953977
+min                           3.813968
+parallel                      1.088554
+pollyoptmaxconstantterm_10    0.981470
+none                          0.962754
+memory_based                  0.697943
+max                           0.635706
+pollydefaulttilesize_64       0.437520
+parallel_force                0.426003
+polly_parallel                0.413536
+pollydefaulttilesize_16       0.396663
+pollydefaulttilesize_1024     0.352324
+pollyoptmaxcoefficient_1      0.281720
+pollyrtcmaxparameters_8       0.259765
+pollyrtcmaxparameters_16      0.251594
+pollyrtcmaxparameters_1       0.163999
+polly                         0.160485
+#yes                          0.112160
+pollyoptmaxconstantterm_1     0.084662
+dtype: float64","count    1738.000000
+mean       24.101958
+std        47.614099
+min         0.002323
+25%         3.795045
+50%        12.540691
+75%        17.856728
+max       336.719192
+Name: % error, dtype: float64",42
+11,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"max                                34.043298
+min                                 0.001192
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        1.865672
+std         3.285560
+min         0.001192
+25%         0.408740
+50%         0.921170
+75%         1.981652
+max        34.043298
+Name: % error, dtype: float64",42
+12,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"max                                97.155277
+min                                 0.001047
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        5.196682
+std        11.269128
+min         0.001047
+25%         0.811701
+50%         1.933539
+75%         3.910092
+max        97.155277
+Name: % error, dtype: float64",42
+13,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"max                                14.800285
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        1.471836
+std         1.677456
+min         0.000000
+25%         0.312871
+50%         0.889700
+75%         2.054571
+max        14.800285
+Name: % error, dtype: float64",42
+14,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"polly_vectorizer                   2.585062e+14
+parallel_force                     1.163640e+14
+parallel                           1.163640e+14
+memory_based                       7.879594e+13
+value_based                        7.879594e+13
+#yes                               5.950886e+13
+polly_opt_simplify_deps            5.950886e+13
+polly_no_tiling                    5.950886e+13
+pollyrtcmaxparameters_1            2.860256e+13
+pollyrtcmaxparameters_16           2.860256e+13
+pollyrtcmaxparameters_4            2.860256e+13
+pollyrtcmaxparameters_2            2.860256e+13
+pollyrtcmaxparameters_8            2.860256e+13
+polly_opt_fusion                   2.323802e+13
+pollyoptmaxconstantterm_100        1.564941e+13
+pollyoptmaxconstantterm_1          1.564941e+13
+pollyoptmaxconstantterm_10000      1.564941e+13
+pollyoptmaxconstantterm_1000       1.564941e+13
+pollyoptmaxconstantterm_10         1.564941e+13
+polly                              1.438254e+13
+none                               1.438254e+13
+pollydefaulttilesize_1024          1.112646e+13
+pollydefaulttilesize_4             1.112646e+13
+pollydefaulttilesize_256           1.112646e+13
+pollydefaulttilesize_16            1.112646e+13
+pollydefaulttilesize_64            1.112646e+13
+pollyrtcmaxparameters              7.904161e+12
+max                                6.459597e+12
+min                                6.459597e+12
+polly_dependences_analysis_type    6.338046e+12
+pollyoptmaxconstantterm            5.546789e+12
+polly_delinearize                  5.214785e+12
+pollyoptmaxcoefficient_1           3.878007e+12
+pollyoptmaxcoefficient_10000       3.878007e+12
+pollyoptmaxcoefficient_1000        3.878007e+12
+pollyoptmaxcoefficient_100         3.878007e+12
+pollyoptmaxcoefficient_10          3.878007e+12
+polly_parallel                     2.653729e+12
+root                               3.375438e+09
+dtype: float64","count    1521.000000
+mean       24.806953
+std        47.691312
+min         0.010839
+25%         3.923139
+50%        12.429178
+75%        18.478261
+max       316.024653
+Name: % error, dtype: float64",42
+15,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.3,"value_based                   4.839225e+00
+min                           4.523637e+00
+polly_no_tiling               3.860186e+00
+parallel                      1.246026e+00
+none                          9.312716e-01
+pollyoptmaxconstantterm_10    5.790862e-01
+pollyoptmaxcoefficient_10     5.091470e-01
+pollyrtcmaxparameters_1       4.594570e-01
+pollydefaulttilesize_64       3.660947e-01
+pollydefaulttilesize_1024     3.525972e-01
+pollyrtcmaxparameters_16      3.414316e-01
+#yes                          2.158114e-01
+pollydefaulttilesize_4        6.060157e-02
+pollyoptmaxcoefficient_1      4.803337e-02
+max                           1.790714e-15
+polly                         2.185201e-16
+dtype: float64","count    1521.000000
+mean       24.905465
+std        50.295185
+min         0.014427
+25%         3.149456
+50%        12.901364
+75%        17.415959
+max       345.875302
+Name: % error, dtype: float64",42
+16,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.3,"polly_no_tiling                  2.842316
+memory_based                     2.335863
+value_based                      2.335863
+max                              2.206759
+min                              2.206759
+#yes                             1.033905
+parallel_force                   0.977720
+polly_opt_simplify_deps          0.657323
+pollyoptmaxconstantterm_10       0.599267
+polly_parallel                   0.575544
+pollyoptmaxcoefficient_10        0.549627
+pollydefaulttilesize_64          0.536747
+pollydefaulttilesize_1024        0.519498
+polly                            0.514429
+none                             0.514429
+pollyrtcmaxparameters_1          0.481178
+parallel                         0.402177
+pollyrtcmaxparameters_16         0.343005
+pollyoptmaxconstantterm_100      0.315301
+pollyoptmaxcoefficient_1         0.309151
+pollyrtcmaxparameters_2          0.306062
+pollydefaulttilesize_4           0.268106
+pollyrtcmaxparameters_8          0.259711
+pollyrtcmaxparameters_4          0.258410
+pollyoptmaxconstantterm_1        0.233160
+pollyoptmaxcoefficient_10000     0.219307
+pollydefaulttilesize_16          0.170442
+pollydefaulttilesize_256         0.080414
+pollyoptmaxconstantterm_10000    0.063535
+pollyoptmaxcoefficient_1000      0.054698
+pollyoptmaxcoefficient_100       0.033529
+pollyoptmaxconstantterm_1000     0.012729
+dtype: float64","count    1521.000000
+mean       25.210111
+std        50.857928
+min         0.009450
+25%         3.668956
+50%        11.771682
+75%        17.367832
+max       350.036864
+Name: % error, dtype: float64",42
+17,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.3,"polly_no_tiling                 3.433905
+value_based                     3.341332
+min                             3.154872
+memory_based                    1.447009
+max                             1.355881
+parallel                        0.920667
+none                            0.719237
+pollyoptmaxconstantterm_10      0.597080
+pollyoptmaxcoefficient_10       0.529433
+pollyrtcmaxparameters_1         0.517214
+pollydefaulttilesize_1024       0.454680
+#yes                            0.446089
+pollydefaulttilesize_64         0.401058
+parallel_force                  0.393303
+pollyrtcmaxparameters_16        0.393166
+polly                           0.280828
+pollydefaulttilesize_4          0.215338
+pollyoptmaxcoefficient_1        0.176028
+pollyoptmaxconstantterm_100     0.146851
+pollyrtcmaxparameters_2         0.076149
+pollyoptmaxconstantterm_1       0.073820
+polly_opt_simplify_deps         0.070123
+pollyoptmaxcoefficient_10000    0.061660
+pollyrtcmaxparameters_8         0.049028
+pollydefaulttilesize_16         0.003451
+pollyrtcmaxparameters_4         0.003252
+dtype: float64","count    1521.000000
+mean       25.068803
+std        50.599032
+min         0.006255
+25%         3.415909
+50%        12.372960
+75%        17.400908
+max       349.642336
+Name: % error, dtype: float64",42
+18,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"max                                19.103236
+min                                 0.002379
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        1.499327
+std         2.129305
+min         0.002379
+25%         0.368698
+50%         0.866796
+75%         1.730656
+max        19.103236
+Name: % error, dtype: float64",42
+19,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"max                                105.616129
+min                                  0.002377
+root                                      NaN
+polly_vectorizer                          NaN
+none                                      NaN
+polly                                     NaN
+polly_parallel                            NaN
+parallel                                  NaN
+parallel_force                            NaN
+polly_no_tiling                           NaN
+polly_delinearize                         NaN
+polly_dependences_analysis_type           NaN
+value_based                               NaN
+memory_based                              NaN
+polly_opt_fusion                          NaN
+polly_opt_simplify_deps                   NaN
+pollyrtcmaxparameters                     NaN
+pollyrtcmaxparameters_1                   NaN
+pollyrtcmaxparameters_2                   NaN
+pollyrtcmaxparameters_4                   NaN
+pollyrtcmaxparameters_8                   NaN
+pollyrtcmaxparameters_16                  NaN
+pollyoptmaxconstantterm                   NaN
+pollyoptmaxconstantterm_1                 NaN
+pollyoptmaxconstantterm_10                NaN
+pollyoptmaxconstantterm_100               NaN
+pollyoptmaxconstantterm_1000              NaN
+pollyoptmaxconstantterm_10000             NaN
+pollyoptmaxcoefficient                    NaN
+pollyoptmaxcoefficient_1                  NaN
+pollyoptmaxcoefficient_10                 NaN
+pollyoptmaxcoefficient_100                NaN
+pollyoptmaxcoefficient_1000               NaN
+pollyoptmaxcoefficient_10000              NaN
+pollydefaulttilesize                      NaN
+pollydefaulttilesize_4                    NaN
+pollydefaulttilesize_16                   NaN
+pollydefaulttilesize_64                   NaN
+pollydefaulttilesize_256                  NaN
+pollydefaulttilesize_1024                 NaN
+#yes                                      NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        5.320232
+std        12.031430
+min         0.002377
+25%         0.777492
+50%         1.768153
+75%         3.578599
+max       105.616129
+Name: % error, dtype: float64",42
+20,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"max                                15.016685
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        1.543908
+std         1.919966
+min         0.000000
+25%         0.323974
+50%         0.935383
+75%         2.048289
+max        15.016685
+Name: % error, dtype: float64",42
+21,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"polly_vectorizer                   3.262773e+14
+none                               1.274228e+14
+polly                              1.274228e+14
+polly_parallel                     1.204099e+14
+pollyoptmaxconstantterm_10000      9.796429e+13
+pollyoptmaxconstantterm_1          9.796429e+13
+pollyoptmaxconstantterm_100        9.796429e+13
+pollyoptmaxconstantterm_1000       9.796429e+13
+pollyoptmaxconstantterm_10         9.796429e+13
+pollydefaulttilesize_1024          8.100437e+13
+pollydefaulttilesize_4             8.100437e+13
+pollydefaulttilesize_256           8.100437e+13
+pollydefaulttilesize_16            8.100437e+13
+pollydefaulttilesize_64            8.100437e+13
+polly_dependences_analysis_type    7.308708e+13
+memory_based                       6.606300e+13
+value_based                        6.606300e+13
+min                                5.201617e+13
+max                                5.201617e+13
+#yes                               4.975500e+13
+polly_opt_simplify_deps            4.975500e+13
+polly_no_tiling                    4.975500e+13
+pollyrtcmaxparameters              2.737940e+13
+parallel                           2.089990e+13
+parallel_force                     2.089990e+13
+pollyrtcmaxparameters_1            1.999530e+13
+pollyrtcmaxparameters_16           1.999530e+13
+pollyrtcmaxparameters_8            1.999530e+13
+pollyrtcmaxparameters_4            1.999530e+13
+pollyrtcmaxparameters_2            1.999530e+13
+polly_delinearize                  1.645976e+13
+pollyoptmaxcoefficient_10          9.427107e+12
+pollyoptmaxcoefficient_10000       9.427107e+12
+pollyoptmaxcoefficient_100         9.427107e+12
+pollyoptmaxcoefficient_1           9.427107e+12
+pollyoptmaxcoefficient_1000        9.427107e+12
+pollyoptmaxconstantterm            2.453889e+12
+polly_opt_fusion                   2.390371e+12
+root                               5.331590e+09
+dtype: float64","count    1304.000000
+mean       25.020483
+std        49.702169
+min         0.010839
+25%         3.164932
+50%        12.649993
+75%        17.663500
+max       333.359014
+Name: % error, dtype: float64",42
+22,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.4,"value_based                      4.890610e+00
+min                              4.562070e+00
+polly_no_tiling                  3.796977e+00
+parallel                         1.399223e+00
+none                             9.677533e-01
+pollyoptmaxconstantterm_10       6.927979e-01
+pollyoptmaxcoefficient_10        5.653704e-01
+parallel_force                   2.120289e-01
+pollyrtcmaxparameters_2          1.726137e-01
+pollydefaulttilesize_4           1.534654e-01
+#yes                             1.403474e-01
+pollydefaulttilesize_1024        1.300585e-01
+pollyoptmaxcoefficient_10000     1.278938e-01
+pollyrtcmaxparameters_1          6.208509e-02
+pollyoptmaxconstantterm_10000    3.726805e-02
+memory_based                     6.322292e-15
+max                              6.158502e-15
+dtype: float64","count    1304.000000
+mean       25.123974
+std        50.473080
+min         0.004308
+25%         3.257305
+50%        12.708869
+75%        17.198758
+max       345.052412
+Name: % error, dtype: float64",42
+23,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.4,"polly_no_tiling                  3.076775
+memory_based                     2.494830
+value_based                      2.494830
+max                              2.325136
+min                              2.325136
+parallel_force                   1.262329
+#yes                             0.984965
+pollyoptmaxconstantterm_10       0.792003
+polly_opt_simplify_deps          0.707832
+polly_parallel                   0.691989
+pollyoptmaxcoefficient_10        0.646095
+none                             0.576472
+polly                            0.576472
+parallel                         0.570340
+pollyoptmaxconstantterm_10000    0.386412
+pollyrtcmaxparameters_2          0.377662
+pollyoptmaxcoefficient_1000      0.372668
+pollyrtcmaxparameters_1          0.340423
+pollydefaulttilesize_4           0.333188
+pollyoptmaxcoefficient_1         0.331971
+pollydefaulttilesize_1024        0.321131
+pollydefaulttilesize_64          0.277390
+pollyoptmaxconstantterm_1        0.266891
+pollydefaulttilesize_16          0.249026
+pollyoptmaxcoefficient_10000     0.229425
+pollyrtcmaxparameters_16         0.194044
+pollyoptmaxcoefficient_100       0.170880
+pollyoptmaxconstantterm_100      0.133398
+pollydefaulttilesize_256         0.127903
+pollyrtcmaxparameters_8          0.089226
+pollyrtcmaxparameters_4          0.067580
+pollyoptmaxconstantterm_1000     0.005303
+dtype: float64","count    1304.000000
+mean       25.084743
+std        49.118498
+min         0.033199
+25%         3.659503
+50%        12.336935
+75%        17.726991
+max       333.268251
+Name: % error, dtype: float64",42
+24,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=5)",Performance,0.4,"value_based                      4.890610e+00
+min                              4.562070e+00
+polly_no_tiling                  3.796977e+00
+parallel                         1.399223e+00
+none                             9.677533e-01
+pollyoptmaxconstantterm_10       6.927979e-01
+pollyoptmaxcoefficient_10        5.653704e-01
+parallel_force                   2.120289e-01
+pollyrtcmaxparameters_2          1.726137e-01
+pollydefaulttilesize_4           1.534654e-01
+#yes                             1.403474e-01
+pollydefaulttilesize_1024        1.300585e-01
+pollyoptmaxcoefficient_10000     1.278938e-01
+pollyrtcmaxparameters_1          6.208509e-02
+pollyoptmaxconstantterm_10000    3.726805e-02
+memory_based                     6.322292e-15
+max                              6.158502e-15
+dtype: float64","count    1304.000000
+mean       25.123974
+std        50.473080
+min         0.004308
+25%         3.257305
+50%        12.708869
+75%        17.198758
+max       345.052412
+Name: % error, dtype: float64",42
+25,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"max                                16.228257
+min                                 0.000217
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        1.291999
+std         1.590450
+min         0.000217
+25%         0.359719
+50%         0.817891
+75%         1.686547
+max        16.228257
+Name: % error, dtype: float64",42
+26,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"max                                91.395286
+min                                 0.000702
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        4.822152
+std        10.419347
+min         0.000702
+25%         0.775278
+50%         1.720317
+75%         3.185444
+max        91.395286
+Name: % error, dtype: float64",42
+27,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"max                                14.507198
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        1.455128
+std         1.770278
+min         0.000000
+25%         0.280099
+50%         0.815774
+75%         2.017482
+max        14.507198
+Name: % error, dtype: float64",42
+28,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"polly_vectorizer                   2.124061e+14
+max                                1.627419e+14
+min                                1.627419e+14
+pollyoptmaxconstantterm_10         1.584125e+14
+pollyoptmaxconstantterm_1000       1.584125e+14
+pollyoptmaxconstantterm_1          1.584125e+14
+pollyoptmaxconstantterm_100        1.584125e+14
+pollyoptmaxconstantterm_10000      1.584125e+14
+memory_based                       3.707124e+13
+value_based                        3.707124e+13
+polly_delinearize                  3.664751e+13
+parallel                           2.540969e+13
+parallel_force                     2.540969e+13
+polly_dependences_analysis_type    2.355776e+13
+polly_parallel                     2.250920e+13
+pollydefaulttilesize_64            2.244366e+13
+pollydefaulttilesize_16            2.244366e+13
+pollydefaulttilesize_256           2.244366e+13
+pollydefaulttilesize_1024          2.244366e+13
+pollydefaulttilesize_4             2.244366e+13
+polly_opt_fusion                   2.107289e+13
+pollyrtcmaxparameters_1            1.052553e+13
+pollyrtcmaxparameters_16           1.052553e+13
+pollyrtcmaxparameters_8            1.052553e+13
+pollyrtcmaxparameters_4            1.052553e+13
+pollyrtcmaxparameters_2            1.052553e+13
+pollyoptmaxcoefficient_10000       9.699081e+12
+pollyoptmaxcoefficient_10          9.699081e+12
+pollyoptmaxcoefficient_1000        9.699081e+12
+pollyoptmaxcoefficient_1           9.699081e+12
+pollyoptmaxcoefficient_100         9.699081e+12
+pollyoptmaxconstantterm            7.265289e+12
+pollyrtcmaxparameters              6.982575e+12
+polly_no_tiling                    1.450244e+12
+polly_opt_simplify_deps            1.450244e+12
+#yes                               1.450244e+12
+none                               6.448367e+11
+polly                              6.448367e+11
+root                               9.007814e+09
+dtype: float64","count    1086.000000
+mean       24.297064
+std        46.340587
+min         0.059414
+25%         3.687779
+50%        12.722814
+75%        18.369194
+max       323.247304
+Name: % error, dtype: float64",42
+29,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.5,"value_based                   4.868183e+00
+min                           4.450852e+00
+polly_no_tiling               3.780968e+00
+parallel                      1.272658e+00
+none                          8.827973e-01
+pollyoptmaxconstantterm_10    1.638955e-01
+#yes                          1.194167e-01
+memory_based                  3.666378e-16
+dtype: float64","count    1086.000000
+mean       24.606763
+std        49.979388
+min         0.005650
+25%         2.875276
+50%        12.926833
+75%        17.043335
+max       351.460249
+Name: % error, dtype: float64",42
+30,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.5,"polly_no_tiling                  3.076976
+memory_based                     2.526652
+value_based                      2.526652
+max                              2.307968
+min                              2.307968
+parallel_force                   1.222819
+#yes                             0.994458
+polly_opt_simplify_deps          0.772945
+polly_parallel                   0.654787
+polly                            0.633538
+none                             0.633538
+pollyoptmaxconstantterm_10       0.584943
+parallel                         0.568032
+pollyoptmaxconstantterm_10000    0.369622
+pollydefaulttilesize_4           0.349032
+pollyrtcmaxparameters_2          0.295571
+pollydefaulttilesize_64          0.271796
+pollyoptmaxcoefficient_1         0.257496
+pollyoptmaxcoefficient_10        0.254722
+pollyoptmaxcoefficient_10000     0.250689
+pollyoptmaxcoefficient_100       0.241931
+pollyrtcmaxparameters_1          0.193778
+pollyrtcmaxparameters_16         0.147557
+pollyoptmaxconstantterm_100      0.143636
+pollydefaulttilesize_16          0.093267
+pollyrtcmaxparameters_4          0.084660
+pollydefaulttilesize_1024        0.077239
+pollydefaulttilesize_256         0.061208
+pollyoptmaxconstantterm_1000     0.042264
+pollyrtcmaxparameters_8          0.038895
+pollyoptmaxconstantterm_1        0.029421
+pollyoptmaxcoefficient_1000      0.005983
+dtype: float64","count    1086.000000
+mean       24.453480
+std        47.762206
+min         0.006865
+25%         3.630491
+50%        12.616459
+75%        17.668094
+max       332.175713
+Name: % error, dtype: float64",42
+31,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.5,"value_based                   4.868183e+00
+min                           4.450852e+00
+polly_no_tiling               3.780968e+00
+parallel                      1.272658e+00
+none                          8.827973e-01
+pollyoptmaxconstantterm_10    1.638955e-01
+#yes                          1.194167e-01
+memory_based                  3.666378e-16
+dtype: float64","count    1086.000000
+mean       24.606763
+std        49.979388
+min         0.005650
+25%         2.875276
+50%        12.926833
+75%        17.043335
+max       351.460249
+Name: % error, dtype: float64",42
+32,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"max                                1.305856e+01
+min                                1.268689e-13
+root                                        NaN
+polly_vectorizer                            NaN
+none                                        NaN
+polly                                       NaN
+polly_parallel                              NaN
+parallel                                    NaN
+parallel_force                              NaN
+polly_no_tiling                             NaN
+polly_delinearize                           NaN
+polly_dependences_analysis_type             NaN
+value_based                                 NaN
+memory_based                                NaN
+polly_opt_fusion                            NaN
+polly_opt_simplify_deps                     NaN
+pollyrtcmaxparameters                       NaN
+pollyrtcmaxparameters_1                     NaN
+pollyrtcmaxparameters_2                     NaN
+pollyrtcmaxparameters_4                     NaN
+pollyrtcmaxparameters_8                     NaN
+pollyrtcmaxparameters_16                    NaN
+pollyoptmaxconstantterm                     NaN
+pollyoptmaxconstantterm_1                   NaN
+pollyoptmaxconstantterm_10                  NaN
+pollyoptmaxconstantterm_100                 NaN
+pollyoptmaxconstantterm_1000                NaN
+pollyoptmaxconstantterm_10000               NaN
+pollyoptmaxcoefficient                      NaN
+pollyoptmaxcoefficient_1                    NaN
+pollyoptmaxcoefficient_10                   NaN
+pollyoptmaxcoefficient_100                  NaN
+pollyoptmaxcoefficient_1000                 NaN
+pollyoptmaxcoefficient_10000                NaN
+pollydefaulttilesize                        NaN
+pollydefaulttilesize_4                      NaN
+pollydefaulttilesize_16                     NaN
+pollydefaulttilesize_64                     NaN
+pollydefaulttilesize_256                    NaN
+pollydefaulttilesize_1024                   NaN
+#yes                                        NaN
+Name: % error, dtype: float64","count    1.086000e+03
+mean     1.157942e+00
+std      1.307118e+00
+min      1.268689e-13
+25%      3.314142e-01
+50%      7.701539e-01
+75%      1.553044e+00
+max      1.305856e+01
+Name: % error, dtype: float64",42
+33,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"max                                76.055690
+min                                 0.018239
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        4.268948
+std         9.025802
+min         0.018239
+25%         0.683726
+50%         1.574804
+75%         2.853622
+max        76.055690
+Name: % error, dtype: float64",42
+34,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"max                                14.112291
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        1.416397
+std         1.663512
+min         0.000000
+25%         0.327389
+50%         0.868639
+75%         1.939166
+max        14.112291
+Name: % error, dtype: float64",42
+35,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"polly_parallel                     4.130840e+14
+polly_vectorizer                   3.566353e+14
+value_based                        2.532691e+14
+memory_based                       2.532691e+14
+polly_no_tiling                    1.943854e+14
+polly_opt_simplify_deps            1.943854e+14
+#yes                               1.943854e+14
+max                                1.508385e+14
+min                                1.508385e+14
+pollyrtcmaxparameters_1            7.476950e+13
+pollyrtcmaxparameters_2            7.476950e+13
+pollyrtcmaxparameters_4            7.476950e+13
+pollyrtcmaxparameters_8            7.476950e+13
+pollyrtcmaxparameters_16           7.476950e+13
+pollydefaulttilesize_4             7.294642e+13
+pollydefaulttilesize_1024          7.294642e+13
+pollydefaulttilesize_16            7.294642e+13
+pollydefaulttilesize_256           7.294642e+13
+pollydefaulttilesize_64            7.294642e+13
+polly                              5.877852e+13
+none                               5.877852e+13
+polly_delinearize                  5.363560e+13
+pollyrtcmaxparameters              4.007626e+13
+polly_dependences_analysis_type    3.667502e+13
+pollyoptmaxconstantterm_10000      2.598698e+13
+pollyoptmaxconstantterm_1000       2.598698e+13
+pollyoptmaxconstantterm_100        2.598698e+13
+pollyoptmaxconstantterm_1          2.598698e+13
+pollyoptmaxconstantterm_10         2.598698e+13
+parallel_force                     2.431313e+13
+parallel                           2.431313e+13
+pollyoptmaxcoefficient_1           1.792604e+13
+pollyoptmaxcoefficient_1000        1.792604e+13
+pollyoptmaxcoefficient_100         1.792604e+13
+pollyoptmaxcoefficient_10000       1.792604e+13
+pollyoptmaxcoefficient_10          1.792604e+13
+pollyoptmaxconstantterm            1.547240e+13
+polly_opt_fusion                   4.876774e+12
+root                               9.105899e+09
+dtype: float64","count    869.000000
+mean      22.936508
+std       43.415902
+min        0.011695
+25%        3.739304
+50%       12.042567
+75%       17.609579
+max      313.253909
+Name: % error, dtype: float64",42
+36,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.6,"value_based                   5.132437e+00
+min                           4.837780e+00
+polly_no_tiling               4.162707e+00
+parallel                      1.315266e+00
+none                          1.175814e+00
+pollyoptmaxconstantterm_10    4.601884e-01
+parallel_force                4.562489e-01
+pollydefaulttilesize_4        3.194955e-01
+#yes                          2.119183e-01
+pollyoptmaxcoefficient_1      1.907041e-01
+pollyoptmaxcoefficient_10     1.713030e-01
+pollydefaulttilesize_64       6.408585e-02
+memory_based                  2.704766e-15
+dtype: float64","count    869.000000
+mean      22.604278
+std       42.573011
+min        0.028030
+25%        2.916575
+50%       13.494804
+75%       17.993206
+max      320.384633
+Name: % error, dtype: float64",42
+37,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.6,"polly_no_tiling                  3.282895
+value_based                      2.574657
+memory_based                     2.574657
+min                              2.428997
+max                              2.428997
+parallel_force                   1.372062
+#yes                             1.042655
+polly_parallel                   0.771578
+polly_opt_simplify_deps          0.697085
+polly                            0.658496
+none                             0.658496
+parallel                         0.600485
+pollyoptmaxconstantterm_10       0.571848
+pollydefaulttilesize_4           0.475522
+pollyoptmaxcoefficient_1         0.405241
+pollyoptmaxcoefficient_10        0.390405
+pollydefaulttilesize_64          0.324513
+pollyoptmaxconstantterm_10000    0.291100
+pollydefaulttilesize_256         0.215547
+pollyoptmaxcoefficient_10000     0.205717
+pollyoptmaxconstantterm_1000     0.190900
+pollyoptmaxcoefficient_1000      0.147082
+pollydefaulttilesize_1024        0.119941
+pollyrtcmaxparameters_16         0.098672
+pollyoptmaxconstantterm_100      0.083439
+pollyrtcmaxparameters_1          0.078384
+pollydefaulttilesize_16          0.055403
+pollyrtcmaxparameters_2          0.048477
+pollyoptmaxcoefficient_100       0.043799
+pollyrtcmaxparameters_8          0.043279
+pollyrtcmaxparameters_4          0.015090
+pollyoptmaxconstantterm_1        0.006409
+dtype: float64","count    869.000000
+mean      22.702386
+std       42.255522
+min        0.013488
+25%        3.607993
+50%       12.771138
+75%       18.177495
+max      313.369688
+Name: % error, dtype: float64",42
+38,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=10)",Performance,0.6,"value_based                   5.132437e+00
+min                           4.837780e+00
+polly_no_tiling               4.162707e+00
+parallel                      1.315266e+00
+none                          1.175814e+00
+pollyoptmaxconstantterm_10    4.601884e-01
+parallel_force                4.562489e-01
+pollydefaulttilesize_4        3.194955e-01
+#yes                          2.119183e-01
+pollyoptmaxcoefficient_1      1.907041e-01
+pollyoptmaxcoefficient_10     1.713030e-01
+pollydefaulttilesize_64       6.408585e-02
+memory_based                  2.704766e-15
+dtype: float64","count    869.000000
+mean      22.604278
+std       42.573011
+min        0.028030
+25%        2.916575
+50%       13.494804
+75%       17.993206
+max      320.384633
+Name: % error, dtype: float64",42
+39,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"max                                13.032016
+min                                 0.001845
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    869.000000
+mean       1.195531
+std        1.347813
+min        0.001845
+25%        0.366219
+50%        0.817454
+75%        1.600635
+max       13.032016
+Name: % error, dtype: float64",42
+40,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"max                                68.770684
+min                                 0.000350
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    869.000000
+mean       3.963127
+std        7.848858
+min        0.000350
+25%        0.682928
+50%        1.616073
+75%        3.043050
+max       68.770684
+Name: % error, dtype: float64",42
+41,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"max                                14.764622
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    869.000000
+mean       1.444390
+std        1.810972
+min        0.000000
+25%        0.302506
+50%        0.791640
+75%        1.982808
+max       14.764622
+Name: % error, dtype: float64",42
+42,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"polly_parallel                     5.857774e+13
+max                                5.114949e+13
+min                                5.114949e+13
+parallel                           4.713614e+13
+parallel_force                     4.713614e+13
+polly_vectorizer                   2.592565e+13
+pollydefaulttilesize_64            2.432333e+13
+pollydefaulttilesize_256           2.432333e+13
+pollydefaulttilesize_16            2.432333e+13
+pollydefaulttilesize_1024          2.432333e+13
+pollydefaulttilesize_4             2.432333e+13
+value_based                        1.517835e+13
+memory_based                       1.517835e+13
+none                               1.198785e+13
+polly                              1.198785e+13
+pollyoptmaxcoefficient_10          7.541935e+12
+pollyoptmaxcoefficient_10000       7.541935e+12
+pollyoptmaxcoefficient_100         7.541935e+12
+pollyoptmaxcoefficient_1000        7.541935e+12
+pollyoptmaxcoefficient_1           7.541935e+12
+pollyrtcmaxparameters_1            7.459763e+12
+pollyrtcmaxparameters_2            7.459763e+12
+pollyrtcmaxparameters_4            7.459763e+12
+pollyrtcmaxparameters_8            7.459763e+12
+pollyrtcmaxparameters_16           7.459763e+12
+pollyoptmaxconstantterm_10         6.751743e+12
+pollyoptmaxconstantterm_1000       6.751743e+12
+pollyoptmaxconstantterm_100        6.751743e+12
+pollyoptmaxconstantterm_1          6.751743e+12
+pollyoptmaxconstantterm_10000      6.751743e+12
+polly_dependences_analysis_type    6.255217e+12
+polly_opt_fusion                   5.725694e+12
+#yes                               5.720797e+12
+polly_opt_simplify_deps            5.720797e+12
+polly_no_tiling                    5.720797e+12
+pollyrtcmaxparameters              3.283004e+12
+pollyoptmaxconstantterm            1.406059e+12
+polly_delinearize                  1.107066e+12
+root                               1.430662e+10
+pollyoptmaxcoefficient             3.417969e-03
+dtype: float64","count    652.000000
+mean      22.417073
+std       40.063069
+min        0.031551
+25%        3.987535
+50%       13.378785
+75%       19.136108
+max      289.868764
+Name: % error, dtype: float64",42
+43,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.7,"value_based                   5.195564e+00
+min                           5.035292e+00
+polly_no_tiling               4.075823e+00
+parallel                      1.560790e+00
+none                          1.092365e+00
+pollydefaulttilesize_4        4.151901e-01
+pollyoptmaxconstantterm_10    3.842981e-01
+parallel_force                2.556884e-01
+pollyoptmaxcoefficient_1      2.151010e-01
+pollydefaulttilesize_1024     1.883965e-01
+#yes                          1.648416e-01
+pollydefaulttilesize_64       1.622366e-01
+pollyoptmaxcoefficient_10     9.961692e-02
+memory_based                  2.992505e-15
+dtype: float64","count    652.000000
+mean      22.349139
+std       42.209952
+min        0.005724
+25%        3.168735
+50%       13.673486
+75%       17.984209
+max      314.953825
+Name: % error, dtype: float64",42
+44,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.7,"polly_no_tiling                  3.184110
+memory_based                     2.624863
+value_based                      2.624863
+min                              2.541578
+max                              2.541578
+parallel_force                   1.365366
+#yes                             1.047259
+polly_parallel                   0.720558
+polly_opt_simplify_deps          0.695735
+parallel                         0.644808
+none                             0.627895
+polly                            0.627895
+pollydefaulttilesize_4           0.534496
+pollyoptmaxconstantterm_10       0.519595
+pollydefaulttilesize_64          0.455849
+pollyoptmaxcoefficient_1         0.404428
+pollyoptmaxcoefficient_10        0.344046
+pollydefaulttilesize_1024        0.310400
+pollyoptmaxconstantterm_10000    0.246937
+pollyoptmaxcoefficient_10000     0.223191
+pollydefaulttilesize_16          0.195763
+pollydefaulttilesize_256         0.193284
+pollyoptmaxcoefficient_1000      0.135625
+pollyrtcmaxparameters_1          0.120257
+pollyoptmaxconstantterm_1000     0.103378
+pollyoptmaxconstantterm_100      0.087602
+pollyoptmaxconstantterm_1        0.081679
+pollyrtcmaxparameters_8          0.080765
+pollyrtcmaxparameters_16         0.068943
+pollyrtcmaxparameters_2          0.055139
+pollyoptmaxcoefficient_100       0.027183
+pollyrtcmaxparameters_4          0.025687
+dtype: float64","count    652.000000
+mean      22.488111
+std       41.633426
+min        0.011255
+25%        3.675962
+50%       13.118520
+75%       18.391894
+max      306.215814
+Name: % error, dtype: float64",42
+45,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=5)",Performance,0.7,"value_based                   5.195564e+00
+min                           5.035292e+00
+polly_no_tiling               4.075823e+00
+parallel                      1.560790e+00
+none                          1.092365e+00
+pollydefaulttilesize_4        4.151901e-01
+pollyoptmaxconstantterm_10    3.842981e-01
+parallel_force                2.556884e-01
+pollyoptmaxcoefficient_1      2.151010e-01
+pollydefaulttilesize_1024     1.883965e-01
+#yes                          1.648416e-01
+pollydefaulttilesize_64       1.622366e-01
+pollyoptmaxcoefficient_10     9.961692e-02
+memory_based                  2.992505e-15
+dtype: float64","count    652.000000
+mean      22.349139
+std       42.209952
+min        0.005724
+25%        3.168735
+50%       13.673486
+75%       17.984209
+max      314.953825
+Name: % error, dtype: float64",42
+46,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"max                                13.820995
+min                                 0.002084
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    652.000000
+mean       1.150134
+std        1.377835
+min        0.002084
+25%        0.316786
+50%        0.777344
+75%        1.510161
+max       13.820995
+Name: % error, dtype: float64",42
+47,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"max                                67.874655
+min                                 0.001267
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    652.000000
+mean       3.953891
+std        7.687110
+min        0.001267
+25%        0.692837
+50%        1.529467
+75%        2.992754
+max       67.874655
+Name: % error, dtype: float64",42
+48,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"max                                13.758629
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    652.000000
+mean       1.533201
+std        1.781898
+min        0.000000
+25%        0.330898
+50%        0.913636
+75%        2.083333
+max       13.758629
+Name: % error, dtype: float64",42
+49,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"pollyrtcmaxparameters_8            2.081365e+14
+pollyrtcmaxparameters_16           2.081365e+14
+pollyrtcmaxparameters_4            2.081365e+14
+pollyrtcmaxparameters_1            2.081365e+14
+pollyrtcmaxparameters_2            2.081365e+14
+pollyoptmaxconstantterm_10         1.424619e+14
+pollyoptmaxconstantterm_100        1.424619e+14
+pollyoptmaxconstantterm_10000      1.424619e+14
+pollyoptmaxconstantterm_1          1.424619e+14
+pollyoptmaxconstantterm_1000       1.424619e+14
+value_based                        9.663940e+13
+memory_based                       9.663940e+13
+polly_parallel                     8.295454e+13
+none                               8.154677e+13
+polly                              8.154677e+13
+polly_delinearize                  7.887446e+13
+min                                7.439597e+13
+max                                7.439597e+13
+pollyoptmaxcoefficient_1           6.721440e+13
+pollyoptmaxcoefficient_1000        6.721440e+13
+pollyoptmaxcoefficient_100         6.721440e+13
+pollyoptmaxcoefficient_10000       6.721440e+13
+pollyoptmaxcoefficient_10          6.721440e+13
+polly_opt_fusion                   6.090081e+13
+#yes                               4.103874e+13
+polly_opt_simplify_deps            4.103874e+13
+polly_no_tiling                    4.103874e+13
+polly_vectorizer                   3.651647e+13
+pollyrtcmaxparameters              3.620321e+13
+polly_dependences_analysis_type    3.302805e+13
+pollyoptmaxconstantterm            1.131518e+13
+pollydefaulttilesize_64            3.327909e+12
+pollydefaulttilesize_16            3.327909e+12
+pollydefaulttilesize_256           3.327909e+12
+pollydefaulttilesize_1024          3.327909e+12
+pollydefaulttilesize_4             3.327909e+12
+parallel                           8.770647e+11
+parallel_force                     8.770647e+11
+root                               4.870004e+09
+dtype: float64","count    435.000000
+mean      20.722909
+std       34.593404
+min        0.052429
+25%        4.223925
+50%       13.010339
+75%       19.236268
+max      215.767749
+Name: % error, dtype: float64",42
+50,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=1)",Performance,0.8,"value_based                   5.264043e+00
+min                           5.112401e+00
+polly_no_tiling               4.524114e+00
+parallel                      1.466426e+00
+none                          9.753899e-01
+parallel_force                5.220350e-01
+polly_parallel                4.784659e-01
+pollydefaulttilesize_4        4.334563e-01
+pollyoptmaxconstantterm_10    2.801618e-01
+pollydefaulttilesize_1024     2.462861e-01
+pollydefaulttilesize_64       2.357735e-01
+pollyoptmaxcoefficient_1      1.037251e-01
+memory_based                  6.218851e-16
+dtype: float64","count    435.000000
+mean      20.512526
+std       36.366360
+min        0.028534
+25%        2.990871
+50%       14.468622
+75%       18.259291
+max      227.655503
+Name: % error, dtype: float64",42
+51,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.8,"polly_no_tiling                  3.290915
+value_based                      2.644224
+memory_based                     2.644224
+min                              2.593546
+max                              2.593546
+parallel_force                   1.256707
+#yes                             1.011465
+polly_opt_simplify_deps          0.877416
+polly_parallel                   0.701017
+none                             0.631352
+polly                            0.631352
+parallel                         0.555690
+pollydefaulttilesize_4           0.550295
+pollydefaulttilesize_64          0.484039
+pollyoptmaxconstantterm_10       0.445947
+pollydefaulttilesize_1024        0.387482
+pollyoptmaxcoefficient_1         0.314432
+pollydefaulttilesize_16          0.264216
+pollyoptmaxcoefficient_10        0.216649
+pollyoptmaxconstantterm_1        0.190931
+pollydefaulttilesize_256         0.189522
+pollyrtcmaxparameters_8          0.186405
+pollyoptmaxconstantterm_1000     0.175030
+pollyoptmaxconstantterm_10000    0.161353
+pollyoptmaxcoefficient_10000     0.153986
+pollyrtcmaxparameters_2          0.138361
+pollyrtcmaxparameters_1          0.109801
+pollyoptmaxcoefficient_1000      0.081435
+pollyoptmaxconstantterm_100      0.081367
+pollyrtcmaxparameters_4          0.051279
+pollyoptmaxcoefficient_100       0.025233
+pollyrtcmaxparameters_16         0.010479
+dtype: float64","count    435.000000
+mean      20.701941
+std       35.960918
+min        0.003093
+25%        3.864881
+50%       13.824183
+75%       18.554716
+max      224.347161
+Name: % error, dtype: float64",42
+52,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=1)",Performance,0.8,"value_based                   5.264043e+00
+min                           5.112401e+00
+polly_no_tiling               4.524114e+00
+parallel                      1.466426e+00
+none                          9.753899e-01
+parallel_force                5.220350e-01
+polly_parallel                4.784659e-01
+pollydefaulttilesize_4        4.334563e-01
+pollyoptmaxconstantterm_10    2.801618e-01
+pollydefaulttilesize_1024     2.462861e-01
+pollydefaulttilesize_64       2.357735e-01
+pollyoptmaxcoefficient_1      1.037251e-01
+memory_based                  6.218851e-16
+dtype: float64","count    435.000000
+mean      20.512526
+std       36.366360
+min        0.028534
+25%        2.990871
+50%       14.468622
+75%       18.259291
+max      227.655503
+Name: % error, dtype: float64",42
+53,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"max                                12.436966
+min                                 0.002095
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    435.000000
+mean       1.170034
+std        1.314707
+min        0.002095
+25%        0.315067
+50%        0.767891
+75%        1.660205
+max       12.436966
+Name: % error, dtype: float64",42
+54,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"max                                44.314848
+min                                 0.004438
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    435.000000
+mean       3.634451
+std        6.513243
+min        0.004438
+25%        0.751723
+50%        1.625920
+75%        2.952843
+max       44.314848
+Name: % error, dtype: float64",42
+55,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"max                                14.34855
+root                                    NaN
+polly_vectorizer                        NaN
+none                                    NaN
+polly                                   NaN
+polly_parallel                          NaN
+parallel                                NaN
+parallel_force                          NaN
+polly_no_tiling                         NaN
+polly_delinearize                       NaN
+polly_dependences_analysis_type         NaN
+value_based                             NaN
+memory_based                            NaN
+polly_opt_fusion                        NaN
+polly_opt_simplify_deps                 NaN
+pollyrtcmaxparameters                   NaN
+pollyrtcmaxparameters_1                 NaN
+pollyrtcmaxparameters_2                 NaN
+pollyrtcmaxparameters_4                 NaN
+pollyrtcmaxparameters_8                 NaN
+pollyrtcmaxparameters_16                NaN
+pollyoptmaxconstantterm                 NaN
+pollyoptmaxconstantterm_1               NaN
+pollyoptmaxconstantterm_10              NaN
+pollyoptmaxconstantterm_100             NaN
+pollyoptmaxconstantterm_1000            NaN
+pollyoptmaxconstantterm_10000           NaN
+pollyoptmaxcoefficient                  NaN
+pollyoptmaxcoefficient_1                NaN
+pollyoptmaxcoefficient_10               NaN
+pollyoptmaxcoefficient_100              NaN
+pollyoptmaxcoefficient_1000             NaN
+pollyoptmaxcoefficient_10000            NaN
+pollydefaulttilesize                    NaN
+pollydefaulttilesize_4                  NaN
+pollydefaulttilesize_16                 NaN
+pollydefaulttilesize_64                 NaN
+pollydefaulttilesize_256                NaN
+pollydefaulttilesize_1024               NaN
+#yes                                    NaN
+Name: % error, dtype: float64","count    435.000000
+mean       1.428269
+std        1.817510
+min        0.000000
+25%        0.268456
+50%        0.771090
+75%        1.988915
+max       14.348550
+Name: % error, dtype: float64",42
+56,LinearRegression,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"polly_vectorizer                   1.806481e+14
+max                                1.232505e+14
+min                                1.232505e+14
+polly_parallel                     6.458070e+13
+pollyoptmaxconstantterm_10         6.355236e+13
+pollyoptmaxconstantterm_100        6.355236e+13
+pollyoptmaxconstantterm_1          6.355236e+13
+pollyoptmaxconstantterm_10000      6.355236e+13
+pollyoptmaxconstantterm_1000       6.355236e+13
+pollyrtcmaxparameters_8            6.208818e+13
+pollyrtcmaxparameters_4            6.208818e+13
+pollyrtcmaxparameters_16           6.208818e+13
+pollyrtcmaxparameters_2            6.208818e+13
+pollyrtcmaxparameters_1            6.208818e+13
+pollydefaulttilesize_64            6.024218e+13
+pollydefaulttilesize_16            6.024218e+13
+pollydefaulttilesize_256           6.024218e+13
+pollydefaulttilesize_1024          6.024218e+13
+pollydefaulttilesize_4             6.024218e+13
+polly_dependences_analysis_type    4.710957e+13
+parallel                           3.815998e+13
+parallel_force                     3.815998e+13
+polly                              2.868025e+13
+none                               2.868025e+13
+pollyoptmaxcoefficient_1           1.692283e+13
+pollyoptmaxcoefficient_1000        1.692283e+13
+pollyoptmaxcoefficient_100         1.692283e+13
+pollyoptmaxcoefficient_10          1.692283e+13
+pollyoptmaxcoefficient_10000       1.692283e+13
+memory_based                       1.539185e+13
+value_based                        1.539185e+13
+polly_opt_fusion                   1.430259e+13
+#yes                               1.321036e+13
+polly_opt_simplify_deps            1.321036e+13
+polly_no_tiling                    1.321036e+13
+polly_delinearize                  1.111906e+13
+pollyoptmaxconstantterm            6.341156e+12
+pollyrtcmaxparameters              4.887624e+12
+root                               4.656166e+08
+dtype: float64","count    218.000000
+mean      21.547061
+std       37.574169
+min        0.002867
+25%        3.386129
+50%       13.851736
+75%       18.580064
+max      222.991194
+Name: % error, dtype: float64",42
+57,Lasso,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.9,"value_based                   5.164993e+00
+min                           5.029253e+00
+polly_no_tiling               4.151333e+00
+parallel                      1.479063e+00
+none                          1.051705e+00
+pollydefaulttilesize_4        3.302382e-01
+pollydefaulttilesize_64       2.216536e-01
+pollyoptmaxconstantterm_10    1.615132e-01
+#yes                          1.098576e-01
+pollyoptmaxcoefficient_1      9.628665e-02
+parallel_force                6.878595e-02
+pollydefaulttilesize_1024     6.018438e-02
+pollyrtcmaxparameters_8       2.245509e-02
+max                           6.341801e-15
+memory_based                  8.728154e-16
+dtype: float64","count    218.000000
+mean      21.628989
+std       38.672593
+min        0.047365
+25%        2.872077
+50%       14.637577
+75%       18.035705
+max      230.957076
+Name: % error, dtype: float64",42
+58,Ridge,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.9,"polly_no_tiling                  3.279545
+memory_based                     2.626689
+value_based                      2.626689
+min                              2.555353
+max                              2.555353
+parallel_force                   1.242733
+#yes                             1.026015
+polly_opt_simplify_deps          0.842731
+polly_parallel                   0.705400
+polly                            0.607288
+none                             0.607288
+parallel                         0.537334
+pollydefaulttilesize_4           0.506484
+pollydefaulttilesize_64          0.471961
+pollyoptmaxconstantterm_10       0.376312
+pollyoptmaxcoefficient_1         0.298237
+pollydefaulttilesize_1024        0.262842
+pollyrtcmaxparameters_8          0.244400
+pollyoptmaxcoefficient_10000     0.226130
+pollyoptmaxconstantterm_1000     0.186763
+pollydefaulttilesize_16          0.179127
+pollyoptmaxcoefficient_10        0.157546
+pollyrtcmaxparameters_1          0.132290
+pollyrtcmaxparameters_2          0.125359
+pollydefaulttilesize_256         0.118238
+pollyoptmaxcoefficient_1000      0.115119
+pollyoptmaxconstantterm_10000    0.099991
+pollyoptmaxconstantterm_1        0.086749
+pollyoptmaxcoefficient_100       0.029681
+pollyrtcmaxparameters_4          0.015519
+pollyoptmaxconstantterm_100      0.002810
+pollyrtcmaxparameters_16         0.002271
+dtype: float64","count    218.000000
+mean      21.590440
+std       37.756226
+min        0.009954
+25%        3.571779
+50%       14.148740
+75%       18.468570
+max      229.189723
+Name: % error, dtype: float64",42
+59,ElasticNet,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=5)",Performance,0.9,"value_based                   5.164993e+00
+min                           5.029253e+00
+polly_no_tiling               4.151333e+00
+parallel                      1.479063e+00
+none                          1.051705e+00
+pollydefaulttilesize_4        3.302382e-01
+pollydefaulttilesize_64       2.216536e-01
+pollyoptmaxconstantterm_10    1.615132e-01
+#yes                          1.098576e-01
+pollyoptmaxcoefficient_1      9.628665e-02
+parallel_force                6.878595e-02
+pollydefaulttilesize_1024     6.018438e-02
+pollyrtcmaxparameters_8       2.245509e-02
+max                           6.341801e-15
+memory_based                  8.728154e-16
+dtype: float64","count    218.000000
+mean      21.628989
+std       38.672593
+min        0.047365
+25%        2.872077
+50%       14.637577
+75%       18.035705
+max      230.957076
+Name: % error, dtype: float64",42
+60,RandomForest,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"max                                10.321921
+min                                 0.000344
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.182082
+std        1.318771
+min        0.000344
+25%        0.337761
+50%        0.695639
+75%        1.812941
+max       10.321921
+Name: % error, dtype: float64",42
+61,GradientBoostingTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"max                                53.094200
+min                                 0.060109
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    218.000000
+mean       3.858229
+std        7.524900
+min        0.060109
+25%        0.731911
+50%        1.574849
+75%        2.937805
+max       53.094200
+Name: % error, dtype: float64",42
+62,DecisionTree,False,None,"Index(['root', 'polly_vectorizer', 'none', 'polly', 'polly_parallel',
+       'parallel', 'parallel_force', 'polly_no_tiling', 'polly_delinearize',
+       'polly_dependences_analysis_type', 'value_based', 'memory_based',
+       'polly_opt_fusion', 'min', 'max', 'polly_opt_simplify_deps',
+       'pollyrtcmaxparameters', 'pollyrtcmaxparameters_1',
+       'pollyrtcmaxparameters_2', 'pollyrtcmaxparameters_4',
+       'pollyrtcmaxparameters_8', 'pollyrtcmaxparameters_16',
+       'pollyoptmaxconstantterm', 'pollyoptmaxconstantterm_1',
+       'pollyoptmaxconstantterm_10', 'pollyoptmaxconstantterm_100',
+       'pollyoptmaxconstantterm_1000', 'pollyoptmaxconstantterm_10000',
+       'pollyoptmaxcoefficient', 'pollyoptmaxcoefficient_1',
+       'pollyoptmaxcoefficient_10', 'pollyoptmaxcoefficient_100',
+       'pollyoptmaxcoefficient_1000', 'pollyoptmaxcoefficient_10000',
+       'pollydefaulttilesize', 'pollydefaulttilesize_4',
+       'pollydefaulttilesize_16', 'pollydefaulttilesize_64',
+       'pollydefaulttilesize_256', 'pollydefaulttilesize_1024', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"max                                16.081791
+min                                 0.011199
+root                                     NaN
+polly_vectorizer                         NaN
+none                                     NaN
+polly                                    NaN
+polly_parallel                           NaN
+parallel                                 NaN
+parallel_force                           NaN
+polly_no_tiling                          NaN
+polly_delinearize                        NaN
+polly_dependences_analysis_type          NaN
+value_based                              NaN
+memory_based                             NaN
+polly_opt_fusion                         NaN
+polly_opt_simplify_deps                  NaN
+pollyrtcmaxparameters                    NaN
+pollyrtcmaxparameters_1                  NaN
+pollyrtcmaxparameters_2                  NaN
+pollyrtcmaxparameters_4                  NaN
+pollyrtcmaxparameters_8                  NaN
+pollyrtcmaxparameters_16                 NaN
+pollyoptmaxconstantterm                  NaN
+pollyoptmaxconstantterm_1                NaN
+pollyoptmaxconstantterm_10               NaN
+pollyoptmaxconstantterm_100              NaN
+pollyoptmaxconstantterm_1000             NaN
+pollyoptmaxconstantterm_10000            NaN
+pollyoptmaxcoefficient                   NaN
+pollyoptmaxcoefficient_1                 NaN
+pollyoptmaxcoefficient_10                NaN
+pollyoptmaxcoefficient_100               NaN
+pollyoptmaxcoefficient_1000              NaN
+pollyoptmaxcoefficient_10000             NaN
+pollydefaulttilesize                     NaN
+pollydefaulttilesize_4                   NaN
+pollydefaulttilesize_16                  NaN
+pollydefaulttilesize_64                  NaN
+pollydefaulttilesize_256                 NaN
+pollydefaulttilesize_1024                NaN
+#yes                                     NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.530714
+std        2.204505
+min        0.011199
+25%        0.288538
+50%        0.733828
+75%        2.059029
+max       16.081791
+Name: % error, dtype: float64",42

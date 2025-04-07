@@ -1,0 +1,2141 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"compressionZpaq                  8.377418e+05
+level7                           8.377418e+05
+level1                           6.218991e+05
+#yes                             3.595185e+05
+level3                           3.338524e+05
+compression                      3.271470e+05
+level8                           2.758609e+05
+compressionGzip                  2.584624e+05
+level6                           2.436024e+05
+compressionLzo                   2.231841e+05
+disableCompressibilityTesting    2.228002e+05
+compressionBzip2                 1.861224e+05
+compressionLrzip                 1.571742e+05
+level5                           1.346926e+05
+unlimitedWindowSize              7.892186e+04
+level4                           4.152573e+04
+level9                           7.415727e+03
+encryption                       6.946477e+03
+root                             1.746230e-10
+level                            5.820766e-11
+level2                           5.820766e-11
+dtype: float64","count     161.000000
+mean      344.054134
+std       450.781794
+min         0.505349
+25%        61.893406
+50%       148.177017
+75%       455.566293
+max      2300.233405
+Name: % error, dtype: float64",22
+1,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Lasso(alpha=25),Performance,0.1,"compressionZpaq                  1.676176e+06
+level1                           5.998332e+05
+#yes                             3.806453e+05
+level3                           3.135169e+05
+level8                           2.943613e+05
+compression                      2.789680e+05
+compressionGzip                  2.560676e+05
+disableCompressibilityTesting    2.444088e+05
+compressionLzo                   2.224170e+05
+level6                           2.213753e+05
+compressionBzip2                 1.843402e+05
+compressionLrzip                 1.586216e+05
+level5                           1.524311e+05
+unlimitedWindowSize              1.003399e+05
+level4                           2.198468e+04
+level7                           1.959092e+04
+encryption                       1.745501e+04
+level9                           1.104788e+04
+dtype: float64","count     161.000000
+mean      292.707692
+std       368.346542
+min         0.154247
+25%        60.534409
+50%       156.218656
+75%       338.636915
+max      2284.074612
+Name: % error, dtype: float64",22
+2,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=25),Performance,0.1,"compressionZpaq                  68923.932162
+level7                           68923.932162
+encryption                       64615.559511
+compression                      37047.508201
+compressionGzip                  32518.908413
+unlimitedWindowSize              31930.816488
+disableCompressibilityTesting    31233.463186
+level9                           29289.790537
+level3                           23019.895437
+compressionLrzip                 22541.062080
+level1                           18759.997600
+level8                           18125.968614
+compressionLzo                   13405.920622
+#yes                             10176.810193
+level5                            9527.844374
+compressionBzip2                  8492.657005
+level4                            4400.265190
+level6                            2052.107639
+dtype: float64","count    161.000000
+mean     232.893280
+std      231.439778
+min        1.834462
+25%       51.922608
+50%       92.835882
+75%      389.239815
+max      800.307103
+Name: % error, dtype: float64",22
+3,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, l1_ratio=0.1, max_iter=1)",Performance,0.1,"compressionZpaq                  316355.753926
+level7                           259428.093285
+encryption                       228097.789309
+compressionGzip                  132677.668857
+level3                            99000.610364
+level9                            97516.822727
+compression                       88083.304408
+compressionLzo                    86350.532657
+unlimitedWindowSize               83928.501928
+level8                            74602.239354
+disableCompressibilityTesting     70854.811138
+compressionBzip2                  61842.530001
+compressionLrzip                  53433.905232
+#yes                              48965.348956
+level4                            41589.591408
+level1                            29808.936760
+level5                            27416.816849
+level6                             3917.466659
+dtype: float64","count     161.000000
+mean      234.751385
+std       291.524509
+min         1.361466
+25%        49.683786
+50%        95.852971
+75%       304.219734
+max      1370.558284
+Name: % error, dtype: float64",22
+4,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     161.000000
+mean      144.336002
+std       264.519956
+min         0.278815
+25%        23.817613
+50%        62.942834
+75%       141.736492
+max      1501.929569
+Name: % error, dtype: float64",22
+5,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     161.000000
+mean      150.121906
+std       388.454819
+min         0.594854
+25%        15.876867
+50%        42.666413
+75%        84.887656
+max      2426.672142
+Name: % error, dtype: float64",22
+6,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     161.000000
+mean      228.502415
+std       791.946450
+min         0.033941
+25%         5.637450
+50%        16.927703
+75%        92.989700
+max      4722.102369
+Name: % error, dtype: float64",22
+7,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"compressionZpaq                  3.432564e+06
+level2                           1.946672e+06
+level7                           1.695712e+06
+compressionGzip                  1.024556e+06
+level8                           9.415590e+05
+level9                           8.507730e+05
+compressionBzip2                 8.271741e+05
+compression                      7.084309e+05
+compressionLzo                   6.416948e+05
+level5                           6.354843e+05
+level1                           5.588343e+05
+unlimitedWindowSize              5.364469e+05
+disableCompressibilityTesting    5.337285e+05
+level4                           3.296865e+05
+encryption                       2.802207e+05
+compressionLrzip                 2.307077e+05
+level6                           1.800200e+05
+level3                           1.460270e+05
+#yes                             6.646572e+04
+level                            1.746230e-10
+dtype: float64","count     143.000000
+mean      793.547390
+std      1209.329669
+min         0.330026
+25%       103.738475
+50%       283.824871
+75%       871.110694
+max      6531.727154
+Name: % error, dtype: float64",22
+8,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.2,"compressionZpaq                  2.790551e+06
+level7                           1.726215e+06
+compressionLzo                   1.227011e+06
+level2                           1.150257e+06
+compressionGzip                  7.719941e+05
+compressionBzip2                 7.105216e+05
+encryption                       6.771230e+05
+compressionLrzip                 5.048406e+05
+compression                      4.658217e+05
+disableCompressibilityTesting    3.257917e+05
+level8                           2.919678e+05
+level5                           2.846047e+05
+level9                           2.112990e+05
+#yes                             1.950577e+05
+unlimitedWindowSize              1.831457e+05
+level6                           1.009266e+05
+level4                           9.365585e+04
+level3                           7.066553e+04
+level1                           5.127980e+03
+dtype: float64","count     143.000000
+mean      553.621200
+std       829.129047
+min         1.248449
+25%        73.518482
+50%       272.494041
+75%       583.397708
+max      3654.315946
+Name: % error, dtype: float64",22
+9,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.2,"compressionZpaq                  791118.398856
+level8                           265112.721568
+encryption                       250719.977839
+compressionGzip                  236035.780840
+compression                      218708.861725
+level9                           173309.598612
+compressionBzip2                 162152.896468
+level1                           147061.833975
+compressionLrzip                 118123.670729
+#yes                             108626.634100
+level4                           100928.346219
+level3                            92669.168776
+level2                            70538.837932
+level7                            66514.850213
+level5                            62686.704731
+compressionLzo                    56097.189093
+disableCompressibilityTesting     44203.718944
+unlimitedWindowSize               33867.392567
+level6                            31052.278761
+dtype: float64","count     143.000000
+mean      342.584638
+std       423.219068
+min         1.025051
+25%        59.094751
+50%       131.079831
+75%       481.135759
+max      1725.630728
+Name: % error, dtype: float64",22
+10,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.8, max_iter=1)",Performance,0.2,"compressionZpaq                  650233.896160
+encryption                       249597.048969
+compressionGzip                  193721.831855
+level8                           193156.875823
+compression                      185555.197625
+compressionBzip2                 138289.883421
+level9                           131483.247606
+level1                           120708.901917
+level4                           103284.429854
+compressionLrzip                 100843.513936
+#yes                              84354.918006
+level3                            75763.806652
+level5                            75268.152933
+level7                            55679.160920
+compressionLzo                    49406.444987
+level2                            41915.785731
+disableCompressibilityTesting     37710.572387
+unlimitedWindowSize               28936.944866
+level6                            28680.412507
+dtype: float64","count     143.000000
+mean      364.430538
+std       419.097819
+min         2.530150
+25%        65.425664
+50%       160.565012
+75%       529.924635
+max      1598.907490
+Name: % error, dtype: float64",22
+11,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    143.000000
+mean      79.362660
+std      115.527660
+min        0.005986
+25%       12.869543
+50%       34.686518
+75%       85.308745
+max      542.609559
+Name: % error, dtype: float64",22
+12,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    143.000000
+mean      76.406547
+std      143.557806
+min        0.031117
+25%        7.222638
+50%       27.745932
+75%       66.784799
+max      722.316992
+Name: % error, dtype: float64",22
+13,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    143.000000
+mean      66.054748
+std      174.683490
+min        0.033652
+25%        3.724076
+50%       10.181334
+75%       19.282566
+max      729.472729
+Name: % error, dtype: float64",22
+14,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"compressionZpaq                  3.003393e+06
+level2                           1.188689e+06
+compressionGzip                  8.801578e+05
+level8                           8.068747e+05
+compressionBzip2                 7.091647e+05
+compressionLzo                   6.992552e+05
+level9                           6.776115e+05
+level3                           5.732277e+05
+compression                      5.528353e+05
+unlimitedWindowSize              5.417082e+05
+level7                           4.348887e+05
+level5                           2.943514e+05
+disableCompressibilityTesting    2.910463e+05
+level1                           2.650334e+05
+encryption                       2.500483e+05
+compressionLrzip                 1.619802e+05
+level6                           1.113046e+05
+level4                           4.162975e+04
+#yes                             2.286775e+04
+level                            1.164153e-10
+dtype: float64","count     125.000000
+mean      527.733584
+std       653.607820
+min        14.743734
+25%       102.489161
+50%       307.093246
+75%       617.941254
+max      3648.321322
+Name: % error, dtype: float64",22
+15,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.3,"compressionZpaq                  2.728863e+06
+level2                           1.544413e+06
+compressionGzip                  1.150406e+06
+compressionBzip2                 9.779930e+05
+compressionLzo                   9.675741e+05
+level3                           9.349606e+05
+level7                           7.956368e+05
+compression                      7.044322e+05
+unlimitedWindowSize              5.936394e+05
+level8                           4.444469e+05
+compressionLrzip                 4.351152e+05
+disableCompressibilityTesting    3.452587e+05
+level4                           3.211428e+05
+level9                           3.141683e+05
+encryption                       3.065018e+05
+level6                           2.526314e+05
+level1                           1.064669e+05
+#yes                             8.691507e+04
+level5                           6.973352e+04
+dtype: float64","count     125.000000
+mean      525.011815
+std       650.350225
+min        14.422612
+25%       101.034028
+50%       297.103399
+75%       614.620249
+max      3623.983700
+Name: % error, dtype: float64",22
+16,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.3,"compressionZpaq                  1.778267e+06
+level8                           5.755293e+05
+compressionGzip                  5.256822e+05
+level9                           4.732363e+05
+compressionBzip2                 3.825544e+05
+compression                      3.738001e+05
+compressionLzo                   3.255730e+05
+level2                           3.109500e+05
+level3                           3.048641e+05
+encryption                       2.146150e+05
+disableCompressibilityTesting    1.925363e+05
+level1                           1.811962e+05
+unlimitedWindowSize              1.723788e+05
+compressionLrzip                 1.706573e+05
+#yes                             1.680700e+05
+level4                           1.263711e+05
+level6                           1.149918e+05
+level5                           3.689634e+04
+level7                           2.650406e+04
+dtype: float64","count     125.000000
+mean      256.253144
+std       384.901519
+min         0.272049
+25%        30.690668
+50%        99.800235
+75%       255.988293
+max      1878.416555
+Name: % error, dtype: float64",22
+17,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, max_iter=1)",Performance,0.3,"compressionZpaq                  1.701277e+06
+compressionLzo                   5.366882e+05
+compressionGzip                  4.932689e+05
+compression                      4.214308e+05
+compressionBzip2                 3.962313e+05
+level8                           3.892770e+05
+level9                           3.727648e+05
+level3                           3.251279e+05
+encryption                       2.945691e+05
+level2                           2.607805e+05
+level4                           2.171546e+05
+compressionLrzip                 2.169023e+05
+level1                           1.909758e+05
+disableCompressibilityTesting    1.653456e+05
+level6                           1.584498e+05
+level5                           1.496397e+05
+#yes                             1.305905e+05
+unlimitedWindowSize              1.185376e+05
+level7                           3.781073e+04
+dtype: float64","count     125.000000
+mean      199.591111
+std       289.742065
+min         0.652056
+25%        29.668458
+50%       105.758461
+75%       245.201646
+max      1445.422408
+Name: % error, dtype: float64",22
+18,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    125.000000
+mean      74.545369
+std      130.204227
+min        0.107076
+25%        5.103838
+50%       20.442007
+75%       67.052625
+max      522.305690
+Name: % error, dtype: float64",22
+19,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     125.000000
+mean      112.989095
+std       281.571117
+min         0.387236
+25%         4.769288
+50%        15.925919
+75%        55.397746
+max      1482.278803
+Name: % error, dtype: float64",22
+20,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    125.000000
+mean      58.742787
+std      159.426738
+min        0.012883
+25%        1.430405
+50%        4.985750
+75%       23.218575
+max      755.617677
+Name: % error, dtype: float64",22
+21,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"compression                      2.454641e+20
+unlimitedWindowSize              1.286750e+20
+encryption                       1.286750e+20
+disableCompressibilityTesting    1.286750e+20
+#yes                             1.286750e+20
+level8                           2.364152e+19
+level9                           2.364152e+19
+level5                           2.364152e+19
+level1                           2.364152e+19
+level4                           2.364152e+19
+level6                           2.364152e+19
+level7                           2.364152e+19
+level3                           2.364152e+19
+level2                           2.364152e+19
+level                            1.498044e+19
+compressionLzo                   1.188603e+19
+compressionGzip                  1.188603e+19
+compressionBzip2                 1.188603e+19
+compressionLrzip                 1.188603e+19
+compressionZpaq                  1.188603e+19
+dtype: float64","count     107.000000
+mean      457.894032
+std       517.570829
+min         5.399605
+25%        96.939058
+50%       276.251009
+75%       596.816536
+max      2485.536906
+Name: % error, dtype: float64",22
+22,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.4,"compressionZpaq                  2.927033e+06
+level2                           1.061632e+06
+compressionLzo                   9.309716e+05
+compressionGzip                  8.259132e+05
+level3                           7.074043e+05
+compressionBzip2                 6.657217e+05
+compression                      6.034542e+05
+level7                           5.779425e+05
+unlimitedWindowSize              4.253970e+05
+level8                           4.100674e+05
+encryption                       3.127707e+05
+level4                           3.059936e+05
+compressionLrzip                 2.870603e+05
+level9                           1.831736e+05
+level6                           1.828417e+05
+disableCompressibilityTesting    1.185168e+05
+level5                           1.113939e+05
+level1                           9.695964e+04
+#yes                             6.547215e+04
+dtype: float64","count     107.000000
+mean      418.349869
+std       491.244741
+min        12.838115
+25%        78.298933
+50%       231.266195
+75%       468.547980
+max      2303.062083
+Name: % error, dtype: float64",22
+23,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.4,"compressionZpaq                  1.215121e+06
+level8                           4.010367e+05
+compressionLzo                   3.135944e+05
+compressionGzip                  3.026435e+05
+compression                      2.615552e+05
+level9                           2.565668e+05
+compressionBzip2                 2.314186e+05
+encryption                       1.640116e+05
+level3                           1.584339e+05
+level1                           1.583384e+05
+level2                           1.539340e+05
+disableCompressibilityTesting    1.363574e+05
+#yes                             1.301641e+05
+compressionLrzip                 1.059093e+05
+level4                           9.739049e+04
+unlimitedWindowSize              9.257720e+04
+level6                           8.850598e+04
+level5                           6.131261e+04
+level7                           6.031192e+04
+dtype: float64","count     107.000000
+mean      185.520734
+std       241.477297
+min         5.450074
+25%        37.155813
+50%       120.477832
+75%       208.681151
+max      1417.713381
+Name: % error, dtype: float64",22
+24,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, max_iter=100)",Performance,0.4,"compressionZpaq                  1.172350e+06
+level8                           3.896057e+05
+compressionLzo                   3.016852e+05
+compressionGzip                  2.911496e+05
+compression                      2.547395e+05
+level9                           2.501000e+05
+compressionBzip2                 2.232415e+05
+encryption                       1.598576e+05
+level1                           1.575527e+05
+level3                           1.521515e+05
+level2                           1.454975e+05
+disableCompressibilityTesting    1.357963e+05
+#yes                             1.266939e+05
+compressionLrzip                 1.015302e+05
+level4                           9.604091e+04
+level6                           8.722222e+04
+unlimitedWindowSize              8.712936e+04
+level5                           6.134156e+04
+level7                           6.010369e+04
+dtype: float64","count     107.000000
+mean      190.913914
+std       243.712323
+min        14.201236
+25%        38.155014
+50%       142.215530
+75%       221.667444
+max      1416.950406
+Name: % error, dtype: float64",22
+25,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    107.000000
+mean      50.040492
+std      108.433150
+min        0.139609
+25%        3.510130
+50%       10.533241
+75%       33.163871
+max      479.438222
+Name: % error, dtype: float64",22
+26,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    107.000000
+mean      55.963433
+std      106.213114
+min        0.092962
+25%        3.615730
+50%       14.212601
+75%       46.798657
+max      624.960851
+Name: % error, dtype: float64",22
+27,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    107.000000
+mean      65.885067
+std      170.794582
+min        0.004482
+25%        1.168728
+50%        5.570985
+75%       28.417885
+max      757.721703
+Name: % error, dtype: float64",22
+28,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"compressionLzo                   2.004013e+20
+compressionGzip                  2.004013e+20
+compressionBzip2                 2.004013e+20
+compressionLrzip                 2.004013e+20
+compressionZpaq                  2.004013e+20
+compression                      1.489881e+20
+level2                           1.048853e+20
+level3                           1.048853e+20
+level6                           1.048853e+20
+level7                           1.048853e+20
+level4                           1.048853e+20
+level1                           1.048853e+20
+level5                           1.048853e+20
+level9                           1.048853e+20
+level8                           1.048853e+20
+level                            6.600671e+19
+unlimitedWindowSize              2.570662e+19
+encryption                       2.570662e+19
+disableCompressibilityTesting    2.570662e+19
+#yes                             2.570662e+19
+dtype: float64","count      89.000000
+mean      338.353307
+std       443.572765
+min         5.465079
+25%        52.919535
+50%       197.350272
+75%       376.307042
+max      2159.170026
+Name: % error, dtype: float64",22
+29,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.5,"compressionZpaq                  2.249960e+06
+compressionLzo                   8.623319e+05
+level2                           7.728661e+05
+compressionGzip                  7.664341e+05
+compressionBzip2                 7.108342e+05
+compression                      6.835440e+05
+level3                           5.806792e+05
+level4                           4.412780e+05
+unlimitedWindowSize              3.945926e+05
+level8                           3.668644e+05
+encryption                       3.639432e+05
+compressionLrzip                 3.048237e+05
+level6                           3.002180e+05
+level1                           2.387033e+05
+level7                           2.154465e+05
+level9                           1.960477e+05
+level5                           1.563971e+05
+disableCompressibilityTesting    1.500590e+05
+#yes                             1.750784e+04
+dtype: float64","count      89.000000
+mean      296.780741
+std       355.328550
+min         0.560849
+25%        53.613690
+50%       148.420190
+75%       334.986612
+max      1690.238190
+Name: % error, dtype: float64",22
+30,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.5,"compressionZpaq                  1.754678e+06
+compressionLzo                   5.094724e+05
+level8                           4.586440e+05
+compressionGzip                  4.100924e+05
+compressionBzip2                 3.732905e+05
+compression                      3.471166e+05
+level9                           3.353640e+05
+level2                           2.756918e+05
+encryption                       2.446520e+05
+level3                           2.282310e+05
+unlimitedWindowSize              2.068544e+05
+disableCompressibilityTesting    1.514721e+05
+level1                           1.493625e+05
+compressionLrzip                 1.147066e+05
+level4                           9.523536e+04
+#yes                             9.125470e+04
+level6                           5.756390e+04
+level7                           4.461880e+04
+level5                           3.254232e+04
+dtype: float64","count      89.000000
+mean      148.857949
+std       179.318222
+min         1.818511
+25%        38.608669
+50%        92.540649
+75%       217.977847
+max      1135.712096
+Name: % error, dtype: float64",22
+31,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, max_iter=100)",Performance,0.5,"compressionZpaq                  1.702961e+06
+compressionLzo                   4.953924e+05
+level8                           4.464352e+05
+compressionGzip                  3.962162e+05
+compressionBzip2                 3.611385e+05
+compression                      3.380945e+05
+level9                           3.271132e+05
+level2                           2.609622e+05
+encryption                       2.358119e+05
+level3                           2.202430e+05
+unlimitedWindowSize              1.947313e+05
+level1                           1.542527e+05
+disableCompressibilityTesting    1.519180e+05
+compressionLrzip                 1.121150e+05
+#yes                             9.372589e+04
+level4                           8.877762e+04
+level6                           5.666013e+04
+level7                           4.451342e+04
+level5                           3.716326e+04
+dtype: float64","count      89.000000
+mean      141.663934
+std       169.661545
+min         0.055235
+25%        38.975218
+50%        84.504316
+75%       209.871829
+max      1120.785566
+Name: % error, dtype: float64",22
+32,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     89.000000
+mean      30.428013
+std       60.908254
+min        0.091158
+25%        3.729966
+50%        8.717720
+75%       21.739258
+max      287.104046
+Name: % error, dtype: float64",22
+33,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     89.000000
+mean      39.104405
+std       76.034703
+min        0.047689
+25%        6.047519
+50%       15.062140
+75%       35.078216
+max      484.847466
+Name: % error, dtype: float64",22
+34,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     89.000000
+mean      21.940813
+std       54.678529
+min        0.002201
+25%        0.923850
+50%        4.885787
+75%       11.923534
+max      238.290395
+Name: % error, dtype: float64",22
+35,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"compression                      1.605789e+20
+disableCompressibilityTesting    9.196115e+19
+#yes                             9.196115e+19
+encryption                       9.196115e+19
+unlimitedWindowSize              9.196115e+19
+level3                           2.409618e+19
+level1                           2.409618e+19
+level2                           2.409618e+19
+level4                           2.409618e+19
+level5                           2.409618e+19
+level6                           2.409618e+19
+level7                           2.409618e+19
+level9                           2.409618e+19
+level8                           2.409618e+19
+compressionZpaq                  2.334340e+19
+compressionLrzip                 2.334340e+19
+compressionBzip2                 2.334340e+19
+compressionGzip                  2.334340e+19
+compressionLzo                   2.334340e+19
+level                            3.340598e+18
+dtype: float64","count      72.000000
+mean      310.376521
+std       375.668920
+min        11.216515
+25%        54.237744
+50%       216.950201
+75%       328.720765
+max      1849.025887
+Name: % error, dtype: float64",22
+36,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.6,"compressionZpaq                  2.063079e+06
+compressionLzo                   8.846008e+05
+compressionGzip                  8.382226e+05
+level3                           8.160046e+05
+compressionBzip2                 7.597087e+05
+compression                      7.463239e+05
+level1                           5.565730e+05
+level2                           5.170670e+05
+level4                           4.340493e+05
+compressionLrzip                 4.324929e+05
+level8                           4.285174e+05
+level6                           3.220487e+05
+level5                           3.210437e+05
+unlimitedWindowSize              3.061728e+05
+level9                           2.901939e+05
+level7                           2.381787e+05
+encryption                       2.226597e+05
+#yes                             1.164018e+05
+disableCompressibilityTesting    7.086377e+04
+dtype: float64","count      72.000000
+mean      289.604880
+std       374.750417
+min         9.067441
+25%        57.454203
+50%       154.016253
+75%       304.853751
+max      1786.809850
+Name: % error, dtype: float64",22
+37,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=2),Performance,0.6,"compressionZpaq                  2.061915e+06
+level8                           6.261142e+05
+compressionLzo                   5.649405e+05
+compressionGzip                  5.154254e+05
+level9                           5.094175e+05
+compressionBzip2                 4.370857e+05
+level3                           4.282265e+05
+compression                      3.845396e+05
+unlimitedWindowSize              2.894547e+05
+level1                           2.732749e+05
+level2                           2.282890e+05
+encryption                       2.143759e+05
+compressionLrzip                 1.599237e+05
+#yes                             1.481026e+05
+level4                           1.289045e+05
+disableCompressibilityTesting    1.171460e+05
+level6                           5.869333e+04
+level5                           5.116265e+04
+level7                           3.301920e+04
+dtype: float64","count      72.000000
+mean      219.429778
+std       303.260614
+min         0.939695
+25%        32.882603
+50%       114.467139
+75%       262.605740
+max      1468.653630
+Name: % error, dtype: float64",22
+38,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.1, max_iter=5)",Performance,0.6,"compressionZpaq                  1.781794e+06
+level8                           5.361702e+05
+compressionLzo                   5.042868e+05
+compressionGzip                  4.542604e+05
+level9                           4.408423e+05
+compression                      3.824306e+05
+compressionBzip2                 3.801892e+05
+level3                           3.384059e+05
+level1                           2.714623e+05
+unlimitedWindowSize              2.233359e+05
+level2                           2.185326e+05
+encryption                       1.551948e+05
+compressionLrzip                 1.470379e+05
+#yes                             1.302631e+05
+disableCompressibilityTesting    1.123601e+05
+level4                           1.095631e+05
+level6                           7.120010e+04
+level5                           5.867246e+04
+level7                           2.306404e+04
+dtype: float64","count      72.000000
+mean      165.129374
+std       235.441280
+min         3.322572
+25%        28.431694
+50%        69.068263
+75%       226.186378
+max      1363.280732
+Name: % error, dtype: float64",22
+39,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     72.000000
+mean      15.328559
+std       24.646217
+min        0.351597
+25%        3.689107
+50%        6.732092
+75%       11.202550
+max      129.514490
+Name: % error, dtype: float64",22
+40,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     72.000000
+mean      28.479962
+std       60.941258
+min        0.274954
+25%        5.315165
+50%       10.528580
+75%       20.800867
+max      374.710337
+Name: % error, dtype: float64",22
+41,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    72.000000
+mean      6.312088
+std       9.129756
+min       0.033652
+25%       0.720904
+50%       3.388402
+75%       7.380282
+max      46.824255
+Name: % error, dtype: float64",22
+42,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"compressionZpaq                  2.058933e+06
+level8                           6.691880e+05
+level9                           5.832705e+05
+compressionLzo                   5.770379e+05
+compressionGzip                  5.222131e+05
+compressionBzip2                 4.578524e+05
+level1                           3.833620e+05
+compression                      3.708316e+05
+level3                           3.489409e+05
+unlimitedWindowSize              2.660762e+05
+level2                           2.604367e+05
+disableCompressibilityTesting    1.872581e+05
+encryption                       1.791388e+05
+compressionLrzip                 1.309980e+05
+level4                           1.274167e+05
+#yes                             1.091901e+05
+level5                           1.084022e+05
+level6                           5.684884e+04
+level7                           3.294876e+04
+level                            5.820766e-11
+dtype: float64","count     54.000000
+mean     180.120510
+std      179.166144
+min        2.582734
+25%       34.006375
+50%      148.728185
+75%      252.895748
+max      852.153029
+Name: % error, dtype: float64",22
+43,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=1)",Performance,0.7,"compressionZpaq                  1.930981e+06
+compressionLzo                   1.078087e+06
+compressionGzip                  7.866441e+05
+compression                      6.120984e+05
+level3                           5.830330e+05
+compressionBzip2                 5.364939e+05
+level1                           4.733400e+05
+level8                           4.009704e+05
+level5                           3.954049e+05
+compressionLrzip                 3.785059e+05
+level4                           3.422750e+05
+level9                           3.400306e+05
+level2                           3.357687e+05
+level6                           3.076449e+05
+level7                           2.625005e+05
+unlimitedWindowSize              2.154331e+05
+disableCompressibilityTesting    1.454980e+05
+encryption                       1.439145e+05
+#yes                             8.576313e+04
+dtype: float64","count     54.000000
+mean     185.000364
+std      216.590447
+min        1.130252
+25%       23.852392
+50%      105.120628
+75%      279.444182
+max      936.637305
+Name: % error, dtype: float64",22
+44,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.7,"compressionZpaq                  1.721980e+06
+level8                           5.390189e+05
+compressionLzo                   4.960585e+05
+level9                           4.749537e+05
+compressionGzip                  4.331221e+05
+compressionBzip2                 3.579963e+05
+level1                           3.344519e+05
+compression                      3.219461e+05
+level3                           2.710309e+05
+unlimitedWindowSize              2.175259e+05
+level2                           2.166754e+05
+disableCompressibilityTesting    1.661116e+05
+encryption                       1.504768e+05
+compressionLrzip                 1.128571e+05
+#yes                             1.097778e+05
+level4                           9.175093e+04
+level5                           7.501009e+04
+level6                           6.716135e+04
+level7                           4.210804e+04
+dtype: float64","count     54.000000
+mean     111.119924
+std      123.963955
+min        0.096169
+25%       10.084179
+50%       68.156459
+75%      189.681100
+max      556.358898
+Name: % error, dtype: float64",22
+45,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.1, max_iter=1)",Performance,0.7,"compressionZpaq                  1.583740e+06
+compressionLzo                   7.579000e+05
+compressionGzip                  5.479902e+05
+compression                      4.652500e+05
+level8                           3.890454e+05
+level3                           3.673479e+05
+level1                           3.665150e+05
+compressionBzip2                 3.631677e+05
+level9                           3.538149e+05
+level2                           2.445450e+05
+compressionLrzip                 2.032830e+05
+level5                           1.901410e+05
+level4                           1.840866e+05
+level6                           1.733685e+05
+unlimitedWindowSize              1.565638e+05
+disableCompressibilityTesting    1.271667e+05
+encryption                       1.214468e+05
+#yes                             8.736800e+04
+level7                           7.444711e+04
+dtype: float64","count     54.000000
+mean      98.334307
+std      107.113701
+min        0.499969
+25%       25.851177
+50%       52.665296
+75%      160.836205
+max      483.059124
+Name: % error, dtype: float64",22
+46,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     54.000000
+mean      11.724390
+std       23.249764
+min        0.270009
+25%        2.035687
+50%        5.145438
+75%        8.798592
+max      118.031917
+Name: % error, dtype: float64",22
+47,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    54.000000
+mean     11.992565
+std      12.331237
+min       0.011638
+25%       4.685957
+50%       7.580201
+75%      15.535429
+max      56.631680
+Name: % error, dtype: float64",22
+48,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    54.000000
+mean      4.091588
+std       4.655233
+min       0.002201
+25%       0.342183
+50%       2.413389
+75%       5.580953
+max      16.963883
+Name: % error, dtype: float64",22
+49,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"compression                      5.185679e+19
+encryption                       2.038727e+19
+unlimitedWindowSize              2.038727e+19
+disableCompressibilityTesting    2.038727e+19
+#yes                             2.038727e+19
+level                            1.600424e+19
+compressionZpaq                  1.108225e+19
+compressionLrzip                 1.108225e+19
+compressionBzip2                 1.108225e+19
+compressionGzip                  1.108225e+19
+compressionLzo                   1.108225e+19
+level3                           9.271337e+18
+level1                           9.271337e+18
+level2                           9.271337e+18
+level4                           9.271337e+18
+level5                           9.271337e+18
+level6                           9.271337e+18
+level7                           9.271337e+18
+level9                           9.271337e+18
+level8                           9.271337e+18
+dtype: float64","count     36.000000
+mean     171.552875
+std      171.199900
+min        5.655690
+25%       26.382655
+50%      133.882805
+75%      239.971668
+max      683.532459
+Name: % error, dtype: float64",22
+50,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Lasso(alpha=25),Performance,0.8,"compressionZpaq                  1.881260e+06
+level8                           6.804707e+05
+compression                      6.126911e+05
+compressionLzo                   5.979721e+05
+level9                           5.681694e+05
+compressionGzip                  5.393376e+05
+compressionBzip2                 4.456418e+05
+level3                           4.144689e+05
+level1                           3.338411e+05
+level2                           2.557852e+05
+encryption                       1.576859e+05
+unlimitedWindowSize              1.546595e+05
+disableCompressibilityTesting    1.256222e+05
+compressionLrzip                 1.251936e+05
+level4                           1.172515e+05
+level5                           1.048197e+05
+#yes                             9.663794e+04
+level7                           8.426597e+04
+level6                           4.215959e+04
+dtype: float64","count     36.000000
+mean     156.143735
+std      159.553781
+min        1.674717
+25%       34.949575
+50%      114.643745
+75%      238.706061
+max      650.408837
+Name: % error, dtype: float64",22
+51,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.8,"compressionZpaq                  1.640953e+06
+level8                           5.455755e+05
+compressionLzo                   4.873057e+05
+level9                           4.601076e+05
+compressionGzip                  4.250109e+05
+compressionBzip2                 3.287851e+05
+level3                           3.266327e+05
+level1                           3.211707e+05
+compression                      3.180313e+05
+level2                           2.119129e+05
+encryption                       2.056986e+05
+unlimitedWindowSize              1.970390e+05
+disableCompressibilityTesting    1.838666e+05
+compressionLrzip                 8.181963e+04
+level4                           7.788922e+04
+level5                           7.386010e+04
+level7                           6.943864e+04
+level6                           6.365614e+04
+#yes                             4.945852e+04
+dtype: float64","count     36.000000
+mean     102.248288
+std      103.857466
+min        1.415768
+25%       21.880347
+50%       57.991304
+75%      175.055047
+max      387.167947
+Name: % error, dtype: float64",22
+52,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.1, max_iter=10)",Performance,0.8,"compressionZpaq                  1.511306e+06
+level8                           4.897314e+05
+compressionLzo                   4.517817e+05
+level9                           4.154361e+05
+compressionGzip                  3.890660e+05
+level1                           3.036998e+05
+compression                      3.008418e+05
+compressionBzip2                 2.938578e+05
+level3                           2.877001e+05
+level2                           1.909450e+05
+encryption                       1.826807e+05
+unlimitedWindowSize              1.726130e+05
+disableCompressibilityTesting    1.660037e+05
+compressionLrzip                 7.718230e+04
+level6                           6.698880e+04
+level7                           6.420433e+04
+level4                           6.136938e+04
+level5                           6.002088e+04
+#yes                             5.903306e+04
+dtype: float64","count     36.000000
+mean      94.647830
+std       80.889198
+min        3.171779
+25%       24.755209
+50%       76.568312
+75%      133.128015
+max      287.151832
+Name: % error, dtype: float64",22
+53,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    36.000000
+mean     11.861817
+std      21.616515
+min       1.521725
+25%       3.502731
+50%       5.814736
+75%      10.072768
+max      98.899226
+Name: % error, dtype: float64",22
+54,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     36.000000
+mean      16.803775
+std       18.904454
+min        0.759107
+25%        4.712566
+50%       12.956690
+75%       24.467759
+max      104.283233
+Name: % error, dtype: float64",22
+55,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    36.000000
+mean      3.499406
+std       3.860748
+min       0.033652
+25%       0.466540
+50%       1.970357
+75%       5.004445
+max      13.584073
+Name: % error, dtype: float64",22
+56,LinearRegression,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"compressionLzo                   3.999576e+18
+compressionGzip                  3.999576e+18
+compressionBzip2                 3.999576e+18
+compressionLrzip                 3.999576e+18
+compressionZpaq                  3.999576e+18
+compression                      1.791066e+18
+level3                           1.423717e+18
+level1                           1.423717e+18
+level2                           1.423717e+18
+level4                           1.423717e+18
+level5                           1.423717e+18
+level6                           1.423717e+18
+level7                           1.423717e+18
+level9                           1.423717e+18
+level8                           1.423717e+18
+level                            1.125144e+18
+encryption                       1.104255e+18
+unlimitedWindowSize              1.104255e+18
+disableCompressibilityTesting    1.104255e+18
+#yes                             1.104255e+18
+dtype: float64","count     18.000000
+mean     105.965377
+std       97.314611
+min        6.079268
+25%       20.655503
+50%       68.942822
+75%      207.764347
+max      247.846103
+Name: % error, dtype: float64",22
+57,Lasso,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","Lasso(alpha=25, max_iter=5)",Performance,0.9,"compressionZpaq                  1.627373e+06
+compressionLzo                   8.114416e+05
+compressionGzip                  7.472593e+05
+compression                      6.653719e+05
+compressionBzip2                 6.199055e+05
+level3                           5.701405e+05
+level1                           4.998565e+05
+level8                           4.832763e+05
+level2                           4.115214e+05
+level9                           3.677817e+05
+compressionLrzip                 3.476457e+05
+level4                           2.962889e+05
+level5                           2.920511e+05
+level6                           2.607148e+05
+encryption                       2.230375e+05
+unlimitedWindowSize              2.105814e+05
+disableCompressibilityTesting    1.978772e+05
+level7                           1.450026e+05
+#yes                             3.327753e+03
+dtype: float64","count     18.000000
+mean     105.458322
+std       96.737751
+min        5.654740
+25%       21.707585
+50%       70.885470
+75%      203.378886
+max      249.608140
+Name: % error, dtype: float64",22
+58,Ridge,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",Ridge(alpha=10),Performance,0.9,"compressionZpaq                  1.365011e+06
+level8                           4.241819e+05
+compressionLzo                   4.108042e+05
+level9                           3.623233e+05
+compressionGzip                  3.548721e+05
+compression                      2.693101e+05
+level1                           2.684237e+05
+compressionBzip2                 2.578038e+05
+level3                           2.392807e+05
+level2                           1.643859e+05
+encryption                       1.608516e+05
+unlimitedWindowSize              1.553701e+05
+disableCompressibilityTesting    1.492140e+05
+#yes                             7.318447e+04
+compressionLrzip                 7.222061e+04
+level4                           5.634431e+04
+level5                           5.433603e+04
+level6                           5.389258e+04
+level7                           5.015803e+04
+dtype: float64","count     18.000000
+mean     103.283749
+std       82.728395
+min       14.392173
+25%       37.224785
+50%       77.509518
+75%      170.395887
+max      321.846290
+Name: % error, dtype: float64",22
+59,ElasticNet,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.1, max_iter=100)",Performance,0.9,"compressionZpaq                  1.218894e+06
+compressionLzo                   3.674992e+05
+level8                           3.662602e+05
+level9                           3.153957e+05
+compressionGzip                  3.153061e+05
+level1                           2.449206e+05
+compression                      2.446341e+05
+compressionBzip2                 2.272485e+05
+level3                           2.043009e+05
+level2                           1.463277e+05
+encryption                       1.414342e+05
+unlimitedWindowSize              1.374920e+05
+disableCompressibilityTesting    1.329085e+05
+#yes                             7.743316e+04
+compressionLrzip                 6.420523e+04
+level7                           4.916514e+04
+level6                           4.748812e+04
+level4                           4.467111e+04
+level5                           4.311235e+04
+dtype: float64","count     18.000000
+mean     113.923551
+std       94.751777
+min       19.867995
+25%       47.925972
+50%       83.863734
+75%      153.663217
+max      383.201103
+Name: % error, dtype: float64",22
+60,RandomForest,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count     18.000000
+mean      18.599531
+std       36.792217
+min        0.517165
+25%        3.843614
+50%        5.063596
+75%       10.834232
+max      120.036471
+Name: % error, dtype: float64",22
+61,GradientBoostingTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    18.000000
+mean     13.205766
+std      14.900928
+min       0.383996
+25%       5.516759
+50%       9.080748
+75%      16.217418
+max      66.074831
+Name: % error, dtype: float64",22
+62,DecisionTree,False,None,"Index(['root', 'encryption', 'compression', 'compressionBzip2',
+       'compressionGzip', 'compressionLzo', 'compressionZpaq',
+       'compressionLrzip', 'level', 'level1', 'level2', 'level3', 'level4',
+       'level5', 'level6', 'level7', 'level8', 'level9', 'unlimitedWindowSize',
+       'disableCompressibilityTesting', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"root                            NaN
+encryption                      NaN
+compression                     NaN
+compressionBzip2                NaN
+compressionGzip                 NaN
+compressionLzo                  NaN
+compressionZpaq                 NaN
+compressionLrzip                NaN
+level                           NaN
+level1                          NaN
+level2                          NaN
+level3                          NaN
+level4                          NaN
+level5                          NaN
+level6                          NaN
+level7                          NaN
+level8                          NaN
+level9                          NaN
+unlimitedWindowSize             NaN
+disableCompressibilityTesting   NaN
+#yes                            NaN
+Name: % error, dtype: float64","count    18.000000
+mean      2.288780
+std       3.059153
+min       0.033652
+25%       0.400721
+50%       0.863721
+75%       2.637953
+max      10.807953
+Name: % error, dtype: float64",22

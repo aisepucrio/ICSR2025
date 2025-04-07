@@ -1,0 +1,5058 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    12.704557
+PS16K           6.031029
+PS1K            3.627828
+PS32K           3.417893
+PS8K            0.551703
+dtype: float64","count     309.000000
+mean      441.147735
+std       422.013247
+min         0.065317
+25%        61.106974
+50%       455.297886
+75%       587.032254
+max      1801.092204
+Name: % error, dtype: float64",5
+1,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.1,"HAVE_CRYPTO    11.843064
+PS16K           5.174783
+PS1K            2.846088
+PS32K           1.921337
+dtype: float64","count     309.000000
+mean      363.924789
+std       303.675369
+min         4.285028
+25%        67.754260
+50%       406.371499
+75%       464.330324
+max      1326.211744
+Name: % error, dtype: float64",5
+2,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=0.3),Performance,0.1,"HAVE_CRYPTO    12.003645
+PS16K           5.665407
+PS1K            3.331834
+PS32K           2.774695
+PS8K            0.680137
+dtype: float64","count     309.000000
+mean      393.577659
+std       366.648771
+min         0.381269
+25%        66.155769
+50%       361.077449
+75%       494.773114
+max      1578.494461
+Name: % error, dtype: float64",5
+3,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=10)",Performance,0.1,"HAVE_CRYPTO    11.365171
+PS16K           5.324457
+PS1K            3.054949
+PS32K           2.215082
+PS8K            0.749620
+dtype: float64","count     309.000000
+mean      350.618481
+std       320.927282
+min         1.382518
+25%        68.100920
+50%       254.830885
+75%       493.969118
+max      1373.170231
+Name: % error, dtype: float64",5
+4,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    3.032387
+PS8K           1.413490
+PS32K          0.233439
+PS16K          0.203021
+PS1K           0.028931
+dtype: float64","count    309.000000
+mean      79.775820
+std      165.881594
+min        0.001626
+25%        1.816990
+50%       11.363811
+75%       37.478438
+max      579.723031
+Name: % error, dtype: float64",5
+5,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.1,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    309.000000
+mean      41.198418
+std       63.364161
+min        0.019573
+25%        2.215650
+50%       11.845573
+75%       38.776658
+max      230.436501
+Name: % error, dtype: float64",5
+6,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    309.000000
+mean      64.075811
+std      124.141893
+min        0.010094
+25%        2.144390
+50%       11.658117
+75%       37.258114
+max      438.932752
+Name: % error, dtype: float64",5
+7,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    309.000000
+mean      18.152951
+std       20.734656
+min        0.001626
+25%        1.816990
+50%        8.769094
+75%       35.602136
+max       83.279739
+Name: % error, dtype: float64",5
+8,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO    10.737450
+PS16K           5.481598
+PS32K           2.966699
+PS8K            2.101803
+PS1K            0.323750
+dtype: float64","count    275.000000
+mean     260.514564
+std      204.429388
+min        2.422106
+25%       44.243529
+50%      194.213525
+75%      473.806904
+max      519.642459
+Name: % error, dtype: float64",5
+9,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.2,"HAVE_CRYPTO    10.644968
+PS16K           5.287822
+PS32K           2.722754
+PS8K            1.902130
+PS1K            0.074739
+dtype: float64","count    275.000000
+mean     254.711562
+std      198.367923
+min        1.445714
+25%       46.746923
+50%      193.679320
+75%      461.712004
+max      533.992263
+Name: % error, dtype: float64",5
+10,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=0.8),Performance,0.2,"HAVE_CRYPTO    10.013816
+PS16K           4.808698
+PS32K           2.126019
+PS8K            1.700962
+PS1K            0.176624
+dtype: float64","count    275.000000
+mean     225.204490
+std      183.919653
+min        1.406274
+25%       31.499597
+50%      196.307667
+75%      351.970062
+max      498.905779
+Name: % error, dtype: float64",5
+11,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=100)",Performance,0.2,"HAVE_CRYPTO    10.113301
+PS16K           4.894534
+PS32K           2.231269
+PS8K            1.748410
+PS1K            0.119082
+dtype: float64","count    275.000000
+mean     228.632221
+std      187.370746
+min        0.875856
+25%       31.022721
+50%      195.976583
+75%      369.755330
+max      498.236584
+Name: % error, dtype: float64",5
+12,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO    3.633026e+14
+PS8K           8.044603e+13
+PS16K          4.316007e+13
+PS32K          2.388875e+13
+PS1K           1.678500e+12
+dtype: float64","count    2.750000e+02
+mean     6.700879e+11
+std      3.455949e+12
+min      1.194214e+00
+25%      1.635301e+01
+50%      1.902071e+01
+75%      2.474180e+01
+max      1.854873e+13
+Name: % error, dtype: float64",5
+13,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.2,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    275.000000
+mean      21.948142
+std       18.815616
+min        0.189145
+25%        4.556529
+50%       22.378865
+75%       34.033394
+max       87.463014
+Name: % error, dtype: float64",5
+14,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    275.000000
+mean      21.515849
+std       18.451391
+min        0.266229
+25%        5.687999
+50%       20.716700
+75%       33.971029
+max       83.582160
+Name: % error, dtype: float64",5
+15,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    275.000000
+mean      21.525523
+std       18.958511
+min        0.053352
+25%        3.873132
+50%       22.691897
+75%       35.162562
+max       83.677167
+Name: % error, dtype: float64",5
+16,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO    12.249830
+PS16K           5.431147
+PS32K           4.850486
+PS8K            1.935877
+PS1K            0.030174
+dtype: float64","count    241.000000
+mean     305.388811
+std      203.873088
+min       12.070101
+25%      138.323999
+50%      406.509676
+75%      496.712164
+max      684.268215
+Name: % error, dtype: float64",5
+17,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.3, max_iter=5)",Performance,0.3,"HAVE_CRYPTO    10.272356
+PS16K           2.607707
+PS32K           0.598931
+dtype: float64","count    241.000000
+mean     112.758716
+std      133.228983
+min        0.059801
+25%       33.477070
+50%       37.379126
+75%      134.492526
+max      423.189679
+Name: % error, dtype: float64",5
+18,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=4),Performance,0.3,"HAVE_CRYPTO    10.084718
+PS16K           3.829379
+PS32K           2.538334
+PS1K            0.874301
+PS8K            0.789527
+dtype: float64","count    241.000000
+mean     201.532594
+std      161.068981
+min        1.734727
+25%       49.592076
+50%      168.640897
+75%      330.569104
+max      470.616295
+Name: % error, dtype: float64",5
+19,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.3, l1_ratio=1.0, max_iter=5)",Performance,0.3,"HAVE_CRYPTO    10.272356
+PS16K           2.607707
+PS32K           0.598931
+dtype: float64","count    241.000000
+mean     112.758716
+std      133.228983
+min        0.059801
+25%       33.477070
+50%       37.379126
+75%      134.492526
+max      423.189679
+Name: % error, dtype: float64",5
+20,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO    1.421509e+14
+PS8K           3.300113e+13
+PS16K          3.252791e+13
+PS1K           2.050923e+13
+PS32K          1.253285e+13
+dtype: float64","count    241.000000
+mean      18.663705
+std       13.886183
+min        0.000348
+25%        2.400477
+50%       20.477119
+75%       32.027110
+max       61.173573
+Name: % error, dtype: float64",5
+21,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.3,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    241.000000
+mean      20.470432
+std       14.671673
+min        0.217494
+25%        5.552518
+50%       20.969478
+75%       34.742682
+max       68.555665
+Name: % error, dtype: float64",5
+22,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    241.000000
+mean      19.394503
+std       14.578023
+min        0.030104
+25%        5.498941
+50%       18.854891
+75%       30.781839
+max       61.258143
+Name: % error, dtype: float64",5
+23,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    241.000000
+mean      19.242701
+std       15.221462
+min        0.008050
+25%        3.526784
+50%       20.171909
+75%       32.628474
+max       61.011146
+Name: % error, dtype: float64",5
+24,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    11.949792
+PS16K           4.873214
+PS32K           3.965864
+PS8K            1.691787
+PS1K            0.623321
+dtype: float64","count    206.000000
+mean     291.617036
+std      202.890452
+min        4.990619
+25%      104.434905
+50%      390.093196
+75%      463.431162
+max      750.086450
+Name: % error, dtype: float64",5
+25,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.4,"HAVE_CRYPTO    11.880008
+PS16K           4.757875
+PS32K           3.807523
+PS8K            1.561635
+PS1K            0.598048
+dtype: float64","count    206.000000
+mean     283.924144
+std      193.405595
+min        2.632140
+25%      110.042622
+50%      387.959109
+75%      441.896253
+max      714.809097
+Name: % error, dtype: float64",5
+26,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(),Performance,0.4,"HAVE_CRYPTO    11.462891
+PS16K           4.495951
+PS32K           3.426267
+PS8K            1.394881
+PS1K            0.822067
+dtype: float64","count    206.000000
+mean     268.213339
+std      185.272812
+min        0.690011
+25%       81.745815
+50%      352.223532
+75%      400.657180
+max      690.839328
+Name: % error, dtype: float64",5
+27,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=100)",Performance,0.4,"HAVE_CRYPTO    11.294870
+PS16K           4.377456
+PS32K           3.256843
+PS8K            1.306165
+PS1K            0.873277
+dtype: float64","count    206.000000
+mean     260.337763
+std      180.183394
+min        2.453968
+25%       73.364943
+50%      326.721501
+75%      402.727842
+max      668.455239
+Name: % error, dtype: float64",5
+28,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    2.759339e+13
+PS1K           1.449943e+12
+PS16K          1.086563e+12
+PS32K          6.726245e+11
+PS8K           4.041576e+11
+dtype: float64","count    206.000000
+mean      17.887094
+std       14.631537
+min        0.010483
+25%        3.723052
+50%       15.997310
+75%       32.440884
+max       59.171294
+Name: % error, dtype: float64",5
+29,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.4,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    206.000000
+mean      18.869060
+std       13.965120
+min        0.041815
+25%        5.336814
+50%       17.319023
+75%       32.310687
+max       61.806733
+Name: % error, dtype: float64",5
+30,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    206.000000
+mean      17.630846
+std       13.690728
+min        0.035200
+25%        4.789227
+50%       14.919440
+75%       31.079936
+max       60.505703
+Name: % error, dtype: float64",5
+31,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    206.000000
+mean      17.439269
+std       14.204770
+min        0.008050
+25%        3.116171
+50%       15.110292
+75%       31.597220
+max       60.245598
+Name: % error, dtype: float64",5
+32,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO    13.654248
+PS32K           6.482996
+PS16K           4.630023
+PS8K            1.679431
+PS1K            0.370258
+dtype: float64","count    172.000000
+mean     318.373404
+std      213.219663
+min       19.252996
+25%       97.715485
+50%      285.941961
+75%      536.138823
+max      805.930947
+Name: % error, dtype: float64",5
+33,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.02, max_iter=10)",Performance,0.5,"HAVE_CRYPTO    13.527000
+PS32K           6.182586
+PS16K           4.398170
+PS8K            1.401410
+PS1K            0.344410
+dtype: float64","count    172.000000
+mean     304.042253
+std      193.850029
+min       20.052656
+25%       97.757307
+50%      280.869748
+75%      497.422341
+max      743.264746
+Name: % error, dtype: float64",5
+34,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=2),Performance,0.5,"HAVE_CRYPTO    12.803672
+PS32K           5.486280
+PS16K           3.972074
+PS8K            1.129812
+PS1K            0.782693
+dtype: float64","count    172.000000
+mean     278.587624
+std      173.915332
+min       16.255549
+25%      102.697152
+50%      298.127062
+75%      404.324400
+max      716.042609
+Name: % error, dtype: float64",5
+35,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=100)",Performance,0.5,"HAVE_CRYPTO    12.269793
+PS32K           4.955432
+PS16K           3.632363
+PS1K            0.941017
+PS8K            0.872116
+dtype: float64","count    172.000000
+mean     254.824903
+std      155.107832
+min       12.599582
+25%      107.385727
+50%      304.213044
+75%      324.417052
+max      649.266079
+Name: % error, dtype: float64",5
+36,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO    8.122431e+12
+PS1K           4.540100e+11
+PS16K          4.058331e+11
+PS8K           3.346447e+11
+PS32K          2.986729e+11
+dtype: float64","count    172.000000
+mean      18.918148
+std       15.966565
+min        0.036397
+25%        4.078771
+50%       15.084953
+75%       36.043400
+max       59.936097
+Name: % error, dtype: float64",5
+37,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.5,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    172.000000
+mean      18.996153
+std       16.056025
+min        0.118530
+25%        4.058963
+50%       14.900452
+75%       36.361386
+max       60.125268
+Name: % error, dtype: float64",5
+38,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    172.000000
+mean      19.031323
+std       15.834790
+min        0.042780
+25%        5.103807
+50%       14.756774
+75%       35.583470
+max       58.328821
+Name: % error, dtype: float64",5
+39,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    172.000000
+mean      18.923319
+std       15.965522
+min        0.029785
+25%        3.770537
+50%       15.163382
+75%       36.001823
+max       60.061375
+Name: % error, dtype: float64",5
+40,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    12.948723
+PS32K           5.976156
+PS16K           4.126632
+PS8K            1.648164
+PS1K            0.761696
+dtype: float64","count    138.000000
+mean     290.873169
+std      221.579952
+min       18.581283
+25%       81.838532
+50%      257.414603
+75%      497.458485
+max      825.142042
+Name: % error, dtype: float64",5
+41,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.6,"HAVE_CRYPTO    12.588167
+PS32K           5.209656
+PS16K           3.552948
+PS8K            0.938210
+PS1K            0.697318
+dtype: float64","count    138.000000
+mean     255.650252
+std      172.350494
+min       13.192054
+25%       75.246990
+50%      244.458530
+75%      392.529510
+max      670.695606
+Name: % error, dtype: float64",5
+42,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=2),Performance,0.6,"HAVE_CRYPTO    12.225361
+PS32K           5.179415
+PS16K           3.609349
+PS8K            1.212387
+PS1K            1.016591
+dtype: float64","count    138.000000
+mean     258.469841
+std      189.755117
+min       13.041494
+25%       84.774105
+50%      264.649095
+75%      376.889547
+max      739.337161
+Name: % error, dtype: float64",5
+43,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=10)",Performance,0.6,"HAVE_CRYPTO    11.669524
+PS32K           4.637234
+PS16K           3.262170
+PS1K            1.125115
+PS8K            0.936082
+dtype: float64","count    138.000000
+mean     233.669521
+std      167.586523
+min        8.907592
+25%       84.822249
+50%      270.040913
+75%      297.324235
+max      661.722140
+Name: % error, dtype: float64",5
+44,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    1.014005e+14
+PS32K          4.462578e+13
+PS8K           3.376263e+13
+PS16K          7.782920e+12
+PS1K           2.332657e+12
+dtype: float64","count    138.000000
+mean      16.151797
+std       15.121486
+min        0.009342
+25%        2.749613
+50%        8.857113
+75%       29.184164
+max       63.390201
+Name: % error, dtype: float64",5
+45,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.6,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    138.000000
+mean      17.059032
+std       14.679022
+min        0.165738
+25%        3.282319
+50%       12.129480
+75%       31.754760
+max       61.465795
+Name: % error, dtype: float64",5
+46,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    138.000000
+mean      16.996623
+std       14.400851
+min        0.069719
+25%        4.117065
+50%       12.546398
+75%       31.147578
+max       59.453424
+Name: % error, dtype: float64",5
+47,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    138.000000
+mean      17.003151
+std       14.634607
+min        0.029785
+25%        3.202941
+50%       12.704670
+75%       31.287629
+max       59.923192
+Name: % error, dtype: float64",5
+48,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO    12.984820
+PS32K           6.495569
+PS16K           4.065530
+PS8K            1.743255
+PS1K            0.584780
+dtype: float64","count    103.000000
+mean     279.184853
+std      200.340634
+min       19.715383
+25%       94.707561
+50%      246.275681
+75%      500.185881
+max      776.541304
+Name: % error, dtype: float64",5
+49,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.7,"HAVE_CRYPTO    12.617044
+PS32K           5.681921
+PS16K           3.470474
+PS8K            0.993886
+PS1K            0.620784
+dtype: float64","count    103.000000
+mean     245.957742
+std      156.416724
+min       14.110379
+25%       82.839212
+50%      233.646672
+75%      389.212127
+max      643.880358
+Name: % error, dtype: float64",5
+50,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=2),Performance,0.7,"HAVE_CRYPTO    12.348723
+PS32K           5.724951
+PS16K           3.577889
+PS8K            1.300294
+PS1K            0.878380
+dtype: float64","count    103.000000
+mean     250.831916
+std      171.706379
+min       14.585101
+25%       85.197314
+50%      252.504427
+75%      386.416474
+max      711.712992
+Name: % error, dtype: float64",5
+51,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=100)",Performance,0.7,"HAVE_CRYPTO    12.230280
+PS32K           5.594400
+PS16K           3.496725
+PS8K            1.229789
+PS1K            0.920743
+dtype: float64","count    103.000000
+mean     245.747611
+std      167.116516
+min       13.663344
+25%       83.482352
+50%      253.862240
+75%      369.696252
+max      698.550808
+Name: % error, dtype: float64",5
+52,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO    1.226680e+13
+PS8K           8.845431e+12
+PS16K          7.346790e+12
+PS32K          3.829390e+12
+PS1K           3.091130e+12
+dtype: float64","count    103.000000
+mean      16.491993
+std       14.223684
+min        0.037151
+25%        4.536242
+50%       11.088343
+75%       32.469521
+max       50.652561
+Name: % error, dtype: float64",5
+53,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.7,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    103.000000
+mean      16.648453
+std       14.387818
+min        0.006256
+25%        3.454448
+50%       11.173909
+75%       32.502379
+max       50.882357
+Name: % error, dtype: float64",5
+54,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    103.000000
+mean      16.910455
+std       14.508344
+min        0.043481
+25%        4.551429
+50%       10.693521
+75%       33.229510
+max       51.175729
+Name: % error, dtype: float64",5
+55,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    103.000000
+mean      16.806469
+std       14.620949
+min        0.008027
+25%        3.483088
+50%       10.806445
+75%       33.347387
+max       51.028917
+Name: % error, dtype: float64",5
+56,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO    13.720438
+PS32K           7.266503
+PS16K           4.069812
+PS8K            1.592429
+PS1K            0.099431
+dtype: float64","count     69.000000
+mean     268.346145
+std      179.997121
+min       20.444035
+25%      126.030148
+50%      237.472730
+75%      472.182089
+max      657.217724
+Name: % error, dtype: float64",5
+57,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.8,"HAVE_CRYPTO    13.400399
+PS32K           6.477277
+PS16K           3.489779
+PS8K            0.834872
+PS1K            0.179910
+dtype: float64","count     69.000000
+mean     243.286719
+std      142.669279
+min       22.473420
+25%      113.613744
+50%      224.183427
+75%      380.677158
+max      542.282743
+Name: % error, dtype: float64",5
+58,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=4),Performance,0.8,"HAVE_CRYPTO    12.635279
+PS32K           5.969011
+PS16K           3.289134
+PS8K            0.894238
+PS1K            0.668480
+dtype: float64","count     69.000000
+mean     228.189185
+std      138.549660
+min       25.382581
+25%      108.415026
+50%      252.795315
+75%      321.820944
+max      570.981275
+Name: % error, dtype: float64",5
+59,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=100)",Performance,0.8,"HAVE_CRYPTO    12.280980
+PS32K           5.612419
+PS16K           3.084210
+PS1K            0.791015
+PS8K            0.728640
+dtype: float64","count     69.000000
+mean     216.058719
+std      130.520639
+min       26.962919
+25%      103.654254
+50%      256.582404
+75%      269.326754
+max      537.364285
+Name: % error, dtype: float64",5
+60,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.8,"PS16K          2.709219e+13
+HAVE_CRYPTO    1.291771e+13
+PS1K           4.939569e+12
+PS8K           4.320317e+12
+PS32K          2.681361e+11
+dtype: float64","count    69.000000
+mean     18.304759
+std      15.921993
+min       0.234950
+25%       3.833249
+50%       9.354226
+75%      36.517022
+max      48.036284
+Name: % error, dtype: float64",5
+61,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.8,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    69.000000
+mean     17.466636
+std      14.574777
+min       0.499100
+25%       4.717670
+50%      10.958649
+75%      33.277093
+max      48.065750
+Name: % error, dtype: float64",5
+62,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    69.000000
+mean     17.256383
+std      14.516594
+min       0.191288
+25%       5.003975
+50%       9.941327
+75%      32.558885
+max      48.654435
+Name: % error, dtype: float64",5
+63,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    69.000000
+mean     17.403052
+std      14.568294
+min       0.272248
+25%       4.585855
+50%      11.070731
+75%      33.060975
+max      48.302236
+Name: % error, dtype: float64",5
+64,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO    14.229737
+PS32K           7.711403
+PS16K           3.997787
+PS8K            1.543047
+PS1K            0.208534
+dtype: float64","count     35.000000
+mean     256.996944
+std      184.043509
+min       18.097387
+25%      127.488393
+50%      230.781669
+75%      456.454932
+max      678.013964
+Name: % error, dtype: float64",5
+65,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","Lasso(alpha=0.02, max_iter=10)",Performance,0.9,"HAVE_CRYPTO    14.108702
+PS32K           7.403127
+PS16K           3.771090
+PS8K            1.240365
+PS1K            0.237353
+dtype: float64","count     35.000000
+mean     249.289805
+std      171.057909
+min       18.874403
+25%      126.222485
+50%      225.466690
+75%      424.216753
+max      632.599462
+Name: % error, dtype: float64",5
+66,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",Ridge(alpha=2),Performance,0.9,"HAVE_CRYPTO    13.719309
+PS32K           7.060203
+PS16K           3.615385
+PS8K            1.169796
+PS1K            0.507250
+dtype: float64","count     35.000000
+mean     245.448786
+std      167.083259
+min       20.392166
+25%      122.766497
+50%      238.933224
+75%      390.118726
+max      640.311377
+Name: % error, dtype: float64",5
+67,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=100)",Performance,0.9,"HAVE_CRYPTO    13.460280
+PS32K           6.760534
+PS16K           3.444616
+PS8K            1.009895
+PS1K            0.629480
+dtype: float64","count     35.000000
+mean     239.779672
+std      159.850164
+min       21.541534
+25%      119.583552
+50%      243.542140
+75%      349.795701
+max      618.655264
+Name: % error, dtype: float64",5
+68,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",LinearRegression(),Performance,0.9,"PS1K           2.841445e+14
+PS32K          2.977351e+13
+PS16K          1.901560e+13
+PS8K           1.405789e+13
+HAVE_CRYPTO    1.353544e+12
+dtype: float64","count     35.000000
+mean      30.503666
+std       26.774062
+min        0.502107
+25%       15.189602
+50%       27.826118
+75%       37.294199
+max      146.630690
+Name: % error, dtype: float64",5
+69,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",RandomForestRegressor(),Performance,0.9,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    35.000000
+mean     19.754880
+std      14.165719
+min       0.326122
+25%       5.723637
+50%      26.037661
+75%      31.773382
+max      47.775004
+Name: % error, dtype: float64",5
+70,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    35.000000
+mean     19.888106
+std      14.170022
+min       0.217840
+25%       7.277479
+50%      26.549544
+75%      32.295761
+max      47.950678
+Name: % error, dtype: float64",5
+71,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+Name: % error, dtype: float64","count    35.000000
+mean     19.912774
+std      14.254346
+min       0.296533
+25%       5.708861
+50%      25.665493
+75%      32.116025
+max      47.631913
+Name: % error, dtype: float64",5
+72,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    12.801601
+PS1K            4.762464
+PS16K           4.317892
+PS32K           2.347953
+HAVE_HASH       1.575268
+PS4K            1.288100
+PS8K            0.615281
+dtype: float64","count     309.000000
+mean      403.110041
+std       394.665110
+min         0.065317
+25%        55.308774
+50%       349.629504
+75%       518.696628
+max      1381.020109
+Name: % error, dtype: float64",7
+73,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.1,"HAVE_CRYPTO    11.810007
+PS16K           4.424567
+PS1K            3.263022
+PS32K           1.498678
+HAVE_HASH       0.852834
+PS4K            0.689056
+dtype: float64","count     309.000000
+mean      335.535248
+std       284.317482
+min         0.461219
+25%        60.181661
+50%       318.813604
+75%       434.069172
+max      1081.596794
+Name: % error, dtype: float64",7
+74,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=0.3),Performance,0.1,"HAVE_CRYPTO    12.080391
+PS1K            4.283831
+PS16K           4.098070
+PS32K           1.826092
+HAVE_HASH       1.502685
+PS4K            1.345214
+PS8K            0.295116
+dtype: float64","count     309.000000
+mean      357.677584
+std       336.816238
+min         0.374433
+25%        49.958038
+50%       350.918309
+75%       402.452270
+max      1148.369845
+Name: % error, dtype: float64",7
+75,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.1,"HAVE_CRYPTO    11.451568
+PS16K           4.183552
+PS1K            3.625220
+PS32K           1.681231
+HAVE_HASH       1.419633
+PS4K            1.127758
+PS8K            0.159761
+dtype: float64","count    309.000000
+mean     321.227641
+std      294.052504
+min        0.062537
+25%       44.679535
+50%      247.829362
+75%      434.146903
+max      993.141425
+Name: % error, dtype: float64",7
+76,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO    4.109454
+PS8K           0.547338
+PS4K           0.230450
+PS1K           0.193230
+HAVE_HASH      0.140094
+PS16K          0.134937
+PS32K          0.011278
+dtype: float64","count    309.000000
+mean      44.119705
+std       92.771295
+min        0.001626
+25%        0.317880
+50%        1.566110
+75%        9.328508
+max      313.519269
+Name: % error, dtype: float64",7
+77,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.1,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    309.000000
+mean      31.377700
+std       50.359861
+min        0.021128
+25%        0.585186
+50%        3.320946
+75%       34.236674
+max      159.859218
+Name: % error, dtype: float64",7
+78,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    309.000000
+mean      70.901873
+std      167.803205
+min        0.001027
+25%        0.407704
+50%        1.364288
+75%        8.652346
+max      574.780551
+Name: % error, dtype: float64",7
+79,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    309.000000
+mean       9.578004
+std       19.992362
+min        0.001626
+25%        0.317880
+50%        1.547173
+75%        8.395866
+max       91.624892
+Name: % error, dtype: float64",7
+80,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO    10.776032
+PS16K           3.250145
+PS4K            2.170354
+PS1K            1.801578
+PS32K           0.833285
+HAVE_HASH       0.425545
+PS8K            0.111499
+dtype: float64","count    275.000000
+mean     255.357364
+std      196.089277
+min        1.378703
+25%       36.939267
+50%      214.844221
+75%      445.216189
+max      544.478882
+Name: % error, dtype: float64",7
+81,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.2,"HAVE_CRYPTO    10.398859
+PS16K           3.138947
+PS4K            1.912405
+PS1K            1.398104
+PS32K           0.454329
+HAVE_HASH       0.170173
+dtype: float64","count    275.000000
+mean     226.216139
+std      181.958285
+min        0.335111
+25%       30.338200
+50%      197.705887
+75%      432.115366
+max      474.075635
+Name: % error, dtype: float64",7
+82,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(),Performance,0.2,"HAVE_CRYPTO    9.962754
+PS16K          3.066100
+PS4K           1.969909
+PS1K           1.681415
+PS32K          0.500603
+HAVE_HASH      0.368698
+PS8K           0.084621
+dtype: float64","count    275.000000
+mean     225.639822
+std      180.659788
+min        1.438105
+25%       32.026886
+50%      219.632210
+75%      412.543940
+max      486.129617
+Name: % error, dtype: float64",7
+83,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.05, max_iter=100)",Performance,0.2,"HAVE_CRYPTO    9.326084
+PS16K          2.745161
+PS4K           1.883959
+PS1K           1.568217
+HAVE_HASH      0.232236
+PS32K          0.021922
+dtype: float64","count    275.000000
+mean     206.077148
+std      162.897248
+min        0.955290
+25%       50.836842
+50%      210.449824
+75%      307.916887
+max      498.770249
+Name: % error, dtype: float64",7
+84,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.2,"HAVE_HASH      2.450437e+13
+HAVE_CRYPTO    2.099980e+13
+PS16K          1.716170e+13
+PS8K           1.314932e+13
+PS1K           1.152426e+13
+PS4K           8.817831e+12
+PS32K          6.478293e+11
+dtype: float64","count    2.750000e+02
+mean     6.868171e+11
+std      3.542229e+12
+min      2.479826e-02
+25%      2.270136e+00
+50%      7.191634e+00
+75%      1.187353e+01
+max      1.901181e+13
+Name: % error, dtype: float64",7
+85,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.2,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    275.000000
+mean       6.736701
+std       16.825959
+min        0.000079
+25%        0.366385
+50%        1.612176
+75%        5.102249
+max       89.561437
+Name: % error, dtype: float64",7
+86,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    275.000000
+mean       6.834869
+std       16.264224
+min        0.002301
+25%        0.438713
+50%        2.352059
+75%        6.334951
+max       85.943330
+Name: % error, dtype: float64",7
+87,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    275.000000
+mean       4.845362
+std       15.755514
+min        0.004679
+25%        0.261633
+50%        0.989750
+75%        2.491437
+max       85.035547
+Name: % error, dtype: float64",7
+88,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.3,"PS1K           5.643325e+14
+PS4K           5.643325e+14
+PS8K           5.643325e+14
+PS32K          5.643325e+14
+PS16K          5.643325e+14
+HAVE_CRYPTO    1.237051e+01
+HAVE_HASH      3.281250e-01
+dtype: float64","count    241.000000
+mean     305.841937
+std      203.492085
+min        9.941484
+25%      141.396631
+50%      400.035959
+75%      467.503439
+max      621.415172
+Name: % error, dtype: float64",7
+89,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.2, max_iter=1)",Performance,0.3,"HAVE_CRYPTO    10.697210
+PS16K           3.071593
+PS4K            1.100226
+PS32K           0.572021
+dtype: float64","count    241.000000
+mean     169.113186
+std      162.952048
+min        0.041901
+25%       29.482663
+50%       69.243407
+75%      263.945639
+max      457.233830
+Name: % error, dtype: float64",7
+90,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=4),Performance,0.3,"HAVE_CRYPTO    10.189022
+PS16K           2.644081
+PS4K            1.981308
+PS1K            1.845902
+PS32K           1.495650
+PS8K            0.312522
+HAVE_HASH       0.065489
+dtype: float64","count    241.000000
+mean     225.593374
+std      161.400817
+min        0.804417
+25%       40.517569
+50%      252.617902
+75%      324.576420
+max      486.747730
+Name: % error, dtype: float64",7
+91,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.1, max_iter=1)",Performance,0.3,"HAVE_CRYPTO    9.246559
+PS16K          3.153288
+PS4K           1.317981
+PS32K          0.924446
+PS1K           0.900234
+PS8K           0.223689
+dtype: float64","count    241.000000
+mean     202.181249
+std      174.151226
+min        3.945693
+25%       90.180815
+50%      114.491491
+75%      217.323292
+max      550.315331
+Name: % error, dtype: float64",7
+92,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO    1.689110e+13
+PS8K           1.039476e+13
+PS1K           8.596239e+12
+PS32K          8.419407e+12
+PS4K           5.171681e+12
+HAVE_HASH      3.345524e+12
+PS16K          6.211598e+11
+dtype: float64","count    241.000000
+mean       9.530326
+std       11.366435
+min        0.008739
+25%        1.386910
+50%        5.063124
+75%       13.715568
+max       53.223872
+Name: % error, dtype: float64",7
+93,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.3,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    241.000000
+mean       3.966987
+std        8.970307
+min        0.001880
+25%        0.259786
+50%        1.021430
+75%        2.678819
+max       92.012806
+Name: % error, dtype: float64",7
+94,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    241.000000
+mean       3.434921
+std        5.125167
+min        0.003845
+25%        0.452783
+50%        1.686597
+75%        4.770237
+max       60.145438
+Name: % error, dtype: float64",7
+95,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    241.000000
+mean       1.817631
+std        4.338971
+min        0.001460
+25%        0.229608
+50%        0.851922
+75%        2.086661
+max       61.011146
+Name: % error, dtype: float64",7
+96,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    12.019048
+PS16K           2.852539
+PS1K            2.564524
+PS32K           2.032592
+PS4K            2.008922
+HAVE_HASH       0.516564
+PS8K            0.311685
+dtype: float64","count    206.000000
+mean     288.508928
+std      194.572707
+min       10.048021
+25%      133.403130
+50%      359.736306
+75%      499.151238
+max      634.462132
+Name: % error, dtype: float64",7
+97,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.4,"HAVE_CRYPTO    11.663949
+PS16K           3.123141
+PS32K           2.078065
+PS1K            1.645850
+PS4K            1.391593
+HAVE_HASH       0.216276
+dtype: float64","count    206.000000
+mean     256.841472
+std      162.184686
+min        3.111391
+25%      115.028859
+50%      344.884888
+75%      400.931266
+max      522.398485
+Name: % error, dtype: float64",7
+98,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=2),Performance,0.4,"HAVE_CRYPTO    11.111668
+PS16K           2.717225
+PS1K            2.237625
+PS4K            1.857389
+PS32K           1.636025
+HAVE_HASH       0.377589
+PS8K            0.258236
+dtype: float64","count    206.000000
+mean     252.454807
+std      167.604674
+min        2.929651
+25%       63.779195
+50%      300.571930
+75%      404.246895
+max      493.791344
+Name: % error, dtype: float64",7
+99,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.4,"HAVE_CRYPTO    10.821707
+PS16K           3.013881
+PS32K           1.868493
+PS1K            1.852615
+PS4K            1.507231
+HAVE_HASH       0.333717
+PS8K            0.076167
+dtype: float64","count    206.000000
+mean     243.945179
+std      164.237094
+min        1.541682
+25%       46.384054
+50%      284.199920
+75%      405.303532
+max      460.586983
+Name: % error, dtype: float64",7
+100,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO    9.177979e+12
+HAVE_HASH      7.328315e+11
+PS16K          5.719833e+11
+PS4K           5.002263e+11
+PS1K           2.257766e+11
+PS8K           1.370069e+11
+PS32K          1.287651e+11
+dtype: float64","count    206.000000
+mean       7.719968
+std        8.422879
+min        0.002787
+25%        1.162106
+50%        5.125980
+75%       11.854581
+max       51.170046
+Name: % error, dtype: float64",7
+101,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.4,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    206.000000
+mean       3.314823
+std        6.888181
+min        0.001711
+25%        0.372327
+50%        1.143211
+75%        2.840642
+max       67.650347
+Name: % error, dtype: float64",7
+102,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    206.000000
+mean       2.680853
+std        4.901111
+min        0.004345
+25%        0.432924
+50%        1.254151
+75%        3.513272
+max       59.807935
+Name: % error, dtype: float64",7
+103,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    206.000000
+mean       1.814300
+std        4.492799
+min        0.000429
+25%        0.273055
+50%        0.894058
+75%        2.080639
+max       60.245598
+Name: % error, dtype: float64",7
+104,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO    13.686919
+PS32K           4.022463
+PS1K            2.841352
+PS4K            2.485797
+PS16K           2.120186
+PS8K            0.815501
+HAVE_HASH       0.208556
+dtype: float64","count    172.000000
+mean     315.962562
+std      209.983972
+min       19.503039
+25%      107.702037
+50%      272.996088
+75%      543.669982
+max      760.124004
+Name: % error, dtype: float64",7
+105,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    13.360368
+PS32K           4.623439
+PS16K           2.910732
+PS1K            1.454375
+PS4K            1.364415
+dtype: float64","count    172.000000
+mean     286.905645
+std      175.212385
+min       19.511683
+25%       96.531792
+50%      276.477234
+75%      462.569108
+max      646.085346
+Name: % error, dtype: float64",7
+106,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=2),Performance,0.5,"HAVE_CRYPTO    12.851967
+PS32K           3.627314
+PS1K            2.578973
+PS4K            2.342247
+PS16K           2.039567
+PS8K            0.745660
+HAVE_HASH       0.067555
+dtype: float64","count    172.000000
+mean     285.498004
+std      177.029332
+min       17.594843
+25%      111.176963
+50%      304.191811
+75%      450.552474
+max      648.615394
+Name: % error, dtype: float64",7
+107,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.5,"HAVE_CRYPTO    12.331047
+PS32K           3.897599
+PS16K           2.481070
+PS1K            2.002529
+PS4K            1.817280
+PS8K            0.248021
+HAVE_HASH       0.010827
+dtype: float64","count    172.000000
+mean     270.725776
+std      164.087202
+min       14.636952
+25%      100.824806
+50%      327.194300
+75%      408.883094
+max      592.085009
+Name: % error, dtype: float64",7
+108,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.5,"PS4K           2.316195e+13
+PS8K           8.638933e+12
+PS16K          7.148429e+12
+HAVE_HASH      6.269035e+12
+PS1K           4.087756e+12
+PS32K          3.590717e+12
+HAVE_CRYPTO    3.526026e+12
+dtype: float64","count    172.000000
+mean       8.120251
+std        9.120399
+min        0.005701
+25%        1.468978
+50%        5.560109
+75%       11.064407
+max       51.212206
+Name: % error, dtype: float64",7
+109,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.5,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    172.000000
+mean       2.027709
+std        4.889377
+min        0.007970
+25%        0.265350
+50%        0.963300
+75%        2.197824
+max       60.097887
+Name: % error, dtype: float64",7
+110,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    172.000000
+mean       2.796839
+std        4.981272
+min        0.003560
+25%        0.485517
+50%        1.504489
+75%        3.631126
+max       57.345228
+Name: % error, dtype: float64",7
+111,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    172.000000
+mean       1.921683
+std        4.854327
+min        0.007040
+25%        0.259833
+50%        0.952326
+75%        2.083339
+max       60.061375
+Name: % error, dtype: float64",7
+112,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    12.967173
+PS32K           3.792087
+PS1K            2.944830
+PS4K            2.209937
+PS16K           1.916878
+PS8K            0.554199
+HAVE_HASH       0.164383
+dtype: float64","count    138.000000
+mean     289.446426
+std      218.127452
+min       18.322425
+25%       90.665012
+50%      249.003045
+75%      509.055274
+max      786.953210
+Name: % error, dtype: float64",7
+113,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    12.621508
+PS32K           4.256758
+PS16K           2.556834
+PS1K            1.716935
+PS4K            1.236582
+dtype: float64","count    138.000000
+mean     261.334454
+std      177.972349
+min       14.439677
+25%       78.668177
+50%      251.183078
+75%      434.272575
+max      665.298480
+Name: % error, dtype: float64",7
+114,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=2),Performance,0.6,"HAVE_CRYPTO    12.266679
+PS32K           3.467090
+PS1K            2.695284
+PS4K            2.089338
+PS16K           1.830688
+PS8K            0.513156
+HAVE_HASH       0.080942
+dtype: float64","count    138.000000
+mean     261.938399
+std      188.054454
+min       14.132431
+25%       88.544728
+50%      268.233477
+75%      438.107080
+max      682.667567
+Name: % error, dtype: float64",7
+115,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    11.621830
+PS32K           3.648573
+PS16K           2.212522
+PS1K            2.081070
+PS4K            1.572542
+PS8K            0.054328
+HAVE_HASH       0.004601
+dtype: float64","count    138.000000
+mean     240.779765
+std      167.546371
+min       10.149179
+25%       58.577647
+50%      290.100680
+75%      379.762052
+max      600.471389
+Name: % error, dtype: float64",7
+116,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO    7.049532e+13
+PS32K          1.872691e+13
+PS8K           1.853059e+13
+PS4K           1.569627e+13
+HAVE_HASH      8.691124e+12
+PS16K          6.285520e+12
+PS1K           1.280753e+12
+dtype: float64","count    138.000000
+mean       6.454914
+std        7.679958
+min        0.024813
+25%        1.071600
+50%        3.304949
+75%        9.803640
+max       48.742796
+Name: % error, dtype: float64",7
+117,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.6,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    138.000000
+mean       2.254808
+std        5.388456
+min        0.001034
+25%        0.305340
+50%        1.149110
+75%        2.247688
+max       59.812949
+Name: % error, dtype: float64",7
+118,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    138.000000
+mean       2.974739
+std        5.444980
+min        0.004482
+25%        0.443999
+50%        1.898762
+75%        3.269391
+max       58.146031
+Name: % error, dtype: float64",7
+119,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    138.000000
+mean       1.980548
+std        5.317451
+min        0.007633
+25%        0.258724
+50%        0.943033
+75%        2.127958
+max       59.923192
+Name: % error, dtype: float64",7
+120,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.7,"PS1K           1.568759e+15
+PS4K           1.568759e+15
+PS8K           1.568759e+15
+PS16K          1.568759e+15
+PS32K          1.568759e+15
+HAVE_CRYPTO    1.412664e+01
+HAVE_HASH      1.250000e-01
+dtype: float64","count    103.000000
+mean     286.177371
+std      205.179663
+min       18.590891
+25%       91.415948
+50%      218.257697
+75%      477.505144
+max      862.519992
+Name: % error, dtype: float64",7
+121,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.7,"HAVE_CRYPTO    12.640601
+PS32K           4.368298
+PS16K           2.154844
+PS1K            1.938347
+PS4K            1.515998
+dtype: float64","count    103.000000
+mean     247.124758
+std      168.605841
+min       17.279810
+25%       82.734515
+50%      232.942826
+75%      433.404167
+max      645.662041
+Name: % error, dtype: float64",7
+122,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=2),Performance,0.7,"HAVE_CRYPTO    12.394048
+PS32K           3.874662
+PS1K            2.737052
+PS4K            2.223875
+PS16K           1.653476
+PS8K            0.567210
+HAVE_HASH       0.071747
+dtype: float64","count    103.000000
+mean     257.496428
+std      177.928542
+min       15.698594
+25%       86.671019
+50%      255.245823
+75%      447.240647
+max      668.737982
+Name: % error, dtype: float64",7
+123,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    11.750290
+PS32K           4.123461
+PS16K           2.141790
+PS1K            2.035808
+PS4K            1.592061
+HAVE_HASH       0.022448
+PS8K            0.015534
+dtype: float64","count    103.000000
+mean     237.792828
+std      158.986018
+min       11.631540
+25%       58.019364
+50%      277.658572
+75%      385.423042
+max      596.145264
+Name: % error, dtype: float64",7
+124,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.7,"PS1K           1.383853e+13
+PS16K          8.530995e+12
+PS4K           6.388853e+12
+PS32K          4.529055e+12
+HAVE_CRYPTO    3.955512e+12
+HAVE_HASH      2.021625e+12
+PS8K           1.673909e+12
+dtype: float64","count    103.000000
+mean       5.954115
+std        5.741464
+min        0.047531
+25%        1.431904
+50%        4.379283
+75%        7.794003
+max       34.200157
+Name: % error, dtype: float64",7
+125,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.7,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    103.000000
+mean       1.692228
+std        2.083385
+min        0.015474
+25%        0.379025
+50%        1.007265
+75%        1.916031
+max        9.631257
+Name: % error, dtype: float64",7
+126,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    103.000000
+mean       2.564529
+std        2.799859
+min        0.017310
+25%        0.532680
+50%        1.716223
+75%        3.419765
+max       12.177694
+Name: % error, dtype: float64",7
+127,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    103.000000
+mean       1.642822
+std        2.101617
+min        0.008027
+25%        0.271450
+50%        0.921634
+75%        1.903095
+max        9.636540
+Name: % error, dtype: float64",7
+128,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.8,"PS32K          4.814977e+14
+PS16K          4.814977e+14
+PS8K           4.814977e+14
+PS4K           4.814977e+14
+PS1K           4.814977e+14
+HAVE_CRYPTO    1.362308e+01
+HAVE_HASH      2.500000e-01
+dtype: float64","count     69.000000
+mean     249.765149
+std      165.828969
+min       22.348235
+25%      133.169489
+50%      197.523396
+75%      429.933860
+max      550.579995
+Name: % error, dtype: float64",7
+129,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    13.422905
+PS32K           5.529303
+PS16K           2.507363
+PS4K            1.217500
+PS1K            1.175650
+dtype: float64","count     69.000000
+mean     247.088725
+std      152.546428
+min       22.214380
+25%      116.299350
+50%      228.746295
+75%      403.495751
+max      537.880599
+Name: % error, dtype: float64",7
+130,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=4),Performance,0.8,"HAVE_CRYPTO    12.690769
+PS32K           4.217969
+PS1K            2.427788
+PS4K            2.358004
+PS16K           1.431779
+PS8K            0.863955
+HAVE_HASH       0.104563
+dtype: float64","count     69.000000
+mean     237.504000
+std      151.070369
+min       24.894820
+25%       93.414487
+50%      259.334473
+75%      374.268743
+max      503.191207
+Name: % error, dtype: float64",7
+131,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    12.345175
+PS32K           4.630203
+PS16K           1.977614
+PS1K            1.856930
+PS4K            1.796274
+PS8K            0.320302
+HAVE_HASH       0.057537
+dtype: float64","count     69.000000
+mean     232.716950
+std      147.344542
+min       26.084114
+25%       77.815328
+50%      276.232076
+75%      356.221864
+max      479.290868
+Name: % error, dtype: float64",7
+132,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.8,"PS16K          1.499569e+13
+PS4K           1.452132e+13
+HAVE_HASH      6.653675e+12
+HAVE_CRYPTO    6.142926e+12
+PS8K           4.415754e+12
+PS32K          3.612279e+12
+PS1K           7.544678e+11
+dtype: float64","count    69.000000
+mean      5.076627
+std       5.535335
+min       0.047555
+25%       1.732515
+50%       3.667075
+75%       6.189322
+max      23.621219
+Name: % error, dtype: float64",7
+133,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.8,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    69.000000
+mean      1.299609
+std       1.567900
+min       0.021804
+25%       0.248558
+50%       0.811220
+75%       1.868216
+max       7.952374
+Name: % error, dtype: float64",7
+134,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    69.000000
+mean      2.144857
+std       2.495250
+min       0.007228
+25%       0.285037
+50%       1.243401
+75%       3.078434
+max      10.931344
+Name: % error, dtype: float64",7
+135,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    69.000000
+mean      1.303372
+std       1.565791
+min       0.017430
+25%       0.261021
+50%       0.837907
+75%       1.843349
+max       7.913716
+Name: % error, dtype: float64",7
+136,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.9,"PS32K          6.392997e+14
+PS16K          6.392997e+14
+PS8K           6.392997e+14
+PS4K           6.392997e+14
+PS1K           6.392997e+14
+HAVE_CRYPTO    1.404458e+01
+HAVE_HASH      3.750000e-01
+dtype: float64","count     35.000000
+mean     228.453187
+std      165.559636
+min       20.483983
+25%      101.483005
+50%      192.315245
+75%      391.369664
+max      515.919995
+Name: % error, dtype: float64",7
+137,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.9,"HAVE_CRYPTO    13.942385
+PS32K           6.034449
+PS16K           2.491701
+PS1K            1.232978
+PS4K            1.172547
+dtype: float64","count     35.000000
+mean     239.038649
+std      158.722442
+min       19.812467
+25%      123.218973
+50%      222.198377
+75%      389.802236
+max      559.730058
+Name: % error, dtype: float64",7
+138,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",Ridge(alpha=4),Performance,0.9,"HAVE_CRYPTO    13.294309
+PS32K           4.661620
+PS1K            2.587321
+PS4K            2.442061
+PS16K           1.346487
+PS8K            0.978726
+HAVE_HASH       0.152736
+dtype: float64","count     35.000000
+mean     237.783456
+std      158.595908
+min       22.107657
+25%       98.514564
+50%      251.796604
+75%      374.617970
+max      522.724431
+Name: % error, dtype: float64",7
+139,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.9,"HAVE_CRYPTO    12.944073
+PS32K           5.163893
+PS16K           1.996152
+PS1K            1.909165
+PS4K            1.781280
+PS8K            0.331743
+HAVE_HASH       0.089989
+dtype: float64","count     35.000000
+mean     236.116644
+std      155.511838
+min       23.283718
+25%       91.165792
+50%      269.794104
+75%      356.158531
+max      504.293944
+Name: % error, dtype: float64",7
+140,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",LinearRegression(),Performance,0.9,"HAVE_HASH      2.954784e+13
+PS8K           5.048103e+12
+PS16K          4.320009e+12
+HAVE_CRYPTO    1.982015e+12
+PS1K           1.492293e+12
+PS4K           6.128827e+11
+PS32K          4.502497e+11
+dtype: float64","count    35.000000
+mean      5.303874
+std       4.782479
+min       0.088363
+25%       0.983894
+50%       5.558216
+75%       8.640631
+max      18.319042
+Name: % error, dtype: float64",7
+141,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",RandomForestRegressor(),Performance,0.9,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.217221
+std       1.635019
+min       0.078814
+25%       0.281377
+50%       0.731448
+75%       1.409847
+max       7.747274
+Name: % error, dtype: float64",7
+142,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.244709
+std       2.615674
+min       0.027173
+25%       0.360086
+50%       1.340619
+75%       3.042373
+max      10.518350
+Name: % error, dtype: float64",7
+143,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"HAVE_CRYPTO   NaN
+PS32K         NaN
+PS16K         NaN
+PS8K          NaN
+PS1K          NaN
+HAVE_HASH     NaN
+PS4K          NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.223959
+std       1.640760
+min       0.073917
+25%       0.264642
+50%       0.718396
+75%       1.422632
+max       7.720272
+Name: % error, dtype: float64",7
+144,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO        13.472849
+PS1K                5.046135
+PS16K               4.837485
+PS32K               3.275384
+HAVE_STATISTICS     2.560166
+DIAGNOSTIC          2.021453
+PS8K                1.796520
+PS4K                1.270214
+HAVE_HASH           0.742462
+dtype: float64","count     309.000000
+mean      496.878183
+std       497.194016
+min         2.373069
+25%        63.737722
+50%       345.302714
+75%       793.715863
+max      2211.636021
+Name: % error, dtype: float64",9
+145,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.1,"HAVE_CRYPTO        12.701948
+PS16K               5.699860
+PS32K               3.593536
+PS1K                3.158992
+HAVE_STATISTICS     1.728427
+DIAGNOSTIC          1.624636
+HAVE_HASH           0.658396
+dtype: float64","count     309.000000
+mean      425.625691
+std       400.551237
+min         0.192989
+25%        83.809344
+50%       283.725123
+75%       644.162275
+max      1809.971383
+Name: % error, dtype: float64",9
+146,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=0.3),Performance,0.1,"HAVE_CRYPTO        12.486186
+PS1K                4.430084
+PS16K               4.398237
+PS32K               2.526722
+DIAGNOSTIC          1.893795
+HAVE_STATISTICS     1.862265
+PS4K                1.356659
+PS8K                1.138215
+HAVE_HASH           0.941277
+dtype: float64","count     309.000000
+mean      419.689249
+std       400.795723
+min         0.047908
+25%        80.308888
+50%       270.260042
+75%       648.737175
+max      1789.369838
+Name: % error, dtype: float64",9
+147,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=10)",Performance,0.1,"HAVE_CRYPTO        12.389817
+PS16K               4.609231
+PS1K                4.134619
+PS32K               2.712615
+DIAGNOSTIC          1.883833
+HAVE_STATISTICS     1.801572
+PS4K                1.126403
+HAVE_HASH           0.954039
+PS8K                0.847977
+dtype: float64","count     309.000000
+mean      413.589156
+std       392.883389
+min         0.451981
+25%        80.532191
+50%       254.222563
+75%       637.526456
+max      1753.371830
+Name: % error, dtype: float64",9
+148,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO        6.245377e+11
+PS16K              8.143510e+10
+PS32K              7.775872e+10
+HAVE_STATISTICS    7.325110e+10
+PS1K               6.693750e+10
+DIAGNOSTIC         4.595579e+10
+PS8K               4.226007e+10
+PS4K               3.362421e+10
+HAVE_HASH          1.508518e+10
+dtype: float64","count    3.090000e+02
+mean     4.539799e+12
+std      7.211761e+12
+min      3.496562e-03
+25%      8.380535e-01
+50%      3.400119e+11
+75%      6.160047e+12
+max      2.592530e+13
+Name: % error, dtype: float64",9
+149,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    309.000000
+mean      31.102748
+std       52.744046
+min        0.011466
+25%        1.490427
+50%        2.883823
+75%       23.870820
+max      176.153030
+Name: % error, dtype: float64",9
+150,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    309.000000
+mean      53.733554
+std      120.481704
+min        0.001059
+25%        0.350683
+50%        1.379613
+75%       11.847640
+max      415.261524
+Name: % error, dtype: float64",9
+151,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    309.000000
+mean      10.732013
+std       19.768408
+min        0.000802
+25%        0.328339
+50%        1.894963
+75%       13.674936
+max       91.668716
+Name: % error, dtype: float64",9
+152,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO        10.753959
+PS16K               3.258921
+PS4K                2.123877
+PS1K                1.822589
+PS32K               0.786059
+DIAGNOSTIC          0.474627
+HAVE_STATISTICS     0.408473
+HAVE_HASH           0.303776
+PS8K                0.098514
+dtype: float64","count    275.000000
+mean     256.343678
+std      198.250345
+min        1.759250
+25%       42.788159
+50%      242.624482
+75%      446.136470
+max      599.987011
+Name: % error, dtype: float64",9
+153,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=100)",Performance,0.2,"HAVE_CRYPTO    10.010657
+PS16K           2.884312
+PS4K            1.758507
+PS1K            1.112461
+DIAGNOSTIC      0.052929
+dtype: float64","count    275.000000
+mean     202.825730
+std      164.312302
+min        0.825659
+25%       32.485233
+50%      187.055338
+75%      346.140687
+max      474.733453
+Name: % error, dtype: float64",9
+154,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=2),Performance,0.2,"HAVE_CRYPTO        9.147990
+PS16K              2.856221
+PS4K               1.737766
+PS1K               1.631446
+DIAGNOSTIC         0.759116
+PS8K               0.262547
+PS32K              0.250444
+HAVE_HASH          0.210624
+HAVE_STATISTICS    0.000982
+dtype: float64","count    275.000000
+mean     215.379495
+std      162.115632
+min        0.029504
+25%       47.391752
+50%      202.803590
+75%      340.849642
+max      527.743215
+Name: % error, dtype: float64",9
+155,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=100)",Performance,0.2,"HAVE_CRYPTO    9.216951
+PS16K          2.686883
+PS4K           1.849056
+PS1K           1.636196
+DIAGNOSTIC     0.633364
+HAVE_HASH      0.132643
+dtype: float64","count    275.000000
+mean     207.582984
+std      160.851457
+min        0.283234
+25%       46.634698
+50%      195.845646
+75%      311.410246
+max      522.012741
+Name: % error, dtype: float64",9
+156,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.2,"PS32K              1.680834e+12
+PS16K              1.101063e+12
+HAVE_STATISTICS    1.016876e+12
+PS1K               9.353728e+11
+PS4K               7.409913e+11
+PS8K               5.906008e+11
+HAVE_HASH          5.139735e+11
+DIAGNOSTIC         2.203091e+11
+HAVE_CRYPTO        5.456445e+09
+dtype: float64","count    2.750000e+02
+mean     1.188381e+11
+std      6.129022e+11
+min      7.322066e-03
+25%      8.076560e-01
+50%      3.555063e+00
+75%      2.340368e+01
+max      3.289561e+12
+Name: % error, dtype: float64",9
+157,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    275.000000
+mean       7.655650
+std       17.981100
+min        0.004115
+25%        0.364924
+50%        1.445727
+75%        6.494655
+max      116.353516
+Name: % error, dtype: float64",9
+158,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    275.000000
+mean       8.037005
+std       17.163537
+min        0.007336
+25%        0.446290
+50%        2.187908
+75%        5.901160
+max       85.963372
+Name: % error, dtype: float64",9
+159,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    275.000000
+mean       4.647965
+std       15.782808
+min        0.001062
+25%        0.253148
+50%        0.725364
+75%        2.092872
+max       85.035547
+Name: % error, dtype: float64",9
+160,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO        12.218930
+PS16K               2.932805
+PS4K                2.434176
+PS32K               2.428389
+PS1K                2.373371
+PS8K                0.553646
+HAVE_STATISTICS     0.437152
+HAVE_HASH           0.293149
+DIAGNOSTIC          0.080097
+dtype: float64","count    241.000000
+mean     301.273758
+std      198.910387
+min       11.539339
+25%      143.290390
+50%      342.997143
+75%      450.144162
+max      707.687468
+Name: % error, dtype: float64",9
+161,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=1)",Performance,0.3,"HAVE_CRYPTO    10.697210
+PS16K           3.071593
+PS4K            1.100226
+PS32K           0.572021
+dtype: float64","count    241.000000
+mean     169.113186
+std      162.952048
+min        0.041901
+25%       29.482663
+50%       69.243407
+75%      263.945639
+max      457.233830
+Name: % error, dtype: float64",9
+162,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=4),Performance,0.3,"HAVE_CRYPTO        10.003274
+PS16K               2.596986
+PS4K                1.909861
+PS1K                1.824190
+PS32K               1.475337
+HAVE_STATISTICS     0.826139
+DIAGNOSTIC          0.422570
+PS8K                0.338272
+HAVE_HASH           0.009544
+dtype: float64","count    241.000000
+mean     224.003653
+std      158.008613
+min        1.831720
+25%       72.332061
+50%      209.325828
+75%      360.465318
+max      533.836003
+Name: % error, dtype: float64",9
+163,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=1)",Performance,0.3,"HAVE_CRYPTO    10.697210
+PS16K           3.071593
+PS4K            1.100226
+PS32K           0.572021
+dtype: float64","count    241.000000
+mean     169.113186
+std      162.952048
+min        0.041901
+25%       29.482663
+50%       69.243407
+75%      263.945639
+max      457.233830
+Name: % error, dtype: float64",9
+164,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.3,"PS1K               7.062945e+11
+PS32K              6.176532e+11
+DIAGNOSTIC         5.756435e+11
+HAVE_STATISTICS    4.921915e+11
+HAVE_HASH          2.662599e+11
+PS4K               2.558200e+11
+PS8K               1.778408e+11
+PS16K              5.337233e+10
+HAVE_CRYPTO        4.327149e+09
+dtype: float64","count    241.000000
+mean      10.530197
+std       12.164839
+min        0.013708
+25%        1.486516
+50%        7.171261
+75%       15.180772
+max       53.047990
+Name: % error, dtype: float64",9
+165,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    241.000000
+mean       4.181433
+std       10.707738
+min        0.004459
+25%        0.257169
+50%        0.673419
+75%        2.565441
+max      114.434609
+Name: % error, dtype: float64",9
+166,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    241.000000
+mean       3.696177
+std        5.637021
+min        0.004661
+25%        0.493561
+50%        1.779236
+75%        4.571128
+max       58.391769
+Name: % error, dtype: float64",9
+167,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    241.000000
+mean       1.501740
+std        4.322650
+min        0.001062
+25%        0.164862
+50%        0.491397
+75%        1.613822
+max       60.453694
+Name: % error, dtype: float64",9
+168,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO        11.905735
+PS16K               2.855282
+PS1K                2.554955
+PS32K               1.978030
+PS4K                1.947898
+HAVE_STATISTICS     0.568204
+HAVE_HASH           0.411977
+PS8K                0.330459
+DIAGNOSTIC          0.297911
+dtype: float64","count    206.000000
+mean     285.904465
+std      198.065413
+min       11.063293
+25%       92.640278
+50%      315.330200
+75%      443.468724
+max      751.804883
+Name: % error, dtype: float64",9
+169,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.4,"HAVE_CRYPTO        11.252902
+PS16K               2.850221
+PS32K               1.514745
+PS4K                1.255927
+PS1K                1.243905
+HAVE_STATISTICS     0.148418
+dtype: float64","count    206.000000
+mean     218.768277
+std      140.217711
+min        6.648536
+25%       65.769575
+50%      286.650862
+75%      356.917124
+max      427.410453
+Name: % error, dtype: float64",9
+170,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=2),Performance,0.4,"HAVE_CRYPTO        10.980341
+PS16K               2.716526
+PS1K                2.226128
+PS4K                1.785482
+PS32K               1.577931
+HAVE_STATISTICS     0.676105
+DIAGNOSTIC          0.432492
+PS8K                0.282847
+HAVE_HASH           0.252344
+dtype: float64","count    206.000000
+mean     249.393374
+std      173.458988
+min        0.259598
+25%       65.404601
+50%      260.669959
+75%      393.287873
+max      629.390424
+Name: % error, dtype: float64",9
+171,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.4,"HAVE_CRYPTO        10.279629
+PS16K               2.732994
+PS1K                1.690804
+PS4K                1.433782
+PS32K               1.368811
+HAVE_STATISTICS     0.623671
+DIAGNOSTIC          0.390439
+HAVE_HASH           0.058409
+dtype: float64","count    206.000000
+mean     219.738228
+std      150.731706
+min        3.118052
+25%       64.322748
+50%      223.360097
+75%      357.176322
+max      502.522698
+Name: % error, dtype: float64",9
+172,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO        7.694334e+12
+PS1K               9.471897e+10
+HAVE_STATISTICS    5.268321e+10
+PS4K               2.499687e+10
+PS8K               2.157454e+10
+HAVE_HASH          1.978102e+10
+DIAGNOSTIC         1.498252e+10
+PS32K              5.810204e+09
+PS16K              1.022268e+09
+dtype: float64","count    206.000000
+mean       8.694916
+std        9.933862
+min        0.004584
+25%        1.017450
+50%        6.475200
+75%       11.814615
+max       46.378412
+Name: % error, dtype: float64",9
+173,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    206.000000
+mean       3.135186
+std        7.646140
+min        0.009339
+25%        0.223284
+50%        0.793504
+75%        2.332639
+max       62.284363
+Name: % error, dtype: float64",9
+174,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    206.000000
+mean       2.791198
+std        4.837592
+min        0.013727
+25%        0.431753
+50%        1.313141
+75%        3.724622
+max       58.497918
+Name: % error, dtype: float64",9
+175,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    206.000000
+mean       1.228059
+std        4.235089
+min        0.001062
+25%        0.172857
+50%        0.491514
+75%        1.395686
+max       59.201323
+Name: % error, dtype: float64",9
+176,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO        13.587640
+PS32K               3.949192
+PS1K                2.846207
+PS4K                2.444515
+PS16K               2.156241
+PS8K                0.814712
+HAVE_STATISTICS     0.759953
+DIAGNOSTIC          0.193319
+HAVE_HASH           0.130694
+dtype: float64","count    172.000000
+mean     315.886437
+std      217.079756
+min       17.938997
+25%      122.751712
+50%      306.393139
+75%      484.300752
+max      943.829353
+Name: % error, dtype: float64",9
+177,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.5,"HAVE_CRYPTO        13.276885
+PS32K               4.567369
+PS16K               2.918305
+PS1K                1.464721
+PS4K                1.324419
+HAVE_STATISTICS     0.584711
+dtype: float64","count    172.000000
+mean     285.251638
+std      178.592227
+min       20.234319
+25%      104.979951
+50%      297.698619
+75%      426.178548
+max      766.739299
+Name: % error, dtype: float64",9
+178,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=4),Performance,0.5,"HAVE_CRYPTO        11.975556
+PS32K               3.222878
+PS1K                2.375016
+PS4K                2.144729
+PS16K               1.997101
+HAVE_STATISTICS     0.962950
+PS8K                0.700233
+HAVE_HASH           0.165629
+DIAGNOSTIC          0.059403
+dtype: float64","count    172.000000
+mean     258.472796
+std      170.497239
+min       14.921058
+25%       70.446635
+50%      331.544248
+75%      371.950218
+max      773.394775
+Name: % error, dtype: float64",9
+179,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.5,"HAVE_CRYPTO        11.787449
+PS32K               3.460741
+PS16K               2.299379
+PS1K                1.806971
+PS4K                1.677849
+HAVE_STATISTICS     0.849704
+PS8K                0.189015
+HAVE_HASH           0.046174
+dtype: float64","count    172.000000
+mean     240.194225
+std      157.641818
+min        1.071880
+25%       66.255380
+50%      296.322697
+75%      361.139138
+max      665.961170
+Name: % error, dtype: float64",9
+180,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO        1.075209e+13
+PS8K               2.023525e+11
+PS16K              8.707847e+10
+HAVE_HASH          8.013265e+10
+HAVE_STATISTICS    7.489619e+10
+PS32K              7.196763e+10
+PS4K               6.762711e+10
+PS1K               1.055123e+10
+DIAGNOSTIC         6.112907e+09
+dtype: float64","count    172.000000
+mean       7.746703
+std        9.146337
+min        0.036515
+25%        1.298752
+50%        5.813172
+75%       10.405247
+max       49.359772
+Name: % error, dtype: float64",9
+181,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    172.000000
+mean       1.667292
+std        4.751741
+min        0.000581
+25%        0.291883
+50%        0.734935
+75%        2.011773
+max       60.691626
+Name: % error, dtype: float64",9
+182,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    172.000000
+mean       2.785977
+std        4.987628
+min        0.000204
+25%        0.488831
+50%        1.487511
+75%        3.451578
+max       56.841417
+Name: % error, dtype: float64",9
+183,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    172.000000
+mean       1.247075
+std        4.600634
+min        0.005569
+25%        0.186141
+50%        0.472528
+75%        1.373359
+max       59.242376
+Name: % error, dtype: float64",9
+184,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.6,"PS1K               8.657760e+14
+PS4K               8.657760e+14
+PS8K               8.657760e+14
+PS16K              8.657760e+14
+PS32K              8.657760e+14
+HAVE_CRYPTO        1.319787e+01
+HAVE_STATISTICS    6.875000e-01
+HAVE_HASH          9.375000e-02
+DIAGNOSTIC         9.375000e-02
+dtype: float64","count     138.000000
+mean      313.022860
+std       262.681968
+min        20.609030
+25%        80.026970
+50%       270.585622
+75%       507.302635
+max      1142.830344
+Name: % error, dtype: float64",9
+185,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.6,"HAVE_CRYPTO        12.549326
+PS32K               4.204152
+PS16K               2.553663
+PS1K                1.733951
+PS4K                1.202055
+HAVE_STATISTICS     0.510610
+dtype: float64","count    138.000000
+mean     259.858204
+std      178.780789
+min       15.137057
+25%       88.815479
+50%      270.697449
+75%      400.808237
+max      771.098419
+Name: % error, dtype: float64",9
+186,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=2),Performance,0.6,"HAVE_CRYPTO        12.154599
+PS32K               3.411272
+PS1K                2.711326
+PS4K                2.020616
+PS16K               1.861913
+HAVE_STATISTICS     0.781991
+PS8K                0.541243
+HAVE_HASH           0.028452
+DIAGNOSTIC          0.027130
+dtype: float64","count    138.000000
+mean     262.388628
+std      193.842064
+min       14.978069
+25%       66.612270
+50%      304.938377
+75%      378.794866
+max      870.746901
+Name: % error, dtype: float64",9
+187,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.6,"HAVE_CRYPTO        11.610780
+PS32K               3.658853
+PS16K               2.277881
+PS1K                2.093451
+PS4K                1.479417
+HAVE_STATISTICS     0.826608
+HAVE_HASH           0.095317
+PS8K                0.051759
+DIAGNOSTIC          0.042055
+dtype: float64","count    138.000000
+mean     244.012049
+std      177.806709
+min       11.900963
+25%       61.876857
+50%      312.787590
+75%      337.984552
+max      806.828977
+Name: % error, dtype: float64",9
+188,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO        8.458528e+13
+PS32K              3.244685e+12
+HAVE_HASH          1.324446e+12
+HAVE_STATISTICS    1.289821e+12
+PS1K               7.652064e+11
+PS4K               5.502409e+11
+PS16K              5.063849e+11
+PS8K               4.694795e+11
+DIAGNOSTIC         4.611214e+11
+dtype: float64","count    138.000000
+mean       7.355214
+std        9.020286
+min        0.023028
+25%        1.047873
+50%        5.286302
+75%       11.006910
+max       46.562897
+Name: % error, dtype: float64",9
+189,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    138.000000
+mean       1.678816
+std        5.157154
+min        0.002802
+25%        0.229193
+50%        0.625794
+75%        2.046263
+max       59.393510
+Name: % error, dtype: float64",9
+190,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    138.000000
+mean       2.919540
+std        5.322957
+min        0.003016
+25%        0.418529
+50%        1.779668
+75%        3.487836
+max       57.642335
+Name: % error, dtype: float64",9
+191,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    138.000000
+mean       1.348046
+std        5.135663
+min        0.000134
+25%        0.183465
+50%        0.490929
+75%        1.381432
+max       59.376521
+Name: % error, dtype: float64",9
+192,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.7,"PS1K               1.186500e+15
+PS4K               1.186500e+15
+PS8K               1.186500e+15
+PS16K              1.186500e+15
+PS32K              1.186500e+15
+HAVE_CRYPTO        1.352461e+01
+HAVE_STATISTICS    6.875000e-01
+DIAGNOSTIC         3.125000e-01
+dtype: float64","count     103.000000
+mean      304.045515
+std       270.309973
+min        19.857872
+25%       100.055766
+50%       262.711552
+75%       335.271286
+max      1139.799989
+Name: % error, dtype: float64",9
+193,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.7,"HAVE_CRYPTO        12.583532
+PS32K               4.357749
+PS16K               2.176092
+PS1K                1.936975
+PS4K                1.464492
+HAVE_STATISTICS     0.382772
+dtype: float64","count    103.000000
+mean     246.592920
+std      168.284549
+min       17.552865
+25%       85.930379
+50%      248.121483
+75%      405.759009
+max      621.316511
+Name: % error, dtype: float64",9
+194,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=2),Performance,0.7,"HAVE_CRYPTO        12.250854
+PS32K               3.820827
+PS1K                2.771494
+PS4K                2.128443
+PS16K               1.685691
+HAVE_STATISTICS     0.699773
+PS8K                0.606581
+DIAGNOSTIC          0.233667
+HAVE_HASH           0.071671
+dtype: float64","count    103.000000
+mean     258.209813
+std      180.061264
+min       16.582592
+25%       68.463625
+50%      268.155733
+75%      387.303618
+max      641.076597
+Name: % error, dtype: float64",9
+195,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.02, max_iter=5)",Performance,0.7,"HAVE_CRYPTO        12.099920
+PS32K               4.501385
+PS16K               2.425172
+PS1K                1.935383
+PS4K                1.354188
+HAVE_STATISTICS     0.658460
+DIAGNOSTIC          0.182979
+PS8K                0.089478
+HAVE_HASH           0.040547
+dtype: float64","count    103.000000
+mean     252.753649
+std      171.399277
+min       14.780387
+25%       66.695606
+50%      276.206678
+75%      372.905819
+max      605.495766
+Name: % error, dtype: float64",9
+196,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO        3.803715e+12
+PS16K              1.851223e+12
+PS32K              1.821570e+12
+PS1K               1.370312e+12
+PS4K               1.025802e+12
+PS8K               9.290519e+11
+DIAGNOSTIC         5.974379e+11
+HAVE_HASH          6.065091e+10
+HAVE_STATISTICS    2.865334e+10
+dtype: float64","count    103.000000
+mean       6.451829
+std        5.813426
+min        0.089540
+25%        1.607869
+50%        5.720136
+75%        9.520344
+max       31.405008
+Name: % error, dtype: float64",9
+197,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    103.000000
+mean       0.992431
+std        1.427328
+min        0.009436
+25%        0.160797
+50%        0.355348
+75%        1.545397
+max       11.139078
+Name: % error, dtype: float64",9
+198,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    103.000000
+mean       2.518156
+std        2.471919
+min        0.011405
+25%        0.443754
+50%        2.017166
+75%        3.194720
+max       10.347043
+Name: % error, dtype: float64",9
+199,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    103.000000
+mean       0.983024
+std        1.406562
+min        0.008086
+25%        0.179313
+50%        0.387297
+75%        1.504277
+max       11.131611
+Name: % error, dtype: float64",9
+200,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.8,"PS32K              7.238047e+14
+PS16K              7.238047e+14
+PS8K               7.238047e+14
+PS1K               7.238047e+14
+PS4K               7.238047e+14
+HAVE_CRYPTO        1.344221e+01
+DIAGNOSTIC         2.500000e-01
+HAVE_STATISTICS    2.500000e-01
+HAVE_HASH          1.875000e-01
+dtype: float64","count     69.000000
+mean     250.431141
+std      173.462142
+min       22.362314
+25%      132.366068
+50%      199.757324
+75%      430.154221
+max      584.312765
+Name: % error, dtype: float64",9
+201,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    13.113709
+PS32K           5.028202
+PS16K           2.233677
+PS4K            1.092064
+PS1K            0.942568
+dtype: float64","count     69.000000
+mean     217.436901
+std      129.617730
+min       24.296774
+25%      102.209966
+50%      212.109324
+75%      326.661331
+max      426.885257
+Name: % error, dtype: float64",9
+202,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=4),Performance,0.8,"HAVE_CRYPTO        12.626176
+PS32K               4.207005
+PS1K                2.456859
+PS4K                2.314301
+PS16K               1.451201
+PS8K                0.887047
+DIAGNOSTIC          0.287548
+HAVE_STATISTICS     0.277755
+HAVE_HASH           0.025277
+dtype: float64","count     69.000000
+mean     241.168387
+std      154.133729
+min       24.316846
+25%       73.558402
+50%      247.531360
+75%      394.649448
+max      497.609181
+Name: % error, dtype: float64",9
+203,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.8,"HAVE_CRYPTO        11.859833
+PS32K               4.221831
+PS16K               1.801928
+PS1K                1.747323
+PS4K                1.674833
+PS8K                0.248027
+DIAGNOSTIC          0.213964
+HAVE_STATISTICS     0.208288
+dtype: float64","count     69.000000
+mean     211.122231
+std      138.898728
+min        4.867849
+25%       55.590289
+50%      264.821196
+75%      318.078209
+max      436.514635
+Name: % error, dtype: float64",9
+204,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.8,"PS16K              3.347186e+13
+HAVE_STATISTICS    9.015695e+12
+DIAGNOSTIC         8.255208e+12
+PS1K               5.439053e+12
+PS8K               5.092926e+12
+HAVE_CRYPTO        4.070963e+12
+PS32K              2.876444e+12
+PS4K               1.377790e+12
+HAVE_HASH          6.461590e+11
+dtype: float64","count    69.000000
+mean      5.358250
+std       6.669517
+min       0.016550
+25%       1.322263
+50%       3.107455
+75%       6.701770
+max      31.547716
+Name: % error, dtype: float64",9
+205,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    69.000000
+mean      0.820746
+std       0.887882
+min       0.000037
+25%       0.172080
+50%       0.382716
+75%       1.290934
+max       3.202280
+Name: % error, dtype: float64",9
+206,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    69.000000
+mean      2.010297
+std       1.946791
+min       0.010896
+25%       0.287290
+50%       1.513779
+75%       2.846560
+max       8.923346
+Name: % error, dtype: float64",9
+207,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    69.000000
+mean      0.798692
+std       0.894403
+min       0.002470
+25%       0.139411
+50%       0.378294
+75%       1.282771
+max       3.129101
+Name: % error, dtype: float64",9
+208,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.9,"PS32K          6.131852e+14
+PS16K          6.131852e+14
+PS8K           6.131852e+14
+PS1K           6.131852e+14
+PS4K           6.131852e+14
+HAVE_CRYPTO    1.403658e+01
+DIAGNOSTIC     5.000000e-01
+HAVE_HASH      1.875000e-01
+dtype: float64","count     35.000000
+mean     242.363250
+std      185.863542
+min       18.605652
+25%       79.276666
+50%      249.151397
+75%      415.017092
+max      638.349715
+Name: % error, dtype: float64",9
+209,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.9,"HAVE_CRYPTO    13.657110
+PS32K           5.555008
+PS16K           2.233071
+PS4K            1.045507
+PS1K            0.989736
+dtype: float64","count     35.000000
+mean     213.003238
+std      137.041418
+min       21.781190
+25%      116.249978
+50%      205.396802
+75%      320.917129
+max      476.055521
+Name: % error, dtype: float64",9
+210,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",Ridge(alpha=4),Performance,0.9,"HAVE_CRYPTO        13.225225
+PS32K               4.646890
+PS1K                2.613546
+PS4K                2.404015
+PS16K               1.361612
+PS8K                0.990942
+DIAGNOSTIC          0.343236
+HAVE_STATISTICS     0.199282
+HAVE_HASH           0.077167
+dtype: float64","count     35.000000
+mean     240.108372
+std      164.165934
+min       21.577020
+25%       84.166507
+50%      251.693587
+75%      396.660658
+max      520.407700
+Name: % error, dtype: float64",9
+211,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.9,"HAVE_CRYPTO        12.868150
+PS32K               5.141946
+PS16K               2.007198
+PS1K                1.942274
+PS4K                1.743698
+DIAGNOSTIC          0.373783
+PS8K                0.350194
+HAVE_STATISTICS     0.239937
+HAVE_HASH           0.007400
+dtype: float64","count     35.000000
+mean     238.341168
+std      161.593635
+min       22.683387
+25%       76.947473
+50%      266.745511
+75%      375.307379
+max      518.851875
+Name: % error, dtype: float64",9
+212,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",LinearRegression(),Performance,0.9,"PS4K               1.655292e+13
+PS32K              1.652081e+13
+PS16K              8.781775e+12
+PS1K               8.294782e+12
+DIAGNOSTIC         5.745817e+12
+HAVE_STATISTICS    4.477504e+12
+HAVE_HASH          2.979102e+12
+PS8K               3.497330e+11
+HAVE_CRYPTO        3.765839e+09
+dtype: float64","count    35.000000
+mean      5.699352
+std       4.754253
+min       0.069872
+25%       1.156962
+50%       5.404080
+75%       9.004596
+max      17.276329
+Name: % error, dtype: float64",9
+213,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    35.000000
+mean      0.592559
+std       0.572673
+min       0.008709
+25%       0.191872
+50%       0.335394
+75%       1.054446
+max       2.116482
+Name: % error, dtype: float64",9
+214,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.092536
+std       2.032523
+min       0.021985
+25%       0.442819
+50%       1.345658
+75%       3.317776
+max       7.333723
+Name: % error, dtype: float64",9
+215,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+Name: % error, dtype: float64","count    35.000000
+mean      0.590849
+std       0.577649
+min       0.014349
+25%       0.157105
+50%       0.342785
+75%       1.064918
+max       2.124071
+Name: % error, dtype: float64",9
+216,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO        14.732036
+PS1K                6.157908
+PS16K               5.502010
+HAVE_STATISTICS     3.701159
+PS32K               3.183111
+#yes                2.250000
+PS8K                2.116319
+HAVE_HASH           1.084278
+DIAGNOSTIC          0.636350
+HAVE_VERIFY         0.462822
+PS4K                0.410894
+dtype: float64","count     309.000000
+mean      548.620941
+std       574.356832
+min         0.506607
+25%        73.708853
+50%       413.361283
+75%       832.377496
+max      2591.405923
+Name: % error, dtype: float64",11
+217,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=1)",Performance,0.1,"HAVE_CRYPTO        10.995640
+PS16K               5.207096
+PS1K                3.552540
+HAVE_STATISTICS     1.080861
+#yes                1.022832
+DIAGNOSTIC          0.939908
+PS4K                0.887110
+HAVE_HASH           0.458416
+PS8K                0.376757
+HAVE_VERIFY         0.109368
+dtype: float64","count     309.000000
+mean      353.933170
+std       321.461303
+min         0.213505
+25%        65.677070
+50%       271.825905
+75%       599.478501
+max      1386.234561
+Name: % error, dtype: float64",11
+218,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.1,"HAVE_CRYPTO        12.549977
+PS1K                4.682493
+PS16K               4.561683
+PS32K               2.069033
+HAVE_STATISTICS     2.025537
+#yes                1.307976
+HAVE_HASH           1.129850
+DIAGNOSTIC          1.083112
+PS8K                0.991625
+PS4K                0.956598
+HAVE_VERIFY         0.076767
+dtype: float64","count     309.000000
+mean      406.208270
+std       391.118079
+min         0.328482
+25%        67.685262
+50%       315.074160
+75%       651.414230
+max      1763.913546
+Name: % error, dtype: float64",11
+219,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.02, max_iter=1)",Performance,0.1,"HAVE_CRYPTO        10.718271
+PS16K               5.146362
+PS1K                3.509463
+HAVE_STATISTICS     1.096045
+DIAGNOSTIC          1.092613
+#yes                1.017569
+PS4K                0.966588
+PS8K                0.913847
+HAVE_HASH           0.750983
+HAVE_VERIFY         0.241003
+dtype: float64","count     309.000000
+mean      352.087377
+std       311.724651
+min         1.089509
+25%        73.413534
+50%       288.000622
+75%       591.943568
+max      1307.861438
+Name: % error, dtype: float64",11
+220,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_HASH          2.390716
+HAVE_CRYPTO        1.834619
+PS16K              0.533508
+HAVE_STATISTICS    0.457145
+PS4K               0.377678
+#yes               0.213695
+PS1K               0.163564
+PS8K               0.076642
+PS32K              0.068907
+DIAGNOSTIC         0.064916
+HAVE_VERIFY        0.050738
+dtype: float64","count     309.000000
+mean      164.757411
+std       244.381172
+min         0.002454
+25%         1.124735
+50%        74.877012
+75%       203.630809
+max      1165.317676
+Name: % error, dtype: float64",11
+221,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    309.000000
+mean      44.394367
+std       76.892721
+min        0.055856
+25%        2.568299
+50%        6.179842
+75%       37.931314
+max      260.728826
+Name: % error, dtype: float64",11
+222,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    309.000000
+mean      74.892937
+std      174.851713
+min        0.001531
+25%        0.420727
+50%        1.286732
+75%       15.504344
+max      600.243989
+Name: % error, dtype: float64",11
+223,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    309.000000
+mean      10.872402
+std       19.753280
+min        0.002454
+25%        0.315415
+50%        2.014382
+75%       13.674936
+max       91.581067
+Name: % error, dtype: float64",11
+224,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO        11.324616
+PS16K               3.603871
+PS1K                2.141815
+PS4K                1.916275
+#yes                1.053758
+HAVE_STATISTICS     0.850425
+PS32K               0.675675
+HAVE_VERIFY         0.588973
+HAVE_HASH           0.534486
+PS8K                0.221456
+DIAGNOSTIC          0.176450
+dtype: float64","count    275.000000
+mean     286.192579
+std      237.574034
+min        1.133159
+25%       54.053922
+50%      225.938569
+75%      480.077737
+max      979.361455
+Name: % error, dtype: float64",11
+225,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=100)",Performance,0.2,"HAVE_CRYPTO    10.149808
+PS16K           3.018659
+PS4K            1.638230
+PS1K            1.240226
+#yes            0.387554
+HAVE_VERIFY     0.213504
+dtype: float64","count    275.000000
+mean     213.426558
+std      172.809536
+min        1.098591
+25%       45.447113
+50%      180.010223
+75%      400.680998
+max      530.684306
+Name: % error, dtype: float64",11
+226,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=2),Performance,0.2,"HAVE_CRYPTO        9.239468
+PS16K              3.007644
+PS1K               1.762272
+PS4K               1.737013
+HAVE_VERIFY        0.774225
+DIAGNOSTIC         0.613242
+#yes               0.287140
+PS8K               0.254773
+PS32K              0.236869
+HAVE_HASH          0.145321
+HAVE_STATISTICS    0.021600
+dtype: float64","count    275.000000
+mean     231.209268
+std      180.177788
+min        0.380754
+25%       52.969374
+50%      199.774025
+75%      388.481850
+max      608.288875
+Name: % error, dtype: float64",11
+227,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=1)",Performance,0.2,"HAVE_CRYPTO    9.020047
+PS16K          3.643229
+PS4K           1.238589
+PS8K           0.974625
+PS1K           0.782143
+HAVE_VERIFY    0.628236
+DIAGNOSTIC     0.571378
+#yes           0.308534
+HAVE_HASH      0.193434
+dtype: float64","count    275.000000
+mean     229.643413
+std      182.207901
+min        0.822942
+25%       73.900563
+50%      189.458891
+75%      357.361662
+max      630.246622
+Name: % error, dtype: float64",11
+228,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.2,"HAVE_CRYPTO        4.899097
+HAVE_HASH          1.751748
+PS32K              0.944245
+#yes               0.732135
+PS16K              0.499111
+DIAGNOSTIC         0.457552
+HAVE_STATISTICS    0.455126
+HAVE_VERIFY        0.435233
+PS4K               0.356272
+PS8K               0.101231
+PS1K               0.012369
+dtype: float64","count    275.000000
+mean      28.825975
+std       36.339481
+min        0.019055
+25%        1.171680
+50%       12.755533
+75%       42.410298
+max      168.884294
+Name: % error, dtype: float64",11
+229,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    275.000000
+mean       9.161362
+std       18.993971
+min        0.023052
+25%        0.787424
+50%        2.003877
+75%        8.294422
+max      116.208926
+Name: % error, dtype: float64",11
+230,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    275.000000
+mean       8.465172
+std       17.441575
+min        0.000507
+25%        0.491569
+50%        1.862543
+75%        5.920984
+max       85.969073
+Name: % error, dtype: float64",11
+231,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    275.000000
+mean       6.373884
+std       17.064923
+min        0.006257
+25%        0.248172
+50%        0.961880
+75%        3.051576
+max       85.035547
+Name: % error, dtype: float64",11
+232,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO        12.950929
+PS16K               3.178729
+PS1K                2.816568
+PS32K               2.288070
+PS4K                1.916787
+#yes                1.501564
+DIAGNOSTIC          0.839154
+PS8K                0.733444
+HAVE_HASH           0.692081
+HAVE_VERIFY         0.560533
+HAVE_STATISTICS     0.192014
+dtype: float64","count     241.000000
+mean      319.371021
+std       261.477544
+min         4.245818
+25%        88.248751
+50%       256.773397
+75%       466.354204
+max      1137.618723
+Name: % error, dtype: float64",11
+233,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=1)",Performance,0.3,"HAVE_CRYPTO    10.697210
+PS16K           3.071593
+PS4K            1.100226
+#yes            0.574638
+PS32K           0.572021
+dtype: float64","count    241.000000
+mean     184.572798
+std      166.756336
+min        1.331631
+25%       47.836289
+50%       74.925378
+75%      387.468757
+max      523.155848
+Name: % error, dtype: float64",11
+234,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=4),Performance,0.3,"HAVE_CRYPTO        10.202649
+PS16K               2.705495
+PS1K                2.017491
+PS4K                1.719031
+PS32K               1.450670
+HAVE_VERIFY         0.824091
+HAVE_STATISTICS     0.705389
+#yes                0.584812
+PS8K                0.419642
+DIAGNOSTIC          0.238519
+HAVE_HASH           0.010011
+dtype: float64","count    241.000000
+mean     238.558097
+std      182.345713
+min        0.490421
+25%       67.974864
+50%      191.801056
+75%      379.474629
+max      715.776135
+Name: % error, dtype: float64",11
+235,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=1)",Performance,0.3,"HAVE_CRYPTO    10.697210
+PS16K           3.071593
+PS4K            1.100226
+#yes            0.574638
+PS32K           0.572021
+dtype: float64","count    241.000000
+mean     184.572798
+std      166.756336
+min        1.331631
+25%       47.836289
+50%       74.925378
+75%      387.468757
+max      523.155848
+Name: % error, dtype: float64",11
+236,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.3,"HAVE_CRYPTO        9.256161e+11
+HAVE_HASH          1.384815e+00
+PS1K               6.662903e-01
+PS32K              5.613098e-01
+#yes               4.991684e-01
+HAVE_STATISTICS    3.956909e-01
+PS16K              2.991486e-01
+HAVE_VERIFY        2.543640e-01
+PS4K               2.310028e-01
+DIAGNOSTIC         1.672058e-01
+PS8K               1.633759e-01
+dtype: float64","count    241.000000
+mean      20.031429
+std       28.428121
+min        0.011075
+25%        1.193141
+50%        7.312274
+75%       25.458020
+max      152.716652
+Name: % error, dtype: float64",11
+237,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    241.000000
+mean       4.500191
+std        9.630968
+min        0.000787
+25%        0.328344
+50%        1.011315
+75%        3.224635
+max       82.573403
+Name: % error, dtype: float64",11
+238,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    241.000000
+mean       5.128710
+std        7.957532
+min        0.017768
+25%        0.545227
+50%        2.202609
+75%        5.263559
+max       61.057545
+Name: % error, dtype: float64",11
+239,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    241.000000
+mean       1.510015
+std        4.340684
+min        0.000126
+25%        0.176019
+50%        0.590463
+75%        1.384124
+max       60.438003
+Name: % error, dtype: float64",11
+240,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO        12.413973
+PS16K               2.985853
+PS1K                2.808337
+PS32K               1.904059
+PS4K                1.487954
+#yes                1.125374
+HAVE_HASH           0.775704
+HAVE_VERIFY         0.706141
+PS8K                0.593621
+HAVE_STATISTICS     0.245446
+DIAGNOSTIC          0.213285
+dtype: float64","count    206.000000
+mean     293.870670
+std      238.387461
+min        0.447748
+25%       74.489118
+50%      233.730536
+75%      433.295496
+max      965.787351
+Name: % error, dtype: float64",11
+241,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.4,"HAVE_CRYPTO    11.522620
+PS16K           3.037564
+PS32K           1.511274
+PS1K            1.285662
+PS4K            0.793771
+#yes            0.765524
+HAVE_VERIFY     0.192868
+HAVE_HASH       0.110898
+dtype: float64","count    206.000000
+mean     218.398333
+std      158.995170
+min        0.463705
+25%       66.357251
+50%      191.813320
+75%      334.430656
+max      555.096590
+Name: % error, dtype: float64",11
+242,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=2),Performance,0.4,"HAVE_CRYPTO        11.266865
+PS16K               2.804362
+PS1K                2.394643
+PS32K               1.541837
+PS4K                1.484386
+HAVE_VERIFY         0.819474
+#yes                0.741555
+HAVE_STATISTICS     0.535685
+PS8K                0.467171
+HAVE_HASH           0.407899
+DIAGNOSTIC          0.178923
+dtype: float64","count    206.000000
+mean     260.635208
+std      199.289951
+min        1.110428
+25%       66.453291
+50%      229.968545
+75%      383.745215
+max      801.544699
+Name: % error, dtype: float64",11
+243,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.4,"HAVE_CRYPTO    11.522620
+PS16K           3.037564
+PS32K           1.511274
+PS1K            1.285662
+PS4K            0.793771
+#yes            0.765524
+HAVE_VERIFY     0.192868
+HAVE_HASH       0.110898
+dtype: float64","count    206.000000
+mean     218.398333
+std      158.995170
+min        0.463705
+25%       66.357251
+50%      191.813320
+75%      334.430656
+max      555.096590
+Name: % error, dtype: float64",11
+244,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO        3.550984e+11
+HAVE_HASH          7.735081e-01
+PS32K              3.946304e-01
+PS1K               3.074322e-01
+HAVE_STATISTICS    2.515793e-01
+DIAGNOSTIC         2.169800e-01
+#yes               1.470966e-01
+HAVE_VERIFY        1.119995e-01
+PS4K               8.149719e-02
+PS16K              9.433746e-03
+PS8K               6.729126e-03
+dtype: float64","count    206.000000
+mean      11.402251
+std       12.565159
+min        0.008270
+25%        2.098612
+50%        6.824445
+75%       16.103758
+max       55.581435
+Name: % error, dtype: float64",11
+245,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    206.000000
+mean       3.610197
+std        8.628822
+min        0.007533
+25%        0.307470
+50%        0.882260
+75%        2.312946
+max       86.518634
+Name: % error, dtype: float64",11
+246,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    206.000000
+mean       2.825221
+std        4.911163
+min        0.000846
+25%        0.445937
+50%        1.386663
+75%        3.759621
+max       58.731942
+Name: % error, dtype: float64",11
+247,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    206.000000
+mean       1.123113
+std        4.310849
+min        0.000126
+25%        0.169488
+50%        0.439560
+75%        1.069765
+max       60.453694
+Name: % error, dtype: float64",11
+248,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO        13.799722
+PS32K               3.924942
+PS1K                2.936743
+PS4K                2.200152
+PS16K               2.156847
+PS8K                0.944894
+HAVE_STATISTICS     0.601346
+#yes                0.536568
+HAVE_VERIFY         0.398697
+DIAGNOSTIC          0.379458
+HAVE_HASH           0.235186
+dtype: float64","count    172.000000
+mean     311.632911
+std      222.960483
+min       16.501595
+25%      107.189308
+50%      287.308853
+75%      448.809605
+max      960.287095
+Name: % error, dtype: float64",11
+249,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.5,"HAVE_CRYPTO        13.083386
+PS32K               4.127949
+PS16K               2.702499
+PS1K                1.091561
+PS4K                1.032384
+HAVE_STATISTICS     0.290589
+#yes                0.286447
+dtype: float64","count    172.000000
+mean     245.935607
+std      145.126031
+min       20.479519
+25%       92.678625
+50%      259.867421
+75%      343.932300
+max      599.691441
+Name: % error, dtype: float64",11
+250,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=4),Performance,0.5,"HAVE_CRYPTO        11.966445
+PS32K               3.257223
+PS1K                2.403689
+PS4K                2.076415
+PS16K               1.975576
+HAVE_STATISTICS     1.002182
+PS8K                0.752695
+HAVE_VERIFY         0.629980
+HAVE_HASH           0.259965
+DIAGNOSTIC          0.118358
+#yes                0.091423
+dtype: float64","count    172.000000
+mean     260.523059
+std      176.091000
+min        7.854268
+25%       82.237139
+50%      284.469256
+75%      396.867380
+max      772.314086
+Name: % error, dtype: float64",11
+251,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.5,"HAVE_CRYPTO        11.791482
+PS32K               3.485401
+PS16K               2.287502
+PS1K                1.826349
+PS4K                1.624438
+HAVE_STATISTICS     0.868860
+HAVE_VERIFY         0.449359
+PS8K                0.225390
+HAVE_HASH           0.103349
+#yes                0.082667
+dtype: float64","count    172.000000
+mean     243.097323
+std      158.356274
+min        6.380504
+25%       72.562207
+50%      271.054568
+75%      370.439450
+max      666.011211
+Name: % error, dtype: float64",11
+252,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO        3.344563e+11
+HAVE_HASH          6.421909e-01
+#yes               2.806110e-01
+PS32K              2.608643e-01
+HAVE_STATISTICS    2.399864e-01
+HAVE_VERIFY        1.782303e-01
+DIAGNOSTIC         1.398315e-01
+PS16K              1.021233e-01
+PS4K               1.009750e-01
+PS1K               3.472710e-02
+PS8K               2.306747e-02
+dtype: float64","count    172.000000
+mean       8.579223
+std       11.208549
+min        0.004359
+25%        1.041724
+50%        4.128563
+75%       12.217621
+max       62.075667
+Name: % error, dtype: float64",11
+253,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    172.000000
+mean       1.587743
+std        4.766008
+min        0.000152
+25%        0.308486
+50%        0.842259
+75%        1.464536
+max       61.058662
+Name: % error, dtype: float64",11
+254,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    172.000000
+mean       2.827891
+std        5.122376
+min        0.001422
+25%        0.594311
+50%        1.554487
+75%        3.492092
+max       59.520540
+Name: % error, dtype: float64",11
+255,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    172.000000
+mean       1.153443
+std        4.591210
+min        0.002901
+25%        0.184098
+50%        0.519439
+75%        1.183654
+max       59.324482
+Name: % error, dtype: float64",11
+256,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO        13.054124
+PS32K               3.684096
+PS1K                3.001290
+PS4K                2.011841
+PS16K               1.956775
+PS8K                0.627740
+HAVE_STATISTICS     0.524283
+#yes                0.374605
+DIAGNOSTIC          0.350428
+HAVE_HASH           0.211819
+HAVE_VERIFY         0.057351
+dtype: float64","count    138.000000
+mean     283.058021
+std      218.631503
+min       20.840199
+25%       87.357826
+50%      257.724483
+75%      422.187594
+max      967.873696
+Name: % error, dtype: float64",11
+257,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=100)",Performance,0.6,"HAVE_CRYPTO        12.241012
+PS32K               3.572829
+PS16K               2.155566
+PS1K                1.490864
+PS4K                1.144537
+HAVE_STATISTICS     0.270307
+#yes                0.089522
+dtype: float64","count    138.000000
+mean     217.177780
+std      143.574449
+min       14.727703
+25%       71.469819
+50%      237.565418
+75%      339.475992
+max      588.070792
+Name: % error, dtype: float64",11
+258,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=2),Performance,0.6,"HAVE_CRYPTO        12.199217
+PS32K               3.391137
+PS1K                2.732474
+PS4K                1.945345
+PS16K               1.860486
+HAVE_STATISTICS     0.739948
+PS8K                0.573805
+#yes                0.148991
+HAVE_VERIFY         0.144400
+DIAGNOSTIC          0.079675
+HAVE_HASH           0.020155
+dtype: float64","count    138.000000
+mean     258.527778
+std      191.745474
+min       16.070858
+25%       70.455992
+50%      279.075783
+75%      373.798971
+max      874.736905
+Name: % error, dtype: float64",11
+259,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.6,"HAVE_CRYPTO        11.066553
+PS32K               3.183782
+PS16K               1.982308
+PS1K                1.912333
+PS4K                1.454709
+HAVE_STATISTICS     0.762748
+HAVE_VERIFY         0.140668
+PS8K                0.049566
+HAVE_HASH           0.039755
+dtype: float64","count    138.000000
+mean     213.329503
+std      145.851583
+min        8.488385
+25%       60.317115
+50%      245.302528
+75%      324.994516
+max      647.285618
+Name: % error, dtype: float64",11
+260,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO        5.185109e+12
+HAVE_HASH          4.843445e-01
+PS32K              2.324219e-01
+#yes               2.317810e-01
+HAVE_VERIFY        1.331177e-01
+HAVE_STATISTICS    1.294556e-01
+DIAGNOSTIC         9.985352e-02
+PS8K               6.088257e-02
+PS16K              5.511475e-02
+PS1K               1.824951e-02
+PS4K               6.591797e-03
+dtype: float64","count    138.000000
+mean       7.822559
+std        9.935483
+min        0.016030
+25%        1.505946
+50%        4.401030
+75%       11.979640
+max       58.681314
+Name: % error, dtype: float64",11
+261,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    138.000000
+mean       1.764571
+std        5.324427
+min        0.006470
+25%        0.219341
+50%        0.763139
+75%        1.498187
+max       59.926254
+Name: % error, dtype: float64",11
+262,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    138.000000
+mean       2.927148
+std        5.340738
+min        0.003011
+25%        0.476461
+50%        1.781595
+75%        3.487181
+max       57.873775
+Name: % error, dtype: float64",11
+263,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    138.000000
+mean       1.181675
+std        5.149793
+min        0.004297
+25%        0.164410
+50%        0.460536
+75%        1.094068
+max       59.819886
+Name: % error, dtype: float64",11
+264,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO        13.043064
+PS32K               4.063362
+PS1K                3.008093
+PS4K                2.129041
+PS16K               1.752288
+PS8K                0.678516
+HAVE_STATISTICS     0.442407
+#yes                0.355512
+HAVE_HASH           0.189581
+HAVE_VERIFY         0.048273
+DIAGNOSTIC          0.020526
+dtype: float64","count    103.000000
+mean     270.973252
+std      196.623377
+min       21.925633
+25%       81.530937
+50%      243.484016
+75%      420.656846
+max      773.227929
+Name: % error, dtype: float64",11
+265,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.7,"HAVE_CRYPTO        12.653095
+PS32K               4.354212
+PS16K               2.240604
+PS1K                1.930289
+PS4K                1.305992
+HAVE_STATISTICS     0.307541
+#yes                0.230451
+dtype: float64","count    103.000000
+mean     241.534660
+std      164.587164
+min       18.895824
+25%       74.138471
+50%      235.765291
+75%      385.636410
+max      662.609087
+Name: % error, dtype: float64",11
+266,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=2),Performance,0.7,"HAVE_CRYPTO        12.299557
+PS32K               3.794615
+PS1K                2.798360
+PS4K                2.042493
+PS16K               1.688336
+HAVE_STATISTICS     0.644525
+PS8K                0.642098
+DIAGNOSTIC          0.178807
+#yes                0.170580
+HAVE_VERIFY         0.133808
+HAVE_HASH           0.036914
+dtype: float64","count    103.000000
+mean     252.718000
+std      176.115528
+min       17.657663
+25%       66.503876
+50%      271.398314
+75%      390.942740
+max      657.789013
+Name: % error, dtype: float64",11
+267,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.02, max_iter=10)",Performance,0.7,"HAVE_CRYPTO        12.144442
+PS32K               4.134081
+PS1K                2.247532
+PS16K               2.102616
+PS4K                1.556058
+HAVE_STATISTICS     0.601252
+#yes                0.161564
+PS8K                0.121346
+DIAGNOSTIC          0.119484
+HAVE_VERIFY         0.084348
+dtype: float64","count    103.000000
+mean     243.587464
+std      169.273239
+min       16.675727
+25%       61.706915
+50%      271.637486
+75%      375.134411
+max      622.981190
+Name: % error, dtype: float64",11
+268,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.7,"HAVE_CRYPTO        5.071852e+11
+HAVE_HASH          4.473991e-01
+#yes               2.867546e-01
+PS32K              2.056580e-01
+PS8K               1.086159e-01
+PS16K              8.975983e-02
+HAVE_STATISTICS    8.714294e-02
+HAVE_VERIFY        7.566833e-02
+DIAGNOSTIC         7.275391e-02
+PS4K               4.096985e-02
+PS1K               3.106308e-02
+dtype: float64","count    103.000000
+mean       6.771310
+std        6.481503
+min        0.020794
+25%        1.745010
+50%        5.623496
+75%        9.311670
+max       35.970713
+Name: % error, dtype: float64",11
+269,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    103.000000
+mean       0.978672
+std        1.181191
+min        0.005576
+25%        0.206643
+50%        0.789953
+75%        1.320872
+max        9.546452
+Name: % error, dtype: float64",11
+270,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    103.000000
+mean       2.497888
+std        2.427049
+min        0.011429
+25%        0.497393
+50%        2.017357
+75%        3.293759
+max       10.420961
+Name: % error, dtype: float64",11
+271,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    103.000000
+mean       0.822276
+std        1.238052
+min        0.008086
+25%        0.182953
+50%        0.456643
+75%        1.185728
+max       11.045157
+Name: % error, dtype: float64",11
+272,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO        13.872261
+PS32K               4.660576
+PS1K                2.735912
+PS4K                2.389988
+PS16K               1.519226
+PS8K                1.053902
+#yes                0.396854
+HAVE_HASH           0.345410
+HAVE_VERIFY         0.088182
+HAVE_STATISTICS     0.014401
+DIAGNOSTIC          0.005562
+dtype: float64","count     69.000000
+mean     259.941967
+std      176.567485
+min       19.009145
+25%      137.596858
+50%      204.881135
+75%      446.314082
+max      648.452859
+Name: % error, dtype: float64",11
+273,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    13.136961
+PS32K           5.025011
+PS16K           2.251664
+PS4K            1.042853
+PS1K            0.947496
+#yes            0.078474
+dtype: float64","count     69.000000
+mean     216.600699
+std      129.146349
+min       24.083256
+25%      102.706043
+50%      209.507894
+75%      331.764936
+max      440.698603
+Name: % error, dtype: float64",11
+274,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=4),Performance,0.8,"HAVE_CRYPTO        12.582293
+PS32K               4.202966
+PS1K                2.474986
+PS4K                2.251899
+PS16K               1.448655
+PS8K                0.924735
+HAVE_VERIFY         0.422189
+DIAGNOSTIC          0.332456
+HAVE_STATISTICS     0.313106
+#yes                0.044725
+HAVE_HASH           0.025524
+dtype: float64","count     69.000000
+mean     238.203822
+std      152.301656
+min       23.843853
+25%       89.159787
+50%      247.929484
+75%      387.816143
+max      486.651698
+Name: % error, dtype: float64",11
+275,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.8,"HAVE_CRYPTO        11.819618
+PS32K               4.224703
+PS16K               1.794151
+PS1K                1.755023
+PS4K                1.641956
+HAVE_VERIFY         0.353360
+PS8K                0.269218
+DIAGNOSTIC          0.254190
+HAVE_STATISTICS     0.240651
+dtype: float64","count     69.000000
+mean     209.187708
+std      135.185065
+min       12.666715
+25%       60.016671
+50%      256.759673
+75%      315.869773
+max      448.794903
+Name: % error, dtype: float64",11
+276,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.8,"HAVE_CRYPTO        5.594309e+11
+HAVE_HASH          4.149323e-01
+#yes               2.354584e-01
+PS32K              1.759186e-01
+PS8K               1.015968e-01
+HAVE_STATISTICS    7.596588e-02
+DIAGNOSTIC         7.011414e-02
+HAVE_VERIFY        5.822754e-02
+PS4K               5.186462e-02
+PS16K              3.559113e-02
+PS1K               7.978439e-03
+dtype: float64","count    69.000000
+mean      5.990980
+std       6.421425
+min       0.051412
+25%       1.780868
+50%       4.702506
+75%       7.349856
+max      32.048749
+Name: % error, dtype: float64",11
+277,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    69.000000
+mean      0.650389
+std       0.667716
+min       0.017194
+25%       0.171488
+50%       0.358975
+75%       0.858785
+max       3.295932
+Name: % error, dtype: float64",11
+278,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    69.000000
+mean      2.015765
+std       1.973758
+min       0.011197
+25%       0.273517
+50%       1.583957
+75%       2.942137
+max       9.066187
+Name: % error, dtype: float64",11
+279,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    69.000000
+mean      0.662843
+std       0.707902
+min       0.007440
+25%       0.127629
+50%       0.345664
+75%       0.940630
+max       3.306492
+Name: % error, dtype: float64",11
+280,LinearRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.9,"PS32K              1.571456e+14
+PS16K              1.571456e+14
+PS8K               1.571456e+14
+PS4K               1.571456e+14
+PS1K               1.571456e+14
+HAVE_CRYPTO        1.445486e+01
+#yes               7.187500e-01
+HAVE_HASH          5.000000e-01
+HAVE_STATISTICS    2.578125e-01
+DIAGNOSTIC         1.250000e-01
+HAVE_VERIFY        6.250000e-02
+dtype: float64","count     35.000000
+mean     247.156506
+std      193.857042
+min       18.293740
+25%      123.806047
+50%      167.976034
+75%      391.166566
+max      706.549993
+Name: % error, dtype: float64",11
+281,Lasso,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.9,"HAVE_CRYPTO    13.718429
+PS32K           5.538465
+PS16K           2.286333
+PS1K            1.009910
+PS4K            0.911754
+#yes            0.240220
+dtype: float64","count     35.000000
+mean     213.851967
+std      141.617911
+min       21.883308
+25%      116.577750
+50%      194.632621
+75%      313.634410
+max      493.471568
+Name: % error, dtype: float64",11
+282,Ridge,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",Ridge(alpha=4),Performance,0.9,"HAVE_CRYPTO        13.265201
+PS32K               4.605351
+PS1K                2.664793
+PS4K                2.268388
+PS16K               1.380490
+PS8K                1.052659
+HAVE_VERIFY         0.411702
+DIAGNOSTIC          0.292556
+#yes                0.289814
+HAVE_STATISTICS     0.142963
+HAVE_HASH           0.117342
+dtype: float64","count     35.000000
+mean     236.136129
+std      170.713686
+min       21.833131
+25%       86.997363
+50%      210.983880
+75%      377.728814
+max      541.127577
+Name: % error, dtype: float64",11
+283,ElasticNet,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.9,"HAVE_CRYPTO    13.718429
+PS32K           5.538465
+PS16K           2.286333
+PS1K            1.009910
+PS4K            0.911754
+#yes            0.240220
+dtype: float64","count     35.000000
+mean     213.851967
+std      141.617911
+min       21.883308
+25%      116.577750
+50%      194.632621
+75%      313.634410
+max      493.471568
+Name: % error, dtype: float64",11
+284,PolynomialRegression,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO        2.637648e+12
+HAVE_HASH          4.125366e-01
+PS32K              1.773071e-01
+#yes               1.717529e-01
+PS8K               1.031799e-01
+PS4K               6.420898e-02
+HAVE_VERIFY        4.577637e-02
+DIAGNOSTIC         4.467773e-02
+PS16K              3.857422e-02
+HAVE_STATISTICS    3.591919e-02
+PS1K               1.731873e-02
+dtype: float64","count    35.000000
+mean      5.521176
+std       5.634378
+min       0.115975
+25%       2.018959
+50%       4.439804
+75%       7.020794
+max      30.444909
+Name: % error, dtype: float64",11
+285,RandomForest,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    35.000000
+mean      0.649470
+std       0.600447
+min       0.003176
+25%       0.182094
+50%       0.452144
+75%       0.912911
+max       1.946759
+Name: % error, dtype: float64",11
+286,GradientBoostingTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.081688
+std       2.018974
+min       0.021703
+25%       0.379283
+50%       1.388749
+75%       3.290715
+max       7.257283
+Name: % error, dtype: float64",11
+287,DecisionTree,False,DecisionTree,"Index(['HAVE_CRYPTO', 'PS32K', 'PS16K', 'PS8K', 'PS1K', 'HAVE_HASH', 'PS4K',
+       'DIAGNOSTIC', 'HAVE_STATISTICS', '#yes', 'HAVE_VERIFY'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"HAVE_CRYPTO       NaN
+PS32K             NaN
+PS16K             NaN
+PS8K              NaN
+PS1K              NaN
+HAVE_HASH         NaN
+PS4K              NaN
+DIAGNOSTIC        NaN
+HAVE_STATISTICS   NaN
+#yes              NaN
+HAVE_VERIFY       NaN
+Name: % error, dtype: float64","count    35.000000
+mean      0.650618
+std       0.607201
+min       0.032728
+25%       0.189510
+50%       0.367039
+75%       1.025377
+max       1.883332
+Name: % error, dtype: float64",11

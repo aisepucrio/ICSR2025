@@ -1,0 +1,3382 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.1,"min                          2.824139e+14
+max                          2.824139e+14
+memory_based                 5.921875e+00
+polly_no_tiling              5.375000e+00
+parallel                     3.791626e+00
+none                         2.527344e+00
+pollydefaulttilesize_256     1.257812e+00
+pollydefaulttilesize_64      9.235840e-01
+pollydefaulttilesize_1024    7.304688e-01
+pollydefaulttilesize_4       4.570312e-01
+dtype: float64","count    1955.000000
+mean       24.071391
+std        44.320361
+min         0.022787
+25%         6.324178
+50%        10.743331
+75%        17.966803
+max       304.888104
+Name: % error, dtype: float64",10
+1,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=10)",Performance,0.1,"memory_based       5.204490
+polly_no_tiling    4.913280
+max                3.730154
+parallel           3.150337
+none               2.150059
+min                1.465246
+dtype: float64","count    1955.000000
+mean       24.391280
+std        47.849195
+min         0.022285
+25%         6.642470
+50%        10.105515
+75%        16.863999
+max       336.924989
+Name: % error, dtype: float64",10
+2,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=4),Performance,0.1,"memory_based                 5.320150
+polly_no_tiling              4.931874
+parallel                     3.391003
+min                          2.701662
+max                          2.701662
+none                         2.355179
+pollydefaulttilesize_256     0.932252
+pollydefaulttilesize_64      0.674177
+pollydefaulttilesize_1024    0.575545
+pollydefaulttilesize_4       0.371626
+dtype: float64","count    1955.000000
+mean       24.346319
+std        46.887959
+min         0.028784
+25%         6.269747
+50%        10.363274
+75%        17.157908
+max       325.378648
+Name: % error, dtype: float64",10
+3,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=10)",Performance,0.1,"memory_based       5.204490
+polly_no_tiling    4.913280
+max                3.730154
+parallel           3.150337
+none               2.150059
+min                1.465246
+dtype: float64","count    1955.000000
+mean       24.391280
+std        47.849195
+min         0.022285
+25%         6.642470
+50%        10.105515
+75%        16.863999
+max       336.924989
+Name: % error, dtype: float64",10
+4,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.1,"pollydefaulttilesize_1024    1.036536e+13
+parallel                     5.557774e+12
+pollydefaulttilesize_4       3.994002e+12
+polly_no_tiling              2.998685e+12
+memory_based                 2.057144e+12
+pollydefaulttilesize_256     1.878559e+12
+none                         1.686703e+12
+pollydefaulttilesize_64      1.270827e+12
+min                          3.701843e+11
+max                          1.192637e+11
+dtype: float64","count    1955.000000
+mean        8.689075
+std        11.473188
+min         0.003591
+25%         2.290019
+50%         5.845206
+75%        10.932879
+max        82.199156
+Name: % error, dtype: float64",10
+5,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"max                          36.578637
+min                           0.000863
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        2.445216
+std         4.892055
+min         0.000863
+25%         0.520016
+50%         1.166918
+75%         2.369404
+max        36.578637
+Name: % error, dtype: float64",10
+6,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"max                          55.100402
+min                           0.001188
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        3.333535
+std         6.803832
+min         0.001188
+25%         0.577500
+50%         1.330468
+75%         2.632630
+max        55.100402
+Name: % error, dtype: float64",10
+7,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"max                          38.460695
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        1.834076
+std         3.535702
+min         0.000000
+25%         0.401725
+50%         0.993586
+75%         2.059705
+max        38.460695
+Name: % error, dtype: float64",10
+8,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.2,"min                          1.417496e+13
+max                          1.417496e+13
+memory_based                 6.083069e+00
+polly_no_tiling              5.867188e+00
+parallel                     3.326538e+00
+none                         3.142334e+00
+pollydefaulttilesize_1024    1.236206e+00
+pollydefaulttilesize_256     8.447876e-01
+pollydefaulttilesize_64      7.307739e-01
+pollydefaulttilesize_4       5.030518e-01
+dtype: float64","count    1738.000000
+mean       23.674524
+std        41.243656
+min         0.027667
+25%         6.742862
+50%        11.100662
+75%        19.734137
+max       293.661661
+Name: % error, dtype: float64",10
+9,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.2,"memory_based                 5.740922
+polly_no_tiling              5.635571
+max                          3.753332
+parallel                     3.023266
+none                         2.940178
+min                          1.923247
+pollydefaulttilesize_1024    0.507189
+pollydefaulttilesize_256     0.000090
+dtype: float64","count    1738.000000
+mean       23.807665
+std        43.067835
+min         0.012943
+25%         6.606996
+50%        10.429534
+75%        18.996748
+max       311.394453
+Name: % error, dtype: float64",10
+10,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=4),Performance,0.2,"memory_based                 5.766079
+polly_no_tiling              5.605084
+parallel                     3.147326
+none                         3.030370
+max                          2.886451
+min                          2.886451
+pollydefaulttilesize_1024    1.117015
+pollydefaulttilesize_256     0.682445
+pollydefaulttilesize_64      0.614751
+pollydefaulttilesize_4       0.386799
+dtype: float64","count    1738.000000
+mean       23.827883
+std        42.713808
+min         0.000535
+25%         6.705439
+50%        10.692450
+75%        19.212188
+max       304.527673
+Name: % error, dtype: float64",10
+11,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=10)",Performance,0.2,"memory_based                 5.740922
+polly_no_tiling              5.635571
+max                          3.753332
+parallel                     3.023266
+none                         2.940178
+min                          1.923247
+pollydefaulttilesize_1024    0.507189
+pollydefaulttilesize_256     0.000090
+dtype: float64","count    1738.000000
+mean       23.807665
+std        43.067835
+min         0.012943
+25%         6.606996
+50%        10.429534
+75%        18.996748
+max       311.394453
+Name: % error, dtype: float64",10
+12,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.2,"max                          1.405675e+14
+none                         7.563975e+13
+min                          4.930045e+13
+polly_no_tiling              2.939386e+13
+memory_based                 2.804854e+13
+pollydefaulttilesize_256     1.967065e+13
+parallel                     1.833417e+13
+pollydefaulttilesize_64      1.249070e+13
+pollydefaulttilesize_4       4.362773e+11
+pollydefaulttilesize_1024    1.920746e+11
+dtype: float64","count    1738.000000
+mean        7.963056
+std        10.322870
+min         0.002023
+25%         2.143200
+50%         5.041418
+75%        10.418739
+max        79.285080
+Name: % error, dtype: float64",10
+13,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"max                          34.945112
+min                           0.002676
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        1.576588
+std         2.593522
+min         0.002676
+25%         0.411543
+50%         1.021369
+75%         1.961856
+max        34.945112
+Name: % error, dtype: float64",10
+14,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"max                          49.750554
+min                           0.000507
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        3.148002
+std         6.294881
+min         0.000507
+25%         0.608111
+50%         1.336683
+75%         2.543676
+max        49.750554
+Name: % error, dtype: float64",10
+15,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"max                          38.460695
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        1.552086
+std         2.850849
+min         0.000000
+25%         0.376375
+50%         0.953871
+75%         1.875847
+max        38.460695
+Name: % error, dtype: float64",10
+16,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.3,"min                          1.903553e+14
+max                          1.903553e+14
+memory_based                 6.065430e+00
+polly_no_tiling              5.625000e+00
+none                         2.814453e+00
+parallel                     2.568359e+00
+pollydefaulttilesize_1024    1.481445e+00
+pollydefaulttilesize_256     4.477539e-01
+pollydefaulttilesize_64      3.017578e-01
+pollydefaulttilesize_4       2.832031e-02
+dtype: float64","count    1521.000000
+mean       24.304508
+std        44.814329
+min         0.051043
+25%         6.290219
+50%        10.406105
+75%        18.549754
+max       320.347468
+Name: % error, dtype: float64",10
+17,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=5)",Performance,0.3,"memory_based                 5.922001
+polly_no_tiling              5.541838
+max                          3.580356
+none                         2.719703
+parallel                     2.440839
+min                          1.821584
+pollydefaulttilesize_1024    1.226222
+pollydefaulttilesize_256     0.137424
+pollydefaulttilesize_4       0.050696
+pollydefaulttilesize_64      0.013780
+dtype: float64","count    1521.000000
+mean       24.343571
+std        45.127973
+min         0.027152
+25%         6.847370
+50%        10.641766
+75%        17.887238
+max       325.773824
+Name: % error, dtype: float64",10
+18,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=2),Performance,0.3,"memory_based                 5.950699
+polly_no_tiling              5.563528
+none                         2.764220
+min                          2.728225
+max                          2.728225
+parallel                     2.511559
+pollydefaulttilesize_1024    1.431777
+pollydefaulttilesize_256     0.380674
+pollydefaulttilesize_64      0.250939
+pollydefaulttilesize_4       0.021794
+dtype: float64","count    1521.000000
+mean       24.315660
+std        44.811522
+min         0.012294
+25%         6.678881
+50%        10.715819
+75%        18.254760
+max       321.487966
+Name: % error, dtype: float64",10
+19,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=5)",Performance,0.3,"memory_based                 5.922001
+polly_no_tiling              5.541838
+max                          3.580356
+none                         2.719703
+parallel                     2.440839
+min                          1.821584
+pollydefaulttilesize_1024    1.226222
+pollydefaulttilesize_256     0.137424
+pollydefaulttilesize_4       0.050696
+pollydefaulttilesize_64      0.013780
+dtype: float64","count    1521.000000
+mean       24.343571
+std        45.127973
+min         0.027152
+25%         6.847370
+50%        10.641766
+75%        17.887238
+max       325.773824
+Name: % error, dtype: float64",10
+20,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.3,"memory_based                 1.600140e+14
+max                          8.409878e+13
+pollydefaulttilesize_256     8.186038e+13
+pollydefaulttilesize_1024    4.295532e+13
+pollydefaulttilesize_64      2.186687e+13
+min                          1.756997e+13
+parallel                     1.525444e+13
+polly_no_tiling              1.123655e+13
+pollydefaulttilesize_4       3.318526e+12
+none                         1.662511e+12
+dtype: float64","count    1521.000000
+mean        8.150409
+std        11.271353
+min         0.000336
+25%         1.768931
+50%         5.634562
+75%        10.118832
+max        96.186690
+Name: % error, dtype: float64",10
+21,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"max                          36.966702
+min                           0.000167
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        1.561473
+std         2.621250
+min         0.000167
+25%         0.417184
+50%         0.963541
+75%         1.858194
+max        36.966702
+Name: % error, dtype: float64",10
+22,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"max                          58.708290
+min                           0.000419
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        3.322039
+std         7.286075
+min         0.000419
+25%         0.520825
+50%         1.319310
+75%         2.480290
+max        58.708290
+Name: % error, dtype: float64",10
+23,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"max                          38.549665
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        1.558728
+std         2.993732
+min         0.000000
+25%         0.391375
+50%         0.939397
+75%         1.820919
+max        38.549665
+Name: % error, dtype: float64",10
+24,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.4,"max                          4.787202e+12
+min                          4.787202e+12
+memory_based                 6.079834e+00
+polly_no_tiling              5.677734e+00
+none                         2.872437e+00
+parallel                     2.361694e+00
+pollydefaulttilesize_1024    9.652710e-01
+pollydefaulttilesize_256     3.551178e-01
+pollydefaulttilesize_4       7.820892e-02
+pollydefaulttilesize_64      5.990601e-02
+dtype: float64","count    1304.000000
+mean       24.631800
+std        44.959306
+min         0.016324
+25%         7.209319
+50%        10.610245
+75%        18.364240
+max       318.967167
+Name: % error, dtype: float64",10
+25,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=10)",Performance,0.4,"memory_based                 5.933948
+polly_no_tiling              5.569656
+max                          3.603746
+none                         2.800018
+parallel                     2.217097
+min                          2.043592
+pollydefaulttilesize_1024    0.786914
+pollydefaulttilesize_256     0.144398
+dtype: float64","count    1304.000000
+mean       24.698697
+std        45.704065
+min         0.014506
+25%         7.332228
+50%        10.315299
+75%        18.008553
+max       323.652073
+Name: % error, dtype: float64",10
+26,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=2),Performance,0.4,"memory_based                 5.991772
+polly_no_tiling              5.603103
+min                          2.863651
+max                          2.863651
+none                         2.846760
+parallel                     2.315503
+pollydefaulttilesize_1024    0.956038
+pollydefaulttilesize_256     0.341098
+pollydefaulttilesize_4       0.070902
+pollydefaulttilesize_64      0.044760
+dtype: float64","count    1304.000000
+mean       24.677949
+std        45.419625
+min         0.004605
+25%         7.211102
+50%        10.494410
+75%        18.207997
+max       322.041380
+Name: % error, dtype: float64",10
+27,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=10)",Performance,0.4,"memory_based                 5.933948
+polly_no_tiling              5.569656
+max                          3.603746
+none                         2.800018
+parallel                     2.217097
+min                          2.043592
+pollydefaulttilesize_1024    0.786914
+pollydefaulttilesize_256     0.144398
+dtype: float64","count    1304.000000
+mean       24.698697
+std        45.704065
+min         0.014506
+25%         7.332228
+50%        10.315299
+75%        18.008553
+max       323.652073
+Name: % error, dtype: float64",10
+28,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.4,"polly_no_tiling              1.085152e+14
+pollydefaulttilesize_1024    1.005411e+14
+memory_based                 9.799208e+13
+none                         8.314734e+13
+parallel                     7.786224e+13
+pollydefaulttilesize_64      6.419197e+13
+pollydefaulttilesize_256     5.532335e+13
+min                          2.147279e+13
+max                          2.064043e+13
+pollydefaulttilesize_4       1.627608e+13
+dtype: float64","count    1304.000000
+mean        8.739597
+std        13.689803
+min         0.002905
+25%         2.097610
+50%         4.773216
+75%         9.314350
+max       113.854535
+Name: % error, dtype: float64",10
+29,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"max                          12.801016
+min                           0.000559
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        1.308689
+std         1.403109
+min         0.000559
+25%         0.399822
+50%         0.892952
+75%         1.754772
+max        12.801016
+Name: % error, dtype: float64",10
+30,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"max                          60.815273
+min                           0.000613
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        3.389305
+std         7.637170
+min         0.000613
+25%         0.508679
+50%         1.234202
+75%         2.398057
+max        60.815273
+Name: % error, dtype: float64",10
+31,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"max                          10.904843
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        1.272651
+std         1.298589
+min         0.000000
+25%         0.372663
+50%         0.884850
+75%         1.744170
+max        10.904843
+Name: % error, dtype: float64",10
+32,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.5,"min                          5.050105e+13
+max                          5.050105e+13
+memory_based                 6.381348e+00
+polly_no_tiling              5.648438e+00
+none                         2.889648e+00
+parallel                     2.461182e+00
+pollydefaulttilesize_1024    9.511719e-01
+pollydefaulttilesize_256     5.943604e-01
+pollydefaulttilesize_4       2.897339e-01
+pollydefaulttilesize_64      5.187988e-02
+dtype: float64","count    1086.000000
+mean       24.567929
+std        44.317014
+min         0.004544
+25%         6.951668
+50%        10.640091
+75%        17.802020
+max       309.975962
+Name: % error, dtype: float64",10
+33,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=100)",Performance,0.5,"memory_based                 6.233428
+polly_no_tiling              5.550978
+max                          3.638486
+none                         2.804712
+parallel                     2.322399
+min                          2.239722
+pollydefaulttilesize_1024    0.711665
+pollydefaulttilesize_256     0.312532
+pollydefaulttilesize_64      0.026668
+pollydefaulttilesize_4       0.007679
+dtype: float64","count    1086.000000
+mean       24.569748
+std        45.131610
+min         0.028990
+25%         7.072740
+50%        10.200413
+75%        17.726064
+max       314.581978
+Name: % error, dtype: float64",10
+34,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=4),Performance,0.5,"memory_based                 6.234322
+polly_no_tiling              5.534172
+min                          2.959397
+max                          2.959397
+none                         2.838127
+parallel                     2.392075
+pollydefaulttilesize_1024    0.939897
+pollydefaulttilesize_256     0.553541
+pollydefaulttilesize_4       0.268455
+pollydefaulttilesize_64      0.023366
+dtype: float64","count    1086.000000
+mean       24.617767
+std        45.252944
+min         0.058685
+25%         6.844890
+50%        10.336021
+75%        17.810391
+max       315.991411
+Name: % error, dtype: float64",10
+35,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=100)",Performance,0.5,"memory_based                 6.147072
+polly_no_tiling              5.467817
+max                          2.939739
+min                          2.912600
+none                         2.804442
+parallel                     2.332075
+pollydefaulttilesize_1024    0.873921
+pollydefaulttilesize_256     0.475559
+pollydefaulttilesize_4       0.197196
+pollydefaulttilesize_64      0.000738
+dtype: float64","count    1086.000000
+mean       24.638546
+std        45.614072
+min         0.092102
+25%         6.931203
+50%        10.217639
+75%        17.660399
+max       318.260678
+Name: % error, dtype: float64",10
+36,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.5,"parallel                     1.587329e+14
+polly_no_tiling              1.287995e+14
+pollydefaulttilesize_256     7.698633e+13
+none                         7.696820e+13
+pollydefaulttilesize_64      5.150283e+13
+pollydefaulttilesize_4       4.871358e+13
+max                          4.452219e+13
+pollydefaulttilesize_1024    4.129789e+13
+memory_based                 2.386435e+13
+min                          1.435950e+13
+dtype: float64","count    1086.000000
+mean        8.558602
+std        12.750380
+min         0.002516
+25%         2.406436
+50%         5.142490
+75%         9.912759
+max       108.503606
+Name: % error, dtype: float64",10
+37,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"max                          12.024903
+min                           0.000758
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        1.276690
+std         1.381322
+min         0.000758
+25%         0.367752
+50%         0.881236
+75%         1.753176
+max        12.024903
+Name: % error, dtype: float64",10
+38,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"max                          51.836048
+min                           0.000074
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        3.167109
+std         7.010445
+min         0.000074
+25%         0.495676
+50%         1.206200
+75%         2.308836
+max        51.836048
+Name: % error, dtype: float64",10
+39,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"max                          10.345841
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        1.247833
+std         1.291697
+min         0.000000
+25%         0.359944
+50%         0.866193
+75%         1.731958
+max        10.345841
+Name: % error, dtype: float64",10
+40,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.6,"min                          3.610133e+13
+max                          3.610133e+13
+memory_based                 6.388672e+00
+polly_no_tiling              5.777344e+00
+none                         2.698730e+00
+parallel                     2.391846e+00
+pollydefaulttilesize_1024    4.396973e-01
+pollydefaulttilesize_4       2.222290e-01
+pollydefaulttilesize_64      1.951904e-01
+pollydefaulttilesize_256     1.147461e-01
+dtype: float64","count    869.000000
+mean      23.906653
+std       42.668897
+min        0.023879
+25%        7.688101
+50%       10.717867
+75%       17.652027
+max      305.829327
+Name: % error, dtype: float64",10
+41,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=10)",Performance,0.6,"memory_based                 6.238458
+polly_no_tiling              5.662343
+max                          3.766551
+none                         2.623092
+parallel                     2.248631
+min                          2.199227
+pollydefaulttilesize_1024    0.374448
+pollydefaulttilesize_4       0.093388
+pollydefaulttilesize_64      0.079740
+pollydefaulttilesize_256     0.021850
+dtype: float64","count    869.000000
+mean      23.930629
+std       43.607047
+min        0.034373
+25%        7.735183
+50%       10.422866
+75%       17.374721
+max      310.354017
+Name: % error, dtype: float64",10
+42,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=2),Performance,0.6,"memory_based                 6.325381
+polly_no_tiling              5.724735
+min                          3.035180
+max                          3.035180
+none                         2.686989
+parallel                     2.358189
+pollydefaulttilesize_1024    0.451437
+pollydefaulttilesize_4       0.207512
+pollydefaulttilesize_64      0.184609
+pollydefaulttilesize_256     0.120953
+dtype: float64","count    869.000000
+mean      23.902976
+std       43.196894
+min        0.009203
+25%        7.500559
+50%       10.488686
+75%       17.756370
+max      308.921119
+Name: % error, dtype: float64",10
+43,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=10)",Performance,0.6,"memory_based                 6.238458
+polly_no_tiling              5.662343
+max                          3.766551
+none                         2.623092
+parallel                     2.248631
+min                          2.199227
+pollydefaulttilesize_1024    0.374448
+pollydefaulttilesize_4       0.093388
+pollydefaulttilesize_64      0.079740
+pollydefaulttilesize_256     0.021850
+dtype: float64","count    869.000000
+mean      23.930629
+std       43.607047
+min        0.034373
+25%        7.735183
+50%       10.422866
+75%       17.374721
+max      310.354017
+Name: % error, dtype: float64",10
+44,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.6,"pollydefaulttilesize_4       3.107047e+13
+polly_no_tiling              2.359654e+13
+pollydefaulttilesize_256     1.925804e+13
+pollydefaulttilesize_1024    1.231867e+13
+memory_based                 1.076370e+13
+pollydefaulttilesize_64      5.917222e+12
+parallel                     5.285191e+12
+none                         3.847581e+12
+max                          1.763629e+12
+min                          3.999311e+11
+dtype: float64","count    869.000000
+mean       8.219084
+std       11.472117
+min        0.006033
+25%        2.236022
+50%        5.384220
+75%        9.637739
+max       99.877930
+Name: % error, dtype: float64",10
+45,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"max                          9.735708
+min                          0.000253
+polly_no_tiling                   NaN
+memory_based                      NaN
+none                              NaN
+parallel                          NaN
+pollydefaulttilesize_4            NaN
+pollydefaulttilesize_1024         NaN
+pollydefaulttilesize_64           NaN
+pollydefaulttilesize_256          NaN
+Name: % error, dtype: float64","count    869.000000
+mean       1.249365
+std        1.243396
+min        0.000253
+25%        0.364776
+50%        0.866853
+75%        1.714711
+max        9.735708
+Name: % error, dtype: float64",10
+46,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"max                          54.340996
+min                           0.001321
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    869.000000
+mean       2.839519
+std        6.582939
+min        0.001321
+25%        0.467174
+50%        1.160476
+75%        2.245733
+max       54.340996
+Name: % error, dtype: float64",10
+47,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"max                          9.665806
+polly_no_tiling                   NaN
+memory_based                      NaN
+none                              NaN
+parallel                          NaN
+pollydefaulttilesize_4            NaN
+pollydefaulttilesize_1024         NaN
+pollydefaulttilesize_64           NaN
+pollydefaulttilesize_256          NaN
+Name: % error, dtype: float64","count    869.000000
+mean       1.219766
+std        1.208003
+min        0.000000
+25%        0.352345
+50%        0.856468
+75%        1.687817
+max        9.665806
+Name: % error, dtype: float64",10
+48,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.7,"max                          6.258550e+13
+min                          6.258550e+13
+memory_based                 6.123047e+00
+polly_no_tiling              5.609375e+00
+none                         2.710938e+00
+parallel                     2.276367e+00
+pollydefaulttilesize_1024    5.561523e-01
+pollydefaulttilesize_256     1.296387e-01
+pollydefaulttilesize_64      1.081543e-01
+pollydefaulttilesize_4       7.751465e-03
+dtype: float64","count    652.000000
+mean      24.445112
+std       43.554921
+min        0.160031
+25%        7.791112
+50%       10.886814
+75%       17.182928
+max      308.533654
+Name: % error, dtype: float64",10
+49,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=5)",Performance,0.7,"memory_based                 5.970608
+polly_no_tiling              5.479299
+max                          3.713231
+none                         2.617487
+parallel                     2.143085
+min                          2.114136
+pollydefaulttilesize_1024    0.442989
+pollydefaulttilesize_64      0.016316
+dtype: float64","count    652.000000
+mean      24.449629
+std       45.073330
+min        0.023345
+25%        7.440565
+50%       10.285716
+75%       17.423906
+max      315.724238
+Name: % error, dtype: float64",10
+50,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=4),Performance,0.7,"memory_based                 6.014368
+polly_no_tiling              5.506846
+max                          2.950767
+min                          2.950767
+none                         2.670399
+parallel                     2.234095
+pollydefaulttilesize_1024    0.557670
+pollydefaulttilesize_256     0.121158
+pollydefaulttilesize_64      0.082105
+pollydefaulttilesize_4       0.005870
+dtype: float64","count    652.000000
+mean      24.440676
+std       44.864747
+min        0.016122
+25%        7.406365
+50%       10.474349
+75%       17.541986
+max      315.529064
+Name: % error, dtype: float64",10
+51,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=5)",Performance,0.7,"memory_based                 5.970608
+polly_no_tiling              5.479299
+max                          3.713231
+none                         2.617487
+parallel                     2.143085
+min                          2.114136
+pollydefaulttilesize_1024    0.442989
+pollydefaulttilesize_64      0.016316
+dtype: float64","count    652.000000
+mean      24.449629
+std       45.073330
+min        0.023345
+25%        7.440565
+50%       10.285716
+75%       17.423906
+max      315.724238
+Name: % error, dtype: float64",10
+52,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.7,"polly_no_tiling              7.327739e+13
+max                          4.992737e+13
+memory_based                 4.532376e+13
+pollydefaulttilesize_4       3.237319e+13
+min                          1.752553e+13
+pollydefaulttilesize_1024    1.741377e+13
+pollydefaulttilesize_64      1.425512e+13
+pollydefaulttilesize_256     4.525393e+12
+parallel                     2.513122e+12
+none                         6.388031e+11
+dtype: float64","count    652.000000
+mean       8.483838
+std       12.191397
+min        0.005522
+25%        2.235014
+50%        5.654380
+75%        9.565581
+max      106.971154
+Name: % error, dtype: float64",10
+53,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"max                          9.775814
+min                          0.000041
+polly_no_tiling                   NaN
+memory_based                      NaN
+none                              NaN
+parallel                          NaN
+pollydefaulttilesize_4            NaN
+pollydefaulttilesize_1024         NaN
+pollydefaulttilesize_64           NaN
+pollydefaulttilesize_256          NaN
+Name: % error, dtype: float64","count    652.000000
+mean       1.238763
+std        1.216918
+min        0.000041
+25%        0.387959
+50%        0.877979
+75%        1.661230
+max        9.775814
+Name: % error, dtype: float64",10
+54,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"max                          54.610041
+min                           0.002191
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    652.000000
+mean       2.928715
+std        6.956378
+min        0.002191
+25%        0.443336
+50%        1.123125
+75%        2.186567
+max       54.610041
+Name: % error, dtype: float64",10
+55,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"max                          9.814232
+polly_no_tiling                   NaN
+memory_based                      NaN
+none                              NaN
+parallel                          NaN
+pollydefaulttilesize_4            NaN
+pollydefaulttilesize_1024         NaN
+pollydefaulttilesize_64           NaN
+pollydefaulttilesize_256          NaN
+Name: % error, dtype: float64","count    652.000000
+mean       1.224627
+std        1.219412
+min        0.000000
+25%        0.373022
+50%        0.870525
+75%        1.625270
+max        9.814232
+Name: % error, dtype: float64",10
+56,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.8,"max                          3.149573e+13
+min                          3.149573e+13
+memory_based                 6.141357e+00
+polly_no_tiling              5.796875e+00
+none                         2.736328e+00
+parallel                     2.116211e+00
+pollydefaulttilesize_1024    2.678223e-01
+pollydefaulttilesize_4       1.727905e-01
+pollydefaulttilesize_256     5.407715e-02
+pollydefaulttilesize_64      3.730774e-02
+dtype: float64","count    435.000000
+mean      23.666971
+std       43.533998
+min        0.135870
+25%        7.171107
+50%       10.103844
+75%       18.799444
+max      309.705529
+Name: % error, dtype: float64",10
+57,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=5)",Performance,0.8,"memory_based                 6.017314
+polly_no_tiling              5.694340
+max                          3.755042
+none                         2.633930
+min                          2.116062
+parallel                     1.991264
+pollydefaulttilesize_1024    0.207265
+pollydefaulttilesize_4       0.046797
+dtype: float64","count    435.000000
+mean      23.759386
+std       43.537905
+min        0.022335
+25%        7.701223
+50%       10.427117
+75%       18.109065
+max      310.737875
+Name: % error, dtype: float64",10
+58,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=4),Performance,0.8,"memory_based                 6.072066
+polly_no_tiling              5.734687
+max                          2.976418
+min                          2.976418
+none                         2.698707
+parallel                     2.084888
+pollydefaulttilesize_1024    0.271518
+pollydefaulttilesize_4       0.166607
+pollydefaulttilesize_256     0.051469
+pollydefaulttilesize_64      0.007816
+dtype: float64","count    435.000000
+mean      23.714996
+std       43.113885
+min        0.164719
+25%        7.551622
+50%       10.485231
+75%       18.323907
+max      307.474804
+Name: % error, dtype: float64",10
+59,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=5)",Performance,0.8,"memory_based                 6.017314
+polly_no_tiling              5.694340
+max                          3.755042
+none                         2.633930
+min                          2.116062
+parallel                     1.991264
+pollydefaulttilesize_1024    0.207265
+pollydefaulttilesize_4       0.046797
+dtype: float64","count    435.000000
+mean      23.759386
+std       43.537905
+min        0.022335
+25%        7.701223
+50%       10.427117
+75%       18.109065
+max      310.737875
+Name: % error, dtype: float64",10
+60,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.8,"polly_no_tiling              6.932592e+13
+pollydefaulttilesize_1024    6.380889e+13
+pollydefaulttilesize_64      3.979443e+13
+pollydefaulttilesize_256     3.604056e+13
+memory_based                 3.451457e+13
+none                         2.047497e+13
+parallel                     1.883224e+13
+pollydefaulttilesize_4       9.293398e+12
+min                          5.415077e+12
+max                          1.855429e+12
+dtype: float64","count    435.000000
+mean       8.397217
+std       11.994171
+min        0.007471
+25%        2.199959
+50%        6.331296
+75%        9.930493
+max      102.080829
+Name: % error, dtype: float64",10
+61,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"max                          10.155645
+min                           0.005281
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    435.000000
+mean       1.225235
+std        1.219447
+min        0.005281
+25%        0.369744
+50%        0.873071
+75%        1.634814
+max       10.155645
+Name: % error, dtype: float64",10
+62,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"max                          54.782244
+min                           0.001898
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    435.000000
+mean       3.035766
+std        7.216800
+min        0.001898
+25%        0.467747
+50%        1.157242
+75%        2.306942
+max       54.782244
+Name: % error, dtype: float64",10
+63,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"max                          10.184634
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    435.000000
+mean       1.220235
+std        1.225213
+min        0.000000
+25%        0.359060
+50%        0.891220
+75%        1.609582
+max       10.184634
+Name: % error, dtype: float64",10
+64,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.9,"max                          1.368770e+13
+min                          1.368770e+13
+memory_based                 6.100952e+00
+polly_no_tiling              5.693359e+00
+none                         2.665283e+00
+parallel                     2.277588e+00
+pollydefaulttilesize_1024    3.315430e-01
+pollydefaulttilesize_64      2.217026e-01
+pollydefaulttilesize_256     1.102295e-01
+pollydefaulttilesize_4       8.703613e-02
+dtype: float64","count    218.000000
+mean      24.476713
+std       40.772194
+min        0.054942
+25%        7.474897
+50%       10.899054
+75%       19.547409
+max      298.490929
+Name: % error, dtype: float64",10
+65,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.9,"memory_based       5.760199
+polly_no_tiling    5.418162
+max                3.607596
+none               2.441394
+parallel           1.953316
+min                1.948435
+dtype: float64","count    218.000000
+mean      24.681718
+std       42.735543
+min        0.058239
+25%        7.680587
+50%       10.454793
+75%       18.478722
+max      315.109263
+Name: % error, dtype: float64",10
+66,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",Ridge(alpha=4),Performance,0.9,"memory_based                 6.030468
+polly_no_tiling              5.630049
+max                          2.923549
+min                          2.923549
+none                         2.644026
+parallel                     2.245767
+pollydefaulttilesize_1024    0.324084
+pollydefaulttilesize_64      0.213995
+pollydefaulttilesize_256     0.104316
+pollydefaulttilesize_4       0.088648
+dtype: float64","count    218.000000
+mean      24.505707
+std       41.239129
+min        0.089602
+25%        7.465299
+50%       10.655812
+75%       19.458122
+max      301.497231
+Name: % error, dtype: float64",10
+67,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=10)",Performance,0.9,"memory_based       5.760199
+polly_no_tiling    5.418162
+max                3.607596
+none               2.441394
+parallel           1.953316
+min                1.948435
+dtype: float64","count    218.000000
+mean      24.681718
+std       42.735543
+min        0.058239
+25%        7.680587
+50%       10.454793
+75%       18.478722
+max      315.109263
+Name: % error, dtype: float64",10
+68,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",LinearRegression(),Performance,0.9,"memory_based                 8.567662e+13
+polly_no_tiling              7.705298e+13
+pollydefaulttilesize_256     7.248212e+13
+parallel                     5.917596e+13
+none                         4.496113e+13
+max                          3.922561e+13
+min                          1.982532e+13
+pollydefaulttilesize_64      1.504412e+13
+pollydefaulttilesize_4       1.055054e+13
+pollydefaulttilesize_1024    6.634347e+12
+dtype: float64","count    218.000000
+mean       8.713757
+std       12.072463
+min        0.089329
+25%        1.801372
+50%        6.405242
+75%        9.509115
+max      113.092468
+Name: % error, dtype: float64",10
+69,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"max                          10.314054
+min                           0.005815
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.172669
+std        1.334306
+min        0.005815
+25%        0.354345
+50%        0.810396
+75%        1.443375
+max       10.314054
+Name: % error, dtype: float64",10
+70,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"max                          54.006843
+min                           0.028432
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    218.000000
+mean       2.762399
+std        6.349951
+min        0.028432
+25%        0.541653
+50%        1.100379
+75%        2.218112
+max       54.006843
+Name: % error, dtype: float64",10
+71,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"max                          10.386182
+min                           0.004464
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.178147
+std        1.339065
+min        0.004464
+25%        0.351648
+50%        0.832067
+75%        1.447799
+max       10.386182
+Name: % error, dtype: float64",10
+72,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"memory_based                 5.894548
+polly_parallel               4.501248
+max                          3.164388
+min                          3.164388
+#yes                         2.786792
+parallel                     2.629697
+none                         2.224282
+polly_no_tiling              2.071539
+pollydefaulttilesize_256     1.053029
+pollydefaulttilesize_16      0.683367
+pollydefaulttilesize_4       0.334313
+pollydefaulttilesize_1024    0.124697
+pollydefaulttilesize_64      0.089347
+dtype: float64","count    1955.000000
+mean       23.064864
+std        42.947981
+min         0.019362
+25%         5.194648
+50%        10.049352
+75%        18.064411
+max       359.488883
+Name: % error, dtype: float64",13
+73,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.1,"memory_based                5.276829
+max                         5.012850
+polly_no_tiling             2.579519
+polly_parallel              2.309235
+none                        2.089637
+#yes                        2.082740
+parallel                    1.915068
+min                         0.950499
+pollydefaulttilesize_256    0.684538
+pollydefaulttilesize_16     0.464194
+dtype: float64","count    1955.000000
+mean       23.407680
+std        44.897378
+min         0.033622
+25%         5.137044
+50%         9.744564
+75%        17.375255
+max       381.287803
+Name: % error, dtype: float64",13
+74,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.1,"memory_based                 5.135702
+min                          2.959832
+max                          2.959832
+polly_no_tiling              2.483689
+polly_parallel               2.477787
+#yes                         2.149404
+none                         2.118176
+parallel                     1.983689
+pollydefaulttilesize_256     0.822023
+pollydefaulttilesize_16      0.674344
+pollydefaulttilesize_4       0.198795
+pollydefaulttilesize_64      0.104996
+pollydefaulttilesize_1024    0.053879
+dtype: float64","count    1955.000000
+mean       23.461151
+std        45.078134
+min         0.043522
+25%         5.093285
+50%         9.793918
+75%        17.414868
+max       379.066640
+Name: % error, dtype: float64",13
+75,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=100)",Performance,0.1,"memory_based                5.276829
+max                         5.012850
+polly_no_tiling             2.579519
+polly_parallel              2.309235
+none                        2.089637
+#yes                        2.082740
+parallel                    1.915068
+min                         0.950499
+pollydefaulttilesize_256    0.684538
+pollydefaulttilesize_16     0.464194
+dtype: float64","count    1955.000000
+mean       23.407680
+std        44.897378
+min         0.033622
+25%         5.137044
+50%         9.744564
+75%        17.375255
+max       381.287803
+Name: % error, dtype: float64",13
+76,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"max                          4.900343e+12
+min                          1.441277e+12
+memory_based                 1.178749e+01
+parallel                     1.174931e+01
+polly_no_tiling              5.477509e+00
+pollydefaulttilesize_1024    4.557922e+00
+#yes                         3.337708e+00
+pollydefaulttilesize_4       3.325867e+00
+pollydefaulttilesize_16      2.278915e+00
+pollydefaulttilesize_256     1.730560e+00
+polly_parallel               1.508530e+00
+none                         1.493309e+00
+pollydefaulttilesize_64      6.931305e-01
+dtype: float64","count    1955.000000
+mean        8.819509
+std        12.878682
+min         0.004748
+25%         1.965439
+50%         5.341283
+75%        10.597157
+max       145.290875
+Name: % error, dtype: float64",13
+77,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"max                          331.114527
+min                            0.000373
+polly_no_tiling                     NaN
+memory_based                        NaN
+none                                NaN
+parallel                            NaN
+pollydefaulttilesize_4              NaN
+pollydefaulttilesize_1024           NaN
+pollydefaulttilesize_64             NaN
+pollydefaulttilesize_256            NaN
+polly_parallel                      NaN
+pollydefaulttilesize_16             NaN
+#yes                                NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        6.589619
+std        22.312254
+min         0.000373
+25%         0.605947
+50%         1.376458
+75%         3.011434
+max       331.114527
+Name: % error, dtype: float64",13
+78,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"max                          97.111523
+min                           0.000425
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        3.259799
+std         7.050968
+min         0.000425
+25%         0.606650
+50%         1.384598
+75%         2.952662
+max        97.111523
+Name: % error, dtype: float64",13
+79,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"max                          175.063532
+polly_no_tiling                     NaN
+memory_based                        NaN
+none                                NaN
+parallel                            NaN
+pollydefaulttilesize_4              NaN
+pollydefaulttilesize_1024           NaN
+pollydefaulttilesize_64             NaN
+pollydefaulttilesize_256            NaN
+polly_parallel                      NaN
+pollydefaulttilesize_16             NaN
+#yes                                NaN
+Name: % error, dtype: float64","count    1955.000000
+mean        3.850961
+std        14.756109
+min         0.000000
+25%         0.405367
+50%         1.159658
+75%         2.385537
+max       175.063532
+Name: % error, dtype: float64",13
+80,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"min                          8.779302e+13
+max                          8.779302e+13
+pollydefaulttilesize_16      6.445314e+12
+pollydefaulttilesize_4       6.445314e+12
+pollydefaulttilesize_64      6.445314e+12
+pollydefaulttilesize_256     6.445314e+12
+pollydefaulttilesize_1024    6.445314e+12
+memory_based                 6.342773e+00
+polly_parallel               6.130859e+00
+#yes                         3.257812e+00
+none                         2.733398e+00
+parallel                     2.394531e+00
+polly_no_tiling              2.234375e+00
+dtype: float64","count    1738.000000
+mean       22.609580
+std        39.451241
+min         0.008868
+25%         5.835478
+50%        10.943060
+75%        19.159266
+max       338.751472
+Name: % error, dtype: float64",13
+81,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.2,"memory_based                 5.787045
+max                          4.973047
+polly_parallel               4.034305
+polly_no_tiling              2.709722
+#yes                         2.613330
+none                         2.540291
+parallel                     1.725910
+min                          1.162174
+pollydefaulttilesize_16      0.435530
+pollydefaulttilesize_1024    0.204769
+dtype: float64","count    1738.000000
+mean       22.878489
+std        41.431357
+min         0.010063
+25%         5.507365
+50%        10.798357
+75%        18.225123
+max       357.112588
+Name: % error, dtype: float64",13
+82,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.2,"memory_based                 5.892628
+polly_parallel               4.463647
+max                          3.124576
+min                          3.124576
+#yes                         2.715323
+polly_no_tiling              2.701911
+none                         2.647227
+parallel                     2.008645
+pollydefaulttilesize_16      0.562872
+pollydefaulttilesize_1024    0.449368
+pollydefaulttilesize_256     0.301814
+pollydefaulttilesize_4       0.145671
+pollydefaulttilesize_64      0.042639
+dtype: float64","count    1738.000000
+mean       22.817729
+std        40.894655
+min         0.052873
+25%         5.602500
+50%        10.806836
+75%        18.615381
+max       351.440914
+Name: % error, dtype: float64",13
+83,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, max_iter=100)",Performance,0.2,"memory_based                 5.764546
+polly_parallel               4.071958
+max                          3.090748
+min                          3.078717
+polly_no_tiling              2.757176
+#yes                         2.598526
+none                         2.597470
+parallel                     1.867486
+pollydefaulttilesize_16      0.505364
+pollydefaulttilesize_1024    0.441692
+pollydefaulttilesize_256     0.261271
+pollydefaulttilesize_4       0.058510
+dtype: float64","count    1738.000000
+mean       22.886185
+std        41.362052
+min         0.002495
+25%         5.607133
+50%        10.757950
+75%        18.169165
+max       355.834684
+Name: % error, dtype: float64",13
+84,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"max                          11.978681
+min                          11.978681
+memory_based                  7.645236
+pollydefaulttilesize_4        5.626145
+pollydefaulttilesize_64       4.470795
+#yes                          3.785040
+pollydefaulttilesize_256      3.225880
+none                          2.757990
+polly_no_tiling               1.600121
+parallel                      1.561945
+polly_parallel                1.093314
+pollydefaulttilesize_1024     1.079404
+pollydefaulttilesize_16       0.991127
+dtype: float64","count    1738.000000
+mean        8.075021
+std        12.325196
+min         0.000086
+25%         1.871117
+50%         4.658779
+75%         9.526107
+max       151.927081
+Name: % error, dtype: float64",13
+85,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"max                          74.113346
+min                           0.000340
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        2.464207
+std         5.334546
+min         0.000340
+25%         0.450672
+50%         1.153124
+75%         2.273589
+max        74.113346
+Name: % error, dtype: float64",13
+86,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"max                          113.846128
+min                            0.000776
+polly_no_tiling                     NaN
+memory_based                        NaN
+none                                NaN
+parallel                            NaN
+pollydefaulttilesize_4              NaN
+pollydefaulttilesize_1024           NaN
+pollydefaulttilesize_64             NaN
+pollydefaulttilesize_256            NaN
+polly_parallel                      NaN
+pollydefaulttilesize_16             NaN
+#yes                                NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        3.807266
+std         8.893926
+min         0.000776
+25%         0.657893
+50%         1.279278
+75%         2.656132
+max       113.846128
+Name: % error, dtype: float64",13
+87,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"max                          60.03141
+polly_no_tiling                   NaN
+memory_based                      NaN
+none                              NaN
+parallel                          NaN
+pollydefaulttilesize_4            NaN
+pollydefaulttilesize_1024         NaN
+pollydefaulttilesize_64           NaN
+pollydefaulttilesize_256          NaN
+polly_parallel                    NaN
+pollydefaulttilesize_16           NaN
+#yes                              NaN
+Name: % error, dtype: float64","count    1738.000000
+mean        1.736685
+std         3.512643
+min         0.000000
+25%         0.350059
+50%         0.982559
+75%         2.009640
+max        60.031410
+Name: % error, dtype: float64",13
+88,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"min                          1.115869e+14
+max                          1.115869e+14
+pollydefaulttilesize_1024    1.896320e+13
+pollydefaulttilesize_256     1.896320e+13
+pollydefaulttilesize_64      1.896320e+13
+pollydefaulttilesize_16      1.896320e+13
+pollydefaulttilesize_4       1.896320e+13
+memory_based                 6.382324e+00
+polly_parallel               5.218750e+00
+#yes                         2.960938e+00
+polly_no_tiling              2.578125e+00
+none                         2.471680e+00
+parallel                     1.675781e+00
+dtype: float64","count    1521.000000
+mean       23.128010
+std        42.180512
+min         0.005822
+25%         5.339686
+50%        11.230673
+75%        18.611047
+max       359.732038
+Name: % error, dtype: float64",13
+89,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.3,"memory_based                 6.256492
+max                          4.878922
+polly_parallel               4.846085
+#yes                         2.806593
+polly_no_tiling              2.555983
+none                         2.421853
+parallel                     1.533609
+min                          1.164671
+pollydefaulttilesize_1024    1.081347
+pollydefaulttilesize_256     0.250567
+pollydefaulttilesize_4       0.194756
+pollydefaulttilesize_16      0.181384
+dtype: float64","count    1521.000000
+mean       23.210645
+std        42.542997
+min         0.007645
+25%         5.767561
+50%        11.050011
+75%        18.215084
+max       362.405574
+Name: % error, dtype: float64",13
+90,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=2),Performance,0.3,"memory_based                 6.210598
+polly_parallel               4.690871
+min                          3.018152
+max                          3.018152
+#yes                         2.745909
+polly_no_tiling              2.620839
+none                         2.428490
+parallel                     1.540506
+pollydefaulttilesize_1024    0.928416
+pollydefaulttilesize_4       0.434508
+pollydefaulttilesize_16      0.411776
+pollydefaulttilesize_64      0.187868
+pollydefaulttilesize_256     0.105736
+dtype: float64","count    1521.000000
+mean       23.230296
+std        42.626010
+min         0.029505
+25%         5.762207
+50%        11.032002
+75%        18.324805
+max       362.475267
+Name: % error, dtype: float64",13
+91,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",ElasticNet(alpha=0.01),Performance,0.3,"memory_based                 6.068202
+polly_parallel               4.223185
+max                          2.990559
+min                          2.964263
+polly_no_tiling              2.723072
+#yes                         2.594890
+none                         2.383039
+parallel                     1.394684
+pollydefaulttilesize_1024    1.078282
+pollydefaulttilesize_16      0.237671
+pollydefaulttilesize_4       0.236207
+pollydefaulttilesize_256     0.228670
+dtype: float64","count    1521.000000
+mean       23.304242
+std        43.113286
+min         0.008319
+25%         5.754201
+50%        10.992347
+75%        18.067519
+max       366.492972
+Name: % error, dtype: float64",13
+92,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"min                          13.055900
+max                          13.055900
+memory_based                 12.320481
+pollydefaulttilesize_4        4.269820
+none                          4.100248
+polly_no_tiling               3.695110
+#yes                          3.652781
+pollydefaulttilesize_256      3.609392
+pollydefaulttilesize_64       2.664026
+pollydefaulttilesize_1024     2.165912
+parallel                      1.035901
+pollydefaulttilesize_16       0.162314
+polly_parallel                0.048094
+dtype: float64","count    1521.000000
+mean        8.185538
+std        13.403931
+min         0.003239
+25%         1.954890
+50%         4.739064
+75%         9.286815
+max       158.434149
+Name: % error, dtype: float64",13
+93,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"max                          41.991398
+min                           0.000506
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        1.839298
+std         3.637066
+min         0.000506
+25%         0.426815
+50%         1.058864
+75%         2.043601
+max        41.991398
+Name: % error, dtype: float64",13
+94,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"max                          108.440720
+min                            0.002114
+polly_no_tiling                     NaN
+memory_based                        NaN
+none                                NaN
+parallel                            NaN
+pollydefaulttilesize_4              NaN
+pollydefaulttilesize_1024           NaN
+pollydefaulttilesize_64             NaN
+pollydefaulttilesize_256            NaN
+polly_parallel                      NaN
+pollydefaulttilesize_16             NaN
+#yes                                NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        3.747294
+std         8.696385
+min         0.002114
+25%         0.607188
+50%         1.259439
+75%         2.704052
+max       108.440720
+Name: % error, dtype: float64",13
+95,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"max                          103.865979
+polly_no_tiling                     NaN
+memory_based                        NaN
+none                                NaN
+parallel                            NaN
+pollydefaulttilesize_4              NaN
+pollydefaulttilesize_1024           NaN
+pollydefaulttilesize_64             NaN
+pollydefaulttilesize_256            NaN
+polly_parallel                      NaN
+pollydefaulttilesize_16             NaN
+#yes                                NaN
+Name: % error, dtype: float64","count    1521.000000
+mean        2.206243
+std         7.963882
+min         0.000000
+25%         0.369949
+50%         0.994152
+75%         1.981715
+max       103.865979
+Name: % error, dtype: float64",13
+96,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"max                          3.495994e+13
+min                          3.495994e+13
+pollydefaulttilesize_4       1.167739e+12
+pollydefaulttilesize_16      1.167739e+12
+pollydefaulttilesize_64      1.167739e+12
+pollydefaulttilesize_256     1.167739e+12
+pollydefaulttilesize_1024    1.167739e+12
+memory_based                 6.502441e+00
+polly_parallel               5.762695e+00
+#yes                         3.035156e+00
+none                         2.601074e+00
+polly_no_tiling              2.425781e+00
+parallel                     1.628418e+00
+dtype: float64","count    1304.000000
+mean       23.517824
+std        42.303527
+min         0.013353
+25%         6.042050
+50%        11.529245
+75%        19.357039
+max       349.241755
+Name: % error, dtype: float64",13
+97,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.4,"memory_based                 6.374396
+polly_parallel               5.302538
+max                          4.831581
+#yes                         2.885660
+none                         2.554741
+polly_no_tiling              2.523257
+parallel                     1.470330
+min                          1.381709
+pollydefaulttilesize_1024    0.719560
+pollydefaulttilesize_256     0.218292
+pollydefaulttilesize_4       0.175084
+pollydefaulttilesize_16      0.134042
+dtype: float64","count    1304.000000
+mean       23.603401
+std        43.002557
+min         0.003162
+25%         5.928875
+50%        11.718026
+75%        18.705239
+max       355.299981
+Name: % error, dtype: float64",13
+98,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.4,"memory_based                 6.457535
+polly_parallel               5.597878
+min                          3.136889
+max                          3.136889
+#yes                         2.976183
+none                         2.596808
+polly_no_tiling              2.470915
+parallel                     1.593675
+pollydefaulttilesize_1024    0.628189
+pollydefaulttilesize_4       0.362913
+pollydefaulttilesize_16      0.292943
+pollydefaulttilesize_256     0.145444
+pollydefaulttilesize_64      0.117776
+dtype: float64","count    1304.000000
+mean       23.555892
+std        42.662749
+min         0.018807
+25%         5.914884
+50%        11.653409
+75%        18.949599
+max       351.683916
+Name: % error, dtype: float64",13
+99,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.4,"memory_based                 6.374396
+polly_parallel               5.302538
+max                          4.831581
+#yes                         2.885660
+none                         2.554741
+polly_no_tiling              2.523257
+parallel                     1.470330
+min                          1.381709
+pollydefaulttilesize_1024    0.719560
+pollydefaulttilesize_256     0.218292
+pollydefaulttilesize_4       0.175084
+pollydefaulttilesize_16      0.134042
+dtype: float64","count    1304.000000
+mean       23.603401
+std        43.002557
+min         0.003162
+25%         5.928875
+50%        11.718026
+75%        18.705239
+max       355.299981
+Name: % error, dtype: float64",13
+100,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"memory_based                 14.158110
+max                          13.238615
+min                          13.238615
+polly_no_tiling               4.774266
+none                          4.698148
+#yes                          4.356142
+pollydefaulttilesize_64       2.967764
+pollydefaulttilesize_4        2.710592
+pollydefaulttilesize_1024     2.626563
+pollydefaulttilesize_256      2.150666
+polly_parallel                0.279271
+pollydefaulttilesize_16       0.218724
+parallel                      0.190473
+dtype: float64","count    1304.000000
+mean        8.222158
+std        13.921158
+min         0.001107
+25%         1.827625
+50%         4.640917
+75%         9.045753
+max       159.213864
+Name: % error, dtype: float64",13
+101,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"max                          31.420823
+min                           0.001011
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        1.778109
+std         3.028238
+min         0.001011
+25%         0.404090
+50%         1.040089
+75%         1.999975
+max        31.420823
+Name: % error, dtype: float64",13
+102,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"max                          92.304342
+min                           0.001913
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        3.676585
+std         8.502085
+min         0.001913
+25%         0.546058
+50%         1.293981
+75%         2.544640
+max        92.304342
+Name: % error, dtype: float64",13
+103,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"max                          42.127994
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1304.000000
+mean        1.370763
+std         2.006653
+min         0.000000
+25%         0.364716
+50%         0.910076
+75%         1.825666
+max        42.127994
+Name: % error, dtype: float64",13
+104,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"min                          8.309883e+13
+max                          8.309883e+13
+pollydefaulttilesize_64      7.582990e+13
+pollydefaulttilesize_16      7.582990e+13
+pollydefaulttilesize_4       7.582990e+13
+pollydefaulttilesize_256     7.582990e+13
+pollydefaulttilesize_1024    7.582990e+13
+memory_based                 6.697266e+00
+polly_parallel               5.378906e+00
+#yes                         2.812500e+00
+polly_no_tiling              2.648438e+00
+none                         2.629883e+00
+parallel                     1.807617e+00
+dtype: float64","count    1086.000000
+mean       23.519447
+std        41.851997
+min         0.099653
+25%         6.361208
+50%        11.518019
+75%        19.404451
+max       328.809691
+Name: % error, dtype: float64",13
+105,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.5,"memory_based                 6.632143
+polly_parallel               4.969883
+max                          4.715245
+polly_no_tiling              2.741168
+#yes                         2.678518
+none                         2.563496
+min                          1.677276
+parallel                     1.636840
+pollydefaulttilesize_1024    0.697149
+pollydefaulttilesize_256     0.346638
+pollydefaulttilesize_16      0.154066
+pollydefaulttilesize_64      0.023809
+dtype: float64","count    1086.000000
+mean       23.514776
+std        42.574791
+min         0.001090
+25%         6.180311
+50%        11.444348
+75%        19.121894
+max       331.651226
+Name: % error, dtype: float64",13
+106,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(),Performance,0.5,"memory_based                 6.698414
+polly_parallel               5.204199
+min                          3.223406
+max                          3.223406
+#yes                         2.747143
+polly_no_tiling              2.702293
+none                         2.600642
+parallel                     1.746130
+pollydefaulttilesize_1024    0.560666
+pollydefaulttilesize_16      0.365466
+pollydefaulttilesize_64      0.241810
+pollydefaulttilesize_256     0.223846
+pollydefaulttilesize_4       0.177237
+dtype: float64","count    1086.000000
+mean       23.504611
+std        42.374612
+min         0.004797
+25%         6.120745
+50%        11.383466
+75%        19.332599
+max       329.842129
+Name: % error, dtype: float64",13
+107,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.5,"memory_based                 6.632143
+polly_parallel               4.969883
+max                          4.715245
+polly_no_tiling              2.741168
+#yes                         2.678518
+none                         2.563496
+min                          1.677276
+parallel                     1.636840
+pollydefaulttilesize_1024    0.697149
+pollydefaulttilesize_256     0.346638
+pollydefaulttilesize_16      0.154066
+pollydefaulttilesize_64      0.023809
+dtype: float64","count    1086.000000
+mean       23.514776
+std        42.574791
+min         0.001090
+25%         6.180311
+50%        11.444348
+75%        19.121894
+max       331.651226
+Name: % error, dtype: float64",13
+108,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"memory_based                 13.030623
+min                          12.927844
+max                          12.927844
+none                          5.165902
+#yes                          4.283365
+polly_no_tiling               4.129896
+pollydefaulttilesize_4        3.898761
+pollydefaulttilesize_256      3.149290
+pollydefaulttilesize_1024     2.511858
+pollydefaulttilesize_64       2.183877
+pollydefaulttilesize_16       1.077453
+parallel                      0.941039
+polly_parallel                0.012163
+dtype: float64","count    1086.000000
+mean        8.077370
+std        12.721814
+min         0.011748
+25%         1.937413
+50%         4.817765
+75%         9.161229
+max       130.678407
+Name: % error, dtype: float64",13
+109,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"max                          15.323382
+min                           0.001090
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        1.328872
+std         1.445114
+min         0.001090
+25%         0.397868
+50%         0.957913
+75%         1.780092
+max        15.323382
+Name: % error, dtype: float64",13
+110,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"max                          72.674520
+min                           0.000339
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        3.368298
+std         7.752235
+min         0.000339
+25%         0.484336
+50%         1.263479
+75%         2.374473
+max        72.674520
+Name: % error, dtype: float64",13
+111,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"max                          26.685198
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    1086.000000
+mean        1.369698
+std         1.847499
+min         0.000000
+25%         0.357458
+50%         0.903376
+75%         1.786132
+max        26.685198
+Name: % error, dtype: float64",13
+112,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"min                          2.810196e+13
+max                          2.810196e+13
+pollydefaulttilesize_1024    4.881440e+10
+pollydefaulttilesize_256     4.881440e+10
+pollydefaulttilesize_16      4.881440e+10
+pollydefaulttilesize_64      4.881440e+10
+pollydefaulttilesize_4       4.881440e+10
+memory_based                 6.703613e+00
+polly_parallel               4.923096e+00
+polly_no_tiling              2.902344e+00
+#yes                         2.638672e+00
+none                         2.524414e+00
+parallel                     1.686523e+00
+dtype: float64","count    869.000000
+mean      22.800226
+std       40.371445
+min        0.052274
+25%        6.108532
+50%       11.506194
+75%       19.567077
+max      325.035112
+Name: % error, dtype: float64",13
+113,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.6,"memory_based                 6.582866
+max                          4.740991
+polly_parallel               4.489811
+polly_no_tiling              3.002243
+#yes                         2.502589
+none                         2.465682
+min                          1.661948
+parallel                     1.518707
+pollydefaulttilesize_1024    0.408482
+pollydefaulttilesize_4       0.237269
+pollydefaulttilesize_64      0.075403
+pollydefaulttilesize_256     0.071107
+dtype: float64","count    869.000000
+mean      22.837070
+std       40.986341
+min        0.059139
+25%        6.039617
+50%       11.362031
+75%       18.809101
+max      329.090457
+Name: % error, dtype: float64",13
+114,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.6,"memory_based                 6.680753
+polly_parallel               4.855209
+min                          3.239556
+max                          3.239556
+polly_no_tiling              2.928040
+#yes                         2.613110
+none                         2.517071
+parallel                     1.663187
+pollydefaulttilesize_1024    0.417083
+pollydefaulttilesize_4       0.329610
+pollydefaulttilesize_64      0.155030
+pollydefaulttilesize_256     0.091842
+pollydefaulttilesize_16      0.024285
+dtype: float64","count    869.000000
+mean      22.803223
+std       40.603335
+min        0.000054
+25%        6.095436
+50%       11.486294
+75%       19.306464
+max      326.289305
+Name: % error, dtype: float64",13
+115,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.6,"memory_based                 6.582866
+max                          4.740991
+polly_parallel               4.489811
+polly_no_tiling              3.002243
+#yes                         2.502589
+none                         2.465682
+min                          1.661948
+parallel                     1.518707
+pollydefaulttilesize_1024    0.408482
+pollydefaulttilesize_4       0.237269
+pollydefaulttilesize_64      0.075403
+pollydefaulttilesize_256     0.071107
+dtype: float64","count    869.000000
+mean      22.837070
+std       40.986341
+min        0.059139
+25%        6.039617
+50%       11.362031
+75%       18.809101
+max      329.090457
+Name: % error, dtype: float64",13
+116,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"memory_based                 12.178625
+min                          12.080303
+max                          12.080303
+pollydefaulttilesize_4        5.414176
+polly_no_tiling               4.804858
+none                          4.023130
+#yes                          3.359417
+pollydefaulttilesize_256      2.777733
+pollydefaulttilesize_16       2.086696
+pollydefaulttilesize_64       1.822607
+pollydefaulttilesize_1024     1.272860
+polly_parallel                0.750166
+parallel                      0.189372
+dtype: float64","count    869.000000
+mean       7.687370
+std       11.003982
+min        0.003709
+25%        2.047668
+50%        4.556029
+75%        9.249042
+max      116.939258
+Name: % error, dtype: float64",13
+117,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"max                          13.373030
+min                           0.001302
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    869.000000
+mean       1.307984
+std        1.335912
+min        0.001302
+25%        0.398334
+50%        0.914723
+75%        1.784963
+max       13.373030
+Name: % error, dtype: float64",13
+118,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"max                          66.707117
+min                           0.001402
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    869.000000
+mean       3.034633
+std        6.935483
+min        0.001402
+25%        0.520576
+50%        1.218283
+75%        2.283014
+max       66.707117
+Name: % error, dtype: float64",13
+119,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"max                          9.533452
+polly_no_tiling                   NaN
+memory_based                      NaN
+none                              NaN
+parallel                          NaN
+pollydefaulttilesize_4            NaN
+pollydefaulttilesize_1024         NaN
+pollydefaulttilesize_64           NaN
+pollydefaulttilesize_256          NaN
+polly_parallel                    NaN
+pollydefaulttilesize_16           NaN
+#yes                              NaN
+Name: % error, dtype: float64","count    869.000000
+mean       1.263825
+std        1.250274
+min        0.000000
+25%        0.370413
+50%        0.911302
+75%        1.753070
+max        9.533452
+Name: % error, dtype: float64",13
+120,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"max                          5.304796e+13
+min                          5.304796e+13
+pollydefaulttilesize_4       6.208943e+12
+pollydefaulttilesize_64      6.208943e+12
+pollydefaulttilesize_16      6.208943e+12
+pollydefaulttilesize_256     6.208943e+12
+pollydefaulttilesize_1024    6.208943e+12
+memory_based                 6.304688e+00
+polly_parallel               4.307617e+00
+polly_no_tiling              2.976562e+00
+none                         2.483398e+00
+#yes                         2.414062e+00
+parallel                     1.427002e+00
+dtype: float64","count    652.000000
+mean      23.371903
+std       41.776032
+min        0.010534
+25%        6.272226
+50%       11.173855
+75%       18.919936
+max      330.828652
+Name: % error, dtype: float64",13
+121,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.7,"memory_based                 6.182915
+max                          4.677963
+polly_parallel               3.901515
+polly_no_tiling              3.047272
+none                         2.421786
+#yes                         2.309302
+min                          1.566608
+parallel                     1.268836
+pollydefaulttilesize_1024    0.513042
+pollydefaulttilesize_256     0.077932
+pollydefaulttilesize_4       0.059808
+pollydefaulttilesize_64      0.013247
+dtype: float64","count    652.000000
+mean      23.396415
+std       42.858231
+min        0.009510
+25%        5.667939
+50%       11.048024
+75%       18.018165
+max      337.713059
+Name: % error, dtype: float64",13
+122,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.7,"memory_based                 6.168064
+polly_parallel               3.933480
+max                          3.126978
+min                          3.126978
+polly_no_tiling              3.043869
+none                         2.436819
+#yes                         2.313624
+parallel                     1.316031
+pollydefaulttilesize_1024    0.451546
+pollydefaulttilesize_4       0.211682
+pollydefaulttilesize_64      0.164765
+pollydefaulttilesize_16      0.101231
+pollydefaulttilesize_256     0.026132
+dtype: float64","count    652.000000
+mean      23.405247
+std       42.885326
+min        0.014774
+25%        5.772064
+50%       11.197393
+75%       18.107221
+max      338.198769
+Name: % error, dtype: float64",13
+123,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=100)",Performance,0.7,"memory_based                 6.013045
+polly_parallel               3.474103
+polly_no_tiling              3.124194
+max                          3.099277
+min                          3.053298
+none                         2.377912
+#yes                         2.171529
+parallel                     1.158036
+pollydefaulttilesize_1024    0.535152
+pollydefaulttilesize_256     0.093248
+pollydefaulttilesize_4       0.077795
+pollydefaulttilesize_64      0.045006
+dtype: float64","count    652.000000
+mean      23.483837
+std       43.518172
+min        0.020828
+25%        5.798035
+50%       10.966966
+75%       17.914030
+max      342.880998
+Name: % error, dtype: float64",13
+124,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"memory_based                 12.664642
+min                          11.567821
+max                          11.567821
+polly_no_tiling               4.291206
+pollydefaulttilesize_4        4.231815
+none                          3.929195
+pollydefaulttilesize_256      2.763402
+#yes                          2.391868
+pollydefaulttilesize_16       1.360476
+pollydefaulttilesize_64       1.196040
+pollydefaulttilesize_1024     1.088103
+polly_parallel                0.914270
+parallel                      0.550576
+dtype: float64","count    652.000000
+mean       7.761638
+std       11.902458
+min        0.006167
+25%        1.895992
+50%        4.787201
+75%        9.283870
+max      128.802416
+Name: % error, dtype: float64",13
+125,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"max                          12.141640
+min                           0.001517
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    652.000000
+mean       1.273076
+std        1.279936
+min        0.001517
+25%        0.399915
+50%        0.926692
+75%        1.661193
+max       12.141640
+Name: % error, dtype: float64",13
+126,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"max                          66.742432
+min                           0.003364
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    652.000000
+mean       3.075951
+std        7.260360
+min        0.003364
+25%        0.507583
+50%        1.151750
+75%        2.203005
+max       66.742432
+Name: % error, dtype: float64",13
+127,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"max                          10.119119
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    652.000000
+mean       1.247814
+std        1.268434
+min        0.000000
+25%        0.382762
+50%        0.888436
+75%        1.671083
+max       10.119119
+Name: % error, dtype: float64",13
+128,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"max                          2.580409e+13
+min                          2.580409e+13
+pollydefaulttilesize_1024    6.173655e+11
+pollydefaulttilesize_16      6.173655e+11
+pollydefaulttilesize_64      6.173655e+11
+pollydefaulttilesize_256     6.173655e+11
+pollydefaulttilesize_4       6.173655e+11
+memory_based                 6.358765e+00
+polly_parallel               4.742920e+00
+polly_no_tiling              2.972656e+00
+#yes                         2.550781e+00
+none                         2.531738e+00
+parallel                     1.386719e+00
+dtype: float64","count    435.000000
+mean      22.883754
+std       41.574022
+min        0.026437
+25%        5.500216
+50%       11.963430
+75%       18.954081
+max      297.774956
+Name: % error, dtype: float64",13
+129,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=100)",Performance,0.8,"memory_based                 6.156659
+max                          4.700899
+polly_parallel               3.930427
+polly_no_tiling              3.154597
+none                         2.408579
+#yes                         2.313175
+min                          1.507709
+parallel                     1.073566
+pollydefaulttilesize_1024    0.210295
+pollydefaulttilesize_4       0.130718
+dtype: float64","count    435.000000
+mean      22.897477
+std       41.828493
+min        0.073480
+25%        5.240126
+50%       11.681443
+75%       18.579748
+max      295.925266
+Name: % error, dtype: float64",13
+130,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.8,"memory_based                 6.259352
+polly_parallel               4.385982
+max                          3.153352
+min                          3.153352
+polly_no_tiling              3.068688
+none                         2.488327
+#yes                         2.445926
+parallel                     1.282732
+pollydefaulttilesize_1024    0.277012
+pollydefaulttilesize_4       0.248120
+pollydefaulttilesize_256     0.041112
+pollydefaulttilesize_64      0.013708
+pollydefaulttilesize_16      0.001488
+dtype: float64","count    435.000000
+mean      22.853958
+std       41.297879
+min        0.105785
+25%        5.355505
+50%       12.007077
+75%       19.415435
+max      294.428946
+Name: % error, dtype: float64",13
+131,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=100)",Performance,0.8,"memory_based                 6.156659
+max                          4.700899
+polly_parallel               3.930427
+polly_no_tiling              3.154597
+none                         2.408579
+#yes                         2.313175
+min                          1.507709
+parallel                     1.073566
+pollydefaulttilesize_1024    0.210295
+pollydefaulttilesize_4       0.130718
+dtype: float64","count    435.000000
+mean      22.897477
+std       41.828493
+min        0.073480
+25%        5.240126
+50%       11.681443
+75%       18.579748
+max      295.925266
+Name: % error, dtype: float64",13
+132,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"memory_based                 12.452081
+max                          11.564603
+min                          11.564603
+polly_no_tiling               4.813708
+pollydefaulttilesize_4        4.724160
+none                          3.837890
+#yes                          2.975014
+pollydefaulttilesize_256      2.760493
+pollydefaulttilesize_16       1.646754
+pollydefaulttilesize_64       1.441382
+pollydefaulttilesize_1024     1.124469
+polly_parallel                0.913568
+parallel                      0.366678
+dtype: float64","count    435.000000
+mean       7.880240
+std       11.765071
+min        0.011742
+25%        2.086763
+50%        5.035173
+75%        9.440791
+max      109.533680
+Name: % error, dtype: float64",13
+133,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"max                          10.041561
+min                           0.006974
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    435.000000
+mean       1.232796
+std        1.226107
+min        0.006974
+25%        0.385927
+50%        0.910002
+75%        1.601925
+max       10.041561
+Name: % error, dtype: float64",13
+134,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"max                          55.51211
+min                           0.01030
+polly_no_tiling                   NaN
+memory_based                      NaN
+none                              NaN
+parallel                          NaN
+pollydefaulttilesize_4            NaN
+pollydefaulttilesize_1024         NaN
+pollydefaulttilesize_64           NaN
+pollydefaulttilesize_256          NaN
+polly_parallel                    NaN
+pollydefaulttilesize_16           NaN
+#yes                              NaN
+Name: % error, dtype: float64","count    435.000000
+mean       3.095939
+std        7.249935
+min        0.010300
+25%        0.590622
+50%        1.186614
+75%        2.138501
+max       55.512110
+Name: % error, dtype: float64",13
+135,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"max                          10.119119
+min                           0.002700
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    435.000000
+mean       1.243443
+std        1.289491
+min        0.002700
+25%        0.414763
+50%        0.906067
+75%        1.608660
+max       10.119119
+Name: % error, dtype: float64",13
+136,LinearRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"pollydefaulttilesize_4       1.408441e+14
+pollydefaulttilesize_16      1.408441e+14
+pollydefaulttilesize_256     1.408441e+14
+pollydefaulttilesize_64      1.408441e+14
+pollydefaulttilesize_1024    1.408441e+14
+max                          2.500280e+12
+min                          2.500280e+12
+memory_based                 6.237183e+00
+polly_parallel               4.544678e+00
+polly_no_tiling              2.777100e+00
+#yes                         2.476562e+00
+none                         2.393250e+00
+parallel                     1.427612e+00
+dtype: float64","count    218.000000
+mean      23.899347
+std       38.933879
+min        0.090113
+25%        6.253175
+50%       12.158541
+75%       21.333593
+max      269.728343
+Name: % error, dtype: float64",13
+137,Lasso,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=100)",Performance,0.9,"memory_based                 6.067060
+max                          4.670480
+polly_parallel               3.734316
+polly_no_tiling              3.108884
+none                         2.335280
+#yes                         2.236210
+min                          1.453124
+parallel                     1.242792
+pollydefaulttilesize_4       0.150654
+pollydefaulttilesize_1024    0.112834
+pollydefaulttilesize_16      0.026910
+pollydefaulttilesize_64      0.004559
+dtype: float64","count    218.000000
+mean      23.927023
+std       39.723272
+min        0.029241
+25%        5.616908
+50%       12.572395
+75%       21.193812
+max      275.147846
+Name: % error, dtype: float64",13
+138,Ridge,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.9,"memory_based                 6.180325
+polly_parallel               4.229449
+max                          3.113695
+min                          3.113695
+polly_no_tiling              3.011896
+none                         2.416843
+#yes                         2.383119
+parallel                     1.455132
+pollydefaulttilesize_4       0.237055
+pollydefaulttilesize_1024    0.208847
+pollydefaulttilesize_64      0.118194
+pollydefaulttilesize_16      0.103378
+pollydefaulttilesize_256     0.013392
+dtype: float64","count    218.000000
+mean      23.885190
+std       39.230331
+min        0.038796
+25%        5.860981
+50%       12.608158
+75%       21.744782
+max      268.565277
+Name: % error, dtype: float64",13
+139,ElasticNet,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=1.0, max_iter=100)",Performance,0.9,"memory_based                 6.067060
+max                          4.670480
+polly_parallel               3.734316
+polly_no_tiling              3.108884
+none                         2.335280
+#yes                         2.236210
+min                          1.453124
+parallel                     1.242792
+pollydefaulttilesize_4       0.150654
+pollydefaulttilesize_1024    0.112834
+pollydefaulttilesize_16      0.026910
+pollydefaulttilesize_64      0.004559
+dtype: float64","count    218.000000
+mean      23.927023
+std       39.723272
+min        0.029241
+25%        5.616908
+50%       12.572395
+75%       21.193812
+max      275.147846
+Name: % error, dtype: float64",13
+140,PolynomialRegression,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"min                          2.672811e+12
+#yes                         1.786367e+12
+parallel                     5.389715e+11
+none                         5.109311e+11
+pollydefaulttilesize_4       3.787059e+11
+pollydefaulttilesize_1024    3.559881e+11
+polly_parallel               2.557481e+11
+polly_no_tiling              2.495381e+11
+memory_based                 2.417101e+11
+pollydefaulttilesize_256     2.056286e+11
+pollydefaulttilesize_16      1.335609e+11
+pollydefaulttilesize_64      3.655020e+10
+max                          1.122783e+01
+dtype: float64","count    218.000000
+mean       7.739116
+std       10.020696
+min        0.160660
+25%        2.295350
+50%        5.057826
+75%        9.563844
+max       81.983895
+Name: % error, dtype: float64",13
+141,RandomForest,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"max                          10.334201
+min                           0.013530
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.158071
+std        1.262403
+min        0.013530
+25%        0.361216
+50%        0.838085
+75%        1.314428
+max       10.334201
+Name: % error, dtype: float64",13
+142,GradientBoostingTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"max                          54.977262
+min                           0.004423
+polly_no_tiling                    NaN
+memory_based                       NaN
+none                               NaN
+parallel                           NaN
+pollydefaulttilesize_4             NaN
+pollydefaulttilesize_1024          NaN
+pollydefaulttilesize_64            NaN
+pollydefaulttilesize_256           NaN
+polly_parallel                     NaN
+pollydefaulttilesize_16            NaN
+#yes                               NaN
+Name: % error, dtype: float64","count    218.000000
+mean       2.819858
+std        6.336811
+min        0.004423
+25%        0.632839
+50%        1.142325
+75%        2.195149
+max       54.977262
+Name: % error, dtype: float64",13
+143,DecisionTree,False,DecisionTree,"Index(['max', 'polly_no_tiling', 'memory_based', 'none', 'parallel', 'min',
+       'pollydefaulttilesize_4', 'pollydefaulttilesize_1024',
+       'pollydefaulttilesize_64', 'pollydefaulttilesize_256', 'polly_parallel',
+       'pollydefaulttilesize_16', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"max                          10.3514
+min                           0.0027
+polly_no_tiling                  NaN
+memory_based                     NaN
+none                             NaN
+parallel                         NaN
+pollydefaulttilesize_4           NaN
+pollydefaulttilesize_1024        NaN
+pollydefaulttilesize_64          NaN
+pollydefaulttilesize_256         NaN
+polly_parallel                   NaN
+pollydefaulttilesize_16          NaN
+#yes                             NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.180427
+std        1.301358
+min        0.002700
+25%        0.360754
+50%        0.878406
+75%        1.353510
+max       10.351400
+Name: % error, dtype: float64",13

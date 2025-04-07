@@ -1,0 +1,4309 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.1,"instcombine    9.718104
+#yes           6.971208
+licm           5.861131
+gvn            0.033009
+dtype: float64","count    158.000000
+mean       4.349461
+std        3.271058
+min        0.028250
+25%        1.876054
+50%        3.401822
+75%        6.393112
+max       15.322178
+Name: % error, dtype: float64",4
+1,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=4, max_iter=1)",Performance,0.1,"#yes    5.369659
+dtype: float64","count    158.000000
+mean       5.055318
+std        3.684047
+min        0.098001
+25%        2.293676
+50%        4.472992
+75%        6.981424
+max       17.145801
+Name: % error, dtype: float64",4
+2,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=10),Performance,0.1,"#yes           5.638569
+instcombine    3.008363
+licm           1.929809
+gvn            0.366050
+dtype: float64","count    158.000000
+mean       4.753924
+std        3.510274
+min        0.002494
+25%        1.825276
+50%        4.208110
+75%        6.705611
+max       16.133033
+Name: % error, dtype: float64",4
+3,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=4, l1_ratio=1.0, max_iter=1)",Performance,0.1,"#yes    5.369659
+dtype: float64","count    158.000000
+mean       5.055318
+std        3.684047
+min        0.098001
+25%        2.293676
+50%        4.472992
+75%        6.981424
+max       17.145801
+Name: % error, dtype: float64",4
+4,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.1,"licm           36.458953
+instcombine    31.780394
+#yes           11.602204
+gvn             3.461248
+dtype: float64","count    158.000000
+mean       5.009394
+std        5.388189
+min        0.019200
+25%        1.317944
+50%        3.441009
+75%        6.491191
+max       25.125466
+Name: % error, dtype: float64",4
+5,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.594997
+std        3.934347
+min        0.007318
+25%        1.050249
+50%        3.507403
+75%        7.403587
+max       15.406715
+Name: % error, dtype: float64",4
+6,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    158.000000
+mean       5.627334
+std        4.809713
+min        0.019087
+25%        1.523623
+50%        4.274788
+75%        9.346313
+max       18.918248
+Name: % error, dtype: float64",4
+7,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    158.000000
+mean       5.671676
+std        4.725977
+min        0.032900
+25%        1.563016
+50%        4.445497
+75%        9.623536
+max       19.234858
+Name: % error, dtype: float64",4
+8,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.2,"gvn            12.520105
+instcombine    12.187878
+licm           10.988434
+#yes            4.889456
+dtype: float64","count    140.000000
+mean       3.108651
+std        2.866484
+min        0.013911
+25%        1.032073
+50%        2.362808
+75%        4.412174
+max       14.536272
+Name: % error, dtype: float64",4
+9,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.5, max_iter=1)",Performance,0.2,"licm           8.569199
+instcombine    8.064720
+#yes           7.213294
+gvn            5.714595
+dtype: float64","count    140.000000
+mean       3.764444
+std        3.181617
+min        0.065878
+25%        1.508517
+50%        2.590968
+75%        4.955914
+max       15.163778
+Name: % error, dtype: float64",4
+10,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=4),Performance,0.2,"licm           7.580660
+gvn            7.421115
+instcombine    7.379170
+#yes           5.541296
+dtype: float64","count    140.000000
+mean       3.504130
+std        2.880410
+min        0.064010
+25%        1.399088
+50%        2.626088
+75%        5.302544
+max       13.702888
+Name: % error, dtype: float64",4
+11,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.1, l1_ratio=0.0, max_iter=5)",Performance,0.2,"licm           7.883565
+gvn            7.806030
+instcombine    7.751333
+#yes           5.509928
+dtype: float64","count    140.000000
+mean       3.460250
+std        2.871761
+min        0.147050
+25%        1.335606
+50%        2.581969
+75%        5.217009
+max       13.602669
+Name: % error, dtype: float64",4
+12,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.2,"instcombine    23.221291
+licm           21.537778
+gvn            14.214582
+#yes            4.273202
+dtype: float64","count    140.000000
+mean       3.398710
+std        2.906212
+min        0.075630
+25%        1.137752
+50%        2.569398
+75%        4.592188
+max       15.052172
+Name: % error, dtype: float64",4
+13,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    140.000000
+mean       3.009887
+std        2.612491
+min        0.024579
+25%        1.044795
+50%        2.332756
+75%        4.016457
+max       11.142815
+Name: % error, dtype: float64",4
+14,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    140.000000
+mean       3.349268
+std        2.901384
+min        0.025839
+25%        1.052748
+50%        2.590440
+75%        4.843602
+max       12.266731
+Name: % error, dtype: float64",4
+15,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    140.000000
+mean       3.234526
+std        3.802710
+min        0.007562
+25%        0.827428
+50%        2.352021
+75%        4.213210
+max       24.338369
+Name: % error, dtype: float64",4
+16,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.3,"instcombine    13.802711
+gvn            13.218002
+licm            8.104845
+#yes            4.183225
+dtype: float64","count    123.000000
+mean       3.067880
+std        3.152707
+min        0.028008
+25%        0.903038
+50%        2.123506
+75%        3.941449
+max       15.965852
+Name: % error, dtype: float64",4
+17,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.3,"instcombine    13.755385
+gvn            13.163915
+licm            8.063915
+#yes            4.194315
+dtype: float64","count    123.000000
+mean       3.070185
+std        3.153431
+min        0.027085
+25%        0.923207
+50%        2.146879
+75%        3.951791
+max       15.955922
+Name: % error, dtype: float64",4
+18,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=2),Performance,0.3,"instcombine    11.586008
+gvn            10.768191
+licm            6.969215
+#yes            4.749553
+dtype: float64","count    123.000000
+mean       3.211294
+std        3.158429
+min        0.008959
+25%        1.030784
+50%        2.506062
+75%        4.142609
+max       15.341482
+Name: % error, dtype: float64",4
+19,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.0, max_iter=100)",Performance,0.3,"instcombine    11.061928
+gvn            10.210507
+licm            6.695790
+#yes            4.870795
+dtype: float64","count    123.000000
+mean       3.259074
+std        3.160157
+min        0.005244
+25%        1.094375
+50%        2.472459
+75%        4.286391
+max       15.198502
+Name: % error, dtype: float64",4
+20,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.3,"gvn            30.204987
+instcombine    25.448119
+#yes           11.679376
+licm           11.580140
+dtype: float64","count    123.000000
+mean       3.158709
+std        2.975532
+min        0.085229
+25%        0.977670
+50%        2.242599
+75%        4.200901
+max       13.399218
+Name: % error, dtype: float64",4
+21,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    123.000000
+mean       3.042286
+std        3.080009
+min        0.132815
+25%        1.033172
+50%        2.254600
+75%        3.798608
+max       16.471484
+Name: % error, dtype: float64",4
+22,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    123.000000
+mean       3.439238
+std        3.450105
+min        0.046100
+25%        1.032883
+50%        2.576785
+75%        4.552825
+max       18.407390
+Name: % error, dtype: float64",4
+23,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    123.000000
+mean       3.628353
+std        3.728407
+min        0.007562
+25%        1.091409
+50%        2.843412
+75%        4.746880
+max       19.168819
+Name: % error, dtype: float64",4
+24,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.4,"licm           12.940628
+gvn            11.291976
+instcombine    10.908548
+#yes            3.951548
+dtype: float64","count    105.000000
+mean       3.068428
+std        2.512948
+min        0.017739
+25%        1.206145
+50%        2.728265
+75%        4.198177
+max       13.533129
+Name: % error, dtype: float64",4
+25,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.3, max_iter=5)",Performance,0.4,"licm           11.443430
+gvn             9.711710
+instcombine     9.471004
+#yes            4.347483
+dtype: float64","count    105.000000
+mean       3.168006
+std        2.555021
+min        0.006300
+25%        1.303954
+50%        2.561290
+75%        4.256466
+max       13.291970
+Name: % error, dtype: float64",4
+26,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=2),Performance,0.4,"licm           11.259203
+gvn             9.725439
+instcombine     9.531193
+#yes            4.425788
+dtype: float64","count    105.000000
+mean       3.163319
+std        2.570301
+min        0.015533
+25%        1.260626
+50%        2.544126
+75%        4.238249
+max       13.349255
+Name: % error, dtype: float64",4
+27,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.05, l1_ratio=0.0, max_iter=5)",Performance,0.4,"licm           10.269241
+gvn             8.816041
+instcombine     8.716977
+#yes            4.696172
+dtype: float64","count    105.000000
+mean       3.240709
+std        2.617174
+min        0.041835
+25%        1.304696
+50%        2.527084
+75%        4.485838
+max       13.242317
+Name: % error, dtype: float64",4
+28,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.4,"instcombine    19.003150
+gvn            16.701548
+#yes           10.556382
+licm            6.839978
+dtype: float64","count    105.000000
+mean       2.941889
+std        2.354976
+min        0.056240
+25%        1.230703
+50%        2.076651
+75%        4.373820
+max       10.834475
+Name: % error, dtype: float64",4
+29,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.761657
+std        2.231370
+min        0.072527
+25%        0.957617
+50%        2.401249
+75%        3.493136
+max       10.726685
+Name: % error, dtype: float64",4
+30,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    105.000000
+mean       3.062472
+std        2.527705
+min        0.094329
+25%        1.044343
+50%        2.481936
+75%        4.341817
+max       12.181426
+Name: % error, dtype: float64",4
+31,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    105.000000
+mean       3.022906
+std        2.514608
+min        0.094531
+25%        1.120748
+50%        2.591555
+75%        3.704356
+max       12.560386
+Name: % error, dtype: float64",4
+32,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.5,"gvn            12.515891
+licm           12.269620
+instcombine    11.292070
+#yes            3.522054
+dtype: float64","count    88.000000
+mean      3.110297
+std       2.559280
+min       0.160884
+25%       1.342734
+50%       2.684981
+75%       4.063135
+max      13.968044
+Name: % error, dtype: float64",4
+33,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.02, max_iter=5)",Performance,0.5,"gvn            12.370195
+licm           12.131635
+instcombine    11.163393
+#yes            3.584004
+dtype: float64","count    88.000000
+mean      3.116222
+std       2.564257
+min       0.163514
+25%       1.350810
+50%       2.668944
+75%       4.035677
+max      13.946126
+Name: % error, dtype: float64",4
+34,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=2),Performance,0.5,"gvn            11.033925
+licm           10.918774
+instcombine     9.973958
+#yes            3.938727
+dtype: float64","count    88.000000
+mean      3.188329
+std       2.611177
+min       0.015694
+25%       1.278145
+50%       2.634877
+75%       4.362771
+max      13.722975
+Name: % error, dtype: float64",4
+35,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.5,"gvn            11.184694
+licm           11.052485
+instcombine    10.113721
+#yes            3.914970
+dtype: float64","count    88.000000
+mean      3.178278
+std       2.606165
+min       0.052017
+25%       1.291579
+50%       2.604220
+75%       4.309282
+max      13.750613
+Name: % error, dtype: float64",4
+36,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.5,"instcombine    17.605246
+gvn            16.716995
+#yes            9.778500
+licm            8.061012
+dtype: float64","count    88.000000
+mean      3.015954
+std       2.290729
+min       0.100349
+25%       1.328430
+50%       2.272481
+75%       4.270482
+max      10.249893
+Name: % error, dtype: float64",4
+37,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    88.000000
+mean      2.816824
+std       2.307597
+min       0.000064
+25%       1.261374
+50%       2.216559
+75%       3.748804
+max      12.045447
+Name: % error, dtype: float64",4
+38,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    88.000000
+mean      2.844229
+std       2.477932
+min       0.120880
+25%       1.100129
+50%       2.430235
+75%       3.958238
+max      12.303373
+Name: % error, dtype: float64",4
+39,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    88.000000
+mean      2.847356
+std       2.528191
+min       0.024092
+25%       1.209963
+50%       2.172818
+75%       3.608164
+max      12.614268
+Name: % error, dtype: float64",4
+40,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.6,"gvn            13.301909
+licm           12.536595
+instcombine    11.983846
+#yes            3.304121
+dtype: float64","count    70.000000
+mean      3.335007
+std       2.702222
+min       0.005172
+25%       1.516852
+50%       3.071630
+75%       4.261782
+max      14.122577
+Name: % error, dtype: float64",4
+41,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.6,"gvn            12.703778
+licm           12.015627
+instcombine    11.378721
+#yes            3.467141
+dtype: float64","count    70.000000
+mean      3.353018
+std       2.710688
+min       0.098442
+25%       1.522481
+50%       2.973202
+75%       4.169511
+max      13.994281
+Name: % error, dtype: float64",4
+42,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(),Performance,0.6,"gvn            12.589460
+licm           11.936590
+instcombine    11.308986
+#yes            3.499707
+dtype: float64","count    70.000000
+mean      3.356860
+std       2.713491
+min       0.119964
+25%       1.538335
+50%       2.949373
+75%       4.167946
+max      13.974475
+Name: % error, dtype: float64",4
+43,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.6,"gvn            11.986049
+licm           11.417907
+instcombine    10.740304
+#yes            3.682637
+dtype: float64","count    70.000000
+mean      3.375532
+std       2.737890
+min       0.109358
+25%       1.473511
+50%       2.874969
+75%       4.365326
+max      13.852448
+Name: % error, dtype: float64",4
+44,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.6,"gvn            18.150558
+instcombine    16.367249
+licm            8.398826
+#yes            6.274537
+dtype: float64","count    70.000000
+mean      3.157041
+std       2.329203
+min       0.306463
+25%       1.595893
+50%       2.172756
+75%       4.436915
+max      10.318387
+Name: % error, dtype: float64",4
+45,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    70.000000
+mean      2.732997
+std       2.271885
+min       0.011547
+25%       1.391832
+50%       2.254346
+75%       3.435141
+max      11.757918
+Name: % error, dtype: float64",4
+46,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    70.000000
+mean      2.748644
+std       2.513379
+min       0.011606
+25%       1.079988
+50%       2.204441
+75%       3.529366
+max      12.258117
+Name: % error, dtype: float64",4
+47,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    70.000000
+mean      2.915815
+std       2.591671
+min       0.136330
+25%       1.203144
+50%       2.312654
+75%       3.486484
+max      12.614268
+Name: % error, dtype: float64",4
+48,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.7,"gvn            14.486177
+licm           12.032995
+instcombine    11.864683
+#yes            3.069568
+dtype: float64","count    53.000000
+mean      3.477900
+std       3.000697
+min       0.102335
+25%       1.372117
+50%       2.935950
+75%       3.955386
+max      14.489604
+Name: % error, dtype: float64",4
+49,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.7,"gvn            14.403779
+licm           11.962927
+instcombine    11.781900
+#yes            3.106372
+dtype: float64","count    53.000000
+mean      3.476355
+std       3.004005
+min       0.101413
+25%       1.402453
+50%       2.940810
+75%       3.987410
+max      14.471846
+Name: % error, dtype: float64",4
+50,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=0.5),Performance,0.7,"gvn            14.159562
+licm           11.789557
+instcombine    11.564412
+#yes            3.147666
+dtype: float64","count    53.000000
+mean      3.477004
+std       3.009922
+min       0.021191
+25%       1.414925
+50%       2.991075
+75%       4.022225
+max      14.415195
+Name: % error, dtype: float64",4
+51,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.01, max_iter=10)",Performance,0.7,"gvn            14.063356
+licm           11.714754
+instcombine    11.472803
+#yes            3.169667
+dtype: float64","count    53.000000
+mean      3.478190
+std       3.011703
+min       0.040288
+25%       1.426322
+50%       3.007768
+75%       3.988203
+max      14.393279
+Name: % error, dtype: float64",4
+52,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.7,"gvn            12.601998
+instcombine    12.207547
+licm            4.050756
+#yes            0.211288
+dtype: float64","count    53.000000
+mean      3.151332
+std       2.505120
+min       0.133780
+25%       1.624281
+50%       2.155995
+75%       4.851642
+max      10.557768
+Name: % error, dtype: float64",4
+53,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    53.000000
+mean      3.138240
+std       2.454285
+min       0.114542
+25%       1.728597
+50%       2.473412
+75%       3.749725
+max      12.184395
+Name: % error, dtype: float64",4
+54,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    53.000000
+mean      3.165935
+std       2.684579
+min       0.069447
+25%       1.604970
+50%       2.483093
+75%       4.042546
+max      12.173911
+Name: % error, dtype: float64",4
+55,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    53.000000
+mean      3.112552
+std       2.696222
+min       0.152157
+25%       1.605375
+50%       2.429671
+75%       3.778007
+max      12.560386
+Name: % error, dtype: float64",4
+56,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.8,"gvn            14.285404
+instcombine    11.806245
+licm           11.611495
+#yes            3.137965
+dtype: float64","count    35.000000
+mean      3.338939
+std       3.065012
+min       0.088055
+25%       1.163721
+50%       2.712685
+75%       3.873620
+max      12.154209
+Name: % error, dtype: float64",4
+57,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.8,"gvn            13.970020
+instcombine    11.486949
+licm           11.348186
+#yes            3.226824
+dtype: float64","count    35.000000
+mean      3.349196
+std       3.074016
+min       0.122213
+25%       1.134160
+50%       2.806585
+75%       3.895950
+max      12.015477
+Name: % error, dtype: float64",4
+58,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=0.8),Performance,0.8,"gvn            13.829660
+instcombine    11.391328
+licm           11.278391
+#yes            3.248123
+dtype: float64","count    35.000000
+mean      3.356985
+std       3.072183
+min       0.194956
+25%       1.151371
+50%       2.853808
+75%       3.908681
+max      11.966047
+Name: % error, dtype: float64",4
+59,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.1, max_iter=5)",Performance,0.8,"gvn            13.545936
+instcombine    11.133116
+licm           11.070903
+#yes            3.334641
+dtype: float64","count    35.000000
+mean      3.370043
+std       3.077321
+min       0.128326
+25%       1.179035
+50%       2.913799
+75%       3.978096
+max      11.836424
+Name: % error, dtype: float64",4
+60,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.8,"gvn            14.187996
+instcombine    12.444578
+licm            2.268607
+#yes            0.966313
+dtype: float64","count    35.000000
+mean      3.088522
+std       2.476221
+min       0.302171
+25%       1.497844
+50%       2.245341
+75%       4.268210
+max      10.598196
+Name: % error, dtype: float64",4
+61,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.903000
+std       2.620751
+min       0.086107
+25%       1.403268
+50%       2.300501
+75%       3.608666
+max      10.936202
+Name: % error, dtype: float64",4
+62,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.854100
+std       2.880162
+min       0.026531
+25%       0.855506
+50%       1.948662
+75%       3.591427
+max      12.173569
+Name: % error, dtype: float64",4
+63,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.880954
+std       2.912139
+min       0.152157
+25%       1.073752
+50%       2.154123
+75%       3.148056
+max      12.560386
+Name: % error, dtype: float64",4
+64,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.9,"gvn            13.684342
+licm           11.461713
+instcombine    11.336048
+#yes            3.471305
+dtype: float64","count    18.000000
+mean      4.046380
+std       3.315617
+min       0.019799
+25%       1.457809
+50%       3.593145
+75%       5.550914
+max      11.011481
+Name: % error, dtype: float64",4
+65,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.9,"gvn            13.606385
+licm           11.389713
+instcombine    11.252342
+#yes            3.509828
+dtype: float64","count    18.000000
+mean      4.053058
+std       3.325934
+min       0.017263
+25%       1.464532
+50%       3.618371
+75%       5.601443
+max      10.979641
+Name: % error, dtype: float64",4
+66,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",Ridge(alpha=0.3),Performance,0.9,"gvn            13.545278
+licm           11.348586
+instcombine    11.207164
+#yes            3.506814
+dtype: float64","count    18.000000
+mean      4.056703
+std       3.326109
+min       0.032520
+25%       1.469688
+50%       3.644619
+75%       5.627345
+max      10.967238
+Name: % error, dtype: float64",4
+67,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.9,"gvn            13.606385
+licm           11.389713
+instcombine    11.252342
+#yes            3.509828
+dtype: float64","count    18.000000
+mean      4.053058
+std       3.325934
+min       0.017263
+25%       1.464532
+50%       3.618371
+75%       5.601443
+max      10.979641
+Name: % error, dtype: float64",4
+68,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",LinearRegression(),Performance,0.9,"gvn            15.954483
+instcombine    13.875161
+licm            2.019917
+#yes            0.397557
+dtype: float64","count    18.000000
+mean      3.572092
+std       3.119583
+min       0.350109
+25%       1.488505
+50%       2.287852
+75%       5.250814
+max      10.856331
+Name: % error, dtype: float64",4
+69,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",RandomForestRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    18.000000
+mean      3.669066
+std       3.137678
+min       0.506320
+25%       1.468882
+50%       2.713066
+75%       4.376580
+max      10.690235
+Name: % error, dtype: float64",4
+70,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    18.000000
+mean      4.099803
+std       3.439948
+min       0.710943
+25%       1.854724
+50%       3.011666
+75%       5.139031
+max      12.369543
+Name: % error, dtype: float64",4
+71,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+Name: % error, dtype: float64","count    18.000000
+mean      3.991510
+std       3.583884
+min       0.561135
+25%       1.565694
+50%       3.032434
+75%       4.249684
+max      12.560386
+Name: % error, dtype: float64",4
+72,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.1,"inline         25.331003
+licm           18.277604
+gvn             6.450469
+instcombine     6.380248
+#yes            0.942097
+dtype: float64","count    158.000000
+mean       4.274517
+std        3.368902
+min        0.046350
+25%        1.327739
+50%        3.491303
+75%        6.254916
+max       13.112472
+Name: % error, dtype: float64",5
+73,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.1,"inline         25.219812
+licm           18.140251
+instcombine     6.337858
+gvn             6.313508
+#yes            0.983955
+dtype: float64","count    158.000000
+mean       4.266539
+std        3.373222
+min        0.008133
+25%        1.319425
+50%        3.455763
+75%        6.261728
+max       13.147503
+Name: % error, dtype: float64",5
+74,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=0.01),Performance,0.1,"inline         25.172608
+licm           18.130404
+instcombine     6.376835
+gvn             6.346039
+#yes            0.991575
+dtype: float64","count    158.000000
+mean       4.257707
+std        3.364559
+min        0.006143
+25%        1.316584
+50%        3.445004
+75%        6.250574
+max       13.115013
+Name: % error, dtype: float64",5
+75,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.1,"inline         25.219812
+licm           18.140251
+instcombine     6.337858
+gvn             6.313508
+#yes            0.983955
+dtype: float64","count    158.000000
+mean       4.266539
+std        3.373222
+min        0.008133
+25%        1.319425
+50%        3.455763
+75%        6.261728
+max       13.147503
+Name: % error, dtype: float64",5
+76,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.1,"instcombine    27.223056
+#yes           15.160327
+gvn            10.017277
+licm            4.627769
+inline          3.003515
+dtype: float64","count    158.000000
+mean       2.815029
+std        2.433325
+min        0.063235
+25%        0.829952
+50%        1.983991
+75%        4.304077
+max        9.939402
+Name: % error, dtype: float64",5
+77,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.187620
+std        3.617860
+min        0.002177
+25%        1.255755
+50%        2.939465
+75%        6.343886
+max       15.727565
+Name: % error, dtype: float64",5
+78,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.270841
+std        4.823734
+min        0.000615
+25%        0.981159
+50%        2.137731
+75%        6.356467
+max       19.539966
+Name: % error, dtype: float64",5
+79,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    158.000000
+mean       5.419127
+std        5.339931
+min        0.010567
+25%        1.006959
+50%        3.443147
+75%        8.054553
+max       20.193951
+Name: % error, dtype: float64",5
+80,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.2,"licm           15.196302
+inline         13.609120
+gvn            13.221253
+instcombine    10.806591
+#yes            3.151487
+dtype: float64","count    140.000000
+mean       2.584386
+std        2.294361
+min        0.018434
+25%        1.038435
+50%        2.090164
+75%        3.271063
+max       12.041727
+Name: % error, dtype: float64",5
+81,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.2,"licm           14.875752
+inline         13.297088
+gvn            12.914143
+instcombine    10.572752
+#yes            3.238102
+dtype: float64","count    140.000000
+mean       2.588893
+std        2.299400
+min        0.114724
+25%        0.999530
+50%        2.093155
+75%        3.292301
+max       12.147069
+Name: % error, dtype: float64",5
+82,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=0.8),Performance,0.2,"licm           13.421612
+inline         11.876724
+gvn            11.532363
+instcombine     9.637935
+#yes            3.640203
+dtype: float64","count    140.000000
+mean       2.615163
+std        2.369421
+min        0.012995
+25%        0.930919
+50%        1.918248
+75%        3.551879
+max       12.616586
+Name: % error, dtype: float64",5
+83,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.05, max_iter=100)",Performance,0.2,"licm           13.155099
+inline         11.616000
+gvn            11.265223
+instcombine     9.432476
+#yes            3.704566
+dtype: float64","count    140.000000
+mean       2.626128
+std        2.383711
+min        0.044332
+25%        0.977915
+50%        1.891427
+75%        3.610068
+max       12.694068
+Name: % error, dtype: float64",5
+84,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.2,"instcombine    20.881268
+licm           19.482785
+gvn            15.647666
+inline          8.203028
+#yes            7.996620
+dtype: float64","count    140.000000
+mean       2.348599
+std        2.064630
+min        0.001236
+25%        0.651508
+50%        1.572147
+75%        3.768166
+max        7.706768
+Name: % error, dtype: float64",5
+85,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    140.000000
+mean       2.266776
+std        2.044767
+min        0.019134
+25%        0.719363
+50%        1.582996
+75%        3.268511
+max       10.527150
+Name: % error, dtype: float64",5
+86,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    140.000000
+mean       1.926641
+std        1.966485
+min        0.032091
+25%        0.553714
+50%        1.156782
+75%        2.514792
+max       10.299018
+Name: % error, dtype: float64",5
+87,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    140.000000
+mean       2.509321
+std        2.402994
+min        0.007562
+25%        0.700076
+50%        1.552812
+75%        3.875452
+max       10.334197
+Name: % error, dtype: float64",5
+88,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.3,"gvn            13.733364
+licm           13.492507
+instcombine    13.359039
+inline         12.613452
+#yes            2.525546
+dtype: float64","count    123.000000
+mean       2.291853
+std        2.461891
+min        0.025984
+25%        0.693383
+50%        1.605315
+75%        2.646246
+max       12.012490
+Name: % error, dtype: float64",5
+89,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.3,"gvn            13.676589
+licm           13.422622
+instcombine    13.314159
+inline         12.546193
+#yes            2.545541
+dtype: float64","count    123.000000
+mean       2.293237
+std        2.464995
+min        0.045218
+25%        0.692039
+50%        1.638618
+75%        2.662353
+max       12.023719
+Name: % error, dtype: float64",5
+90,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=0.3),Performance,0.3,"gvn            13.246395
+instcombine    12.997144
+licm           12.933833
+inline         12.098228
+#yes            2.723508
+dtype: float64","count    123.000000
+mean       2.311400
+std        2.494040
+min        0.075414
+25%        0.688428
+50%        1.617718
+75%        2.685953
+max       12.091591
+Name: % error, dtype: float64",5
+91,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=100)",Performance,0.3,"gvn            12.912012
+instcombine    12.744832
+licm           12.554484
+inline         11.747925
+#yes            2.857757
+dtype: float64","count    123.000000
+mean       2.325980
+std        2.520736
+min        0.008678
+25%        0.728344
+50%        1.603383
+75%        2.728614
+max       12.143381
+Name: % error, dtype: float64",5
+92,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.3,"gvn            21.694114
+instcombine    19.838593
+licm           11.568874
+#yes           11.506455
+inline          2.315252
+dtype: float64","count    123.000000
+mean       2.189116
+std        2.109548
+min        0.015807
+25%        0.678886
+50%        1.439985
+75%        3.165036
+max        8.898213
+Name: % error, dtype: float64",5
+93,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.060454
+std        2.092667
+min        0.062888
+25%        0.711786
+50%        1.241848
+75%        2.876406
+max       10.424297
+Name: % error, dtype: float64",5
+94,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.455986
+std        2.294020
+min        0.061934
+25%        0.727009
+50%        1.474452
+75%        3.951400
+max       10.312045
+Name: % error, dtype: float64",5
+95,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.901604
+std        2.835527
+min        0.007562
+25%        0.716630
+50%        1.713472
+75%        4.375569
+max       12.918412
+Name: % error, dtype: float64",5
+96,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.4,"licm           16.633632
+inline         14.689550
+gvn            13.308573
+instcombine    11.737310
+#yes            1.654823
+dtype: float64","count    105.000000
+mean       2.452936
+std        2.021145
+min        0.023519
+25%        1.037959
+50%        1.971495
+75%        3.403032
+max       10.054871
+Name: % error, dtype: float64",5
+97,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.4,"licm           15.769001
+inline         13.900015
+gvn            12.549646
+instcombine    11.151125
+#yes            2.048587
+dtype: float64","count    105.000000
+mean       2.461571
+std        2.049494
+min        0.053418
+25%        1.011607
+50%        1.987626
+75%        3.189206
+max       10.189030
+Name: % error, dtype: float64",5
+98,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(),Performance,0.4,"licm           15.144974
+inline         13.369926
+gvn            12.118358
+instcombine    10.844144
+#yes            2.193310
+dtype: float64","count    105.000000
+mean       2.450405
+std        2.076216
+min        0.033424
+25%        0.922957
+50%        1.904991
+75%        3.202724
+max       10.389223
+Name: % error, dtype: float64",5
+99,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.4,"licm           14.654138
+inline         12.951829
+gvn            11.737212
+instcombine    10.579491
+#yes            2.436187
+dtype: float64","count    105.000000
+mean       2.466044
+std        2.104485
+min        0.008569
+25%        0.992781
+50%        1.993668
+75%        3.257772
+max       10.696218
+Name: % error, dtype: float64",5
+100,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.4,"instcombine    18.687188
+gvn            17.255184
+licm           13.288789
+#yes           10.020851
+inline          7.331436
+dtype: float64","count    105.000000
+mean       2.299940
+std        2.251476
+min        0.050505
+25%        0.770208
+50%        1.423394
+75%        2.826182
+max        9.846506
+Name: % error, dtype: float64",5
+101,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    105.000000
+mean       1.905299
+std        1.901306
+min        0.068176
+25%        0.538776
+50%        1.354438
+75%        2.692743
+max       10.826065
+Name: % error, dtype: float64",5
+102,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.049339
+std        2.174338
+min        0.053850
+25%        0.581817
+50%        1.381110
+75%        2.539514
+max       10.033782
+Name: % error, dtype: float64",5
+103,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    105.000000
+mean       1.988740
+std        2.283574
+min        0.050862
+25%        0.582222
+50%        1.198635
+75%        2.339421
+max       10.334197
+Name: % error, dtype: float64",5
+104,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.5,"licm           15.210116
+inline         13.682351
+gvn            13.411003
+instcombine    13.081986
+#yes            1.356664
+dtype: float64","count    88.000000
+mean      2.210590
+std       2.241642
+min       0.012599
+25%       0.812184
+50%       1.582348
+75%       2.890425
+max      11.074754
+Name: % error, dtype: float64",5
+105,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.5,"licm           14.951326
+inline         13.472153
+gvn            13.222765
+instcombine    12.906689
+#yes            1.546963
+dtype: float64","count    88.000000
+mean      2.224982
+std       2.243152
+min       0.019258
+25%       0.860766
+50%       1.594575
+75%       2.874987
+max      11.107961
+Name: % error, dtype: float64",5
+106,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=0.5),Performance,0.5,"licm           14.639166
+inline         13.179398
+gvn            12.922353
+instcombine    12.594371
+#yes            1.581707
+dtype: float64","count    88.000000
+mean      2.244344
+std       2.247530
+min       0.020440
+25%       0.793575
+50%       1.633779
+75%       2.873442
+max      11.113230
+Name: % error, dtype: float64",5
+107,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.01, max_iter=5)",Performance,0.5,"licm           14.510068
+inline         13.083036
+gvn            12.843397
+instcombine    12.527308
+#yes            1.712953
+dtype: float64","count    88.000000
+mean      2.251110
+std       2.251243
+min       0.000146
+25%       0.835191
+50%       1.660852
+75%       2.785467
+max      11.136604
+Name: % error, dtype: float64",5
+108,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.5,"gvn            18.372358
+instcombine    17.618066
+licm           16.523023
+#yes           15.336122
+inline         11.348687
+dtype: float64","count    88.000000
+mean      2.180553
+std       1.870435
+min       0.099750
+25%       0.894530
+50%       1.558307
+75%       3.059370
+max       8.686392
+Name: % error, dtype: float64",5
+109,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.541295
+std       1.707716
+min       0.050622
+25%       0.438686
+50%       1.030350
+75%       2.079054
+max      10.455317
+Name: % error, dtype: float64",5
+110,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.599448
+std       1.674896
+min       0.027134
+25%       0.557210
+50%       1.014073
+75%       2.069268
+max       9.455329
+Name: % error, dtype: float64",5
+111,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.850350
+std       2.067808
+min       0.024092
+25%       0.609607
+50%       1.175150
+75%       2.163470
+max      10.334197
+Name: % error, dtype: float64",5
+112,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.6,"licm           14.781855
+gvn            14.161022
+instcombine    13.555397
+inline         12.706293
+#yes            1.234790
+dtype: float64","count    70.000000
+mean      2.215525
+std       2.418894
+min       0.015609
+25%       0.691580
+50%       1.532132
+75%       2.558526
+max      11.569839
+Name: % error, dtype: float64",5
+113,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.6,"licm           13.445444
+gvn            12.842410
+instcombine    12.137668
+inline         11.386444
+#yes            1.832572
+dtype: float64","count    70.000000
+mean      2.378577
+std       2.405673
+min       0.018841
+25%       0.850507
+50%       1.867004
+75%       2.936267
+max      11.577846
+Name: % error, dtype: float64",5
+114,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=2),Performance,0.6,"licm           13.186115
+gvn            12.599637
+instcombine    11.944872
+inline         11.274645
+#yes            1.903062
+dtype: float64","count    70.000000
+mean      2.407114
+std       2.408195
+min       0.072420
+25%       0.793890
+50%       1.892064
+75%       3.045112
+max      11.567257
+Name: % error, dtype: float64",5
+115,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.6,"licm           13.006754
+gvn            12.455968
+instcombine    11.794881
+inline         11.110621
+#yes            2.041625
+dtype: float64","count    70.000000
+mean      2.424724
+std       2.413892
+min       0.016941
+25%       0.800874
+50%       1.916233
+75%       3.014614
+max      11.582960
+Name: % error, dtype: float64",5
+116,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.6,"gvn            18.360908
+instcombine    16.558446
+licm           13.986868
+#yes            9.673521
+inline          6.957369
+dtype: float64","count    70.000000
+mean      2.043714
+std       1.838841
+min       0.013497
+25%       0.738921
+50%       1.330089
+75%       2.833206
+max       7.754122
+Name: % error, dtype: float64",5
+117,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.504670
+std       1.509289
+min       0.047047
+25%       0.436926
+50%       1.043237
+75%       2.189126
+max       9.397516
+Name: % error, dtype: float64",5
+118,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.401536
+std       1.487096
+min       0.060907
+25%       0.449647
+50%       1.023423
+75%       1.801577
+max       9.890667
+Name: % error, dtype: float64",5
+119,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.544142
+std       1.775663
+min       0.014172
+25%       0.513063
+50%       1.022608
+75%       1.787917
+max       9.097798
+Name: % error, dtype: float64",5
+120,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.7,"gvn            14.844454
+licm           14.445225
+instcombine    13.372832
+inline         12.618536
+#yes            1.149768
+dtype: float64","count    53.000000
+mean      2.384354
+std       2.668834
+min       0.010975
+25%       0.769162
+50%       1.548426
+75%       2.866519
+max      11.779188
+Name: % error, dtype: float64",5
+121,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.7,"gvn            14.703211
+licm           14.250385
+instcombine    13.192275
+inline         12.418787
+#yes            1.298217
+dtype: float64","count    53.000000
+mean      2.401100
+std       2.661424
+min       0.058675
+25%       0.819584
+50%       1.589551
+75%       2.914004
+max      11.799360
+Name: % error, dtype: float64",5
+122,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=0.3),Performance,0.7,"gvn            14.629561
+licm           14.228426
+instcombine    13.143485
+inline         12.415302
+#yes            1.236336
+dtype: float64","count    53.000000
+mean      2.413727
+std       2.659710
+min       0.013975
+25%       0.863781
+50%       1.637915
+75%       2.900821
+max      11.777465
+Name: % error, dtype: float64",5
+123,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.7,"gvn            14.703211
+licm           14.250385
+instcombine    13.192275
+inline         12.418787
+#yes            1.298217
+dtype: float64","count    53.000000
+mean      2.401100
+std       2.661424
+min       0.058675
+25%       0.819584
+50%       1.589551
+75%       2.914004
+max      11.799360
+Name: % error, dtype: float64",5
+124,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.7,"gvn            12.031839
+instcombine    11.471403
+licm            8.384445
+inline          6.378047
+#yes            3.293644
+dtype: float64","count    53.000000
+mean      1.941452
+std       1.828257
+min       0.025364
+25%       0.652792
+50%       1.411397
+75%       2.503372
+max       8.537806
+Name: % error, dtype: float64",5
+125,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.525346
+std       1.614863
+min       0.017283
+25%       0.507626
+50%       1.079758
+75%       2.152695
+max       9.949747
+Name: % error, dtype: float64",5
+126,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.423189
+std       1.430185
+min       0.056753
+25%       0.462403
+50%       0.972724
+75%       1.879024
+max       8.034223
+Name: % error, dtype: float64",5
+127,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.459554
+std       1.588203
+min       0.020007
+25%       0.490010
+50%       1.033905
+75%       1.630713
+max       9.097798
+Name: % error, dtype: float64",5
+128,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.8,"gvn            14.616429
+licm           14.471597
+inline         13.476456
+instcombine    13.302808
+#yes            1.240476
+dtype: float64","count    35.000000
+mean      2.518150
+std       2.720128
+min       0.037068
+25%       0.665667
+50%       1.412684
+75%       3.302750
+max      10.572122
+Name: % error, dtype: float64",5
+129,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.8,"gvn            14.459565
+licm           14.276524
+inline         13.291022
+instcombine    13.116011
+#yes            1.385574
+dtype: float64","count    35.000000
+mean      2.544541
+std       2.712493
+min       0.011937
+25%       0.733487
+50%       1.470630
+75%       3.289975
+max      10.477084
+Name: % error, dtype: float64",5
+130,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=0.2),Performance,0.8,"gvn            14.489193
+licm           14.339889
+inline         13.353270
+instcombine    13.168350
+#yes            1.291325
+dtype: float64","count    35.000000
+mean      2.539903
+std       2.711913
+min       0.066030
+25%       0.708070
+50%       1.463059
+75%       3.301095
+max      10.534296
+Name: % error, dtype: float64",5
+131,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.8,"gvn            14.459565
+licm           14.276524
+inline         13.291022
+instcombine    13.116011
+#yes            1.385574
+dtype: float64","count    35.000000
+mean      2.544541
+std       2.712493
+min       0.011937
+25%       0.733487
+50%       1.470630
+75%       3.289975
+max      10.477084
+Name: % error, dtype: float64",5
+132,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.8,"gvn            12.875100
+instcombine    11.805268
+licm            7.933376
+inline          6.616613
+#yes            1.982533
+dtype: float64","count    35.000000
+mean      1.889955
+std       1.938576
+min       0.011331
+25%       0.687813
+50%       1.232972
+75%       2.240049
+max       9.361388
+Name: % error, dtype: float64",5
+133,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.532281
+std       1.879967
+min       0.054456
+25%       0.359217
+50%       1.070760
+75%       2.028669
+max       9.722862
+Name: % error, dtype: float64",5
+134,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.554519
+std       1.652391
+min       0.074035
+25%       0.445915
+50%       1.054573
+75%       1.998618
+max       7.345486
+Name: % error, dtype: float64",5
+135,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.505014
+std       1.888010
+min       0.006850
+25%       0.337853
+50%       0.941470
+75%       1.732987
+max       9.097798
+Name: % error, dtype: float64",5
+136,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.9,"gvn            14.530519
+licm           14.469158
+inline         13.197653
+instcombine    13.171669
+#yes            1.428201
+dtype: float64","count    18.000000
+mean      2.684172
+std       2.944388
+min       0.008059
+25%       0.657242
+50%       1.612810
+75%       3.498943
+max       9.851685
+Name: % error, dtype: float64",5
+137,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.9,"gvn            14.361405
+licm           14.227425
+inline         12.958260
+instcombine    12.947884
+#yes            1.608312
+dtype: float64","count    18.000000
+mean      2.749223
+std       2.945174
+min       0.003647
+25%       0.667970
+50%       1.795385
+75%       3.452907
+max      10.081827
+Name: % error, dtype: float64",5
+138,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",Ridge(alpha=0.3),Performance,0.9,"gvn            14.366389
+licm           14.286122
+inline         13.020479
+instcombine    12.995297
+#yes            1.499303
+dtype: float64","count    18.000000
+mean      2.724636
+std       2.940278
+min       0.034035
+25%       0.651965
+50%       1.745750
+75%       3.473743
+max       9.942024
+Name: % error, dtype: float64",5
+139,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.9,"gvn            14.361405
+licm           14.227425
+inline         12.958260
+instcombine    12.947884
+#yes            1.608312
+dtype: float64","count    18.000000
+mean      2.749223
+std       2.945174
+min       0.003647
+25%       0.667970
+50%       1.795385
+75%       3.452907
+max      10.081827
+Name: % error, dtype: float64",5
+140,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",LinearRegression(),Performance,0.9,"gvn            13.525798
+instcombine    12.339469
+licm            7.541361
+inline          6.794111
+#yes            3.029045
+dtype: float64","count    18.000000
+mean      2.021585
+std       2.197808
+min       0.342569
+25%       0.687767
+50%       1.333730
+75%       2.178145
+max       9.277130
+Name: % error, dtype: float64",5
+141,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",RandomForestRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.859868
+std       2.335480
+min       0.135469
+25%       0.595064
+50%       1.064425
+75%       1.675361
+max       9.447513
+Name: % error, dtype: float64",5
+142,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.838951
+std       1.941113
+min       0.027146
+25%       0.678333
+50%       1.343944
+75%       1.881314
+max       7.668617
+Name: % error, dtype: float64",5
+143,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.929324
+std       2.398203
+min       0.152157
+25%       0.525451
+50%       1.354830
+75%       1.794034
+max       9.097798
+Name: % error, dtype: float64",5
+144,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.1,"inline         24.382753
+licm           18.565711
+gvn             7.063603
+instcombine     6.564047
+simplifycfg     2.555835
+#yes            0.799053
+dtype: float64","count    158.000000
+mean       4.162262
+std        3.200381
+min        0.043989
+25%        1.364811
+50%        3.287587
+75%        6.253268
+max       13.067754
+Name: % error, dtype: float64",6
+145,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.1,"inline         24.293721
+licm           18.422269
+gvn             6.912925
+instcombine     6.517325
+simplifycfg     2.497855
+#yes            0.843944
+dtype: float64","count    158.000000
+mean       4.158830
+std        3.206394
+min        0.047132
+25%        1.322961
+50%        3.275132
+75%        6.258989
+max       13.103939
+Name: % error, dtype: float64",6
+146,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.01),Performance,0.1,"inline         24.224468
+licm           18.418725
+gvn             6.958338
+instcombine     6.559758
+simplifycfg     2.563436
+#yes            0.848030
+dtype: float64","count    158.000000
+mean       4.148153
+std        3.194699
+min        0.045903
+25%        1.327400
+50%        3.293962
+75%        6.239992
+max       13.072214
+Name: % error, dtype: float64",6
+147,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.1,"inline         24.293721
+licm           18.422269
+gvn             6.912925
+instcombine     6.517325
+simplifycfg     2.497855
+#yes            0.843944
+dtype: float64","count    158.000000
+mean       4.158830
+std        3.206394
+min        0.047132
+25%        1.322961
+50%        3.275132
+75%        6.258989
+max       13.103939
+Name: % error, dtype: float64",6
+148,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.1,"instcombine    26.870687
+#yes           15.374517
+simplifycfg     6.570160
+gvn             5.140426
+inline          3.511567
+licm            0.385446
+dtype: float64","count    158.000000
+mean       3.599189
+std        2.756383
+min        0.009803
+25%        1.417780
+50%        3.235906
+75%        5.309634
+max       14.072600
+Name: % error, dtype: float64",6
+149,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.168950
+std        3.682120
+min        0.039357
+25%        1.329170
+50%        3.249114
+75%        5.684651
+max       16.653394
+Name: % error, dtype: float64",6
+150,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.751576
+std        5.521880
+min        0.007879
+25%        1.037171
+50%        2.644286
+75%        6.648104
+max       22.591620
+Name: % error, dtype: float64",6
+151,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    158.000000
+mean       6.012625
+std        7.139644
+min        0.010567
+25%        1.006959
+50%        3.285046
+75%        7.906743
+max       27.845979
+Name: % error, dtype: float64",6
+152,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.2,"licm           16.303931
+inline         14.063387
+gvn            13.427890
+instcombine    11.596050
+simplifycfg     4.381912
+#yes            2.641401
+dtype: float64","count    140.000000
+mean       2.672531
+std        2.348125
+min        0.063638
+25%        1.053413
+50%        1.960695
+75%        3.683498
+max       12.022508
+Name: % error, dtype: float64",6
+153,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.2,"licm           15.454846
+inline         13.348327
+gvn            12.736972
+instcombine    10.958079
+simplifycfg     3.645670
+#yes            2.923428
+dtype: float64","count    140.000000
+mean       2.643352
+std        2.369178
+min        0.087959
+25%        0.978776
+50%        2.009217
+75%        3.536572
+max       12.266296
+Name: % error, dtype: float64",6
+154,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.5),Performance,0.2,"licm           14.895065
+inline         12.806729
+gvn            12.253588
+instcombine    10.661875
+simplifycfg     3.662374
+#yes            3.065572
+dtype: float64","count    140.000000
+mean       2.644486
+std        2.399748
+min        0.016024
+25%        0.907826
+50%        1.934593
+75%        3.598462
+max       12.433509
+Name: % error, dtype: float64",6
+155,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=10)",Performance,0.2,"licm           14.557752
+inline         12.506882
+gvn            11.971419
+instcombine    10.434681
+simplifycfg     3.491025
+#yes            3.164706
+dtype: float64","count    140.000000
+mean       2.650671
+std        2.407094
+min        0.015263
+25%        0.869705
+50%        1.944406
+75%        3.600886
+max       12.529659
+Name: % error, dtype: float64",6
+156,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.2,"gvn            27.422909
+instcombine    20.672603
+licm           12.662428
+#yes           12.573842
+inline          3.269299
+simplifycfg     0.067742
+dtype: float64","count    140.000000
+mean       2.451871
+std        2.455286
+min        0.035831
+25%        0.656411
+50%        1.762550
+75%        3.102560
+max       10.790594
+Name: % error, dtype: float64",6
+157,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    140.000000
+mean       2.303654
+std        2.043114
+min        0.021698
+25%        0.717212
+50%        1.645781
+75%        3.262593
+max       10.273083
+Name: % error, dtype: float64",6
+158,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    140.000000
+mean       1.769028
+std        1.945658
+min        0.057914
+25%        0.537817
+50%        1.114881
+75%        2.172971
+max       10.255649
+Name: % error, dtype: float64",6
+159,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    140.000000
+mean       2.385117
+std        2.494525
+min        0.007562
+25%        0.584751
+50%        1.304508
+75%        3.532766
+max       12.040927
+Name: % error, dtype: float64",6
+160,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.3,"licm           15.148876
+gvn            14.293654
+instcombine    13.976776
+inline         13.436008
+simplifycfg     4.631524
+#yes            1.935830
+dtype: float64","count    123.000000
+mean       2.502229
+std        2.422546
+min        0.039704
+25%        0.925069
+50%        1.896765
+75%        3.157297
+max       11.183887
+Name: % error, dtype: float64",6
+161,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.3,"licm           15.050850
+gvn            14.227316
+instcombine    13.921497
+inline         13.354731
+simplifycfg     4.554083
+#yes            1.965930
+dtype: float64","count    123.000000
+mean       2.495635
+std        2.426994
+min        0.074161
+25%        0.919354
+50%        1.872024
+75%        3.175969
+max       11.212488
+Name: % error, dtype: float64",6
+162,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.1),Performance,0.3,"licm           14.886424
+gvn            14.101910
+instcombine    13.830079
+inline         13.219481
+simplifycfg     4.493752
+#yes            2.027389
+dtype: float64","count    123.000000
+mean       2.492861
+std        2.437355
+min        0.000129
+25%        0.923628
+50%        1.852421
+75%        3.206966
+max       11.283312
+Name: % error, dtype: float64",6
+163,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.01, max_iter=100)",Performance,0.3,"licm           14.439314
+gvn            13.774853
+instcombine    13.575931
+inline         12.849668
+simplifycfg     4.247602
+#yes            2.181502
+dtype: float64","count    123.000000
+mean       2.480598
+std        2.461527
+min        0.033124
+25%        0.891475
+50%        1.780014
+75%        3.268052
+max       11.448938
+Name: % error, dtype: float64",6
+164,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.3,"gvn            28.132631
+instcombine    21.414121
+#yes           11.409309
+licm           10.909505
+simplifycfg     3.120173
+inline          0.099083
+dtype: float64","count    123.000000
+mean       2.446234
+std        2.543860
+min        0.014651
+25%        0.654055
+50%        1.650688
+75%        3.143082
+max       10.906964
+Name: % error, dtype: float64",6
+165,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.159916
+std        2.359486
+min        0.002297
+25%        0.792581
+50%        1.453419
+75%        2.586196
+max       12.043095
+Name: % error, dtype: float64",6
+166,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.104987
+std        2.088435
+min        0.011881
+25%        0.581926
+50%        1.293198
+75%        2.926208
+max       10.498295
+Name: % error, dtype: float64",6
+167,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    123.000000
+mean       3.075348
+std        2.876530
+min        0.007562
+25%        0.818611
+50%        2.058643
+75%        4.920023
+max       12.918412
+Name: % error, dtype: float64",6
+168,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.4,"licm           17.513841
+inline         15.160809
+gvn            14.005855
+instcombine    12.218060
+simplifycfg     3.732829
+#yes            1.063920
+dtype: float64","count    105.000000
+mean       2.566807
+std        2.027634
+min        0.086697
+25%        1.039255
+50%        2.249870
+75%        3.318666
+max        9.617639
+Name: % error, dtype: float64",6
+169,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.4,"licm           16.905492
+inline         14.720271
+gvn            13.541717
+instcombine    11.939689
+simplifycfg     3.344116
+#yes            1.499676
+dtype: float64","count    105.000000
+mean       2.556482
+std        2.048752
+min        0.031722
+25%        0.946048
+50%        2.167887
+75%        3.293436
+max       10.090958
+Name: % error, dtype: float64",6
+170,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.8),Performance,0.4,"licm           16.092955
+inline         13.965431
+gvn            12.870468
+instcombine    11.379578
+simplifycfg     3.088435
+#yes            1.627144
+dtype: float64","count    105.000000
+mean       2.528362
+std        2.066406
+min        0.064361
+25%        0.881673
+50%        2.360101
+75%        3.205142
+max       10.227397
+Name: % error, dtype: float64",6
+171,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=0.0, max_iter=5)",Performance,0.4,"licm           15.862685
+inline         13.828925
+gvn            12.710336
+instcombine    11.315059
+simplifycfg     2.924284
+#yes            1.874962
+dtype: float64","count    105.000000
+mean       2.531956
+std        2.087485
+min        0.002580
+25%        0.879913
+50%        2.248705
+75%        3.275991
+max       10.502799
+Name: % error, dtype: float64",6
+172,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.4,"instcombine    20.019234
+gvn            19.437842
+licm           13.432262
+#yes           11.535584
+inline          9.181942
+simplifycfg     5.402328
+dtype: float64","count    105.000000
+mean       2.241628
+std        2.362202
+min        0.028582
+25%        0.629192
+50%        1.458067
+75%        2.641128
+max       10.385700
+Name: % error, dtype: float64",6
+173,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    105.000000
+mean       1.991841
+std        2.049039
+min        0.043662
+25%        0.507924
+50%        1.339378
+75%        2.637808
+max       10.768917
+Name: % error, dtype: float64",6
+174,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.095098
+std        2.313173
+min        0.015238
+25%        0.503560
+50%        1.238373
+75%        2.732249
+max        9.705391
+Name: % error, dtype: float64",6
+175,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.217034
+std        2.506168
+min        0.062182
+25%        0.691803
+50%        1.299160
+75%        2.652066
+max       10.646203
+Name: % error, dtype: float64",6
+176,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.5,"licm           15.750305
+inline         13.977886
+gvn            13.830423
+instcombine    13.586554
+simplifycfg     2.461268
+#yes            0.934802
+dtype: float64","count    88.000000
+mean      2.232222
+std       2.229763
+min       0.025273
+25%       0.644376
+50%       1.703098
+75%       2.964670
+max      10.599383
+Name: % error, dtype: float64",6
+177,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.5,"licm           15.198153
+inline         13.577003
+gvn            13.418274
+instcombine    13.181814
+simplifycfg     2.059498
+#yes            1.366297
+dtype: float64","count    88.000000
+mean      2.244449
+std       2.239723
+min       0.007303
+25%       0.686423
+50%       1.836790
+75%       2.708381
+max      10.729845
+Name: % error, dtype: float64",6
+178,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.8),Performance,0.5,"licm           14.723424
+inline         13.114223
+gvn            12.960745
+instcombine    12.699920
+simplifycfg     1.970752
+#yes            1.381612
+dtype: float64","count    88.000000
+mean      2.276212
+std       2.244130
+min       0.064968
+25%       0.673021
+50%       1.817721
+75%       2.746936
+max      10.755020
+Name: % error, dtype: float64",6
+179,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.5,"licm           15.198153
+inline         13.577003
+gvn            13.418274
+instcombine    13.181814
+simplifycfg     2.059498
+#yes            1.366297
+dtype: float64","count    88.000000
+mean      2.244449
+std       2.239723
+min       0.007303
+25%       0.686423
+50%       1.836790
+75%       2.708381
+max      10.729845
+Name: % error, dtype: float64",6
+180,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.5,"gvn            20.976292
+instcombine    19.633541
+#yes           16.828954
+licm           16.665738
+inline         11.773630
+simplifycfg     5.925878
+dtype: float64","count    88.000000
+mean      2.087526
+std       1.808685
+min       0.033803
+25%       0.938787
+50%       1.464667
+75%       2.773258
+max       8.658159
+Name: % error, dtype: float64",6
+181,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.536652
+std       1.669642
+min       0.001231
+25%       0.416105
+50%       1.020115
+75%       2.109568
+max      10.486381
+Name: % error, dtype: float64",6
+182,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.575386
+std       1.737723
+min       0.030149
+25%       0.492949
+50%       1.015625
+75%       1.950317
+max       9.095601
+Name: % error, dtype: float64",6
+183,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.743954
+std       1.892817
+min       0.062182
+25%       0.617598
+50%       1.039346
+75%       2.228162
+max      10.334197
+Name: % error, dtype: float64",6
+184,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.6,"licm           15.219112
+gvn            14.451739
+instcombine    13.928082
+inline         13.110054
+simplifycfg     2.590576
+#yes            0.847585
+dtype: float64","count    70.000000
+mean      2.280867
+std       2.405084
+min       0.021082
+25%       0.697249
+50%       1.510777
+75%       2.815053
+max      11.055793
+Name: % error, dtype: float64",6
+185,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.6,"licm           13.536183
+gvn            12.898875
+instcombine    12.220531
+inline         11.469892
+#yes            1.755118
+simplifycfg     1.086645
+dtype: float64","count    70.000000
+mean      2.405640
+std       2.401229
+min       0.055846
+25%       0.793590
+50%       1.913197
+75%       2.969188
+max      11.373757
+Name: % error, dtype: float64",6
+186,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=2),Performance,0.6,"licm           13.457531
+gvn            12.776729
+instcombine    12.174536
+inline         11.524931
+simplifycfg     1.829485
+#yes            1.646823
+dtype: float64","count    70.000000
+mean      2.452989
+std       2.398796
+min       0.071586
+25%       0.944451
+50%       2.036187
+75%       3.080265
+max      11.207024
+Name: % error, dtype: float64",6
+187,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.0, max_iter=5)",Performance,0.6,"licm           13.166870
+gvn            12.556820
+instcombine    11.936520
+inline         11.257918
+#yes            1.893275
+simplifycfg     1.650488
+dtype: float64","count    70.000000
+mean      2.470876
+std       2.410983
+min       0.014420
+25%       0.898026
+50%       1.833825
+75%       3.095951
+max      11.269251
+Name: % error, dtype: float64",6
+188,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.6,"gvn            20.840515
+instcombine    17.738732
+licm           13.624552
+#yes           10.762476
+inline          8.979182
+simplifycfg     5.227758
+dtype: float64","count    70.000000
+mean      2.018565
+std       1.738135
+min       0.115926
+25%       0.838441
+50%       1.364578
+75%       2.771711
+max       7.254517
+Name: % error, dtype: float64",6
+189,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.437334
+std       1.578237
+min       0.011146
+25%       0.359130
+50%       1.018039
+75%       2.132039
+max      10.282878
+Name: % error, dtype: float64",6
+190,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.348442
+std       1.467847
+min       0.017334
+25%       0.563681
+50%       1.058434
+75%       1.821962
+max      10.689237
+Name: % error, dtype: float64",6
+191,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.583331
+std       1.931859
+min       0.062182
+25%       0.524536
+50%       0.956918
+75%       1.868885
+max      10.334197
+Name: % error, dtype: float64",6
+192,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.7,"gvn            15.183007
+licm           14.883761
+instcombine    13.782897
+inline         13.053757
+simplifycfg     2.248115
+#yes            0.805531
+dtype: float64","count    53.000000
+mean      2.419803
+std       2.653684
+min       0.039017
+25%       0.867605
+50%       1.514679
+75%       2.850585
+max      11.341395
+Name: % error, dtype: float64",6
+193,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.02, max_iter=10)",Performance,0.7,"gvn            15.042820
+licm           14.730848
+instcombine    13.620689
+inline         12.899762
+simplifycfg     2.094006
+#yes            0.875967
+dtype: float64","count    53.000000
+mean      2.427251
+std       2.653433
+min       0.027207
+25%       0.860071
+50%       1.497403
+75%       2.890043
+max      11.372404
+Name: % error, dtype: float64",6
+194,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.3),Performance,0.7,"gvn            14.941896
+licm           14.633205
+instcombine    13.521447
+inline         12.816826
+simplifycfg     2.110116
+#yes            0.916241
+dtype: float64","count    53.000000
+mean      2.439725
+std       2.649689
+min       0.045182
+25%       0.848575
+50%       1.523256
+75%       2.890428
+max      11.366960
+Name: % error, dtype: float64",6
+195,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.01, max_iter=10)",Performance,0.7,"gvn            14.664491
+licm           14.342173
+instcombine    13.218432
+inline         12.539428
+simplifycfg     1.934034
+#yes            1.047402
+dtype: float64","count    53.000000
+mean      2.469222
+std       2.641392
+min       0.048244
+25%       0.823148
+50%       1.623345
+75%       2.937683
+max      11.400684
+Name: % error, dtype: float64",6
+196,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.7,"gvn            13.940614
+instcombine    12.378940
+licm            9.447709
+inline          7.955373
+simplifycfg     5.426841
+#yes            4.750246
+dtype: float64","count    53.000000
+mean      1.957730
+std       1.763636
+min       0.155246
+25%       0.948503
+50%       1.425242
+75%       2.823102
+max       9.519706
+Name: % error, dtype: float64",6
+197,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.476469
+std       1.630034
+min       0.001379
+25%       0.530012
+50%       0.982906
+75%       2.036443
+max      10.542286
+Name: % error, dtype: float64",6
+198,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.321852
+std       1.384662
+min       0.001808
+25%       0.379040
+50%       1.021748
+75%       1.676030
+max       8.191984
+Name: % error, dtype: float64",6
+199,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.483179
+std       1.719809
+min       0.020313
+25%       0.453584
+50%       1.001389
+75%       1.800816
+max      10.334197
+Name: % error, dtype: float64",6
+200,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.8,"gvn            15.034521
+licm           14.996070
+inline         13.949102
+instcombine    13.804619
+simplifycfg     2.636152
+#yes            0.836721
+dtype: float64","count    35.000000
+mean      2.641340
+std       2.703476
+min       0.045188
+25%       1.072376
+50%       1.714795
+75%       3.565041
+max      10.369122
+Name: % error, dtype: float64",6
+201,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.8,"gvn            14.688457
+licm           14.558371
+inline         13.539901
+instcombine    13.389379
+simplifycfg     2.270933
+#yes            1.186455
+dtype: float64","count    35.000000
+mean      2.656978
+std       2.703663
+min       0.032500
+25%       1.008837
+50%       1.715397
+75%       3.539571
+max      10.205078
+Name: % error, dtype: float64",6
+202,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.3),Performance,0.8,"gvn            14.818290
+licm           14.766857
+inline         13.735600
+instcombine    13.572232
+simplifycfg     2.508869
+#yes            0.935195
+dtype: float64","count    35.000000
+mean      2.655147
+std       2.700663
+min       0.027894
+25%       1.071742
+50%       1.666383
+75%       3.562128
+max      10.320375
+Name: % error, dtype: float64",6
+203,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.8,"gvn            14.688457
+licm           14.558371
+inline         13.539901
+instcombine    13.389379
+simplifycfg     2.270933
+#yes            1.186455
+dtype: float64","count    35.000000
+mean      2.656978
+std       2.703663
+min       0.032500
+25%       1.008837
+50%       1.715397
+75%       3.539571
+max      10.205078
+Name: % error, dtype: float64",6
+204,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.8,"gvn            14.599815
+instcombine    12.245285
+licm            9.575759
+inline          7.780326
+simplifycfg     5.635527
+#yes            3.502391
+dtype: float64","count    35.000000
+mean      2.061662
+std       2.104111
+min       0.116833
+25%       0.639175
+50%       1.242356
+75%       2.892148
+max      10.319927
+Name: % error, dtype: float64",6
+205,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.483231
+std       1.907011
+min       0.004826
+25%       0.374625
+50%       0.942996
+75%       1.878445
+max      10.326186
+Name: % error, dtype: float64",6
+206,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.402236
+std       1.467391
+min       0.038639
+25%       0.427319
+50%       1.045348
+75%       1.905269
+max       7.477879
+Name: % error, dtype: float64",6
+207,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.374341
+std       1.839900
+min       0.060338
+25%       0.281341
+50%       0.836740
+75%       1.787252
+max      10.334197
+Name: % error, dtype: float64",6
+208,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.9,"gvn            14.902832
+licm           14.843396
+inline         13.569586
+instcombine    13.519155
+simplifycfg     2.213140
+#yes            1.105851
+dtype: float64","count    18.000000
+mean      2.780031
+std       2.940114
+min       0.165600
+25%       1.073224
+50%       1.607355
+75%       3.266844
+max       9.927232
+Name: % error, dtype: float64",6
+209,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.9,"gvn            14.561162
+licm           14.462129
+inline         13.186359
+instcombine    13.140703
+simplifycfg     1.858453
+#yes            1.270079
+dtype: float64","count    18.000000
+mean      2.824339
+std       2.939792
+min       0.102322
+25%       1.041944
+50%       1.784709
+75%       3.255233
+max      10.060704
+Name: % error, dtype: float64",6
+210,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",Ridge(alpha=0.5),Performance,0.9,"gvn            14.597167
+licm           14.505634
+inline         13.241591
+instcombine    13.194614
+simplifycfg     2.051500
+#yes            1.250404
+dtype: float64","count    18.000000
+mean      2.835454
+std       2.937348
+min       0.157184
+25%       1.081776
+50%       1.756822
+75%       3.240956
+max      10.075355
+Name: % error, dtype: float64",6
+211,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')","ElasticNet(alpha=0.01, max_iter=10)",Performance,0.9,"gvn            14.391261
+licm           14.276907
+inline         13.018392
+instcombine    12.974201
+simplifycfg     1.925060
+#yes            1.351335
+dtype: float64","count    18.000000
+mean      2.871740
+std       2.938040
+min       0.079032
+25%       1.059261
+50%       1.857783
+75%       3.224968
+max      10.175946
+Name: % error, dtype: float64",6
+212,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",LinearRegression(),Performance,0.9,"gvn            15.392992
+instcombine    12.563260
+licm            9.070587
+inline          7.701682
+simplifycfg     4.956667
+#yes            4.486465
+dtype: float64","count    18.000000
+mean      2.169157
+std       2.407426
+min       0.139500
+25%       0.752763
+50%       1.312890
+75%       2.878180
+max      10.318777
+Name: % error, dtype: float64",6
+213,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",RandomForestRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.932919
+std       2.273527
+min       0.014728
+25%       0.530789
+50%       1.385867
+75%       2.572556
+max       9.847645
+Name: % error, dtype: float64",6
+214,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",GradientBoostingRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.804414
+std       1.981272
+min       0.036598
+25%       0.487835
+50%       1.416984
+75%       2.482275
+max       8.319644
+Name: % error, dtype: float64",6
+215,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg'], dtype='object')",DecisionTreeRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+Name: % error, dtype: float64","count    18.000000
+mean      2.085526
+std       2.393077
+min       0.217799
+25%       0.607754
+50%       1.578672
+75%       2.230069
+max      10.334197
+Name: % error, dtype: float64",6
+216,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.1,"inline         24.893544
+licm           18.751837
+gvn             7.505984
+instcombine     7.041825
+simplifycfg     3.243170
+ipsccp          1.519130
+#yes            0.357178
+dtype: float64","count    158.000000
+mean       4.222364
+std        3.206938
+min        0.007157
+25%        1.508895
+50%        3.528757
+75%        6.235151
+max       13.485857
+Name: % error, dtype: float64",7
+217,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=2, max_iter=100)",Performance,0.1,"inline         9.008595
+#yes           4.604211
+licm           1.802993
+instcombine    0.680867
+dtype: float64","count    158.000000
+mean       4.658711
+std        3.600825
+min        0.014231
+25%        1.991188
+50%        3.691395
+75%        6.345239
+max       14.508010
+Name: % error, dtype: float64",7
+218,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=2),Performance,0.1,"inline         11.178330
+licm            7.623863
+instcombine     4.824977
+#yes            4.750975
+ipsccp          2.495795
+simplifycfg     2.112814
+gvn             0.318393
+dtype: float64","count    158.000000
+mean       4.015443
+std        3.134017
+min        0.075912
+25%        1.594985
+50%        3.086709
+75%        6.082719
+max       14.233083
+Name: % error, dtype: float64",7
+219,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=2, l1_ratio=1.0, max_iter=100)",Performance,0.1,"inline         9.008595
+#yes           4.604211
+licm           1.802993
+instcombine    0.680867
+dtype: float64","count    158.000000
+mean       4.658711
+std        3.600825
+min        0.014231
+25%        1.991188
+50%        3.691395
+75%        6.345239
+max       14.508010
+Name: % error, dtype: float64",7
+220,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.1,"instcombine    10.909832
+ipsccp         10.124241
+#yes            6.470098
+gvn             4.088278
+inline          3.839704
+simplifycfg     3.716336
+licm            0.910544
+dtype: float64","count    158.000000
+mean       3.941946
+std        2.886040
+min        0.051303
+25%        1.536534
+50%        3.632958
+75%        5.930363
+max       11.241322
+Name: % error, dtype: float64",7
+221,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.250832
+std        3.540850
+min        0.020401
+25%        1.412808
+50%        3.163366
+75%        6.315587
+max       15.681417
+Name: % error, dtype: float64",7
+222,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.948614
+std        5.779370
+min        0.006630
+25%        0.977380
+50%        3.070561
+75%        6.867552
+max       23.828187
+Name: % error, dtype: float64",7
+223,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    158.000000
+mean       5.698958
+std        5.301487
+min        0.010567
+25%        0.971095
+50%        4.685339
+75%        8.797593
+max       20.193951
+Name: % error, dtype: float64",7
+224,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.2,"licm           17.405219
+inline         14.955191
+gvn            14.321450
+instcombine    12.090743
+simplifycfg     5.638923
+ipsccp          3.072056
+#yes            1.834432
+dtype: float64","count    140.000000
+mean       2.812389
+std        2.386985
+min        0.007037
+25%        1.093000
+50%        2.187560
+75%        3.927282
+max       11.909472
+Name: % error, dtype: float64",7
+225,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.2,"licm           17.273153
+inline         14.844328
+gvn            14.209610
+instcombine    12.002211
+simplifycfg     5.504835
+ipsccp          2.913015
+#yes            1.898372
+dtype: float64","count    140.000000
+mean       2.798622
+std        2.384321
+min        0.004309
+25%        1.068147
+50%        2.181390
+75%        3.876377
+max       11.932622
+Name: % error, dtype: float64",7
+226,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.2,"licm           16.932784
+inline         14.546433
+gvn            13.933372
+instcombine    11.812294
+simplifycfg     5.292006
+ipsccp          2.664044
+#yes            2.042727
+dtype: float64","count    140.000000
+mean       2.776904
+std        2.387381
+min        0.025904
+25%        0.998393
+50%        2.210848
+75%        3.886385
+max       12.020589
+Name: % error, dtype: float64",7
+227,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=100)",Performance,0.2,"licm           16.538262
+inline         14.206423
+gvn            13.607039
+instcombine    11.573180
+simplifycfg     4.989229
+ipsccp          2.309422
+#yes            2.217478
+dtype: float64","count    140.000000
+mean       2.751730
+std        2.385659
+min        0.029536
+25%        0.989163
+50%        2.314783
+75%        3.735940
+max       12.109797
+Name: % error, dtype: float64",7
+228,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.2,"inline         46.959705
+#yes           32.476942
+ipsccp         21.597762
+licm           20.573843
+gvn            15.244666
+simplifycfg     9.100447
+instcombine     6.337260
+dtype: float64","count    140.000000
+mean       5.782747
+std        5.905556
+min        0.039884
+25%        1.740506
+50%        3.981078
+75%        8.357385
+max       39.866599
+Name: % error, dtype: float64",7
+229,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    140.000000
+mean       2.318721
+std        2.051256
+min        0.008695
+25%        0.659431
+50%        1.852487
+75%        3.374080
+max       10.397209
+Name: % error, dtype: float64",7
+230,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    140.000000
+mean       1.943630
+std        1.877595
+min        0.030883
+25%        0.609423
+50%        1.450321
+75%        2.661307
+max       10.328100
+Name: % error, dtype: float64",7
+231,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    140.000000
+mean       2.846749
+std        3.080027
+min        0.007562
+25%        0.673919
+50%        1.466284
+75%        4.665512
+max       17.891806
+Name: % error, dtype: float64",7
+232,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.3,"licm           15.838411
+gvn            14.897773
+instcombine    14.353661
+inline         13.581862
+simplifycfg     5.279662
+ipsccp          1.788216
+#yes            1.561288
+dtype: float64","count    123.000000
+mean       2.587243
+std        2.453517
+min        0.060751
+25%        0.836549
+50%        1.794135
+75%        3.232826
+max       11.126517
+Name: % error, dtype: float64",7
+233,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.3,"licm           15.692337
+gvn            14.789395
+instcombine    14.272199
+inline         13.490235
+simplifycfg     5.157257
+ipsccp          1.665638
+#yes            1.617551
+dtype: float64","count    123.000000
+mean       2.574277
+std        2.454292
+min        0.009030
+25%        0.793842
+50%        1.803780
+75%        3.202850
+max       11.159604
+Name: % error, dtype: float64",7
+234,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.3,"licm           15.490394
+gvn            14.632591
+instcombine    14.161283
+inline         13.343680
+simplifycfg     5.063019
+#yes            1.697501
+ipsccp          1.594162
+dtype: float64","count    123.000000
+mean       2.567929
+std        2.461791
+min        0.069644
+25%        0.766521
+50%        1.793856
+75%        3.224793
+max       11.236310
+Name: % error, dtype: float64",7
+235,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=100)",Performance,0.3,"licm           14.899834
+gvn            14.181260
+instcombine    13.829742
+inline         12.940035
+simplifycfg     4.683576
+#yes            1.927809
+ipsccp          1.250488
+dtype: float64","count    123.000000
+mean       2.537975
+std        2.477149
+min        0.030948
+25%        0.765120
+50%        1.760018
+75%        3.267897
+max       11.417335
+Name: % error, dtype: float64",7
+236,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.3,"gvn            27.703273
+instcombine    21.245901
+#yes           12.244380
+licm           11.017761
+simplifycfg     3.661635
+inline          1.009329
+ipsccp          0.352428
+dtype: float64","count    123.000000
+mean       2.504365
+std        2.531831
+min        0.011905
+25%        0.734194
+50%        1.650525
+75%        3.106471
+max       10.830593
+Name: % error, dtype: float64",7
+237,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    123.000000
+mean       1.984214
+std        2.074022
+min        0.033896
+25%        0.604429
+50%        1.427204
+75%        2.499999
+max       10.624365
+Name: % error, dtype: float64",7
+238,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.177360
+std        2.083124
+min        0.007643
+25%        0.555453
+50%        1.385785
+75%        3.282826
+max       10.489891
+Name: % error, dtype: float64",7
+239,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.519957
+std        2.514331
+min        0.007562
+25%        0.571476
+50%        1.530322
+75%        3.901091
+max       10.795935
+Name: % error, dtype: float64",7
+240,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.4,"licm           17.918201
+inline         15.337105
+gvn            14.288541
+instcombine    12.283053
+simplifycfg     4.032358
+ipsccp          0.870288
+#yes            0.854135
+dtype: float64","count    105.000000
+mean       2.632945
+std        2.030985
+min        0.131923
+25%        1.068704
+50%        2.257999
+75%        3.631733
+max        9.575596
+Name: % error, dtype: float64",7
+241,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.4,"licm           15.699386
+inline         13.969508
+gvn            12.616455
+instcombine    11.474994
+simplifycfg     2.453344
+#yes            2.168002
+ipsccp          0.524968
+dtype: float64","count    105.000000
+mean       2.505860
+std        2.096672
+min        0.019458
+25%        0.992505
+50%        2.139131
+75%        3.148030
+max       10.674395
+Name: % error, dtype: float64",7
+242,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=0.8),Performance,0.4,"licm           16.013603
+inline         13.932065
+gvn            12.815268
+instcombine    11.367907
+simplifycfg     3.029496
+#yes            1.669207
+ipsccp          0.186576
+dtype: float64","count    105.000000
+mean       2.516264
+std        2.067082
+min        0.030907
+25%        0.875442
+50%        2.292462
+75%        3.214687
+max       10.233598
+Name: % error, dtype: float64",7
+243,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=5)",Performance,0.4,"licm           15.404982
+inline         13.766258
+gvn            12.426474
+instcombine    11.387071
+simplifycfg     2.452972
+#yes            2.276072
+ipsccp          0.819825
+dtype: float64","count    105.000000
+mean       2.489628
+std        2.110351
+min        0.019725
+25%        0.962916
+50%        2.106176
+75%        3.193212
+max       10.757839
+Name: % error, dtype: float64",7
+244,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.4,"instcombine    18.656392
+gvn            17.015753
+#yes            8.537474
+inline          7.492639
+licm            6.678049
+ipsccp          5.015013
+simplifycfg     3.171439
+dtype: float64","count    105.000000
+mean       2.322278
+std        2.375351
+min        0.010539
+25%        0.852698
+50%        1.615194
+75%        2.454596
+max       10.896362
+Name: % error, dtype: float64",7
+245,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    105.000000
+mean       1.928246
+std        1.938397
+min        0.078570
+25%        0.602711
+50%        1.359387
+75%        2.421533
+max       10.931801
+Name: % error, dtype: float64",7
+246,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.022380
+std        2.199610
+min        0.009261
+25%        0.595953
+50%        1.307250
+75%        2.459031
+max        9.390672
+Name: % error, dtype: float64",7
+247,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.254831
+std        2.505112
+min        0.062182
+25%        0.660412
+50%        1.303824
+75%        2.456068
+max       10.646203
+Name: % error, dtype: float64",7
+248,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.5,"licm           15.522358
+inline         13.901161
+gvn            13.706640
+instcombine    13.527418
+simplifycfg     2.307946
+#yes            1.047178
+ipsccp          0.566214
+dtype: float64","count    88.000000
+mean      2.204430
+std       2.229606
+min       0.083324
+25%       0.583287
+50%       1.660975
+75%       2.938898
+max      10.556064
+Name: % error, dtype: float64",7
+249,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.5,"licm           13.798918
+inline         12.700565
+gvn            12.393824
+instcombine    12.284692
+#yes            2.047994
+ipsccp          1.125024
+simplifycfg     0.935219
+dtype: float64","count    88.000000
+mean      2.229832
+std       2.273522
+min       0.043331
+25%       0.691343
+50%       1.659067
+75%       2.682478
+max      10.856416
+Name: % error, dtype: float64",7
+250,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(),Performance,0.5,"licm           14.056314
+inline         12.777450
+gvn            12.530011
+instcombine    12.394216
+#yes            1.699197
+simplifycfg     1.573604
+ipsccp          1.168272
+dtype: float64","count    88.000000
+mean      2.225774
+std       2.264266
+min       0.009226
+25%       0.630828
+50%       1.721200
+75%       2.747543
+max      10.691128
+Name: % error, dtype: float64",7
+251,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.5,"licm           13.798918
+inline         12.700565
+gvn            12.393824
+instcombine    12.284692
+#yes            2.047994
+ipsccp          1.125024
+simplifycfg     0.935219
+dtype: float64","count    88.000000
+mean      2.229832
+std       2.273522
+min       0.043331
+25%       0.691343
+50%       1.659067
+75%       2.682478
+max      10.856416
+Name: % error, dtype: float64",7
+252,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.5,"gvn            18.301033
+instcombine    16.989262
+licm           13.378566
+#yes           13.322325
+inline         11.207923
+ipsccp          6.416239
+simplifycfg     3.861172
+dtype: float64","count    88.000000
+mean      2.070447
+std       1.772218
+min       0.015848
+25%       0.778749
+50%       1.550979
+75%       2.839920
+max       8.690985
+Name: % error, dtype: float64",7
+253,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.570204
+std       1.741117
+min       0.043915
+25%       0.443298
+50%       1.074078
+75%       2.149824
+max      11.035964
+Name: % error, dtype: float64",7
+254,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.556342
+std       1.669758
+min       0.001316
+25%       0.484367
+50%       1.136517
+75%       1.945441
+max       9.343396
+Name: % error, dtype: float64",7
+255,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    88.000000
+mean      1.766400
+std       1.902959
+min       0.146918
+25%       0.605876
+50%       1.063778
+75%       2.203759
+max      10.334197
+Name: % error, dtype: float64",7
+256,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.6,"licm           14.858465
+gvn            14.245675
+instcombine    13.816381
+inline         12.942287
+simplifycfg     2.325764
+ipsccp          1.135804
+#yes            1.073494
+dtype: float64","count    70.000000
+mean      2.248452
+std       2.386516
+min       0.151091
+25%       0.654061
+50%       1.523292
+75%       2.653854
+max      10.942815
+Name: % error, dtype: float64",7
+257,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.3, max_iter=5)",Performance,0.6,"licm           12.374383
+gvn            11.972395
+instcombine    11.341782
+inline         10.569785
+#yes            2.364808
+ipsccp          1.184516
+simplifycfg     0.094266
+dtype: float64","count    70.000000
+mean      2.427718
+std       2.419957
+min       0.015030
+25%       0.798564
+50%       1.976342
+75%       3.047085
+max      11.406001
+Name: % error, dtype: float64",7
+258,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=2),Performance,0.6,"licm           12.944155
+gvn            12.488043
+instcombine    12.033433
+inline         11.299295
+#yes            1.981702
+ipsccp          1.835196
+simplifycfg     1.453351
+dtype: float64","count    70.000000
+mean      2.376179
+std       2.397670
+min       0.078554
+25%       0.718535
+50%       1.917305
+75%       3.028697
+max      11.007948
+Name: % error, dtype: float64",7
+259,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=100)",Performance,0.6,"licm           12.328234
+gvn            11.903319
+instcombine    11.424448
+inline         10.743158
+#yes            2.261214
+ipsccp          1.941834
+simplifycfg     1.124953
+dtype: float64","count    70.000000
+mean      2.437883
+std       2.412284
+min       0.007734
+25%       0.774826
+50%       1.956814
+75%       3.286475
+max      11.053509
+Name: % error, dtype: float64",7
+260,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.6,"gvn            19.345676
+instcombine    15.482652
+licm            9.965468
+ipsccp          7.439080
+inline          6.220733
+#yes            5.497204
+simplifycfg     3.739021
+dtype: float64","count    70.000000
+mean      1.945411
+std       1.724917
+min       0.031069
+25%       0.713469
+50%       1.400890
+75%       2.663139
+max       7.770993
+Name: % error, dtype: float64",7
+261,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.509252
+std       1.586684
+min       0.006054
+25%       0.338526
+50%       1.034858
+75%       2.270272
+max       9.865282
+Name: % error, dtype: float64",7
+262,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.409333
+std       1.739422
+min       0.020470
+25%       0.399955
+50%       0.905903
+75%       1.685799
+max      11.003584
+Name: % error, dtype: float64",7
+263,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    70.000000
+mean      1.929572
+std       2.205306
+min       0.114509
+25%       0.587562
+50%       1.114033
+75%       2.437504
+max      10.334197
+Name: % error, dtype: float64",7
+264,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.7,"gvn            15.107888
+licm           14.679853
+instcombine    13.717793
+inline         12.967536
+simplifycfg     2.100389
+#yes            0.923715
+ipsccp          0.620523
+dtype: float64","count    53.000000
+mean      2.375557
+std       2.649761
+min       0.081092
+25%       0.981421
+50%       1.450170
+75%       2.633624
+max      11.281900
+Name: % error, dtype: float64",7
+265,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.7,"gvn            14.781023
+licm           14.342002
+instcombine    13.339520
+inline         12.615209
+simplifycfg     1.749059
+#yes            1.066848
+ipsccp          0.555274
+dtype: float64","count    53.000000
+mean      2.400432
+std       2.648980
+min       0.038762
+25%       0.864696
+50%       1.526411
+75%       2.762311
+max      11.359540
+Name: % error, dtype: float64",7
+266,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.7,"gvn            14.691648
+licm           14.212722
+instcombine    13.272281
+inline         12.556590
+simplifycfg     1.835478
+#yes            1.138792
+ipsccp          0.809299
+dtype: float64","count    53.000000
+mean      2.389175
+std       2.648686
+min       0.025959
+25%       0.835660
+50%       1.493757
+75%       2.633158
+max      11.303581
+Name: % error, dtype: float64",7
+267,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=100)",Performance,0.7,"gvn            14.571645
+licm           14.081127
+instcombine    13.141369
+inline         12.435422
+simplifycfg     1.746229
+#yes            1.198287
+ipsccp          0.841587
+dtype: float64","count    53.000000
+mean      2.397834
+std       2.646644
+min       0.013522
+25%       0.779562
+50%       1.546879
+75%       2.645587
+max      11.315768
+Name: % error, dtype: float64",7
+268,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.7,"gvn            12.944047
+instcombine    10.584701
+ipsccp          8.359521
+licm            6.121053
+inline          6.114537
+simplifycfg     3.931367
+#yes            0.013136
+dtype: float64","count    53.000000
+mean      1.991844
+std       1.798523
+min       0.065087
+25%       0.894551
+50%       1.585393
+75%       2.303209
+max       9.814657
+Name: % error, dtype: float64",7
+269,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.590888
+std       1.778728
+min       0.025668
+25%       0.448651
+50%       0.905303
+75%       1.871643
+max      10.230168
+Name: % error, dtype: float64",7
+270,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.439181
+std       1.568053
+min       0.008872
+25%       0.468596
+50%       0.830017
+75%       1.668168
+max       8.613134
+Name: % error, dtype: float64",7
+271,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.967235
+std       2.356167
+min       0.073266
+25%       0.516796
+50%       0.982346
+75%       2.531964
+max      10.334197
+Name: % error, dtype: float64",7
+272,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.8,"gvn            14.861094
+licm           14.594243
+inline         13.721796
+instcombine    13.621170
+simplifycfg     2.287187
+ipsccp          1.405057
+#yes            1.102696
+dtype: float64","count    35.000000
+mean      2.569815
+std       2.692669
+min       0.021701
+25%       1.002484
+50%       1.427594
+75%       3.304092
+max      10.538599
+Name: % error, dtype: float64",7
+273,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.8,"gvn            14.493545
+licm           14.188392
+inline         13.336570
+instcombine    13.204195
+simplifycfg     1.891683
+ipsccp          1.385709
+#yes            1.286229
+dtype: float64","count    35.000000
+mean      2.576162
+std       2.693457
+min       0.063370
+25%       0.981435
+50%       1.624576
+75%       3.297451
+max      10.476733
+Name: % error, dtype: float64",7
+274,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.8,"gvn            14.492496
+licm           14.184096
+inline         13.353886
+instcombine    13.226556
+simplifycfg     2.050598
+ipsccp          1.558273
+#yes            1.289041
+dtype: float64","count    35.000000
+mean      2.585464
+std       2.685961
+min       0.064186
+25%       0.985836
+50%       1.551048
+75%       3.270815
+max      10.477219
+Name: % error, dtype: float64",7
+275,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=10)",Performance,0.8,"gvn            14.293093
+licm           13.952268
+inline         13.147547
+instcombine    13.008716
+simplifycfg     1.894031
+ipsccp          1.641269
+#yes            1.406672
+dtype: float64","count    35.000000
+mean      2.592564
+std       2.685044
+min       0.007739
+25%       0.941419
+50%       1.604065
+75%       3.251470
+max      10.439989
+Name: % error, dtype: float64",7
+276,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.8,"gvn            13.859169
+instcombine     9.710968
+ipsccp          9.377920
+licm            6.181718
+inline          5.348663
+simplifycfg     3.819443
+#yes            2.221933
+dtype: float64","count    35.000000
+mean      2.210694
+std       2.129620
+min       0.054190
+25%       0.685972
+50%       1.734687
+75%       2.882542
+max      10.725315
+Name: % error, dtype: float64",7
+277,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.530843
+std       1.926329
+min       0.010400
+25%       0.308538
+50%       1.053607
+75%       1.784521
+max      10.102092
+Name: % error, dtype: float64",7
+278,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.318443
+std       1.594844
+min       0.015544
+25%       0.296721
+50%       0.802897
+75%       1.747391
+max       7.822199
+Name: % error, dtype: float64",7
+279,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.712321
+std       1.876506
+min       0.124678
+25%       0.511319
+50%       1.186502
+75%       2.159742
+max      10.334197
+Name: % error, dtype: float64",7
+280,LinearRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.9,"gvn            14.751631
+licm           14.524752
+inline         13.399582
+instcombine    13.352659
+simplifycfg     1.932798
+#yes            1.312504
+ipsccp          1.073533
+dtype: float64","count    18.000000
+mean      2.650747
+std       2.929459
+min       0.099167
+25%       0.865847
+50%       1.416493
+75%       3.176220
+max       9.928111
+Name: % error, dtype: float64",7
+281,Lasso,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=10)",Performance,0.9,"gvn            14.062686
+licm           13.757131
+inline         12.625052
+instcombine    12.588410
+#yes            1.647070
+simplifycfg     1.220515
+ipsccp          1.023298
+dtype: float64","count    18.000000
+mean      2.749164
+std       2.935316
+min       0.081300
+25%       0.778905
+50%       1.802202
+75%       3.156592
+max      10.212059
+Name: % error, dtype: float64",7
+282,Ridge,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.9,"gvn            14.429973
+licm           14.150642
+inline         13.054298
+instcombine    13.010904
+simplifycfg     1.739037
+#yes            1.482488
+ipsccp          1.224184
+dtype: float64","count    18.000000
+mean      2.687136
+std       2.926186
+min       0.160975
+25%       0.793643
+50%       1.507973
+75%       3.137569
+max      10.072961
+Name: % error, dtype: float64",7
+283,ElasticNet,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=10)",Performance,0.9,"gvn            14.062686
+licm           13.757131
+inline         12.625052
+instcombine    12.588410
+#yes            1.647070
+simplifycfg     1.220515
+ipsccp          1.023298
+dtype: float64","count    18.000000
+mean      2.749164
+std       2.935316
+min       0.081300
+25%       0.778905
+50%       1.802202
+75%       3.156592
+max      10.212059
+Name: % error, dtype: float64",7
+284,PolynomialRegression,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",LinearRegression(),Performance,0.9,"gvn            14.273346
+instcombine     9.750878
+ipsccp          7.507329
+licm            6.391984
+inline          5.796067
+simplifycfg     3.532860
+#yes            0.154124
+dtype: float64","count    18.000000
+mean      2.186506
+std       2.515154
+min       0.016456
+25%       0.681255
+50%       1.586370
+75%       2.412229
+max      10.599526
+Name: % error, dtype: float64",7
+285,RandomForest,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.906541
+std       2.431967
+min       0.068832
+25%       0.375036
+50%       0.888215
+75%       3.059580
+max       9.852681
+Name: % error, dtype: float64",7
+286,GradientBoostingTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.821424
+std       2.154719
+min       0.095335
+25%       0.352768
+50%       1.010789
+75%       2.687197
+max       8.485372
+Name: % error, dtype: float64",7
+287,DecisionTree,False,DecisionTree,"Index(['#yes', 'gvn', 'instcombine', 'licm', 'inline', 'simplifycfg',
+       'ipsccp'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"#yes          NaN
+gvn           NaN
+instcombine   NaN
+licm          NaN
+inline        NaN
+simplifycfg   NaN
+ipsccp        NaN
+Name: % error, dtype: float64","count    18.000000
+mean      2.049528
+std       2.400209
+min       0.242755
+25%       0.625768
+50%       1.238289
+75%       2.411701
+max      10.334197
+Name: % error, dtype: float64",7

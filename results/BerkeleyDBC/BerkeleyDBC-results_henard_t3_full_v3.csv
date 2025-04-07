@@ -1,0 +1,1754 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"HAVE_CRYPTO         7.046396
+PS16K               5.518222
+PS1K                3.244081
+PS4K                2.018132
+HAVE_REPLICATION    1.977100
+DIAGNOSTIC          1.857063
+HAVE_HASH           1.061688
+HAVE_VERIFY         1.038073
+#yes                0.884757
+PS8K                0.256008
+HAVE_STATISTICS     0.213767
+HAVE_SEQUENCE       0.013948
+dtype: float64","count     327.000000
+mean      223.348352
+std       263.801486
+min         0.009049
+25%        27.866229
+50%       134.015142
+75%       310.445706
+max      1371.461369
+Name: % error, dtype: float64",21
+1,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.3, max_iter=1)",Performance,0.1,"HAVE_CRYPTO         7.638735
+PS16K               3.373675
+HAVE_REPLICATION    2.086442
+DIAGNOSTIC          1.894840
+PS1K                0.984893
+PS4K                0.674535
+#yes                0.121942
+dtype: float64","count    327.000000
+mean     190.718910
+std      188.971265
+min        0.031269
+25%       35.279575
+50%      130.138188
+75%      290.672899
+max      869.396139
+Name: % error, dtype: float64",21
+2,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(),Performance,0.1,"HAVE_CRYPTO         6.312244
+PS16K               4.662484
+PS1K                2.689041
+HAVE_REPLICATION    2.075981
+PS4K                1.877160
+DIAGNOSTIC          1.846142
+HAVE_VERIFY         0.922877
+#yes                0.807010
+HAVE_HASH           0.418629
+HAVE_SEQUENCE       0.141196
+HAVE_STATISTICS     0.100408
+PS8K                0.096283
+dtype: float64","count     327.000000
+mean      192.367020
+std       223.011523
+min         0.344124
+25%        26.848728
+50%       122.675556
+75%       275.233769
+max      1226.870056
+Name: % error, dtype: float64",21
+3,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, l1_ratio=1.0, max_iter=1)",Performance,0.1,"HAVE_CRYPTO         7.638735
+PS16K               3.373675
+HAVE_REPLICATION    2.086442
+DIAGNOSTIC          1.894840
+PS1K                0.984893
+PS4K                0.674535
+#yes                0.121942
+dtype: float64","count    327.000000
+mean     190.718910
+std      188.971265
+min        0.031269
+25%       35.279575
+50%      130.138188
+75%      290.672899
+max      869.396139
+Name: % error, dtype: float64",21
+4,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    327.000000
+mean      41.120299
+std       90.718702
+min        0.027981
+25%        2.951477
+50%        8.294542
+75%       45.729015
+max      518.754040
+Name: % error, dtype: float64",21
+5,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    327.000000
+mean       8.178866
+std       10.678684
+min        0.018987
+25%        1.517759
+50%        5.317061
+75%        9.802228
+max       81.901605
+Name: % error, dtype: float64",21
+6,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    327.000000
+mean      10.271323
+std       20.013537
+min        0.003944
+25%        0.334106
+50%        1.137627
+75%        6.539824
+max      101.991691
+Name: % error, dtype: float64",21
+7,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"PS16K               6.935544e+00
+HAVE_CRYPTO         6.037611e+00
+PS1K                3.769216e+00
+PS4K                2.717604e+00
+DIAGNOSTIC          1.418305e+00
+HAVE_VERIFY         1.290463e+00
+HAVE_REPLICATION    9.868515e-01
+#yes                8.847549e-01
+HAVE_HASH           8.689448e-01
+HAVE_STATISTICS     7.415554e-01
+PS8K                4.487231e-01
+HAVE_SEQUENCE       1.532641e-01
+PAGESIZE            1.776357e-15
+dtype: float64","count     291.000000
+mean      209.733818
+std       293.793502
+min         0.474020
+25%        20.603058
+50%       114.335231
+75%       259.128848
+max      1639.610888
+Name: % error, dtype: float64",21
+8,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.2,"PS16K               7.180862
+HAVE_CRYPTO         6.669830
+PS1K                2.672885
+PS4K                1.511198
+HAVE_SEQUENCE       0.504590
+DIAGNOSTIC          0.223614
+HAVE_REPLICATION    0.030420
+dtype: float64","count     291.000000
+mean      175.316845
+std       264.478591
+min         2.907418
+25%        22.476677
+50%        85.156568
+75%       210.149565
+max      1447.794460
+Name: % error, dtype: float64",21
+9,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(),Performance,0.2,"PS16K               6.168454
+HAVE_CRYPTO         5.846272
+PS1K                3.423943
+PS4K                2.460339
+DIAGNOSTIC          1.500880
+HAVE_VERIFY         1.184380
+HAVE_REPLICATION    1.111495
+#yes                0.844883
+HAVE_STATISTICS     0.723965
+HAVE_HASH           0.715125
+PS8K                0.284172
+HAVE_SEQUENCE       0.234455
+dtype: float64","count     291.000000
+mean      196.012478
+std       269.318963
+min         1.497064
+25%        22.984067
+50%       110.846560
+75%       243.428470
+max      1512.474136
+Name: % error, dtype: float64",21
+10,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.2,"HAVE_CRYPTO         6.058778
+PS16K               5.688216
+PS1K                3.071475
+PS4K                2.109313
+DIAGNOSTIC          0.976102
+HAVE_SEQUENCE       0.645619
+HAVE_REPLICATION    0.625306
+HAVE_VERIFY         0.516259
+#yes                0.295282
+HAVE_STATISTICS     0.105828
+HAVE_HASH           0.020389
+dtype: float64","count     291.000000
+mean      182.041980
+std       249.823386
+min         1.309172
+25%        23.012925
+50%        99.670275
+75%       222.379625
+max      1379.154874
+Name: % error, dtype: float64",21
+11,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    291.000000
+mean      29.643310
+std      100.455941
+min        0.003382
+25%        1.203043
+50%        3.146658
+75%        9.563443
+max      557.099830
+Name: % error, dtype: float64",21
+12,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    291.000000
+mean       5.456878
+std        8.292761
+min        0.006981
+25%        1.230116
+50%        3.219241
+75%        6.815042
+max       81.685469
+Name: % error, dtype: float64",21
+13,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    291.000000
+mean       3.051642
+std        9.491187
+min        0.000480
+25%        0.283297
+50%        0.664037
+75%        1.825216
+max       91.430206
+Name: % error, dtype: float64",21
+14,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"PS16K               6.121599
+HAVE_CRYPTO         5.942240
+PS1K                3.437380
+PS4K                2.386141
+DIAGNOSTIC          1.765206
+HAVE_REPLICATION    1.327726
+HAVE_VERIFY         1.144122
+#yes                0.781061
+HAVE_STATISTICS     0.566095
+HAVE_HASH           0.453686
+PS8K                0.298078
+HAVE_SEQUENCE       0.095656
+dtype: float64","count     255.000000
+mean      200.234931
+std       271.848225
+min         0.608357
+25%        22.621726
+50%       109.974203
+75%       253.574515
+max      1489.509115
+Name: % error, dtype: float64",21
+15,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.3,"HAVE_CRYPTO         6.393368
+PS16K               6.204640
+PS1K                2.937802
+PS4K                1.799848
+DIAGNOSTIC          0.975800
+HAVE_REPLICATION    0.595513
+HAVE_SEQUENCE       0.472381
+HAVE_VERIFY         0.310566
+#yes                0.142245
+dtype: float64","count     255.000000
+mean      184.354325
+std       256.445571
+min         0.219581
+25%        23.876266
+50%       101.919990
+75%       218.012728
+max      1402.275999
+Name: % error, dtype: float64",21
+16,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(),Performance,0.3,"HAVE_CRYPTO         5.796023
+PS16K               5.711296
+PS1K                3.273618
+PS4K                2.236730
+DIAGNOSTIC          1.733947
+HAVE_REPLICATION    1.368677
+HAVE_VERIFY         1.081465
+#yes                0.759095
+HAVE_STATISTICS     0.521973
+HAVE_HASH           0.448916
+PS8K                0.200948
+HAVE_SEQUENCE       0.118049
+dtype: float64","count     255.000000
+mean      194.220223
+std       259.988068
+min         0.712921
+25%        24.283397
+50%       113.889524
+75%       249.612939
+max      1423.527612
+Name: % error, dtype: float64",21
+17,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=5)",Performance,0.3,"HAVE_CRYPTO         5.950934
+PS16K               5.165287
+PS1K                3.385821
+PS4K                2.344461
+DIAGNOSTIC          1.391696
+HAVE_REPLICATION    1.075879
+HAVE_VERIFY         0.713194
+HAVE_SEQUENCE       0.435866
+#yes                0.435643
+PS8K                0.330353
+HAVE_STATISTICS     0.165926
+HAVE_HASH           0.134697
+dtype: float64","count     255.000000
+mean      189.718314
+std       251.465382
+min         0.300040
+25%        23.788584
+50%       109.187102
+75%       237.147544
+max      1371.932889
+Name: % error, dtype: float64",21
+18,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    255.000000
+mean       6.412431
+std       21.059603
+min        0.004943
+25%        0.414933
+50%        1.130909
+75%        2.970233
+max      132.755461
+Name: % error, dtype: float64",21
+19,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    255.000000
+mean       5.161157
+std        7.841631
+min        0.004236
+25%        1.024547
+50%        3.115195
+75%        6.184562
+max       81.439536
+Name: % error, dtype: float64",21
+20,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    255.000000
+mean       3.869413
+std       15.266880
+min        0.000017
+25%        0.194600
+50%        0.549038
+75%        1.483811
+max      106.295030
+Name: % error, dtype: float64",21
+21,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"HAVE_CRYPTO         6.295367e+00
+PS16K               4.784515e+00
+PS1K                3.174752e+00
+PS4K                1.638264e+00
+DIAGNOSTIC          1.498564e+00
+HAVE_VERIFY         1.223015e+00
+HAVE_REPLICATION    1.155112e+00
+#yes                7.281552e-01
+CS16MB              7.143874e-01
+CS32MB              7.143874e-01
+HAVE_STATISTICS     7.022305e-01
+HAVE_SEQUENCE       6.374064e-01
+HAVE_HASH           3.508844e-01
+PS8K                2.850172e-02
+PAGESIZE            4.440892e-16
+PS32K               3.228592e-41
+CACHESIZE           1.363183e-41
+dtype: float64","count     218.000000
+mean      174.754075
+std       206.182383
+min         0.073511
+25%        25.286340
+50%        88.570515
+75%       227.631412
+max      1058.053453
+Name: % error, dtype: float64",21
+22,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.4,"HAVE_CRYPTO         6.568488
+PS16K               4.415960
+PS1K                2.556765
+PS4K                0.980136
+DIAGNOSTIC          0.504748
+HAVE_REPLICATION    0.302908
+HAVE_VERIFY         0.099560
+dtype: float64","count    218.000000
+mean     141.458957
+std      171.163326
+min        0.784952
+25%       25.485997
+50%       74.452245
+75%      190.879594
+max      930.154472
+Name: % error, dtype: float64",21
+23,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(alpha=2),Performance,0.4,"HAVE_CRYPTO         5.985881
+PS16K               4.345313
+PS1K                2.962030
+PS4K                1.493542
+DIAGNOSTIC          1.462809
+HAVE_REPLICATION    1.185183
+HAVE_VERIFY         1.114526
+#yes                0.692952
+HAVE_STATISTICS     0.602070
+HAVE_SEQUENCE       0.562457
+HAVE_HASH           0.365885
+CS32MB              0.299918
+CS16MB              0.299918
+PS8K                0.110259
+dtype: float64","count    218.000000
+mean     162.017583
+std      188.812142
+min        0.612942
+25%       24.004887
+50%       87.351155
+75%      218.400906
+max      995.796726
+Name: % error, dtype: float64",21
+24,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.4,"HAVE_CRYPTO         6.568488
+PS16K               4.415960
+PS1K                2.556765
+PS4K                0.980136
+DIAGNOSTIC          0.504748
+HAVE_REPLICATION    0.302908
+HAVE_VERIFY         0.099560
+dtype: float64","count    218.000000
+mean     141.458957
+std      171.163326
+min        0.784952
+25%       25.485997
+50%       74.452245
+75%      190.879594
+max      930.154472
+Name: % error, dtype: float64",21
+25,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.790804
+std        6.570162
+min        0.002759
+25%        0.217973
+50%        0.477293
+75%        1.454402
+max       81.988577
+Name: % error, dtype: float64",21
+26,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    218.000000
+mean       4.284074
+std        7.127327
+min        0.036749
+25%        1.052358
+50%        2.343687
+75%        6.018070
+max       80.562756
+Name: % error, dtype: float64",21
+27,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    218.000000
+mean       1.412837
+std        6.640847
+min        0.000017
+25%        0.172267
+50%        0.400678
+75%        0.979993
+max       82.739362
+Name: % error, dtype: float64",21
+28,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"HAVE_CRYPTO         5.984419e+00
+PS16K               5.116934e+00
+PS1K                3.437268e+00
+PS4K                1.776151e+00
+DIAGNOSTIC          1.394615e+00
+CS32MB              1.248091e+00
+HAVE_REPLICATION    1.147583e+00
+HAVE_VERIFY         9.958839e-01
+#yes                7.742653e-01
+CS16MB              6.251455e-01
+CS64MB              6.229451e-01
+HAVE_SEQUENCE       5.874192e-01
+HAVE_HASH           5.650933e-01
+HAVE_STATISTICS     5.195590e-01
+PS8K                9.648556e-02
+PAGESIZE            4.440892e-16
+dtype: float64","count     182.000000
+mean      183.749518
+std       224.167301
+min         0.782861
+25%        20.517292
+50%        86.012349
+75%       241.385166
+max      1098.125818
+Name: % error, dtype: float64",21
+29,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.5,"HAVE_CRYPTO         6.477818
+PS16K               4.846359
+PS1K                3.182838
+PS4K                1.515797
+DIAGNOSTIC          0.542134
+HAVE_REPLICATION    0.338987
+HAVE_VERIFY         0.069932
+#yes                0.016598
+dtype: float64","count     182.000000
+mean      160.775599
+std       203.633050
+min         1.186781
+25%        22.281028
+50%        66.663258
+75%       215.300579
+max      1049.622814
+Name: % error, dtype: float64",21
+30,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(alpha=2),Performance,0.5,"HAVE_CRYPTO         5.752496
+PS16K               4.702034
+PS1K                3.220514
+PS4K                1.625934
+DIAGNOSTIC          1.375374
+HAVE_REPLICATION    1.191519
+HAVE_VERIFY         0.907746
+#yes                0.739622
+CS32MB              0.652212
+HAVE_HASH           0.555220
+HAVE_SEQUENCE       0.546157
+HAVE_STATISTICS     0.436858
+CS16MB              0.326473
+CS64MB              0.325739
+PS8K                0.144414
+dtype: float64","count     182.000000
+mean      170.769778
+std       206.609365
+min         0.287288
+25%        22.422236
+50%        73.983967
+75%       251.885313
+max      1035.811404
+Name: % error, dtype: float64",21
+31,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=5)",Performance,0.5,"HAVE_CRYPTO         6.477818
+PS16K               4.846359
+PS1K                3.182838
+PS4K                1.515797
+DIAGNOSTIC          0.542134
+HAVE_REPLICATION    0.338987
+HAVE_VERIFY         0.069932
+#yes                0.016598
+dtype: float64","count     182.000000
+mean      160.775599
+std       203.633050
+min         1.186781
+25%        22.281028
+50%        66.663258
+75%       215.300579
+max      1049.622814
+Name: % error, dtype: float64",21
+32,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    182.000000
+mean       1.936373
+std        7.356341
+min        0.005516
+25%        0.133541
+50%        0.373204
+75%        1.108637
+max       81.494578
+Name: % error, dtype: float64",21
+33,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    182.000000
+mean       5.159022
+std        8.134458
+min        0.015574
+25%        1.113177
+50%        2.473464
+75%        6.344560
+max       80.678860
+Name: % error, dtype: float64",21
+34,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    182.000000
+mean       1.492978
+std        7.256791
+min        0.010668
+25%        0.142169
+50%        0.389234
+75%        0.918508
+max       82.733904
+Name: % error, dtype: float64",21
+35,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"HAVE_CRYPTO         5.761228e+00
+PS16K               4.639035e+00
+PS1K                3.359642e+00
+PS4K                1.668647e+00
+CS64MB              1.470565e+00
+DIAGNOSTIC          1.144773e+00
+CS16MB              1.045605e+00
+HAVE_VERIFY         1.012379e+00
+HAVE_HASH           9.545907e-01
+HAVE_REPLICATION    8.337649e-01
+#yes                7.737610e-01
+HAVE_STATISTICS     6.185316e-01
+CS32MB              4.249603e-01
+HAVE_SEQUENCE       4.234278e-01
+PS8K                3.892542e-01
+PAGESIZE            1.332268e-15
+CACHESIZE           7.342804e-43
+dtype: float64","count     146.000000
+mean      158.388873
+std       215.657085
+min         0.026166
+25%        17.029944
+50%        58.703687
+75%       189.827990
+max      1030.432389
+Name: % error, dtype: float64",21
+36,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    6.091750
+PS16K          3.980245
+PS1K           2.936328
+PS4K           1.149367
+DIAGNOSTIC     0.057292
+dtype: float64","count    146.000000
+mean     123.594176
+std      169.072943
+min        2.722822
+25%       21.289529
+50%       50.420896
+75%      145.929315
+max      846.832259
+Name: % error, dtype: float64",21
+37,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.6,"HAVE_CRYPTO         5.365435
+PS16K               4.024599
+PS1K                3.044816
+PS4K                1.424613
+DIAGNOSTIC          1.113491
+HAVE_REPLICATION    0.915365
+HAVE_HASH           0.864605
+HAVE_VERIFY         0.862405
+#yes                0.736358
+HAVE_STATISTICS     0.482638
+PS8K                0.444830
+HAVE_SEQUENCE       0.390573
+CS64MB              0.319125
+CS16MB              0.295597
+CS32MB              0.023528
+dtype: float64","count    146.000000
+mean     141.934815
+std      191.443710
+min        0.946954
+25%       19.312016
+50%       50.919634
+75%      198.107583
+max      923.585649
+Name: % error, dtype: float64",21
+38,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.6,"HAVE_CRYPTO    6.091750
+PS16K          3.980245
+PS1K           2.936328
+PS4K           1.149367
+DIAGNOSTIC     0.057292
+dtype: float64","count    146.000000
+mean     123.594176
+std      169.072943
+min        2.722822
+25%       21.289529
+50%       50.420896
+75%      145.929315
+max      846.832259
+Name: % error, dtype: float64",21
+39,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    146.000000
+mean       1.554067
+std        7.836231
+min        0.002399
+25%        0.122262
+50%        0.324011
+75%        0.864697
+max       81.438603
+Name: % error, dtype: float64",21
+40,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    146.000000
+mean       5.296929
+std        9.104250
+min        0.026409
+25%        0.944530
+50%        1.947274
+75%        5.937385
+max       80.420482
+Name: % error, dtype: float64",21
+41,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    146.000000
+mean       1.600429
+std        8.077636
+min        0.000218
+25%        0.127512
+50%        0.305496
+75%        0.820812
+max       82.733904
+Name: % error, dtype: float64",21
+42,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"HAVE_VERIFY         1.723268e+12
+HAVE_HASH           1.723268e+12
+DIAGNOSTIC          1.723268e+12
+HAVE_REPLICATION    1.723268e+12
+#yes                1.723268e+12
+HAVE_STATISTICS     1.723268e+12
+HAVE_SEQUENCE       1.723268e+12
+HAVE_CRYPTO         1.723268e+12
+PS1K                5.847696e+11
+PS4K                5.847696e+11
+PS32K               5.847696e+11
+PS8K                5.847696e+11
+PS16K               5.847696e+11
+PAGESIZE            2.713017e+10
+CS16MB              1.259296e+10
+CS32MB              1.259296e+10
+CS64MB              1.259296e+10
+CACHESIZE           9.765625e-04
+dtype: float64","count    1.090000e+02
+mean     2.299402e+10
+std      2.400646e+11
+min      1.611806e+00
+25%      1.624054e+01
+50%      5.683653e+01
+75%      1.713902e+02
+max      2.506348e+12
+Name: % error, dtype: float64",21
+43,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    6.151059
+PS16K          4.604338
+PS1K           2.983416
+PS4K           1.187083
+dtype: float64","count    109.000000
+mean     127.194218
+std      195.686465
+min        3.609170
+25%       18.083273
+50%       40.579302
+75%      144.376405
+max      944.531403
+Name: % error, dtype: float64",21
+44,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.7,"HAVE_CRYPTO         5.473821
+PS16K               4.631358
+PS1K                3.214068
+PS4K                1.552787
+HAVE_VERIFY         0.937185
+HAVE_HASH           0.921205
+DIAGNOSTIC          0.914230
+HAVE_REPLICATION    0.887650
+#yes                0.739833
+HAVE_STATISTICS     0.645350
+HAVE_SEQUENCE       0.428367
+PS8K                0.364097
+CS64MB              0.327086
+CS16MB              0.307164
+PS32K               0.228598
+CS32MB              0.019922
+dtype: float64","count     109.000000
+mean      144.531133
+std       218.880133
+min         0.014438
+25%        17.376729
+50%        41.383990
+75%       144.884195
+max      1038.241698
+Name: % error, dtype: float64",21
+45,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=5)",Performance,0.7,"HAVE_CRYPTO    6.151059
+PS16K          4.604338
+PS1K           2.983416
+PS4K           1.187083
+dtype: float64","count    109.000000
+mean     127.194218
+std      195.686465
+min        3.609170
+25%       18.083273
+50%       40.579302
+75%      144.376405
+max      944.531403
+Name: % error, dtype: float64",21
+46,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    109.000000
+mean       1.318755
+std        7.789675
+min        0.001264
+25%        0.122864
+50%        0.252136
+75%        0.690244
+max       81.491529
+Name: % error, dtype: float64",21
+47,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    109.000000
+mean       4.534617
+std        8.539742
+min        0.023133
+25%        0.808133
+50%        1.712768
+75%        5.707117
+max       80.324390
+Name: % error, dtype: float64",21
+48,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    109.000000
+mean       1.326004
+std        6.866103
+min        0.002281
+25%        0.135801
+50%        0.303574
+75%        0.795168
+max       71.572276
+Name: % error, dtype: float64",21
+49,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"HAVE_VERIFY         5.118886e+12
+DIAGNOSTIC          5.118886e+12
+HAVE_HASH           5.118886e+12
+HAVE_REPLICATION    5.118886e+12
+#yes                5.118886e+12
+HAVE_STATISTICS     5.118886e+12
+HAVE_SEQUENCE       5.118886e+12
+HAVE_CRYPTO         5.118886e+12
+CS64MB              4.728428e+11
+CS32MB              4.728428e+11
+CS16MB              4.728428e+11
+PS16K               3.097482e+11
+PS8K                3.097482e+11
+PS32K               3.097482e+11
+PS4K                3.097482e+11
+PS1K                3.097482e+11
+PAGESIZE            6.536243e+10
+CACHESIZE           3.906250e-03
+dtype: float64","count    7.300000e+01
+mean     1.289162e+12
+std      1.101460e+13
+min      6.901964e-01
+25%      1.792829e+01
+50%      9.560882e+01
+75%      1.929360e+02
+max      9.410881e+13
+Name: % error, dtype: float64",21
+50,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    6.506410
+PS16K          4.088930
+PS1K           3.618467
+PS4K           1.797346
+#yes           0.024691
+dtype: float64","count     73.000000
+mean     140.574999
+std      179.215528
+min        3.314264
+25%       20.526892
+50%       50.216218
+75%      173.450484
+max      851.568842
+Name: % error, dtype: float64",21
+51,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(alpha=2),Performance,0.8,"HAVE_CRYPTO         5.765009
+PS16K               4.562295
+PS1K                3.313510
+PS4K                1.552345
+HAVE_VERIFY         0.940149
+DIAGNOSTIC          0.908762
+HAVE_REPLICATION    0.857092
+HAVE_HASH           0.849857
+#yes                0.774840
+HAVE_STATISTICS     0.746000
+HAVE_SEQUENCE       0.688309
+PS8K                0.613980
+CS64MB              0.605676
+CS16MB              0.456175
+PS32K               0.310420
+CS32MB              0.149501
+dtype: float64","count     73.000000
+mean     156.918985
+std      187.977938
+min        0.067765
+25%       17.930852
+50%       71.425438
+75%      203.830843
+max      839.301934
+Name: % error, dtype: float64",21
+52,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=5)",Performance,0.8,"HAVE_CRYPTO    6.506410
+PS16K          4.088930
+PS1K           3.618467
+PS4K           1.797346
+#yes           0.024691
+dtype: float64","count     73.000000
+mean     140.574999
+std      179.215528
+min        3.314264
+25%       20.526892
+50%       50.216218
+75%      173.450484
+max      851.568842
+Name: % error, dtype: float64",21
+53,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    73.000000
+mean      1.750675
+std       9.595237
+min       0.008487
+25%       0.132520
+50%       0.245910
+75%       0.913242
+max      82.295295
+Name: % error, dtype: float64",21
+54,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    73.000000
+mean      5.384994
+std      10.098549
+min       0.014015
+25%       0.813327
+50%       1.901918
+75%       9.542845
+max      80.162195
+Name: % error, dtype: float64",21
+55,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    73.000000
+mean      1.839897
+std       9.653466
+min       0.002281
+25%       0.152182
+50%       0.378115
+75%       0.795168
+max      82.733904
+Name: % error, dtype: float64",21
+56,LinearRegression,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"HAVE_CRYPTO         1.413398e+14
+HAVE_SEQUENCE       1.413398e+14
+#yes                1.413398e+14
+HAVE_HASH           1.413398e+14
+HAVE_VERIFY         1.413398e+14
+HAVE_REPLICATION    1.413398e+14
+HAVE_STATISTICS     1.413398e+14
+DIAGNOSTIC          1.413398e+14
+PS1K                2.341694e+13
+PS4K                2.341694e+13
+PS8K                2.341694e+13
+PS16K               2.341694e+13
+PS32K               2.341694e+13
+CS64MB              1.190303e+13
+CS32MB              1.190303e+13
+CS16MB              1.190303e+13
+PAGESIZE            1.361397e+12
+CACHESIZE           3.125000e-02
+dtype: float64","count    3.700000e+01
+mean     6.402789e+13
+std      3.894664e+14
+min      3.660175e+00
+25%      1.885571e+01
+50%      1.231928e+02
+75%      4.232882e+02
+max      2.369032e+15
+Name: % error, dtype: float64",21
+57,Lasso,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=5)",Performance,0.9,"HAVE_CRYPTO    6.687022
+PS32K          5.430822
+PS16K          3.999733
+PS1K           3.924973
+PS4K           2.069688
+#yes           0.100223
+DIAGNOSTIC     0.055742
+dtype: float64","count     37.000000
+mean     188.567627
+std      219.448953
+min        2.011226
+25%       18.951059
+50%       89.641878
+75%      378.287024
+max      872.102416
+Name: % error, dtype: float64",21
+58,Ridge,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",Ridge(alpha=2),Performance,0.9,"PS32K               6.175196
+HAVE_CRYPTO         5.950638
+PS1K                5.011541
+PS4K                3.210614
+PS16K               3.141460
+PS8K                1.094501
+DIAGNOSTIC          0.987433
+HAVE_REPLICATION    0.940383
+HAVE_HASH           0.875207
+HAVE_STATISTICS     0.832458
+HAVE_VERIFY         0.829141
+HAVE_SEQUENCE       0.750658
+#yes                0.735357
+CS64MB              0.590729
+CS16MB              0.510219
+CS32MB              0.080511
+dtype: float64","count     37.000000
+mean     203.189107
+std      226.942100
+min        0.899604
+25%       22.521279
+50%      129.878666
+75%      399.976513
+max      892.227083
+Name: % error, dtype: float64",21
+59,ElasticNet,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=5)",Performance,0.9,"HAVE_CRYPTO    6.687022
+PS32K          5.430822
+PS16K          3.999733
+PS1K           3.924973
+PS4K           2.069688
+#yes           0.100223
+DIAGNOSTIC     0.055742
+dtype: float64","count     37.000000
+mean     188.567627
+std      219.448953
+min        2.011226
+25%       18.951059
+50%       89.641878
+75%      378.287024
+max      872.102416
+Name: % error, dtype: float64",21
+60,RandomForest,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    37.000000
+mean      0.771033
+std       1.011145
+min       0.000624
+25%       0.166145
+50%       0.373802
+75%       0.973577
+max       3.971372
+Name: % error, dtype: float64",21
+61,GradientBoostingTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    37.000000
+mean      6.040911
+std       6.734979
+min       0.104058
+25%       1.126072
+50%       3.704716
+75%       8.687764
+max      20.901509
+Name: % error, dtype: float64",21
+62,DecisionTree,False,None,"Index(['root', 'HAVE_CRYPTO', 'HAVE_HASH', 'HAVE_REPLICATION', 'HAVE_VERIFY',
+       'HAVE_SEQUENCE', 'HAVE_STATISTICS', 'DIAGNOSTIC', 'PAGESIZE', 'PS1K',
+       'PS4K', 'PS8K', 'PS16K', 'PS32K', 'CACHESIZE', 'CS32MB', 'CS16MB',
+       'CS64MB', 'CS512MB', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"root               NaN
+HAVE_CRYPTO        NaN
+HAVE_HASH          NaN
+HAVE_REPLICATION   NaN
+HAVE_VERIFY        NaN
+HAVE_SEQUENCE      NaN
+HAVE_STATISTICS    NaN
+DIAGNOSTIC         NaN
+PAGESIZE           NaN
+PS1K               NaN
+PS4K               NaN
+PS8K               NaN
+PS16K              NaN
+PS32K              NaN
+CACHESIZE          NaN
+CS32MB             NaN
+CS16MB             NaN
+CS64MB             NaN
+CS512MB            NaN
+#yes               NaN
+Name: % error, dtype: float64","count    37.000000
+mean      0.766804
+std       1.008139
+min       0.002281
+25%       0.152182
+50%       0.370854
+75%       1.064256
+max       4.281533
+Name: % error, dtype: float64",21

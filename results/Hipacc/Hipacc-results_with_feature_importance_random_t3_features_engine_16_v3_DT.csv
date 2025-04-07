@@ -1,0 +1,2015 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.1,"bs_1024x1           23.519577
+bs_32x1             22.103389
+LocalMemory         21.634285
+bs_512x1            14.570808
+bs_32x32            13.654204
+bs_128x8            11.791373
+bs_64x16            11.699447
+bs_512x2            10.395856
+bs_256x4            10.244352
+pixelPerThread_1     7.327626
+Linear1D             4.076158
+CUDA                 1.782993
+pixelPerThread_2     1.757092
+bs_64x1              1.519932
+#yes                 1.354627
+bs_32x2              0.385089
+dtype: float64","count    4141.000000
+mean       19.360996
+std        14.204591
+min         0.000730
+25%         8.152768
+50%        16.701403
+75%        28.324624
+max        95.261089
+Name: % error, dtype: float64",16
+1,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.02, max_iter=5)",Performance,0.1,"bs_1024x1           22.718867
+LocalMemory         21.535510
+bs_32x1             21.457354
+bs_512x1            13.599679
+bs_32x32            12.750259
+bs_128x8            11.021545
+bs_64x16            10.635477
+bs_512x2             9.529841
+bs_256x4             9.504431
+pixelPerThread_1     7.250262
+Linear1D             3.989670
+CUDA                 1.684717
+pixelPerThread_2     1.637974
+#yes                 1.363281
+bs_64x1              0.940521
+bs_32x2              0.350331
+dtype: float64","count    4141.000000
+mean       18.987580
+std        13.875922
+min         0.003941
+25%         8.207751
+50%        16.380440
+75%        27.687996
+max        92.973112
+Name: % error, dtype: float64",16
+2,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=2),Performance,0.1,"LocalMemory         20.996953
+bs_1024x1           20.248233
+bs_32x1             19.893518
+bs_512x1            12.006179
+bs_32x32            11.440733
+bs_128x8             9.865541
+bs_64x16             9.373475
+bs_256x4             8.617985
+bs_512x2             8.498926
+pixelPerThread_1     7.231396
+Linear1D             4.181921
+CUDA                 1.939395
+pixelPerThread_2     1.597151
+#yes                 1.199909
+bs_32x2              1.077051
+bs_64x1              0.740762
+dtype: float64","count    4141.000000
+mean       18.466967
+std        13.340434
+min         0.017136
+25%         7.939822
+50%        15.875499
+75%        26.740542
+max        85.646143
+Name: % error, dtype: float64",16
+3,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=5)",Performance,0.1,"LocalMemory         20.925331
+bs_1024x1           19.685775
+bs_32x1             19.464045
+bs_512x1            11.500292
+bs_32x32            10.981283
+bs_128x8             9.476132
+bs_64x16             8.880337
+bs_256x4             8.263519
+bs_512x2             8.097997
+pixelPerThread_1     7.191161
+Linear1D             4.157590
+CUDA                 1.916319
+pixelPerThread_2     1.552957
+#yes                 1.200686
+bs_32x2              1.134006
+bs_64x1              0.526796
+dtype: float64","count    4141.000000
+mean       18.320366
+std        13.215002
+min         0.008806
+25%         7.837244
+50%        15.793215
+75%        26.527689
+max        84.008267
+Name: % error, dtype: float64",16
+4,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.1,"CUDA                33.057346
+bs_64x16            21.165261
+bs_32x1             18.595440
+bs_1024x1           18.489245
+bs_512x2            17.921656
+#yes                17.896498
+LocalMemory         16.902210
+bs_128x8            12.853915
+bs_256x4             9.115932
+bs_64x1              6.313404
+bs_32x2              5.468297
+bs_512x1             4.658106
+pixelPerThread_2     3.649886
+bs_32x32             3.439658
+pixelPerThread_1     0.346288
+Linear1D             0.098216
+dtype: float64","count    4141.000000
+mean       11.596232
+std        12.195342
+min         0.001343
+25%         3.358551
+50%         7.913457
+75%        16.652382
+max       132.240702
+Name: % error, dtype: float64",16
+5,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    4141.000000
+mean       10.280988
+std        10.063201
+min         0.000626
+25%         2.692648
+50%         6.285539
+75%        15.941729
+max        58.275035
+Name: % error, dtype: float64",16
+6,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    4141.000000
+mean       11.607698
+std         9.879704
+min         0.001806
+25%         3.997513
+50%         8.490149
+75%        16.821330
+max        51.188718
+Name: % error, dtype: float64",16
+7,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    4141.000000
+mean       10.383995
+std        10.861468
+min         0.000000
+25%         2.279050
+50%         5.933726
+75%        15.912270
+max        59.367345
+Name: % error, dtype: float64",16
+8,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.2,"bs_32x1             21.523892
+LocalMemory         20.878588
+bs_1024x1           19.315478
+bs_512x1            12.562715
+bs_512x2            11.736058
+bs_128x8            10.321466
+bs_32x32            10.101580
+bs_64x16             8.975286
+bs_256x4             8.948396
+pixelPerThread_1     6.247653
+Linear1D             3.045886
+bs_64x1              2.406859
+CUDA                 1.773364
+pixelPerThread_2     1.530278
+#yes                 1.369342
+bs_32x2              0.938186
+dtype: float64","count    3681.000000
+mean       17.985250
+std        13.158257
+min         0.005103
+25%         7.424931
+50%        15.808724
+75%        25.829945
+max        81.069291
+Name: % error, dtype: float64",16
+9,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.2,"bs_32x1             21.190175
+LocalMemory         20.818121
+bs_1024x1           18.820460
+bs_512x1            12.167701
+bs_512x2            11.264239
+bs_128x8             9.916606
+bs_32x32             9.683041
+bs_256x4             8.539372
+bs_64x16             8.441847
+pixelPerThread_1     6.240797
+Linear1D             2.970578
+bs_64x1              2.127183
+CUDA                 1.710801
+pixelPerThread_2     1.456773
+#yes                 1.387545
+bs_32x2              0.884623
+dtype: float64","count    3681.000000
+mean       17.834053
+std        13.033787
+min         0.015396
+25%         7.289532
+50%        15.477541
+75%        25.569255
+max        79.510106
+Name: % error, dtype: float64",16
+10,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=0.8),Performance,0.2,"bs_32x1             21.038750
+LocalMemory         20.727818
+bs_1024x1           18.554357
+bs_512x1            12.144226
+bs_512x2            11.260076
+bs_128x8             9.918016
+bs_32x32             9.709681
+bs_256x4             8.586264
+bs_64x16             8.536673
+pixelPerThread_1     6.258726
+Linear1D             3.042952
+bs_64x1              2.236505
+CUDA                 1.807328
+pixelPerThread_2     1.494998
+#yes                 1.343749
+bs_32x2              1.061818
+dtype: float64","count    3681.000000
+mean       17.828424
+std        13.009844
+min         0.003697
+25%         7.374953
+50%        15.476133
+75%        25.487412
+max        78.729845
+Name: % error, dtype: float64",16
+11,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.2,"bs_32x1             21.190175
+LocalMemory         20.818121
+bs_1024x1           18.820460
+bs_512x1            12.167701
+bs_512x2            11.264239
+bs_128x8             9.916606
+bs_32x32             9.683041
+bs_256x4             8.539372
+bs_64x16             8.441847
+pixelPerThread_1     6.240797
+Linear1D             2.970578
+bs_64x1              2.127183
+CUDA                 1.710801
+pixelPerThread_2     1.456773
+#yes                 1.387545
+bs_32x2              0.884623
+dtype: float64","count    3681.000000
+mean       17.834053
+std        13.033787
+min         0.015396
+25%         7.289532
+50%        15.477541
+75%        25.569255
+max        79.510106
+Name: % error, dtype: float64",16
+12,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.2,"#yes                2.436782e+12
+Linear1D            8.570717e+11
+bs_64x16            6.247143e+11
+bs_32x1             5.897760e+11
+pixelPerThread_1    5.259249e+11
+bs_128x8            4.191027e+11
+bs_256x4            3.666475e+11
+bs_32x2             2.114815e+11
+bs_32x32            1.562450e+11
+bs_512x1            9.325897e+10
+pixelPerThread_2    8.674070e+10
+CUDA                5.119234e+10
+bs_1024x1           2.736656e+10
+bs_512x2            1.741578e+10
+bs_64x1             4.600314e+09
+LocalMemory         2.276118e+09
+dtype: float64","count    3681.000000
+mean       10.598804
+std         9.590185
+min         0.001412
+25%         3.378587
+50%         7.753889
+75%        15.408406
+max        69.624325
+Name: % error, dtype: float64",16
+13,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    3681.000000
+mean        8.977948
+std         9.399662
+min         0.004202
+25%         2.255029
+50%         5.322763
+75%        12.874969
+max        55.674189
+Name: % error, dtype: float64",16
+14,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    3681.000000
+mean       10.617243
+std         9.263416
+min         0.002932
+25%         3.809631
+50%         7.641159
+75%        14.805697
+max        49.938558
+Name: % error, dtype: float64",16
+15,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    3681.000000
+mean        9.029672
+std        10.060997
+min         0.000000
+25%         1.889495
+50%         4.886904
+75%        13.112349
+max        57.689828
+Name: % error, dtype: float64",16
+16,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.3,"LocalMemory         21.454307
+bs_32x1             21.446452
+bs_1024x1           20.492211
+bs_512x1            14.271542
+bs_512x2            11.168981
+bs_128x8            10.847473
+bs_256x4            10.355639
+bs_64x16             9.841150
+bs_32x32             9.641455
+pixelPerThread_1     5.964770
+Linear1D             3.407357
+bs_64x1              2.830641
+pixelPerThread_2     2.076374
+CUDA                 1.497298
+#yes                 1.473443
+bs_32x2              0.670603
+dtype: float64","count    3221.000000
+mean       18.519360
+std        14.004278
+min         0.045953
+25%         7.586257
+50%        15.525047
+75%        26.496417
+max        86.348804
+Name: % error, dtype: float64",16
+17,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.3,"LocalMemory         21.372277
+bs_32x1             21.118622
+bs_1024x1           19.942335
+bs_512x1            13.866616
+bs_512x2            10.695213
+bs_128x8            10.442833
+bs_256x4             9.961523
+bs_64x16             9.336275
+bs_32x32             9.190703
+pixelPerThread_1     5.985037
+Linear1D             3.340294
+bs_64x1              2.547882
+pixelPerThread_2     1.980063
+#yes                 1.481397
+CUDA                 1.431394
+bs_32x2              0.607522
+dtype: float64","count    3221.000000
+mean       18.349923
+std        13.842451
+min         0.002012
+25%         7.608519
+50%        15.510111
+75%        26.138505
+max        84.503026
+Name: % error, dtype: float64",16
+18,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(),Performance,0.3,"LocalMemory         21.321913
+bs_32x1             21.044583
+bs_1024x1           19.770881
+bs_512x1            13.878244
+bs_512x2            10.776516
+bs_128x8            10.501467
+bs_256x4            10.037611
+bs_64x16             9.463610
+bs_32x32             9.294028
+pixelPerThread_1     5.986712
+Linear1D             3.405474
+bs_64x1              2.672259
+pixelPerThread_2     2.032366
+CUDA                 1.515829
+#yes                 1.451537
+bs_32x2              0.788138
+dtype: float64","count    3221.000000
+mean       18.371687
+std        13.835363
+min         0.006032
+25%         7.712298
+50%        15.488848
+75%        26.159887
+max        84.035004
+Name: % error, dtype: float64",16
+19,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.3,"LocalMemory         21.372277
+bs_32x1             21.118622
+bs_1024x1           19.942335
+bs_512x1            13.866616
+bs_512x2            10.695213
+bs_128x8            10.442833
+bs_256x4             9.961523
+bs_64x16             9.336275
+bs_32x32             9.190703
+pixelPerThread_1     5.985037
+Linear1D             3.340294
+bs_64x1              2.547882
+pixelPerThread_2     1.980063
+#yes                 1.481397
+CUDA                 1.431394
+bs_32x2              0.607522
+dtype: float64","count    3221.000000
+mean       18.349923
+std        13.842451
+min         0.002012
+25%         7.608519
+50%        15.510111
+75%        26.138505
+max        84.503026
+Name: % error, dtype: float64",16
+20,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.3,"#yes                1.420916e+12
+bs_512x1            3.744496e+11
+bs_128x8            3.260709e+11
+bs_512x2            2.959732e+11
+bs_1024x1           2.252670e+11
+bs_256x4            2.089136e+11
+bs_64x16            1.781816e+11
+CUDA                1.528762e+11
+bs_64x1             1.151397e+11
+bs_32x2             1.104584e+11
+pixelPerThread_1    6.854366e+10
+pixelPerThread_2    6.635139e+10
+Linear1D            5.964228e+10
+bs_32x1             2.663438e+10
+bs_32x32            2.479706e+10
+LocalMemory         2.335016e+09
+dtype: float64","count    3221.000000
+mean       10.638035
+std         9.721958
+min         0.005824
+25%         3.482070
+50%         7.692329
+75%        15.199022
+max        79.323884
+Name: % error, dtype: float64",16
+21,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    3221.000000
+mean        8.212737
+std         8.854024
+min         0.003003
+25%         2.126281
+50%         4.788741
+75%        11.158695
+max        54.461236
+Name: % error, dtype: float64",16
+22,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    3221.000000
+mean       10.730257
+std         9.208858
+min         0.010826
+25%         3.735668
+50%         7.857322
+75%        15.544391
+max        42.788169
+Name: % error, dtype: float64",16
+23,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    3221.000000
+mean        8.103279
+std         9.176200
+min         0.000000
+25%         1.817179
+50%         4.536359
+75%        10.985886
+max        73.281464
+Name: % error, dtype: float64",16
+24,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.4,"LocalMemory         22.261294
+bs_32x1             21.556091
+bs_1024x1           19.210632
+bs_512x1            15.747348
+bs_512x2            11.306588
+bs_256x4            10.766079
+bs_128x8            10.701128
+bs_64x16             9.744644
+bs_32x32             9.696794
+pixelPerThread_1     5.730700
+Linear1D             3.707458
+bs_64x1              2.763424
+pixelPerThread_2     2.068434
+#yes                 1.550904
+CUDA                 0.839627
+bs_32x2              0.268347
+dtype: float64","count    2761.000000
+mean       18.769330
+std        14.165454
+min         0.002281
+25%         7.441808
+50%        15.712878
+75%        27.572979
+max        81.712662
+Name: % error, dtype: float64",16
+25,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.4,"LocalMemory         22.150596
+bs_32x1             21.205347
+bs_1024x1           18.663661
+bs_512x1            15.368333
+bs_512x2            10.864479
+bs_256x4            10.382053
+bs_128x8            10.277791
+bs_64x16             9.257945
+bs_32x32             9.226457
+pixelPerThread_1     5.745204
+Linear1D             3.653830
+bs_64x1              2.466884
+pixelPerThread_2     1.969737
+#yes                 1.544887
+CUDA                 0.796228
+bs_32x2              0.193411
+dtype: float64","count    2761.000000
+mean       18.580913
+std        14.025038
+min         0.016133
+25%         7.303497
+50%        15.608463
+75%        27.007255
+max        80.506377
+Name: % error, dtype: float64",16
+26,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.4,"LocalMemory         22.259153
+bs_32x1             21.549345
+bs_1024x1           19.200127
+bs_512x1            15.741341
+bs_512x2            11.300767
+bs_256x4            10.761154
+bs_128x8            10.695649
+bs_64x16             9.738925
+bs_32x32             9.691085
+pixelPerThread_1     5.730970
+Linear1D             3.707425
+bs_64x1              2.760882
+pixelPerThread_2     2.067733
+#yes                 1.550528
+CUDA                 0.840077
+bs_32x2              0.270339
+dtype: float64","count    2761.000000
+mean       18.766684
+std        14.163033
+min         0.001357
+25%         7.455500
+50%        15.715403
+75%        27.561706
+max        81.697342
+Name: % error, dtype: float64",16
+27,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.4,"LocalMemory         22.150596
+bs_32x1             21.205347
+bs_1024x1           18.663661
+bs_512x1            15.368333
+bs_512x2            10.864479
+bs_256x4            10.382053
+bs_128x8            10.277791
+bs_64x16             9.257945
+bs_32x32             9.226457
+pixelPerThread_1     5.745204
+Linear1D             3.653830
+bs_64x1              2.466884
+pixelPerThread_2     1.969737
+#yes                 1.544887
+CUDA                 0.796228
+bs_32x2              0.193411
+dtype: float64","count    2761.000000
+mean       18.580913
+std        14.025038
+min         0.016133
+25%         7.303497
+50%        15.608463
+75%        27.007255
+max        80.506377
+Name: % error, dtype: float64",16
+28,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.4,"#yes                1.364186e+12
+Linear1D            1.777571e+11
+bs_1024x1           1.286308e+11
+bs_128x8            1.018457e+11
+bs_64x1             7.271864e+10
+CUDA                7.119313e+10
+bs_32x1             5.131938e+10
+bs_512x2            4.643506e+10
+bs_64x16            4.256659e+10
+bs_512x1            2.403369e+10
+pixelPerThread_1    1.252249e+10
+bs_32x32            1.049433e+10
+bs_32x2             7.121017e+09
+pixelPerThread_2    6.141316e+09
+LocalMemory         3.403664e+09
+bs_256x4            2.803287e+09
+dtype: float64","count    2761.000000
+mean       10.369499
+std         9.225706
+min         0.001997
+25%         3.609964
+50%         7.606915
+75%        14.764154
+max        78.139860
+Name: % error, dtype: float64",16
+29,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    2761.000000
+mean        7.825783
+std         8.573275
+min         0.003372
+25%         1.897924
+50%         4.508802
+75%        10.622007
+max        49.876837
+Name: % error, dtype: float64",16
+30,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    2761.000000
+mean       10.372598
+std         9.015229
+min         0.003416
+25%         3.293583
+50%         7.560841
+75%        15.191673
+max        42.668494
+Name: % error, dtype: float64",16
+31,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    2761.000000
+mean        7.655355
+std         8.640763
+min         0.000000
+25%         1.663586
+50%         4.296024
+75%        10.466311
+max        50.472837
+Name: % error, dtype: float64",16
+32,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.5,"LocalMemory         22.388637
+bs_32x1             20.525689
+bs_1024x1           19.114635
+bs_512x1            15.056783
+bs_512x2            11.821018
+bs_128x8            10.859937
+bs_256x4            10.575198
+bs_32x32            10.349088
+bs_64x16            10.332303
+pixelPerThread_1     5.993256
+Linear1D             3.850447
+bs_64x1              2.876956
+pixelPerThread_2     2.002155
+#yes                 1.420122
+CUDA                 1.006841
+bs_32x2              0.067156
+dtype: float64","count    2301.000000
+mean       18.883486
+std        13.966326
+min         0.011965
+25%         7.762926
+50%        15.932506
+75%        27.702749
+max        77.801729
+Name: % error, dtype: float64",16
+33,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.5,"LocalMemory         22.305775
+bs_32x1             20.179255
+bs_1024x1           18.594170
+bs_512x1            14.688456
+bs_512x2            11.366574
+bs_128x8            10.415457
+bs_256x4            10.180003
+bs_32x32             9.921931
+bs_64x16             9.868778
+pixelPerThread_1     5.999536
+Linear1D             3.788481
+bs_64x1              2.558347
+pixelPerThread_2     1.918102
+#yes                 1.424338
+CUDA                 0.954636
+dtype: float64","count    2301.000000
+mean       18.705283
+std        13.848496
+min         0.024368
+25%         7.525838
+50%        15.688015
+75%        27.279145
+max        76.692591
+Name: % error, dtype: float64",16
+34,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=0.5),Performance,0.5,"LocalMemory         22.348991
+bs_32x1             20.401180
+bs_1024x1           18.921289
+bs_512x1            14.946019
+bs_512x2            11.700966
+bs_128x8            10.746851
+bs_256x4            10.477189
+bs_32x32            10.243779
+bs_64x16            10.221609
+pixelPerThread_1     5.996853
+Linear1D             3.847853
+bs_64x1              2.824649
+pixelPerThread_2     1.992028
+#yes                 1.413699
+CUDA                 1.014963
+bs_32x2              0.024633
+dtype: float64","count    2301.000000
+mean       18.833546
+std        13.928848
+min         0.001075
+25%         7.671177
+50%        15.888458
+75%        27.658817
+max        77.540176
+Name: % error, dtype: float64",16
+35,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.5,"LocalMemory         22.305775
+bs_32x1             20.179255
+bs_1024x1           18.594170
+bs_512x1            14.688456
+bs_512x2            11.366574
+bs_128x8            10.415457
+bs_256x4            10.180003
+bs_32x32             9.921931
+bs_64x16             9.868778
+pixelPerThread_1     5.999536
+Linear1D             3.788481
+bs_64x1              2.558347
+pixelPerThread_2     1.918102
+#yes                 1.424338
+CUDA                 0.954636
+dtype: float64","count    2301.000000
+mean       18.705283
+std        13.848496
+min         0.024368
+25%         7.525838
+50%        15.688015
+75%        27.279145
+max        76.692591
+Name: % error, dtype: float64",16
+36,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.5,"LocalMemory         6.459641e+12
+#yes                3.475410e+12
+bs_64x1             1.735041e+10
+Linear1D            1.110668e+10
+bs_512x2            9.658584e+09
+CUDA                9.584783e+09
+pixelPerThread_1    8.712685e+09
+bs_512x1            8.045275e+09
+bs_32x32            7.864014e+09
+pixelPerThread_2    6.707602e+09
+bs_256x4            5.414852e+09
+bs_64x16            5.041874e+09
+bs_128x8            3.323359e+09
+bs_1024x1           1.807295e+09
+bs_32x2             1.217443e+09
+bs_32x1             9.991890e+08
+dtype: float64","count    2301.000000
+mean       10.389208
+std         9.131341
+min         0.004723
+25%         3.499994
+50%         7.828446
+75%        15.211925
+max        60.400948
+Name: % error, dtype: float64",16
+37,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    2301.000000
+mean        7.794995
+std         8.641995
+min         0.002777
+25%         1.828072
+50%         4.374878
+75%        10.750468
+max        48.719980
+Name: % error, dtype: float64",16
+38,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    2301.000000
+mean       10.604288
+std         9.204503
+min         0.000315
+25%         3.588370
+50%         7.747683
+75%        15.231089
+max        44.455489
+Name: % error, dtype: float64",16
+39,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    2301.000000
+mean        7.738361
+std         8.687424
+min         0.001642
+25%         1.695261
+50%         4.328564
+75%        10.575323
+max        49.224402
+Name: % error, dtype: float64",16
+40,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.6,"LocalMemory         22.443928
+bs_32x1             21.286135
+bs_1024x1           19.311782
+bs_512x1            15.240438
+bs_512x2            11.574833
+bs_128x8            10.548933
+bs_64x16            10.390156
+bs_256x4            10.385117
+bs_32x32            10.120748
+pixelPerThread_1     6.224342
+Linear1D             4.005493
+bs_64x1              2.706897
+pixelPerThread_2     1.963817
+#yes                 1.431271
+CUDA                 1.106531
+bs_32x2              0.430375
+dtype: float64","count    1841.000000
+mean       19.188176
+std        14.284799
+min         0.009087
+25%         7.717472
+50%        15.844435
+75%        28.532651
+max        79.012334
+Name: % error, dtype: float64",16
+41,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.6,"LocalMemory         22.364307
+bs_32x1             20.945041
+bs_1024x1           18.811751
+bs_512x1            14.881492
+bs_512x2            11.126576
+bs_128x8            10.126407
+bs_256x4             9.985786
+bs_64x16             9.952326
+bs_32x32             9.688650
+pixelPerThread_1     6.240427
+Linear1D             3.941690
+bs_64x1              2.398205
+pixelPerThread_2     1.874687
+#yes                 1.436811
+CUDA                 1.049317
+bs_32x2              0.374174
+dtype: float64","count    1841.000000
+mean       19.022318
+std        14.154158
+min         0.017027
+25%         7.737301
+50%        15.909035
+75%        27.967069
+max        77.881543
+Name: % error, dtype: float64",16
+42,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.6,"LocalMemory         22.430763
+bs_32x1             21.243481
+bs_1024x1           19.248690
+bs_512x1            15.202922
+bs_512x2            11.535295
+bs_128x8            10.512923
+bs_64x16            10.354218
+bs_256x4            10.351716
+bs_32x32            10.084725
+pixelPerThread_1     6.226117
+Linear1D             4.004448
+bs_64x1              2.689554
+pixelPerThread_2     1.960185
+#yes                 1.429097
+CUDA                 1.109033
+bs_32x2              0.443954
+dtype: float64","count    1841.000000
+mean       19.172758
+std        14.271161
+min         0.023668
+25%         7.752326
+50%        15.806827
+75%        28.534962
+max        78.921683
+Name: % error, dtype: float64",16
+43,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.6,"LocalMemory         22.364307
+bs_32x1             20.945041
+bs_1024x1           18.811751
+bs_512x1            14.881492
+bs_512x2            11.126576
+bs_128x8            10.126407
+bs_256x4             9.985786
+bs_64x16             9.952326
+bs_32x32             9.688650
+pixelPerThread_1     6.240427
+Linear1D             3.941690
+bs_64x1              2.398205
+pixelPerThread_2     1.874687
+#yes                 1.436811
+CUDA                 1.049317
+bs_32x2              0.374174
+dtype: float64","count    1841.000000
+mean       19.022318
+std        14.154158
+min         0.017027
+25%         7.737301
+50%        15.909035
+75%        27.967069
+max        77.881543
+Name: % error, dtype: float64",16
+44,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.6,"#yes                5.309100e+11
+pixelPerThread_2    3.965940e+11
+bs_512x1            3.067805e+11
+Linear1D            2.886865e+11
+bs_256x4            2.057973e+11
+bs_64x1             1.882459e+11
+bs_512x2            1.723862e+11
+pixelPerThread_1    1.383802e+11
+bs_64x16            1.312977e+11
+bs_32x1             6.313023e+10
+CUDA                3.446819e+10
+bs_128x8            3.162039e+10
+bs_1024x1           2.295983e+10
+bs_32x32            1.971001e+10
+bs_32x2             8.904386e+09
+LocalMemory         9.102207e+07
+dtype: float64","count    1841.000000
+mean       10.515805
+std         9.315005
+min         0.012964
+25%         3.417562
+50%         7.987332
+75%        15.182864
+max        60.377354
+Name: % error, dtype: float64",16
+45,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    1841.000000
+mean        7.870224
+std         8.826223
+min         0.004157
+25%         1.899695
+50%         4.386541
+75%        10.424808
+max        51.779905
+Name: % error, dtype: float64",16
+46,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    1841.000000
+mean       10.640755
+std         9.353442
+min         0.000843
+25%         3.632498
+50%         7.872241
+75%        14.875152
+max        43.801845
+Name: % error, dtype: float64",16
+47,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    1841.000000
+mean        7.864500
+std         8.874326
+min         0.006104
+25%         1.874088
+50%         4.460105
+75%        10.456183
+max        51.506302
+Name: % error, dtype: float64",16
+48,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.7,"LocalMemory         22.093591
+bs_32x1             21.972025
+bs_1024x1           19.437532
+bs_512x1            14.529900
+bs_512x2            11.765586
+bs_64x16            10.433991
+bs_128x8            10.327306
+bs_256x4            10.141532
+bs_32x32             9.783198
+pixelPerThread_1     6.287277
+Linear1D             3.734992
+bs_64x1              2.727290
+pixelPerThread_2     1.780451
+CUDA                 1.445653
+#yes                 1.352425
+bs_32x2              0.428541
+dtype: float64","count    1381.000000
+mean       18.908737
+std        14.065967
+min         0.052356
+25%         7.703104
+50%        15.891732
+75%        27.669525
+max        79.562601
+Name: % error, dtype: float64",16
+49,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.7,"LocalMemory         22.016954
+bs_32x1             21.640629
+bs_1024x1           18.935676
+bs_512x1            14.174527
+bs_512x2            11.303617
+bs_64x16             9.999107
+bs_128x8             9.904499
+bs_256x4             9.733527
+bs_32x32             9.350464
+pixelPerThread_1     6.304869
+Linear1D             3.679083
+bs_64x1              2.422873
+pixelPerThread_2     1.693401
+CUDA                 1.390321
+#yes                 1.360960
+bs_32x2              0.377224
+dtype: float64","count    1381.000000
+mean       18.749058
+std        13.931677
+min         0.027869
+25%         7.591274
+50%        15.854772
+75%        27.204999
+max        77.970883
+Name: % error, dtype: float64",16
+50,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.7,"LocalMemory         22.092459
+bs_32x1             21.968368
+bs_1024x1           19.432061
+bs_512x1            14.526780
+bs_512x2            11.762047
+bs_64x16            10.430901
+bs_128x8            10.324239
+bs_256x4            10.138637
+bs_32x32             9.780139
+pixelPerThread_1     6.287450
+Linear1D             3.734972
+bs_64x1              2.725808
+pixelPerThread_2     1.780153
+CUDA                 1.445887
+#yes                 1.352242
+bs_32x2              0.429703
+dtype: float64","count    1381.000000
+mean       18.907469
+std        14.064722
+min         0.045836
+25%         7.698997
+50%        15.894245
+75%        27.671856
+max        79.546332
+Name: % error, dtype: float64",16
+51,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.7,"LocalMemory         22.016954
+bs_32x1             21.640629
+bs_1024x1           18.935676
+bs_512x1            14.174527
+bs_512x2            11.303617
+bs_64x16             9.999107
+bs_128x8             9.904499
+bs_256x4             9.733527
+bs_32x32             9.350464
+pixelPerThread_1     6.304869
+Linear1D             3.679083
+bs_64x1              2.422873
+pixelPerThread_2     1.693401
+CUDA                 1.390321
+#yes                 1.360960
+bs_32x2              0.377224
+dtype: float64","count    1381.000000
+mean       18.749058
+std        13.931677
+min         0.027869
+25%         7.591274
+50%        15.854772
+75%        27.204999
+max        77.970883
+Name: % error, dtype: float64",16
+52,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.7,"#yes                2.928579e+09
+bs_64x1             9.336609e+08
+bs_128x8            4.156764e+08
+CUDA                3.916258e+08
+pixelPerThread_1    2.812537e+08
+Linear1D            2.749514e+08
+pixelPerThread_2    2.548295e+08
+bs_256x4            2.245411e+08
+bs_512x1            2.116607e+08
+bs_64x16            2.114333e+08
+bs_32x2             9.980069e+07
+bs_32x32            9.256218e+07
+bs_32x1             4.553006e+07
+bs_512x2            1.880207e+07
+bs_1024x1           5.818392e+06
+LocalMemory         5.213740e+05
+dtype: float64","count    1381.000000
+mean       10.440893
+std         9.047648
+min         0.028283
+25%         3.567061
+50%         7.758877
+75%        14.655266
+max        55.338672
+Name: % error, dtype: float64",16
+53,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    1381.000000
+mean        7.880805
+std         8.713119
+min         0.000348
+25%         1.917894
+50%         4.377253
+75%        10.898081
+max        49.670399
+Name: % error, dtype: float64",16
+54,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    1381.000000
+mean       10.764309
+std         9.302420
+min         0.015262
+25%         3.705321
+50%         7.846851
+75%        15.531107
+max        43.046315
+Name: % error, dtype: float64",16
+55,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    1381.000000
+mean        7.879557
+std         8.769597
+min         0.009344
+25%         1.909681
+50%         4.383148
+75%        10.964320
+max        49.567032
+Name: % error, dtype: float64",16
+56,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.8,"LocalMemory         22.097832
+bs_32x1             21.888953
+bs_1024x1           19.123920
+bs_512x1            14.303862
+bs_512x2            11.646049
+bs_64x16            10.277027
+bs_256x4            10.073017
+bs_128x8            10.016991
+bs_32x32             9.999047
+pixelPerThread_1     6.253468
+Linear1D             3.915334
+bs_64x1              2.573556
+pixelPerThread_2     1.731058
+#yes                 1.352340
+CUDA                 1.311801
+bs_32x2              0.547957
+dtype: float64","count    921.000000
+mean      18.528989
+std       13.948345
+min        0.067258
+25%        7.508337
+50%       15.216289
+75%       27.517368
+max       78.056088
+Name: % error, dtype: float64",16
+57,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.8,"LocalMemory         22.008906
+bs_32x1             21.561799
+bs_1024x1           18.622512
+bs_512x1            13.956015
+bs_512x2            11.187047
+bs_64x16             9.841287
+bs_256x4             9.669863
+bs_128x8             9.613890
+bs_32x32             9.584361
+pixelPerThread_1     6.260289
+Linear1D             3.866249
+bs_64x1              2.272717
+pixelPerThread_2     1.657115
+#yes                 1.353799
+CUDA                 1.266190
+bs_32x2              0.500722
+dtype: float64","count    921.000000
+mean      18.388365
+std       13.816510
+min        0.010358
+25%        7.348742
+50%       14.943371
+75%       26.788952
+max       76.494270
+Name: % error, dtype: float64",16
+58,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.8,"LocalMemory         22.088012
+bs_32x1             21.856526
+bs_1024x1           19.075830
+bs_512x1            14.277189
+bs_512x2            11.615219
+bs_64x16            10.249963
+bs_256x4            10.047878
+bs_128x8             9.991606
+bs_32x32             9.973084
+pixelPerThread_1     6.254697
+Linear1D             3.915050
+bs_64x1              2.560899
+pixelPerThread_2     1.729056
+#yes                 1.350761
+CUDA                 1.314108
+bs_32x2              0.557823
+dtype: float64","count    921.000000
+mean      18.519949
+std       13.937319
+min        0.026611
+25%        7.552423
+50%       15.201820
+75%       27.482443
+max       77.913899
+Name: % error, dtype: float64",16
+59,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.8,"LocalMemory         22.008906
+bs_32x1             21.561799
+bs_1024x1           18.622512
+bs_512x1            13.956015
+bs_512x2            11.187047
+bs_64x16             9.841287
+bs_256x4             9.669863
+bs_128x8             9.613890
+bs_32x32             9.584361
+pixelPerThread_1     6.260289
+Linear1D             3.866249
+bs_64x1              2.272717
+pixelPerThread_2     1.657115
+#yes                 1.353799
+CUDA                 1.266190
+bs_32x2              0.500722
+dtype: float64","count    921.000000
+mean      18.388365
+std       13.816510
+min        0.010358
+25%        7.348742
+50%       14.943371
+75%       26.788952
+max       76.494270
+Name: % error, dtype: float64",16
+60,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.8,"#yes                2.101471e+11
+bs_64x1             2.818052e+10
+Linear1D            2.526845e+10
+bs_128x8            1.381763e+10
+bs_32x1             1.242200e+10
+bs_32x2             1.152617e+10
+bs_512x1            7.240233e+09
+bs_256x4            6.768764e+09
+bs_32x32            6.225735e+09
+bs_1024x1           6.169368e+09
+CUDA                4.740296e+09
+pixelPerThread_1    3.582546e+09
+pixelPerThread_2    2.042942e+09
+LocalMemory         1.462394e+09
+bs_512x2            2.980770e+08
+bs_64x16            2.668309e+08
+dtype: float64","count    921.000000
+mean      10.435150
+std        9.095709
+min        0.003242
+25%        3.547505
+50%        7.730668
+75%       14.951624
+max       54.029323
+Name: % error, dtype: float64",16
+61,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    921.000000
+mean       7.814000
+std        8.758361
+min        0.009147
+25%        1.915614
+50%        4.428386
+75%       10.577567
+max       49.669784
+Name: % error, dtype: float64",16
+62,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    921.000000
+mean      10.669243
+std        9.126918
+min        0.012032
+25%        3.672749
+50%        8.179791
+75%       15.457732
+max       42.928679
+Name: % error, dtype: float64",16
+63,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    921.000000
+mean       7.817350
+std        8.774882
+min        0.002926
+25%        1.922589
+50%        4.441880
+75%       10.725131
+max       50.080038
+Name: % error, dtype: float64",16
+64,LinearRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.9,"LocalMemory         22.217995
+bs_32x1             21.442959
+bs_1024x1           18.946987
+bs_512x1            14.781939
+bs_512x2            11.819903
+bs_64x16            10.254684
+bs_128x8            10.054926
+bs_32x32            10.027694
+bs_256x4             9.997635
+pixelPerThread_1     6.140477
+Linear1D             3.980019
+bs_64x1              2.753280
+pixelPerThread_2     1.832649
+#yes                 1.499270
+CUDA                 1.026693
+bs_32x2              0.546040
+dtype: float64","count    461.000000
+mean      18.544094
+std       14.895597
+min        0.023789
+25%        6.870885
+50%       14.643140
+75%       27.935540
+max       77.414030
+Name: % error, dtype: float64",16
+65,Lasso,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=10)",Performance,0.9,"LocalMemory         22.130531
+bs_32x1             21.112745
+bs_1024x1           18.428308
+bs_512x1            14.441903
+bs_512x2            11.371604
+bs_64x16             9.819017
+bs_128x8             9.652212
+bs_32x32             9.617538
+bs_256x4             9.586579
+pixelPerThread_1     6.148512
+Linear1D             3.925369
+bs_64x1              2.450174
+pixelPerThread_2     1.758893
+#yes                 1.502456
+CUDA                 0.979746
+bs_32x2              0.489274
+dtype: float64","count    461.000000
+mean      18.399522
+std       14.729784
+min        0.101624
+25%        6.701397
+50%       14.212936
+75%       27.127171
+max       76.419153
+Name: % error, dtype: float64",16
+66,Ridge,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.9,"LocalMemory         22.209325
+bs_32x1             21.414264
+bs_1024x1           18.903063
+bs_512x1            14.758281
+bs_512x2            11.792926
+bs_64x16            10.230644
+bs_128x8            10.032320
+bs_32x32            10.004860
+bs_256x4             9.975001
+pixelPerThread_1     6.141614
+Linear1D             3.979388
+bs_64x1              2.741888
+pixelPerThread_2     1.830869
+#yes                 1.497890
+CUDA                 1.028797
+bs_32x2              0.554684
+dtype: float64","count    461.000000
+mean      18.536289
+std       14.884140
+min        0.022136
+25%        6.857028
+50%       14.603429
+75%       27.904709
+max       77.361319
+Name: % error, dtype: float64",16
+67,ElasticNet,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=10)",Performance,0.9,"LocalMemory         22.130531
+bs_32x1             21.112745
+bs_1024x1           18.428308
+bs_512x1            14.441903
+bs_512x2            11.371604
+bs_64x16             9.819017
+bs_128x8             9.652212
+bs_32x32             9.617538
+bs_256x4             9.586579
+pixelPerThread_1     6.148512
+Linear1D             3.925369
+bs_64x1              2.450174
+pixelPerThread_2     1.758893
+#yes                 1.502456
+CUDA                 0.979746
+bs_32x2              0.489274
+dtype: float64","count    461.000000
+mean      18.399522
+std       14.729784
+min        0.101624
+25%        6.701397
+50%       14.212936
+75%       27.127171
+max       76.419153
+Name: % error, dtype: float64",16
+68,PolynomialRegression,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",LinearRegression(),Performance,0.9,"#yes                7.417291e+10
+bs_512x1            3.769087e+10
+Linear1D            3.511369e+10
+bs_128x8            1.943342e+10
+bs_64x1             1.304995e+10
+bs_256x4            1.284199e+10
+CUDA                1.235819e+10
+bs_32x32            1.119572e+10
+bs_512x2            9.181830e+09
+pixelPerThread_1    6.683070e+09
+pixelPerThread_2    5.518984e+09
+bs_64x16            4.630512e+09
+bs_32x1             3.529599e+09
+bs_1024x1           2.470640e+09
+bs_32x2             9.934267e+08
+LocalMemory         1.785073e+08
+dtype: float64","count    461.000000
+mean      10.040446
+std        8.977303
+min        0.019065
+25%        3.440156
+50%        7.471293
+75%       14.374224
+max       53.024492
+Name: % error, dtype: float64",16
+69,RandomForest,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    461.000000
+mean       7.576414
+std        8.696092
+min        0.002845
+25%        1.905847
+50%        4.323388
+75%       10.328060
+max       49.220610
+Name: % error, dtype: float64",16
+70,GradientBoostingTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    461.000000
+mean      10.474068
+std        8.799665
+min        0.034371
+25%        3.746799
+50%        8.319222
+75%       15.089352
+max       43.255366
+Name: % error, dtype: float64",16
+71,DecisionTree,False,DecisionTree,"Index(['LocalMemory', 'pixelPerThread_1', 'bs_32x1', 'bs_1024x1', 'bs_512x1',
+       '#yes', 'bs_512x2', 'bs_64x16', 'pixelPerThread_2', 'CUDA', 'bs_32x32',
+       'bs_128x8', 'bs_256x4', 'bs_32x2', 'Linear1D', 'bs_64x1'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"LocalMemory        NaN
+pixelPerThread_1   NaN
+bs_32x1            NaN
+bs_1024x1          NaN
+bs_512x1           NaN
+#yes               NaN
+bs_512x2           NaN
+bs_64x16           NaN
+pixelPerThread_2   NaN
+CUDA               NaN
+bs_32x32           NaN
+bs_128x8           NaN
+bs_256x4           NaN
+bs_32x2            NaN
+Linear1D           NaN
+bs_64x1            NaN
+Name: % error, dtype: float64","count    461.000000
+mean       7.578479
+std        8.698109
+min        0.005827
+25%        1.874378
+50%        4.260525
+75%       10.479404
+max       49.696947
+Name: % error, dtype: float64",16

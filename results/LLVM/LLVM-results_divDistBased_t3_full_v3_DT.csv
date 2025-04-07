@@ -1,0 +1,1472 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"instcombine         1.594077e+01
+gvn                 1.323179e+01
+print_used_types    8.707580e+00
+sccp                8.111720e+00
+iv_users            7.005555e+00
+licm                5.065586e+00
+#yes                4.910753e+00
+simplifycfg         3.515264e+00
+ipsccp              2.943328e+00
+jump_threading      1.479223e+00
+inline              5.231698e-01
+time_passes         8.881784e-15
+dtype: float64","count    158.000000
+mean       3.958103
+std        3.649450
+min        0.059003
+25%        1.613475
+50%        2.779888
+75%        5.279211
+max       17.732256
+Name: % error, dtype: float64",14
+1,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=10)",Performance,0.1,"instcombine         18.965952
+gvn                 15.410959
+licm                 7.642942
+jump_threading       5.479059
+inline               4.549313
+print_used_types     3.680973
+sccp                 3.485175
+ipsccp               3.108792
+#yes                 0.483171
+iv_users             0.159558
+dtype: float64","count    158.000000
+mean       3.885533
+std        3.782288
+min        0.008642
+25%        1.169619
+50%        2.765455
+75%        4.710696
+max       18.343247
+Name: % error, dtype: float64",14
+2,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(alpha=0.1),Performance,0.1,"instcombine         15.384956
+gvn                 12.026485
+print_used_types     8.623654
+sccp                 8.144072
+iv_users             6.088338
+#yes                 4.869739
+licm                 4.449140
+simplifycfg          3.586172
+ipsccp               1.947341
+jump_threading       1.412703
+inline               0.013969
+dtype: float64","count    158.000000
+mean       3.919000
+std        3.671783
+min        0.030128
+25%        1.587755
+50%        2.793552
+75%        4.880882
+max       17.847790
+Name: % error, dtype: float64",14
+3,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.02, l1_ratio=0.1, max_iter=10)",Performance,0.1,"instcombine         18.175406
+gvn                 13.675054
+licm                 7.295623
+jump_threading       5.277022
+inline               4.859129
+print_used_types     4.433723
+sccp                 4.378535
+ipsccp               4.000935
+#yes                 0.832290
+iv_users             0.206589
+simplifycfg          0.161302
+dtype: float64","count    158.000000
+mean       3.959691
+std        3.728915
+min        0.022118
+25%        1.237850
+50%        2.924557
+75%        4.942348
+max       18.137499
+Name: % error, dtype: float64",14
+4,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.531192
+std        3.652976
+min        0.080812
+25%        2.027360
+50%        3.772699
+75%        5.891690
+max       18.142953
+Name: % error, dtype: float64",14
+5,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.268791
+std        3.776851
+min        0.015933
+25%        1.467334
+50%        3.637037
+75%        5.528352
+max       19.498136
+Name: % error, dtype: float64",14
+6,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    158.000000
+mean       4.448898
+std        3.997933
+min        0.037663
+25%        1.184114
+50%        3.581325
+75%        6.562675
+max       22.160262
+Name: % error, dtype: float64",14
+7,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"instcombine         1.274276e+01
+gvn                 1.025773e+01
+print_used_types    9.240736e+00
+licm                8.825486e+00
+sccp                7.394840e+00
+iv_users            7.065669e+00
+#yes                5.623838e+00
+inline              4.958347e+00
+simplifycfg         3.289117e+00
+ipsccp              3.288352e+00
+jump_threading      8.817724e-01
+time_passes         4.440892e-16
+dtype: float64","count    140.000000
+mean       3.333863
+std        3.069818
+min        0.050660
+25%        1.165046
+50%        2.638287
+75%        4.484467
+max       15.341251
+Name: % error, dtype: float64",14
+8,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=10)",Performance,0.2,"instcombine         19.251632
+gvn                 16.800266
+licm                15.522123
+inline              11.805852
+jump_threading       5.724475
+ipsccp               3.637338
+simplifycfg          3.369132
+print_used_types     2.091982
+#yes                 1.158189
+sccp                 0.362952
+dtype: float64","count    140.000000
+mean       3.263869
+std        3.073618
+min        0.085259
+25%        1.103860
+50%        2.466320
+75%        4.491374
+max       15.441184
+Name: % error, dtype: float64",14
+9,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.2,"instcombine         12.402772
+gvn                  9.689142
+print_used_types     9.015043
+licm                 8.338388
+sccp                 7.273172
+iv_users             6.641232
+#yes                 5.631469
+inline               5.064002
+simplifycfg          3.240352
+ipsccp               2.804623
+jump_threading       0.888412
+dtype: float64","count    140.000000
+mean       3.294997
+std        3.093018
+min        0.005208
+25%        1.079638
+50%        2.518853
+75%        4.688996
+max       15.617132
+Name: % error, dtype: float64",14
+10,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=10)",Performance,0.2,"instcombine         19.251632
+gvn                 16.800266
+licm                15.522123
+inline              11.805852
+jump_threading       5.724475
+ipsccp               3.637338
+simplifycfg          3.369132
+print_used_types     2.091982
+#yes                 1.158189
+sccp                 0.362952
+dtype: float64","count    140.000000
+mean       3.263869
+std        3.073618
+min        0.085259
+25%        1.103860
+50%        2.466320
+75%        4.491374
+max       15.441184
+Name: % error, dtype: float64",14
+11,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    140.000000
+mean       3.458858
+std        3.334973
+min        0.027505
+25%        1.159367
+50%        2.560743
+75%        4.520962
+max       18.951177
+Name: % error, dtype: float64",14
+12,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    140.000000
+mean       3.079049
+std        3.077337
+min        0.061758
+25%        0.993302
+50%        2.189688
+75%        3.928411
+max       16.929803
+Name: % error, dtype: float64",14
+13,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    140.000000
+mean       4.505260
+std        4.563958
+min        0.037663
+25%        1.125368
+50%        2.861487
+75%        6.194266
+max       21.117342
+Name: % error, dtype: float64",14
+14,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"gvn                 11.204027
+print_used_types     8.480064
+inline               8.352362
+instcombine          8.021912
+licm                 7.671455
+sccp                 6.644003
+iv_users             6.193743
+#yes                 5.474056
+simplifycfg          4.632371
+ipsccp               2.165095
+jump_threading       1.660422
+dtype: float64","count    123.000000
+mean       3.026301
+std        3.009096
+min        0.029021
+25%        0.833985
+50%        2.254607
+75%        4.402600
+max       15.482021
+Name: % error, dtype: float64",14
+15,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.3,"gvn                 15.812361
+inline              13.758190
+licm                13.230914
+instcombine         12.769100
+jump_threading       3.529858
+ipsccp               2.852499
+print_used_types     1.828066
+simplifycfg          0.588939
+sccp                 0.448157
+dtype: float64","count    123.000000
+mean       2.959503
+std        2.933568
+min        0.035779
+25%        0.889616
+50%        2.025136
+75%        4.173520
+max       15.432345
+Name: % error, dtype: float64",14
+16,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(),Performance,0.3,"gvn                 10.105450
+inline               8.010649
+print_used_types     7.918809
+instcombine          7.459245
+licm                 7.090007
+sccp                 6.391359
+iv_users             5.580431
+#yes                 5.473130
+simplifycfg          4.182996
+ipsccp               1.829323
+jump_threading       1.289303
+dtype: float64","count    123.000000
+mean       3.056881
+std        2.990888
+min        0.010347
+25%        1.079816
+50%        2.342574
+75%        4.499405
+max       15.764807
+Name: % error, dtype: float64",14
+17,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, max_iter=5)",Performance,0.3,"gvn                 14.295265
+inline              12.703838
+licm                12.037319
+instcombine         11.837788
+jump_threading       3.474538
+ipsccp               2.948260
+print_used_types     2.794987
+sccp                 1.661533
+simplifycfg          0.777581
+#yes                 0.655624
+iv_users             0.007020
+dtype: float64","count    123.000000
+mean       3.060933
+std        2.966902
+min        0.010432
+25%        1.020107
+50%        2.231482
+75%        4.297928
+max       15.720371
+Name: % error, dtype: float64",14
+18,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    123.000000
+mean       3.127113
+std        2.719466
+min        0.016249
+25%        1.402686
+50%        2.554234
+75%        4.050685
+max       16.380319
+Name: % error, dtype: float64",14
+19,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    123.000000
+mean       2.862323
+std        2.864241
+min        0.032890
+25%        0.831530
+50%        2.031631
+75%        3.724803
+max       16.430222
+Name: % error, dtype: float64",14
+20,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    123.000000
+mean       3.456812
+std        3.415501
+min        0.037663
+25%        1.004570
+50%        2.494510
+75%        5.065828
+max       18.051054
+Name: % error, dtype: float64",14
+21,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"licm                1.429001e+01
+gvn                 1.273831e+01
+inline              8.804138e+00
+iv_users            8.648357e+00
+print_used_types    7.336349e+00
+ipsccp              6.488174e+00
+simplifycfg         5.460524e+00
+#yes                5.328801e+00
+sccp                3.957422e+00
+instcombine         3.774344e+00
+jump_threading      2.387165e+00
+time_passes         2.664535e-15
+dtype: float64","count    105.000000
+mean       2.922659
+std        2.429107
+min        0.019857
+25%        1.064343
+50%        2.338787
+75%        3.980715
+max       10.001983
+Name: % error, dtype: float64",14
+22,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=2, max_iter=1)",Performance,0.4,"gvn               14.988503
+licm              12.435448
+inline            10.149779
+instcombine        9.033385
+#yes               0.747898
+jump_threading     0.363788
+dtype: float64","count    105.000000
+mean       2.746738
+std        2.473721
+min        0.001904
+25%        0.731698
+50%        2.009888
+75%        4.150655
+max       11.330635
+Name: % error, dtype: float64",14
+23,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(alpha=4),Performance,0.4,"licm                11.341355
+gvn                  9.850663
+inline               7.766481
+iv_users             6.799311
+print_used_types     6.083751
+#yes                 5.293131
+ipsccp               5.039974
+simplifycfg          4.043035
+sccp                 3.925663
+instcombine          3.550661
+jump_threading       1.324296
+dtype: float64","count    105.000000
+mean       2.746567
+std        2.329813
+min        0.006022
+25%        0.837843
+50%        2.089634
+75%        4.484863
+max        9.463321
+Name: % error, dtype: float64",14
+24,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, max_iter=1)",Performance,0.4,"gvn                 13.984619
+licm                11.469713
+inline              10.901147
+instcombine         10.341190
+jump_threading       4.667933
+simplifycfg          1.332754
+#yes                 0.523347
+sccp                 0.336135
+print_used_types     0.201657
+iv_users             0.187387
+dtype: float64","count    105.000000
+mean       2.915664
+std        2.401810
+min        0.116280
+25%        1.243559
+50%        2.152887
+75%        4.023662
+max       11.870438
+Name: % error, dtype: float64",14
+25,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.439974
+std        1.630248
+min        0.122579
+25%        1.162445
+50%        2.134572
+75%        3.525324
+max        7.127350
+Name: % error, dtype: float64",14
+26,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.626585
+std        2.156967
+min        0.000463
+25%        1.166499
+50%        2.016434
+75%        3.247426
+max       11.437597
+Name: % error, dtype: float64",14
+27,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    105.000000
+mean       2.679936
+std        2.530993
+min        0.060098
+25%        0.859617
+50%        1.825023
+75%        4.009727
+max       12.416103
+Name: % error, dtype: float64",14
+28,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"licm                15.195000
+gvn                 11.325075
+inline               9.823717
+iv_users             7.791865
+print_used_types     6.763788
+ipsccp               6.401736
+#yes                 5.522803
+sccp                 5.086090
+jump_threading       3.940808
+simplifycfg          3.184923
+instcombine          2.348221
+dtype: float64","count    88.000000
+mean      2.982872
+std       2.356685
+min       0.004125
+25%       1.086219
+50%       2.241673
+75%       4.473432
+max      10.376532
+Name: % error, dtype: float64",14
+29,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=10)",Performance,0.5,"licm                19.874940
+gvn                 15.476433
+inline              14.932537
+instcombine          6.910753
+iv_users             1.567482
+simplifycfg          1.300685
+jump_threading       0.716037
+print_used_types     0.674416
+#yes                 0.401933
+ipsccp               0.336829
+dtype: float64","count    88.000000
+mean      2.916779
+std       2.302353
+min       0.094630
+25%       0.956698
+50%       2.287808
+75%       4.605124
+max       9.344189
+Name: % error, dtype: float64",14
+30,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(alpha=0.2),Performance,0.5,"licm                15.042122
+gvn                 11.205597
+inline               9.773044
+iv_users             7.738895
+print_used_types     6.695014
+ipsccp               6.332071
+#yes                 5.523522
+sccp                 5.053180
+jump_threading       3.887161
+simplifycfg          3.145978
+instcombine          2.355058
+dtype: float64","count    88.000000
+mean      2.970237
+std       2.347965
+min       0.037079
+25%       1.031677
+50%       2.200614
+75%       4.475995
+max      10.274938
+Name: % error, dtype: float64",14
+31,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=10)",Performance,0.5,"licm                19.874940
+gvn                 15.476433
+inline              14.932537
+instcombine          6.910753
+iv_users             1.567482
+simplifycfg          1.300685
+jump_threading       0.716037
+print_used_types     0.674416
+#yes                 0.401933
+ipsccp               0.336829
+dtype: float64","count    88.000000
+mean      2.916779
+std       2.302353
+min       0.094630
+25%       0.956698
+50%       2.287808
+75%       4.605124
+max       9.344189
+Name: % error, dtype: float64",14
+32,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    88.000000
+mean      2.310671
+std       1.670280
+min       0.009446
+25%       1.061070
+50%       1.801702
+75%       3.561745
+max       7.402330
+Name: % error, dtype: float64",14
+33,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    88.000000
+mean      2.390739
+std       2.290492
+min       0.018474
+25%       0.611454
+50%       1.690378
+75%       3.679075
+max      11.261712
+Name: % error, dtype: float64",14
+34,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    88.000000
+mean      2.650760
+std       2.365495
+min       0.017315
+25%       0.999616
+50%       1.833807
+75%       4.508716
+max      12.416103
+Name: % error, dtype: float64",14
+35,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"licm                1.441535e+01
+gvn                 1.111090e+01
+inline              1.011721e+01
+print_used_types    6.856487e+00
+iv_users            6.450606e+00
+ipsccp              6.119169e+00
+sccp                5.935174e+00
+#yes                5.384840e+00
+simplifycfg         4.119671e+00
+jump_threading      3.452185e+00
+instcombine         2.674685e+00
+time_passes         8.881784e-16
+dtype: float64","count    70.000000
+mean      2.832070
+std       2.392270
+min       0.066254
+25%       0.952960
+50%       2.100046
+75%       4.468499
+max       9.706166
+Name: % error, dtype: float64",14
+36,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.6,"licm                19.670388
+gvn                 15.979036
+inline              15.678221
+instcombine          7.793437
+jump_threading       1.889248
+simplifycfg          1.198306
+#yes                 0.210056
+print_used_types     0.143831
+dtype: float64","count    70.000000
+mean      2.805393
+std       2.325694
+min       0.115308
+25%       0.904986
+50%       1.831365
+75%       4.571157
+max       8.885090
+Name: % error, dtype: float64",14
+37,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(alpha=0.8),Performance,0.6,"licm                13.926315
+gvn                 10.700101
+inline               9.897254
+print_used_types     6.641471
+iv_users             6.339147
+ipsccp               5.881125
+sccp                 5.719753
+#yes                 5.393515
+simplifycfg          3.928125
+jump_threading       3.308795
+instcombine          2.688261
+dtype: float64","count    70.000000
+mean      2.789910
+std       2.367661
+min       0.002257
+25%       0.839758
+50%       2.020271
+75%       4.629605
+max       9.367990
+Name: % error, dtype: float64",14
+38,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=5)",Performance,0.6,"licm                19.670388
+gvn                 15.979036
+inline              15.678221
+instcombine          7.793437
+jump_threading       1.889248
+simplifycfg          1.198306
+#yes                 0.210056
+print_used_types     0.143831
+dtype: float64","count    70.000000
+mean      2.805393
+std       2.325694
+min       0.115308
+25%       0.904986
+50%       1.831365
+75%       4.571157
+max       8.885090
+Name: % error, dtype: float64",14
+39,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    70.000000
+mean      2.074829
+std       1.614439
+min       0.058060
+25%       0.751729
+50%       1.736703
+75%       2.799618
+max       6.787902
+Name: % error, dtype: float64",14
+40,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    70.000000
+mean      2.097737
+std       1.999970
+min       0.008336
+25%       0.757019
+50%       1.591223
+75%       2.710517
+max      11.009886
+Name: % error, dtype: float64",14
+41,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    70.000000
+mean      2.788511
+std       3.620044
+min       0.088174
+25%       0.648127
+50%       1.267403
+75%       3.845216
+max      15.899570
+Name: % error, dtype: float64",14
+42,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"licm                1.453143e+01
+gvn                 1.168877e+01
+inline              9.579270e+00
+print_used_types    7.063422e+00
+iv_users            6.494573e+00
+ipsccp              6.417087e+00
+sccp                5.910789e+00
+#yes                5.266901e+00
+simplifycfg         4.685824e+00
+instcombine         3.280764e+00
+jump_threading      3.241640e+00
+time_passes         7.105427e-15
+dtype: float64","count    53.000000
+mean      2.974196
+std       2.508481
+min       0.188604
+25%       1.154086
+50%       2.059679
+75%       4.182501
+max       9.777410
+Name: % error, dtype: float64",14
+43,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.7,"licm                19.852917
+gvn                 16.652110
+inline              15.097935
+instcombine          8.455497
+jump_threading       2.242620
+simplifycfg          0.625216
+#yes                 0.415496
+print_used_types     0.279854
+dtype: float64","count    53.000000
+mean      2.789476
+std       2.506575
+min       0.004290
+25%       0.935496
+50%       2.008668
+75%       4.563610
+max       8.949422
+Name: % error, dtype: float64",14
+44,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(alpha=0.8),Performance,0.7,"licm                14.099537
+gvn                 11.331188
+inline               9.378977
+print_used_types     6.886926
+iv_users             6.372457
+ipsccp               6.216436
+sccp                 5.733729
+#yes                 5.269807
+simplifycfg          4.519011
+instcombine          3.267593
+jump_threading       3.078929
+dtype: float64","count    53.000000
+mean      2.910359
+std       2.485725
+min       0.250758
+25%       1.054987
+50%       2.075843
+75%       4.203340
+max       9.492019
+Name: % error, dtype: float64",14
+45,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=5)",Performance,0.7,"licm                19.852917
+gvn                 16.652110
+inline              15.097935
+instcombine          8.455497
+jump_threading       2.242620
+simplifycfg          0.625216
+#yes                 0.415496
+print_used_types     0.279854
+dtype: float64","count    53.000000
+mean      2.789476
+std       2.506575
+min       0.004290
+25%       0.935496
+50%       2.008668
+75%       4.563610
+max       8.949422
+Name: % error, dtype: float64",14
+46,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    53.000000
+mean      2.165262
+std       1.719118
+min       0.086064
+25%       0.999391
+50%       1.696573
+75%       2.953894
+max       7.948559
+Name: % error, dtype: float64",14
+47,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    53.000000
+mean      2.214320
+std       2.074989
+min       0.027128
+25%       0.669961
+50%       1.678873
+75%       3.335469
+max      11.057411
+Name: % error, dtype: float64",14
+48,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    53.000000
+mean      1.838448
+std       1.791889
+min       0.027919
+25%       0.637425
+50%       1.107067
+75%       2.632539
+max       6.928912
+Name: % error, dtype: float64",14
+49,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"licm                1.421055e+01
+gvn                 1.154316e+01
+inline              9.323570e+00
+print_used_types    6.855018e+00
+iv_users            6.352149e+00
+sccp                5.968016e+00
+ipsccp              5.760790e+00
+#yes                5.354805e+00
+simplifycfg         4.109648e+00
+jump_threading      2.989386e+00
+instcombine         2.312533e+00
+time_passes         6.661338e-16
+dtype: float64","count    35.000000
+mean      2.945692
+std       2.718086
+min       0.104338
+25%       0.784984
+50%       2.112716
+75%       4.735500
+max       9.867817
+Name: % error, dtype: float64",14
+50,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.3, max_iter=5)",Performance,0.8,"licm                18.397139
+gvn                 15.545336
+inline              14.127985
+instcombine          6.714211
+jump_threading       1.775779
+simplifycfg          0.227027
+#yes                 0.198286
+print_used_types     0.177754
+dtype: float64","count    35.000000
+mean      2.803027
+std       2.622164
+min       0.017687
+25%       0.660700
+50%       1.764125
+75%       5.006518
+max       8.410398
+Name: % error, dtype: float64",14
+51,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(alpha=0.3),Performance,0.8,"licm                14.057234
+gvn                 11.413970
+inline               9.260030
+print_used_types     6.796865
+iv_users             6.306546
+sccp                 5.900400
+ipsccp               5.692181
+#yes                 5.355839
+simplifycfg          4.062238
+jump_threading       2.937708
+instcombine          2.320542
+dtype: float64","count    35.000000
+mean      2.921724
+std       2.706216
+min       0.047951
+25%       0.754754
+50%       2.063986
+75%       4.757767
+max       9.761810
+Name: % error, dtype: float64",14
+52,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, l1_ratio=1.0, max_iter=5)",Performance,0.8,"licm                18.397139
+gvn                 15.545336
+inline              14.127985
+instcombine          6.714211
+jump_threading       1.775779
+simplifycfg          0.227027
+#yes                 0.198286
+print_used_types     0.177754
+dtype: float64","count    35.000000
+mean      2.803027
+std       2.622164
+min       0.017687
+25%       0.660700
+50%       1.764125
+75%       5.006518
+max       8.410398
+Name: % error, dtype: float64",14
+53,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.152448
+std       1.830941
+min       0.123566
+25%       1.028591
+50%       1.644416
+75%       2.646060
+max       8.221270
+Name: % error, dtype: float64",14
+54,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    35.000000
+mean      2.301323
+std       2.502541
+min       0.000600
+25%       0.802380
+50%       1.510033
+75%       2.853503
+max      11.351059
+Name: % error, dtype: float64",14
+55,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    35.000000
+mean      1.906602
+std       1.769089
+min       0.163972
+25%       0.796972
+50%       1.107067
+75%       2.719606
+max       7.324730
+Name: % error, dtype: float64",14
+56,LinearRegression,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"licm                1.398062e+01
+gvn                 1.023771e+01
+inline              9.121803e+00
+iv_users            6.399934e+00
+print_used_types    6.309015e+00
+#yes                5.542102e+00
+sccp                5.373623e+00
+ipsccp              4.938599e+00
+simplifycfg         4.120774e+00
+jump_threading      3.377414e+00
+instcombine         2.721324e+00
+time_passes         1.776357e-15
+dtype: float64","count    18.000000
+mean      2.596543
+std       2.221669
+min       0.229390
+25%       0.767010
+50%       2.061914
+75%       4.064645
+max       8.053727
+Name: % error, dtype: float64",14
+57,Lasso,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","Lasso(alpha=0.3, max_iter=5)",Performance,0.9,"licm              18.470565
+gvn               14.342757
+inline            13.798650
+instcombine        6.931480
+jump_threading     1.239852
+#yes               0.554600
+simplifycfg        0.262259
+dtype: float64","count    18.000000
+mean      2.680206
+std       2.289270
+min       0.062266
+25%       0.927271
+50%       1.754078
+75%       4.396376
+max       7.314514
+Name: % error, dtype: float64",14
+58,Ridge,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",Ridge(),Performance,0.9,"licm                13.535844
+gvn                  9.921539
+inline               8.945917
+iv_users             6.241093
+print_used_types     6.165668
+#yes                 5.545778
+sccp                 5.188306
+ipsccp               4.772846
+simplifycfg          3.985207
+jump_threading       3.216372
+instcombine          2.711971
+dtype: float64","count    18.000000
+mean      2.530435
+std       2.192443
+min       0.035150
+25%       0.813217
+50%       1.923153
+75%       4.200968
+max       7.720191
+Name: % error, dtype: float64",14
+59,ElasticNet,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')","ElasticNet(alpha=0.3, l1_ratio=1.0, max_iter=5)",Performance,0.9,"licm              18.470565
+gvn               14.342757
+inline            13.798650
+instcombine        6.931480
+jump_threading     1.239852
+#yes               0.554600
+simplifycfg        0.262259
+dtype: float64","count    18.000000
+mean      2.680206
+std       2.289270
+min       0.062266
+25%       0.927271
+50%       1.754078
+75%       4.396376
+max       7.314514
+Name: % error, dtype: float64",14
+60,RandomForest,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    18.000000
+mean      1.712086
+std       1.561236
+min       0.058805
+25%       0.651136
+50%       1.467919
+75%       2.222341
+max       6.586895
+Name: % error, dtype: float64",14
+61,GradientBoostingTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    18.000000
+mean      2.261609
+std       2.119969
+min       0.059904
+25%       1.013542
+50%       1.767829
+75%       3.195726
+max       9.432748
+Name: % error, dtype: float64",14
+62,DecisionTree,False,None,"Index(['root', 'time_passes', 'gvn', 'instcombine', 'inline', 'jump_threading',
+       'simplifycfg', 'sccp', 'print_used_types', 'ipsccp', 'iv_users', 'licm',
+       '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"root               NaN
+time_passes        NaN
+gvn                NaN
+instcombine        NaN
+inline             NaN
+jump_threading     NaN
+simplifycfg        NaN
+sccp               NaN
+print_used_types   NaN
+ipsccp             NaN
+iv_users           NaN
+licm               NaN
+#yes               NaN
+Name: % error, dtype: float64","count    18.000000
+mean      3.114442
+std       2.651299
+min       0.088174
+25%       0.852826
+50%       2.234547
+75%       5.308192
+max       8.261795
+Name: % error, dtype: float64",14

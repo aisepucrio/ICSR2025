@@ -1,0 +1,1734 @@
+,algorithm_name,ft_dummyfication,origin_ft_selection,ft_selection,hyperparameters,size_target,test_size,coef_order,accuracy,num_features
+0,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.1,"no_mbtree          2.988498e+01
+no_8x8dct          1.836273e+01
+no_cabac           1.090424e+01
+no_fast_pskip      4.092149e+00
+no_weightb         2.294376e+00
+#yes               1.282662e+00
+rc_lookahead_20    1.015314e+00
+rc_lookahead_40    1.015314e+00
+no_deblock         8.808727e-01
+no_mixed_refs      2.522445e-01
+no_asm             7.549517e-15
+dtype: float64","count    191.000000
+mean       1.782086
+std        7.928980
+min        0.000067
+25%        0.206364
+50%        0.424014
+75%        0.751352
+max       56.624115
+Name: % error, dtype: float64",19
+1,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.05, max_iter=100)",Performance,0.1,"no_mbtree          30.852732
+no_8x8dct          16.819913
+no_cabac            8.884643
+no_fast_pskip       5.300785
+rc_lookahead_20     1.964044
+no_mixed_refs       0.772190
+no_weightb          0.328063
+dtype: float64","count    191.000000
+mean       1.805599
+std        7.923804
+min        0.001480
+25%        0.268031
+50%        0.501888
+75%        0.784967
+max       56.599635
+Name: % error, dtype: float64",19
+2,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.1,"no_mbtree          29.612836
+no_8x8dct          18.337510
+no_cabac           10.641076
+no_fast_pskip       4.101918
+no_weightb          2.234434
+#yes                1.310691
+rc_lookahead_40     1.105684
+rc_lookahead_20     1.105684
+no_deblock          0.924497
+no_mixed_refs       0.266546
+dtype: float64","count    191.000000
+mean       1.811273
+std        7.926515
+min        0.003592
+25%        0.202480
+50%        0.468058
+75%        0.802850
+max       56.637158
+Name: % error, dtype: float64",19
+3,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.05, l1_ratio=1.0, max_iter=100)",Performance,0.1,"no_mbtree          30.852732
+no_8x8dct          16.819913
+no_cabac            8.884643
+no_fast_pskip       5.300785
+rc_lookahead_20     1.964044
+no_mixed_refs       0.772190
+no_weightb          0.328063
+dtype: float64","count    191.000000
+mean       1.805599
+std        7.923804
+min        0.001480
+25%        0.268031
+50%        0.501888
+75%        0.784967
+max       56.599635
+Name: % error, dtype: float64",19
+4,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.1,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    191.000000
+mean       2.859005
+std        7.679003
+min        0.004809
+25%        0.623555
+50%        1.480076
+75%        2.394264
+max       55.600986
+Name: % error, dtype: float64",19
+5,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.1,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    191.000000
+mean       2.491174
+std        7.699694
+min        0.014356
+25%        0.326793
+50%        1.036159
+75%        2.246855
+max       55.143455
+Name: % error, dtype: float64",19
+6,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.1,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    191.000000
+mean       3.362454
+std        7.930806
+min        0.001208
+25%        0.160926
+50%        1.502257
+75%        3.884025
+max       56.302375
+Name: % error, dtype: float64",19
+7,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.2,"no_mbtree          3.078564e+01
+no_8x8dct          1.838480e+01
+no_cabac           1.172701e+01
+no_fast_pskip      4.225216e+00
+rc_lookahead_60    2.205920e+00
+no_weightb         1.751156e+00
+rc_lookahead_20    1.647670e+00
+#yes               1.320499e+00
+no_deblock         1.246517e+00
+no_mixed_refs      5.808740e-01
+rc_lookahead_40    5.582499e-01
+rc_lookahead       3.552714e-15
+no_asm             1.776357e-15
+dtype: float64","count    170.000000
+mean       1.859305
+std        8.403280
+min        0.004611
+25%        0.183551
+50%        0.405462
+75%        0.651030
+max       56.586701
+Name: % error, dtype: float64",19
+8,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Lasso(alpha=0.01),Performance,0.2,"no_mbtree          32.028514
+no_8x8dct          16.983433
+no_cabac           10.365713
+no_fast_pskip       5.454612
+rc_lookahead_60     2.177191
+rc_lookahead_20     1.072351
+no_mixed_refs       0.685857
+no_weightb          0.391789
+dtype: float64","count    170.000000
+mean       1.853162
+std        8.399864
+min        0.000307
+25%        0.167363
+50%        0.385863
+75%        0.631884
+max       56.555259
+Name: % error, dtype: float64",19
+9,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.2,"no_mbtree          30.742527
+no_8x8dct          18.356493
+no_cabac           11.705754
+no_fast_pskip       4.206875
+rc_lookahead_60     2.176379
+no_weightb          1.746876
+rc_lookahead_20     1.637923
+#yes                1.324586
+no_deblock          1.246827
+no_mixed_refs       0.568866
+rc_lookahead_40     0.538456
+dtype: float64","count    170.000000
+mean       1.860162
+std        8.403113
+min        0.000797
+25%        0.180197
+50%        0.396729
+75%        0.653048
+max       56.583708
+Name: % error, dtype: float64",19
+10,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0)",Performance,0.2,"no_mbtree          32.028514
+no_8x8dct          16.983433
+no_cabac           10.365713
+no_fast_pskip       5.454612
+rc_lookahead_60     2.177191
+rc_lookahead_20     1.072351
+no_mixed_refs       0.685857
+no_weightb          0.391789
+dtype: float64","count    170.000000
+mean       1.853162
+std        8.399864
+min        0.000307
+25%        0.167363
+50%        0.385863
+75%        0.631884
+max       56.555259
+Name: % error, dtype: float64",19
+11,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.2,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    170.000000
+mean       2.095513
+std        8.335960
+min        0.000666
+25%        0.203384
+50%        0.570530
+75%        1.161693
+max       55.817411
+Name: % error, dtype: float64",19
+12,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.2,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    170.000000
+mean       1.832754
+std        8.389677
+min        0.002120
+25%        0.085166
+50%        0.273255
+75%        0.526788
+max       56.001250
+Name: % error, dtype: float64",19
+13,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.2,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    170.000000
+mean       1.981688
+std        8.424416
+min        0.000000
+25%        0.031451
+50%        0.202478
+75%        1.281719
+max       56.302375
+Name: % error, dtype: float64",19
+14,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.3,"no_mbtree          3.095451e+01
+no_8x8dct          1.825180e+01
+no_cabac           1.153595e+01
+no_fast_pskip      4.324891e+00
+rc_lookahead_60    2.380955e+00
+rc_lookahead_20    1.919273e+00
+no_deblock         1.768232e+00
+#yes               1.477603e+00
+no_weightb         1.391460e+00
+no_mixed_refs      8.543512e-01
+rc_lookahead_40    4.616823e-01
+no_asm             8.881784e-15
+rc_lookahead       1.776357e-15
+dtype: float64","count    149.000000
+mean       2.053324
+std        8.979481
+min        0.002739
+25%        0.177304
+50%        0.369283
+75%        0.613255
+max       56.663004
+Name: % error, dtype: float64",19
+15,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=100)",Performance,0.3,"no_mbtree          32.358483
+no_8x8dct          16.684511
+no_cabac           10.011606
+no_fast_pskip       5.705703
+rc_lookahead_60     2.041436
+rc_lookahead_20     1.444293
+no_mixed_refs       0.578017
+no_deblock          0.298972
+no_weightb          0.023213
+#yes                0.000141
+dtype: float64","count    149.000000
+mean       2.045655
+std        8.976367
+min        0.003754
+25%        0.177639
+50%        0.358114
+75%        0.609152
+max       56.631508
+Name: % error, dtype: float64",19
+16,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.3,"no_mbtree          30.929512
+no_8x8dct          18.231496
+no_cabac           11.518538
+no_fast_pskip       4.313551
+rc_lookahead_60     2.351041
+rc_lookahead_20     1.908201
+no_deblock          1.772841
+#yes                1.478410
+no_weightb          1.388717
+no_mixed_refs       0.853062
+rc_lookahead_40     0.442841
+dtype: float64","count    149.000000
+mean       2.052712
+std        8.979382
+min        0.000203
+25%        0.181638
+50%        0.374140
+75%        0.611828
+max       56.660019
+Name: % error, dtype: float64",19
+17,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=100)",Performance,0.3,"no_mbtree          32.358483
+no_8x8dct          16.684511
+no_cabac           10.011606
+no_fast_pskip       5.705703
+rc_lookahead_60     2.041436
+rc_lookahead_20     1.444293
+no_mixed_refs       0.578017
+no_deblock          0.298972
+no_weightb          0.023213
+#yes                0.000141
+dtype: float64","count    149.000000
+mean       2.045655
+std        8.976367
+min        0.003754
+25%        0.177639
+50%        0.358114
+75%        0.609152
+max       56.631508
+Name: % error, dtype: float64",19
+18,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.3,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    149.000000
+mean       2.050935
+std        8.988292
+min        0.003458
+25%        0.096631
+50%        0.245204
+75%        0.553317
+max       56.267914
+Name: % error, dtype: float64",19
+19,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.3,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    149.000000
+mean       1.812356
+std        9.029618
+min        0.000146
+25%        0.038912
+50%        0.090707
+75%        0.246606
+max       56.334305
+Name: % error, dtype: float64",19
+20,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.3,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    149.000000
+mean       2.021729
+std        9.029525
+min        0.000000
+25%        0.026007
+50%        0.064421
+75%        0.269398
+max       56.486433
+Name: % error, dtype: float64",19
+21,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.4,"ref_5              8.459142e+01
+ref_1              8.459142e+01
+no_mbtree          3.120521e+01
+no_8x8dct          1.835973e+01
+no_cabac           1.137640e+01
+no_fast_pskip      4.267208e+00
+rc_lookahead_60    2.306195e+00
+no_deblock         1.783016e+00
+rc_lookahead_20    1.773304e+00
+no_weightb         1.554825e+00
+#yes               1.437820e+00
+no_mixed_refs      9.606270e-01
+rc_lookahead_40    5.328914e-01
+no_asm             7.105427e-15
+ref                1.255563e-42
+dtype: float64","count    128.000000
+mean       1.377914
+std        6.315288
+min        0.003562
+25%        0.176089
+50%        0.363392
+75%        0.615146
+max       42.173870
+Name: % error, dtype: float64",19
+22,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=10)",Performance,0.4,"ref_1              159.078396
+no_mbtree           31.814200
+no_8x8dct           16.139135
+no_cabac             9.707479
+no_fast_pskip        4.797412
+rc_lookahead_20      0.650962
+no_deblock           0.298007
+#yes                 0.004262
+dtype: float64","count    128.000000
+mean       1.191467
+std        4.401820
+min        0.058944
+25%        0.310710
+50%        0.498179
+75%        0.679375
+max       29.608250
+Name: % error, dtype: float64",19
+23,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.05),Performance,0.4,"ref_1              82.243897
+ref_5              82.243897
+no_mbtree          31.083453
+no_8x8dct          18.116354
+no_cabac           11.403389
+no_fast_pskip       4.181829
+rc_lookahead_60     1.906606
+no_deblock          1.823281
+no_weightb          1.575945
+rc_lookahead_20     1.494719
+#yes                1.360043
+no_mixed_refs       0.986270
+rc_lookahead_40     0.411887
+dtype: float64","count    128.000000
+mean       1.388771
+std        6.363835
+min        0.003966
+25%        0.171518
+50%        0.388792
+75%        0.581956
+max       42.475344
+Name: % error, dtype: float64",19
+24,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=10)",Performance,0.4,"ref_1              159.078396
+no_mbtree           31.814200
+no_8x8dct           16.139135
+no_cabac             9.707479
+no_fast_pskip        4.797412
+rc_lookahead_20      0.650962
+no_deblock           0.298007
+#yes                 0.004262
+dtype: float64","count    128.000000
+mean       1.191467
+std        4.401820
+min        0.058944
+25%        0.310710
+50%        0.498179
+75%        0.679375
+max       29.608250
+Name: % error, dtype: float64",19
+25,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.4,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    128.000000
+mean       1.569531
+std        8.052361
+min        0.001156
+25%        0.041993
+50%        0.081852
+75%        0.234082
+max       52.019448
+Name: % error, dtype: float64",19
+26,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.4,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    128.000000
+mean       1.106983
+std        6.343843
+min        0.000665
+25%        0.025928
+50%        0.044648
+75%        0.087297
+max       42.627991
+Name: % error, dtype: float64",19
+27,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.4,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    128.000000
+mean       0.823148
+std        4.535570
+min        0.000000
+25%        0.016425
+50%        0.036063
+75%        0.069739
+max       30.979221
+Name: % error, dtype: float64",19
+28,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.5,"ref_1              1.668608e+02
+ref_9              1.645671e+02
+no_mbtree          3.123943e+01
+no_8x8dct          1.841699e+01
+no_cabac           1.143435e+01
+no_fast_pskip      4.209373e+00
+ref_5              2.293724e+00
+rc_lookahead_60    2.288096e+00
+no_deblock         1.774105e+00
+rc_lookahead_20    1.763075e+00
+#yes               1.411667e+00
+no_weightb         1.364730e+00
+no_mixed_refs      1.046969e+00
+rc_lookahead_40    5.250209e-01
+no_asm             2.486900e-14
+rc_lookahead       1.421085e-14
+ref                1.006564e-29
+dtype: float64","count    106.000000
+mean       0.424380
+std        0.320634
+min        0.009094
+25%        0.164082
+50%        0.366911
+75%        0.594143
+max        1.529704
+Name: % error, dtype: float64",19
+29,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.2, max_iter=5)",Performance,0.5,"ref_1              196.362285
+ref_9              113.461129
+no_mbtree           27.996108
+no_8x8dct           19.591760
+no_cabac            12.979805
+ref_5                6.513640
+no_deblock           3.139398
+#yes                 3.137631
+no_weightb           2.644981
+no_mixed_refs        2.447261
+no_fast_pskip        0.849669
+rc_lookahead_20      0.624226
+dtype: float64","count    106.000000
+mean       0.664131
+std        0.797453
+min        0.005886
+25%        0.183469
+50%        0.552050
+75%        0.844385
+max        5.023589
+Name: % error, dtype: float64",19
+30,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.02),Performance,0.5,"ref_1              165.533136
+ref_9              162.312320
+no_mbtree           31.187379
+no_8x8dct           18.277289
+no_cabac            11.489610
+no_fast_pskip        4.165161
+ref_5                3.220817
+rc_lookahead_60      2.067532
+no_deblock           1.790903
+rc_lookahead_20      1.606153
+no_weightb           1.372707
+#yes                 1.362709
+no_mixed_refs        1.059323
+rc_lookahead_40      0.461379
+dtype: float64","count    106.000000
+mean       0.427646
+std        0.363449
+min        0.000749
+25%        0.139479
+50%        0.378825
+75%        0.547059
+max        2.089318
+Name: % error, dtype: float64",19
+31,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.2, l1_ratio=1.0, max_iter=5)",Performance,0.5,"ref_1              196.362285
+ref_9              113.461129
+no_mbtree           27.996108
+no_8x8dct           19.591760
+no_cabac            12.979805
+ref_5                6.513640
+no_deblock           3.139398
+#yes                 3.137631
+no_weightb           2.644981
+no_mixed_refs        2.447261
+no_fast_pskip        0.849669
+rc_lookahead_20      0.624226
+dtype: float64","count    106.000000
+mean       0.664131
+std        0.797453
+min        0.005886
+25%        0.183469
+50%        0.552050
+75%        0.844385
+max        5.023589
+Name: % error, dtype: float64",19
+32,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.5,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    106.000000
+mean       0.557349
+std        2.896040
+min        0.001039
+25%        0.034026
+50%        0.068743
+75%        0.166100
+max       21.234182
+Name: % error, dtype: float64",19
+33,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.5,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    106.000000
+mean       0.222419
+std        0.742157
+min        0.002035
+25%        0.026980
+50%        0.049615
+75%        0.119905
+max        4.712358
+Name: % error, dtype: float64",19
+34,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.5,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    106.000000
+mean       0.223074
+std        0.731235
+min        0.000000
+25%        0.019380
+50%        0.038277
+75%        0.098971
+max        4.505930
+Name: % error, dtype: float64",19
+35,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.6,"ref_1              1.667788e+02
+ref_9              1.645261e+02
+no_mbtree          3.118046e+01
+no_8x8dct          1.846760e+01
+no_cabac           1.139026e+01
+no_fast_pskip      4.223108e+00
+ref_5              2.252717e+00
+rc_lookahead_60    2.222162e+00
+rc_lookahead_20    1.705989e+00
+no_deblock         1.634031e+00
+no_weightb         1.350715e+00
+#yes               1.331426e+00
+no_mixed_refs      1.229542e+00
+rc_lookahead_40    5.161730e-01
+rc_lookahead       2.842171e-14
+no_asm             1.953993e-14
+ref                1.442324e-31
+dtype: float64","count    85.000000
+mean      0.399865
+std       0.331821
+min       0.004233
+25%       0.137646
+50%       0.316889
+75%       0.577493
+max       1.516227
+Name: % error, dtype: float64",19
+36,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.5, max_iter=100)",Performance,0.6,"ref_1            162.470574
+ref_9             98.767941
+no_mbtree         29.114708
+no_8x8dct         13.000157
+no_cabac           8.914759
+no_fast_pskip      2.006241
+#yes               0.299488
+dtype: float64","count    85.000000
+mean      1.521044
+std       1.868366
+min       0.031435
+25%       0.766144
+50%       1.283377
+75%       1.978467
+max      12.695267
+Name: % error, dtype: float64",19
+37,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.6,"ref_1              166.123069
+ref_9              163.394868
+no_mbtree           31.156441
+no_8x8dct           18.404435
+no_cabac            11.411555
+no_fast_pskip        4.203339
+ref_5                2.728201
+rc_lookahead_60      2.121626
+no_deblock           1.645162
+rc_lookahead_20      1.632376
+no_weightb           1.351430
+#yes                 1.310022
+no_mixed_refs        1.237175
+rc_lookahead_40      0.489250
+dtype: float64","count    85.000000
+mean      0.403274
+std       0.355340
+min       0.009676
+25%       0.123415
+50%       0.329156
+75%       0.539650
+max       1.797218
+Name: % error, dtype: float64",19
+38,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, max_iter=5)",Performance,0.6,"ref_1              136.445593
+ref_9              114.474772
+no_mbtree           26.820674
+no_8x8dct           18.491988
+no_cabac            15.289046
+ref_5               15.216148
+no_deblock           5.187119
+no_mixed_refs        4.636419
+no_weightb           4.389186
+#yes                 3.346736
+rc_lookahead_60      0.946793
+rc_lookahead_20      0.925032
+no_fast_pskip        0.190539
+dtype: float64","count    85.000000
+mean      1.200574
+std       2.091960
+min       0.015704
+25%       0.421817
+50%       0.847098
+75%       1.230166
+max      14.110087
+Name: % error, dtype: float64",19
+39,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.6,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    85.000000
+mean      0.539249
+std       2.668975
+min       0.000139
+25%       0.024441
+50%       0.054948
+75%       0.114815
+max      17.638280
+Name: % error, dtype: float64",19
+40,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.6,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    85.000000
+mean      0.284209
+std       0.881886
+min       0.000399
+25%       0.028189
+50%       0.058199
+75%       0.116422
+max       5.042288
+Name: % error, dtype: float64",19
+41,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.6,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    85.000000
+mean      0.245053
+std       0.806555
+min       0.000000
+25%       0.018249
+50%       0.037193
+75%       0.078791
+max       4.505930
+Name: % error, dtype: float64",19
+42,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.7,"ref_1              1.666989e+02
+ref_9              1.644861e+02
+no_mbtree          3.117402e+01
+no_8x8dct          1.839772e+01
+no_cabac           1.135007e+01
+no_fast_pskip      4.204508e+00
+ref_5              2.212767e+00
+no_deblock         1.625671e+00
+no_weightb         1.395563e+00
+no_mixed_refs      1.308033e+00
+#yes               1.301478e+00
+rc_lookahead_20    1.175686e+00
+rc_lookahead_60    1.081163e+00
+rc_lookahead_40    9.452349e-02
+no_asm             4.174439e-14
+rc_lookahead       2.842171e-14
+ref                3.697785e-31
+dtype: float64","count    64.000000
+mean      0.414095
+std       0.332972
+min       0.017761
+25%       0.145373
+50%       0.348102
+75%       0.558157
+max       1.509626
+Name: % error, dtype: float64",19
+43,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.1, max_iter=100)",Performance,0.7,"ref_1              167.397809
+ref_9              147.473322
+no_mbtree           31.899276
+no_8x8dct           16.194160
+no_cabac             9.833122
+no_fast_pskip        4.927937
+rc_lookahead_20      0.630082
+#yes                 0.198154
+dtype: float64","count    64.000000
+mean      0.595968
+std       0.682532
+min       0.017450
+25%       0.260913
+50%       0.459344
+75%       0.668939
+max       4.143101
+Name: % error, dtype: float64",19
+44,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.05),Performance,0.7,"ref_1              163.581121
+ref_9              159.063576
+no_mbtree           31.074100
+no_8x8dct           18.153705
+no_cabac            11.425618
+ref_5                4.517545
+no_fast_pskip        4.137363
+no_deblock           1.673106
+no_weightb           1.400999
+no_mixed_refs        1.340446
+#yes                 1.217590
+rc_lookahead_20      0.946297
+rc_lookahead_60      0.783923
+rc_lookahead_40      0.162373
+dtype: float64","count    64.000000
+mean      0.450980
+std       0.510466
+min       0.005562
+25%       0.151967
+50%       0.356864
+75%       0.559662
+max       2.859584
+Name: % error, dtype: float64",19
+45,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.1, l1_ratio=1.0, max_iter=100)",Performance,0.7,"ref_1              167.397809
+ref_9              147.473322
+no_mbtree           31.899276
+no_8x8dct           16.194160
+no_cabac             9.833122
+no_fast_pskip        4.927937
+rc_lookahead_20      0.630082
+#yes                 0.198154
+dtype: float64","count    64.000000
+mean      0.595968
+std       0.682532
+min       0.017450
+25%       0.260913
+50%       0.459344
+75%       0.668939
+max       4.143101
+Name: % error, dtype: float64",19
+46,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.7,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    64.000000
+mean      0.691903
+std       3.431267
+min       0.001162
+25%       0.018792
+50%       0.054174
+75%       0.088141
+max      19.705831
+Name: % error, dtype: float64",19
+47,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.7,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    64.000000
+mean      0.298167
+std       1.054898
+min       0.001289
+25%       0.026955
+50%       0.045663
+75%       0.097875
+max       5.395568
+Name: % error, dtype: float64",19
+48,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.7,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    64.000000
+mean      0.254952
+std       0.918103
+min       0.000000
+25%       0.019083
+50%       0.037225
+75%       0.059580
+max       4.505930
+Name: % error, dtype: float64",19
+49,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.8,"ref_1              1.691356e+02
+ref_9              1.681324e+02
+no_mbtree          3.113057e+01
+no_8x8dct          1.858377e+01
+no_cabac           1.127815e+01
+no_fast_pskip      4.272329e+00
+no_deblock         1.576446e+00
+no_weightb         1.364002e+00
+#yes               1.317128e+00
+no_mixed_refs      1.283397e+00
+rc_lookahead_20    1.266072e+00
+rc_lookahead_60    1.179455e+00
+ref_5              1.003251e+00
+rc_lookahead_40    8.661633e-02
+rc_lookahead       1.953993e-14
+no_asm             1.776357e-15
+ref                1.434930e-42
+dtype: float64","count    43.000000
+mean      0.400870
+std       0.294041
+min       0.000534
+25%       0.163658
+50%       0.351275
+75%       0.605963
+max       0.951105
+Name: % error, dtype: float64",19
+50,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.8,"ref_1              268.987748
+ref_5               98.204650
+ref_9               67.548545
+no_8x8dct           29.176616
+no_cabac            22.024385
+no_mbtree           20.408657
+no_deblock          12.204964
+no_weightb          12.024094
+#yes                11.938792
+no_mixed_refs       11.912772
+no_fast_pskip        6.363371
+rc_lookahead_20      1.281802
+rc_lookahead_60      0.105766
+dtype: float64","count    43.000000
+mean      0.395062
+std       0.293940
+min       0.008639
+25%       0.146798
+50%       0.320155
+75%       0.564825
+max       0.994320
+Name: % error, dtype: float64",19
+51,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.8,"ref_1              168.893213
+ref_9              167.737259
+no_mbtree           31.116750
+no_8x8dct           18.564081
+no_cabac            11.286988
+no_fast_pskip        4.265537
+no_deblock           1.583868
+no_weightb           1.361665
+#yes                 1.299371
+no_mixed_refs        1.286313
+rc_lookahead_20      1.231007
+ref_5                1.155954
+rc_lookahead_60      1.124983
+rc_lookahead_40      0.106024
+dtype: float64","count    43.000000
+mean      0.397413
+std       0.293565
+min       0.003985
+25%       0.150236
+50%       0.326077
+75%       0.584956
+max       0.976248
+Name: % error, dtype: float64",19
+52,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.8,"ref_1              268.987748
+ref_5               98.204650
+ref_9               67.548545
+no_8x8dct           29.176616
+no_cabac            22.024385
+no_mbtree           20.408657
+no_deblock          12.204964
+no_weightb          12.024094
+#yes                11.938792
+no_mixed_refs       11.912772
+no_fast_pskip        6.363371
+rc_lookahead_20      1.281802
+rc_lookahead_60      0.105766
+dtype: float64","count    43.000000
+mean      0.395062
+std       0.293940
+min       0.008639
+25%       0.146798
+50%       0.320155
+75%       0.564825
+max       0.994320
+Name: % error, dtype: float64",19
+53,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.8,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    43.000000
+mean      0.051785
+std       0.037162
+min       0.000505
+25%       0.022568
+50%       0.040835
+75%       0.079904
+max       0.149822
+Name: % error, dtype: float64",19
+54,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.8,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    43.000000
+mean      0.073221
+std       0.061941
+min       0.000148
+25%       0.030706
+50%       0.053148
+75%       0.090326
+max       0.244119
+Name: % error, dtype: float64",19
+55,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.8,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    43.000000
+mean      0.043263
+std       0.027742
+min       0.000000
+25%       0.022534
+50%       0.038938
+75%       0.057513
+max       0.138026
+Name: % error, dtype: float64",19
+56,LinearRegression,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",LinearRegression(),Performance,0.9,"ref_1              1.690333e+02
+ref_9              1.680783e+02
+no_mbtree          3.119612e+01
+no_8x8dct          1.860599e+01
+no_cabac           1.132921e+01
+no_fast_pskip      4.228893e+00
+no_deblock         1.634961e+00
+no_weightb         1.313587e+00
+#yes               1.271317e+00
+no_mixed_refs      1.269942e+00
+rc_lookahead_20    1.210482e+00
+rc_lookahead_60    1.084556e+00
+ref_5              9.550584e-01
+rc_lookahead_40    1.259263e-01
+no_asm             3.552714e-14
+rc_lookahead       7.105427e-15
+ref                3.587324e-43
+dtype: float64","count    22.000000
+mean      0.358013
+std       0.308220
+min       0.001274
+25%       0.142479
+50%       0.220799
+75%       0.509705
+max       1.021522
+Name: % error, dtype: float64",19
+57,Lasso,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","Lasso(alpha=0.01, max_iter=5)",Performance,0.9,"ref_1              268.636520
+ref_5               97.828313
+ref_9               67.738816
+no_8x8dct           27.947943
+no_mbtree           21.732232
+no_cabac            20.788340
+no_deblock          11.008706
+no_weightb          10.713884
+no_mixed_refs       10.645408
+#yes                10.640432
+no_fast_pskip        5.148677
+rc_lookahead_20      1.287396
+dtype: float64","count    22.000000
+mean      0.350913
+std       0.308421
+min       0.012802
+25%       0.122008
+50%       0.234437
+75%       0.482154
+max       1.055005
+Name: % error, dtype: float64",19
+58,Ridge,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",Ridge(alpha=0.01),Performance,0.9,"ref_1              168.798243
+ref_9              167.686444
+no_mbtree           31.184648
+no_8x8dct           18.590640
+no_cabac            11.336525
+no_fast_pskip        4.224949
+no_deblock           1.638582
+no_weightb           1.315607
+no_mixed_refs        1.272342
+#yes                 1.255901
+rc_lookahead_20      1.179641
+ref_5                1.111799
+rc_lookahead_60      1.037440
+rc_lookahead_40      0.142201
+dtype: float64","count    22.000000
+mean      0.355358
+std       0.308716
+min       0.003547
+25%       0.138323
+50%       0.228451
+75%       0.493511
+max       1.042137
+Name: % error, dtype: float64",19
+59,ElasticNet,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')","ElasticNet(alpha=0.01, l1_ratio=1.0, max_iter=5)",Performance,0.9,"ref_1              268.636520
+ref_5               97.828313
+ref_9               67.738816
+no_8x8dct           27.947943
+no_mbtree           21.732232
+no_cabac            20.788340
+no_deblock          11.008706
+no_weightb          10.713884
+no_mixed_refs       10.645408
+#yes                10.640432
+no_fast_pskip        5.148677
+rc_lookahead_20      1.287396
+dtype: float64","count    22.000000
+mean      0.350913
+std       0.308421
+min       0.012802
+25%       0.122008
+50%       0.234437
+75%       0.482154
+max       1.055005
+Name: % error, dtype: float64",19
+60,RandomForest,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",RandomForestRegressor(),Performance,0.9,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    22.000000
+mean      0.043110
+std       0.030154
+min       0.005921
+25%       0.016258
+50%       0.032818
+75%       0.065694
+max       0.103695
+Name: % error, dtype: float64",19
+61,GradientBoostingTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",GradientBoostingRegressor(),Performance,0.9,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    22.000000
+mean      0.076409
+std       0.062935
+min       0.002888
+25%       0.032598
+50%       0.067669
+75%       0.094315
+max       0.243469
+Name: % error, dtype: float64",19
+62,DecisionTree,False,None,"Index(['root', 'no_asm', 'no_8x8dct', 'no_cabac', 'no_deblock',
+       'no_fast_pskip', 'no_mbtree', 'no_mixed_refs', 'no_weightb',
+       'rc_lookahead', 'rc_lookahead_20', 'rc_lookahead_40', 'rc_lookahead_60',
+       'ref', 'ref_1', 'ref_5', 'ref_9', '#yes'],
+      dtype='object')",DecisionTreeRegressor(),Performance,0.9,"root              NaN
+no_asm            NaN
+no_8x8dct         NaN
+no_cabac          NaN
+no_deblock        NaN
+no_fast_pskip     NaN
+no_mbtree         NaN
+no_mixed_refs     NaN
+no_weightb        NaN
+rc_lookahead      NaN
+rc_lookahead_20   NaN
+rc_lookahead_40   NaN
+rc_lookahead_60   NaN
+ref               NaN
+ref_1             NaN
+ref_5             NaN
+ref_9             NaN
+#yes              NaN
+Name: % error, dtype: float64","count    22.000000
+mean      0.060109
+std       0.097871
+min       0.007874
+25%       0.021048
+50%       0.036679
+75%       0.053002
+max       0.485601
+Name: % error, dtype: float64",19
